@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-21T17:41:33+00:00",
+  "date": "2022-04-21T19:49:37+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -104,7 +104,15 @@
             },
             {
               "url": "naLabel",
-              "valueString": "The NA Label"
+              "valueString": "N/A LABLE"
+            },
+            {
+              "url": "fromText",
+              "valueString": "1"
+            },
+            {
+              "url": "toText",
+              "valueString": "100"
             }
           ],
           "url": "http://science37.com/fhir/StructureDefinition/item-settings"
