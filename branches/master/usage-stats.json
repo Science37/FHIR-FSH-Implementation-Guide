@@ -608,7 +608,7 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+      "url": "http://science37.com/fhir/StructureDefinition/observation-extract",
       "title": "Extension : observationExtract",
       "types": [
         "boolean",
@@ -999,10 +999,12 @@
       "Questionnaire.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden": [
-      "Questionnaire.item"
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
-      "Questionnaire.item"
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
@@ -1029,10 +1031,12 @@
       "Questionnaire"
     ],
     "http://science37.com/fhir/StructureDefinition/item-settings": [
-      "Questionnaire.item"
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
-    "http://science37.com/fhir/StructureDefinition/observation-Extract": [
-      "Questionnaire.item"
+    "http://science37.com/fhir/StructureDefinition/observation-extract": [
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
     "http://science37.com/fhir/StructureDefinition/vasScale-item": [
       "Questionnaire.item"

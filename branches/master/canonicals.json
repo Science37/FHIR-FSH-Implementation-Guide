@@ -161,9 +161,9 @@
     "name": "ItemSettings"
   },
   {
-    "id": "observation-Extract",
+    "id": "observation-extract",
     "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+    "url": "http://science37.com/fhir/StructureDefinition/observation-extract",
     "version": "1.0.0-S37",
     "name": "ObservationExtract"
   },
