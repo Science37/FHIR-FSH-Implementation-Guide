@@ -5,7 +5,6 @@ Parent: Settings
 Title:          "Extension : Item Settings "
 Description:     "Extension : Questionnaire.item.settings "
 * ^context[0].expression = "Questionnaire.item"
-* ^context[+].expression = "Questionnaire.item.item"
 * extension contains
     dateTimeOptions 0..1 and
     captureTimeonSubmit 0..1 and
@@ -63,7 +62,6 @@ Parent: ItemSettings
 Title:          "Extension : DateTimeItem Settings "
 Description:     "Extension : Questionnaire.item.DateTimeItem "
 * ^context[0].expression = "Questionnaire.item"
-* ^context[+].expression = "Questionnaire.item.item"
 * extension contains
     completionPeriodOfTime 0..1 and 
     completionNoOfHours 0..1 and
@@ -88,7 +86,6 @@ Parent: ItemSettings
 Title:          "Extension : VASScaleItem Settings "
 Description:     "Extension : Questionnaire.item.VASScaleItem "
 * ^context[0].expression = "Questionnaire.item"
-* ^context[+].expression = "Questionnaire.item.item"
 * extension contains
     medValueLabel 0..1 and
     orientation 0..1 and
@@ -126,7 +123,6 @@ Parent: ItemSettings
 Title:          "Extension : DerivedItem Settings "
 Description:     "Extension : Questionnaire.item.DerivedItem "
 * ^context[0].expression = "Questionnaire.item"
-* ^context[+].expression = "Questionnaire.item.item"
 * extension contains
     formula	0..1
 * extension[formula] ^short = "formula"
@@ -137,7 +133,6 @@ Id: observation-extract
 Title: "Extension : observationExtract"
 Description: ""
 * ^context[0].expression = "Questionnaire.item"
-* ^context[+].expression = "Questionnaire.item.item"
 * . 0..1
 * extension.value[x] 1..
 * extension.value[x] only boolean 
