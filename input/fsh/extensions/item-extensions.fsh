@@ -133,6 +133,4 @@ Id: observation-extract
 Title: "Extension : observationExtract"
 Description: ""
 * ^context[0].expression = "Questionnaire.item"
-* . 0..1
-* extension.value[x] 1..
-* extension.value[x] only boolean 
+* value[x] only boolean 
