@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-21T16:28:18+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-21T17:41:33+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -51,7 +51,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "http://science37.com/fhir/StructureDefinition/observation-Extract" ];
+       fhir:Extension.url [ fhir:value "http://science37.com/fhir/StructureDefinition/observation-extract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;

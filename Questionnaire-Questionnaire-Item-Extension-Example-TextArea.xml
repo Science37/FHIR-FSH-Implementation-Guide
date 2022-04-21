@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item TextArea"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-21T16:28:18+00:00"/>
+  <date value="2022-04-21T17:41:33+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="http://science37.com/fhir/StructureDefinition/observation-Extract">
+    <extension url="http://science37.com/fhir/StructureDefinition/observation-extract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">

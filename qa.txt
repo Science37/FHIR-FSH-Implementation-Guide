@@ -1,9 +1,9 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 79, warn = 86, info = 83
+err = 79, warn = 87, info = 83
 IG Publisher Version: 1.1.115
-Generated Thu Apr 21 16:28:55 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com/fhir)
+Generated Thu Apr 21 17:42:06 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com/fhir)
  Build Errors : 0 / 2 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 48
@@ -28,14 +28,14 @@ Generated Thu Apr 21 16:28:55 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG
  /github/workspace/fsh-generated/resources/StructureDefinition-derived-item : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-observation-Extract : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-observation-extract : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-settings : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sub-status : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-vasScale-item : 0 / 3 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-Extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/sub-status.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/ImplementationGuide-science27.FHIR-IG.json ==
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[1].name: value should not start or finish with whitespace 'Extension...Settings '
@@ -296,10 +296,11 @@ WARNING: StructureDefinition/form-settings: StructureDefinition.differential.ele
 WARNING: StructureDefinition/item-settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/item-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/item-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-== fsh-generated/resources/StructureDefinition-observation-Extract.json ==
+== fsh-generated/resources/StructureDefinition-observation-extract.json ==
 == fsh-generated/resources/StructureDefinition-questionnaire-s37.json ==
 WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[8].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[34].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[72].short: value should not start or finish with whitespace 'Extension...Settings '
 == fsh-generated/resources/StructureDefinition-settings.json ==
 WARNING: StructureDefinition/settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '

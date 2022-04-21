@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "1.0.0-S37"];
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-21T16:28:18+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-21T17:41:33+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -377,8 +377,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://science37.com/fhir/StructureDefinition/observation-Extract>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/observation-Extract" ]
+         fhir:link <http://science37.com/fhir/StructureDefinition/observation-extract>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/observation-extract" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : observationExtract" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
