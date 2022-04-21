@@ -45,5 +45,5 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[naOption].valueBoolean = true
 * item[=].extension[ItemSettings].extension[naLabel].valueString = "N/A LABLE"
 * item[=].extension[ItemSettings].extension[fromText].valueString = "1"
- item[=].extension[ItemSettings].extension[toText].valueString = "100"
+* item[=].extension[ItemSettings].extension[toText].valueString = "100"
 * item[=].required = true
