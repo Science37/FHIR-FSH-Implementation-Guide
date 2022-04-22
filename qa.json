@@ -1,9 +1,9 @@
 {
-  "url": "http://science37.com/fhir/ImplementationGuide/science37.FHIR-IG",
+  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/ImplementationGuide/science37.FHIR-IG",
   "name": "S37FHIRIG",
   "package-id": "science37.FHIR-IG",
   "ig-ver": "1.0.0-S37",
-  "date": "Fri, 22 Apr, 2022 13:21:10 +0000",
+  "date": "Fri, 22 Apr, 2022 13:31:05 +0000",
   "errs": 79,
   "warnings": 87,
   "hints": 83,

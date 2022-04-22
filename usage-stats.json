@@ -5,7 +5,7 @@
   "jurisdiction": "US",
   "extensions": [
     {
-      "url": "http://science37.com/fhir/StructureDefinition/datetime-item",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/datetime-item",
       "title": "Extension : DateTimeItem Settings ",
       "types": [
         "string",
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/derived-item",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/derived-item",
       "title": "Extension : DerivedItem Settings ",
       "types": [
         "string",
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/form-settings",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings",
       "title": "Extension : Form Settings ",
       "types": [
         "string",
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/item-settings",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings",
       "title": "Extension : Item Settings ",
       "types": [
         "string",
@@ -609,14 +609,14 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/observation-extract",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
       "title": "Extension : observationExtract",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/settings",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/settings",
       "title": "Extension : Common Settings ",
       "types": [
         "string",
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/sub-status",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
       "title": "Extension : Sub Status",
       "types": [
         "string",
@@ -734,7 +734,7 @@
       ]
     },
     {
-      "url": "http://science37.com/fhir/StructureDefinition/vasScale-item",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item",
       "title": "Extension : VASScaleItem Settings ",
       "types": [
         "string",
@@ -922,7 +922,7 @@
   "profiles": {
     "Questionnaire": [
       {
-        "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
+        "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
         "title": "Profile : Questionnaire.item extensions"
       }
     ]
@@ -972,24 +972,24 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://science37.com/fhir/StructureDefinition/datetime-item": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/datetime-item": [
       "Questionnaire.item"
     ],
-    "http://science37.com/fhir/StructureDefinition/derived-item": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/derived-item": [
       "Questionnaire.item"
     ],
-    "http://science37.com/fhir/StructureDefinition/form-settings": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings": [
       "Questionnaire"
     ],
-    "http://science37.com/fhir/StructureDefinition/item-settings": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings": [
       "Questionnaire.item",
       "Questionnaire.item.item"
     ],
-    "http://science37.com/fhir/StructureDefinition/observation-extract": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract": [
       "Questionnaire.item",
       "Questionnaire.item.item"
     ],
-    "http://science37.com/fhir/StructureDefinition/vasScale-item": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item": [
       "Questionnaire.item"
     ]
   }
