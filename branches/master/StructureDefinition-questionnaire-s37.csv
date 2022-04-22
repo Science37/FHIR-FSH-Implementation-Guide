@@ -24,7 +24,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.extension","settings","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/form-settings]]} {[]}
+"Questionnaire.extension","settings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings]]} {[]}
 ","Extension : Form Settings ","Extension : Questionnaire.settings ","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -110,7 +110,7 @@ que-1:Group items must have nested items, display items cannot have nested items
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.extension","Settings","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/item-settings]]} {[]}
+"Questionnaire.item.extension","Settings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings]]} {[]}
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -122,7 +122,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","E.g. Fly-over, Table, Checkbox, Combo-box, Lookup, etc.","The type of data entry control or structure that should be used to render the item.","Different controls may be appropriate for different item types.  It is up to the system rendering a questionnaire as to what controls it will support and for which data types.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/observation-extract]]} {[]}
+"Questionnaire.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract]]} {[]}
 ","Extension : observationExtract","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -264,7 +264,7 @@ decimal {[]} {[]}integer {[]} {[]}date {[]} {[]}dateTime {[]} {[]}time {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.item.extension","Settings","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/item-settings]]} {[]}
+"Questionnaire.item.item.extension","Settings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings]]} {[]}
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -276,7 +276,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","E.g. Fly-over, Table, Checkbox, Combo-box, Lookup, etc.","The type of data entry control or structure that should be used to render the item.","Different controls may be appropriate for different item types.  It is up to the system rendering a questionnaire as to what controls it will support and for which data types.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/observation-extract]]} {[]}
+"Questionnaire.item.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract]]} {[]}
 ","Extension : observationExtract","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
