@@ -1,8 +1,8 @@
 [
   {
-    "id": "science27.FHIR-IG",
+    "id": "science37.FHIR-IG",
     "type": "ImplementationGuide",
-    "url": "http://science37.com/fhir/ImplementationGuide/science27.FHIR-IG",
+    "url": "http://science37.com/fhir/ImplementationGuide/science37.FHIR-IG",
     "version": "1.0.0-S37",
     "name": "S37FHIRIG"
   },

@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="science37.FHIR-IG"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>S37FHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>http://science37.com/fhir/ImplementationGuide/science37.FHIR-IG</pre><div><p>Implementation Guide for all Science 37 FHIR augmentations.</p>
+</div></div>
+  </text>
+  <url value="http://science37.com/fhir/ImplementationGuide/science37.FHIR-IG"/>
+  <version value="1.0.0-S37"/>
+  <name value="S37FHIRIG"/>
+  <title value="Science 37 FHIR-IG"/>
+  <status value="active"/>
+  <date value="2022-04-22T13:21:10+00:00"/>
+  <publisher value="Science37"/>
+  <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="science37.FHIR-IG"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2022+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://science37.com/fhir/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/questionnaire-s37"/>
+      </reference>
+      <name value="Profile : Questionnaire.item extensions"/>
+      <description value="Profile : Questionnaire.item extensions"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/datetime-item"/>
+      </reference>
+      <name value="Extension : DateTimeItem Settings "/>
+      <description value="Extension : Questionnaire.item.DateTimeItem "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/derived-item"/>
+      </reference>
+      <name value="Extension : DerivedItem Settings "/>
+      <description value="Extension : Questionnaire.item.DerivedItem "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/form-settings"/>
+      </reference>
+      <name value="Extension : Form Settings "/>
+      <description value="Extension : Questionnaire.settings "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/item-settings"/>
+      </reference>
+      <name value="Extension : Item Settings "/>
+      <description value="Extension : Questionnaire.item.settings "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/observation-extract"/>
+      </reference>
+      <name value="Extension : observationExtract"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/settings"/>
+      </reference>
+      <name value="Extension : Common Settings "/>
+      <description value="Extension : Common settings "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sub-status"/>
+      </reference>
+      <name value="Extension : Sub Status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vasScale-item"/>
+      </reference>
+      <name value="Extension : VASScaleItem Settings "/>
+      <description value="Extension : Questionnaire.item.VASScaleItem "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Item-Extension-Example-All-48"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-All-48"/>
+      <description value="Example : Questionnaire.Item-All-48"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Extension-Example"/>
+      </reference>
+      <name value="Example : Questionnaire"/>
+      <description value="Example : Questionnaire"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-DateTime"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-DateTime"/>
+      <description value="Example : Questionnaire.Item-DateTime"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-FileUpload"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-FileUpload"/>
+      <description value="Example : Questionnaire.Item-FileUpload"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Footer"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Footer"/>
+      <description value="Example : Questionnaire.Item-Footer"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Header"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Header"/>
+      <description value="Example : Questionnaire.Item-Header"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Image"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Image"/>
+      <description value="Example : Questionnaire.Item-Image"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-MultiMultiSelect"/>
+      <description value="Example : Questionnaire.Item-MultiSelect"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Number-Decimal"/>
+      <description value="Example : Questionnaire.Item-Number-Decimal"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Number-Integer"/>
+      <description value="Example : Questionnaire.Item-Number-Integer"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-RatingScale"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-All-RatingScale"/>
+      <description value="Example : Questionnaire.Item-All-RatingScale"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-RichText"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-RichText"/>
+      <description value="Example : Questionnaire.Item-RichText"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Select"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Select"/>
+      <description value="Example : Questionnaire.Item-Select"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Text"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Text"/>
+      <description value="Example : Questionnaire.Item-Text"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-TextArea"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-All-TextArea"/>
+      <description value="Example : Questionnaire.Item-All-TextArea"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-VASScale"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-VASScale"/>
+      <description value="Example : Questionnaire.Item-VASScale"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-derived"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-derived"/>
+      <description value="Example : Questionnaire.Item-derived"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-page-break"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-page-break"/>
+      <description value="Example : Questionnaire.Item-page-break"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

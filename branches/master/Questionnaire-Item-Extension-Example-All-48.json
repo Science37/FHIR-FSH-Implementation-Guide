@@ -82,15 +82,15 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-21T20:11:07+00:00",
+  "date": "2022-04-22T13:21:10+00:00",
   "publisher": "Science37",
-  "contact": [
+  "jurisdiction": [
     {
-      "name": "Science37",
-      "telecom": [
+      "coding": [
         {
-          "system": "url",
-          "value": "http://science37.com/publisher"
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
         }
       ]
     }
