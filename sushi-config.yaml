@@ -3,21 +3,21 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: science27.FHIR-IG
+id: science37.FHIR-IG
 canonical: http://science37.com/fhir
 name: S37FHIR-IG
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: Science 37 FHIR-IG
+description: Implementation Guide for all Science 37 FHIR augmentations.
 status: active # draft | active | retired | unknown
 version: 1.0.0-S37
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2022+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: Science37
-  url: http://science37.com/publisher
+  #url: http://science37.com/publisher
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
