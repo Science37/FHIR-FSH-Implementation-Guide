@@ -1,7 +1,8 @@
 {
-  "package": "science27.FHIR-IG",
+  "package": "science37.FHIR-IG",
   "version": "1.0.0-S37",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "US",
   "extensions": [
     {
       "url": "http://science37.com/fhir/StructureDefinition/datetime-item",

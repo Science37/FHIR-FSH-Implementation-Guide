@@ -40,7 +40,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Questionnaire.identifier","","","",1,1,"","","Y","Identifier {[]} {[]}
 ","Additional identifier for the questionnaire","A formal identifier that is used to identify this questionnaire when it is represented in other formats, or referenced in a specification, model, design or an instance.","Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this questionnaire outside of FHIR, where it is not possible to use the logical URI.","Allows externally provided and/or usable business identifiers to be easily associated with the module.","","","","","","","",,,,,"",,,,"Questionnaire.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Definition.identifier",".identifier","FiveWs.identifier","no-gen-base"
-"Questionnaire.version","","","",1,1,"Y","","Y","string {[]} {[]}
+"Questionnaire.version","","","",1,1,"","","Y","string {[]} {[]}
 ","Business version of the questionnaire","The identifier that is used to identify this version of the questionnaire when it is referenced in a specification, model, design or instance. This is an arbitrary value managed by the questionnaire author and is not expected to be globally unique. For example, it might be a timestamp (e.g. yyyymmdd) if a managed version is not available. There is also no expectation that versions can be placed in a lexicographical sequence.","There may be different questionnaire instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the questionnaire with the format [url]|[version].","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""1.0.0A-S37""/>","","","",,,,,"",,,,"Questionnaire.version",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Definition.version","N/A (to add?)","FiveWs.version"
 "Questionnaire.name","","","",0,1,"","","Y","string {[]} {[]}
@@ -53,7 +53,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Questionnaire.derivedFrom","","","",0,*,"","","","canonical {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Questionnaire]]}
 ","Instantiates protocol or definition","The URL of a Questionnaire that this Questionnaire is based on.","","Allows a Questionnaire to be created based on another Questionnaire.","","","","","","","",,,,,"",,,,"Questionnaire.derivedFrom",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Definition.derivedFrom",".outboundRelationship[typeCode=DRIV].target[classCode=OBS, moodCode=DEFN]"
-"Questionnaire.status","","","",1,1,"Y","Y","Y","code {[]} {[]}
+"Questionnaire.status","","","",1,1,"","Y","Y","code {[]} {[]}
 ","draft | active | retired | unknown","The status of this questionnaire. Enables tracking the life-cycle of the content.","Allows filtering of questionnaires that are appropriate for use versus not.","","","","","","","","",,"required","The lifecycle status of an artifact.","http://hl7.org/fhir/ValueSet/publication-status|4.0.1","",,,,"Questionnaire.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Definition.status",".status","FiveWs.status"
 "Questionnaire.experimental","","","",0,1,"","","Y","boolean {[]} {[]}
@@ -110,7 +110,7 @@ que-1:Group items must have nested items, display items cannot have nested items
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.extension","Settings","","",0,1,"Y","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/item-settings]]} {[]}
+"Questionnaire.item.extension","Settings","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/item-settings]]} {[]}
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -264,7 +264,7 @@ decimal {[]} {[]}integer {[]} {[]}date {[]} {[]}dateTime {[]} {[]}time {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.item.extension","Settings","","",0,1,"Y","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/item-settings]]} {[]}
+"Questionnaire.item.item.extension","Settings","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/item-settings]]} {[]}
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

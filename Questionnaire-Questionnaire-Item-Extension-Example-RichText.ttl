@@ -32,15 +32,15 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-21T20:11:07+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-22T13:21:10+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
-  fhir:Questionnaire.contact [
+  fhir:Questionnaire.jurisdiction [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Science37" ];
-     fhir:ContactDetail.telecom [
+     fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://science37.com/publisher" ]
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ];
+       fhir:Coding.display [ fhir:value "United States of America" ]
      ]
   ];
   fhir:Questionnaire.item [
