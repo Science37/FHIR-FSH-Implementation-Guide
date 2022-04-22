@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: science37.FHIR-IG
-canonical: http://science37.com/fhir
+canonical: https://science37.github.io/FHIR-FSH-Implementation-Guide
 name: S37FHIR-IG
 title: Science 37 FHIR-IG
 description: Implementation Guide for all Science 37 FHIR augmentations.
