@@ -12,10 +12,9 @@ Usage: #example
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
-* item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
 * item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-dateTime"
-* item[=].extension[DateTimeItem].extension[OID].valueString = "DATE_TIME_OID"
+
 
 * item[=].item[+].linkId = "1234"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "sponsorVariable"
@@ -64,7 +63,7 @@ Usage: #example
 * item[=].item[+].linkId = "12347"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "lable"
 * item[=].item[=].extension[itemRenderingSettings].extension[label].valueString = "Field Lable"
-* item[=].item[=].extension[itemRenderingSettings].extension[value].valueString = "<p style=\"text-align:left;\"><strong>DS_CONSENT_SIG_FIELD_LABEL</strong></p>"
+* item[=].item[=].extension[itemRenderingSettings].extension[value].valueString = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].item[=].extension[itemRenderingSettings].extension[type].valueString = "richtext"
 * item[=].item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].item[=].required = false
