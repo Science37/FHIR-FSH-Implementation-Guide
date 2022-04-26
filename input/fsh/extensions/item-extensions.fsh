@@ -5,7 +5,9 @@ Description: ""
 * ^context[0].expression = "Questionnaire.item"
 * extension contains
     id 0..1 and 
-    label 0..1 and 
+    label 0..1 and
+    hidden 0..1 and
+    description 0..1 and 
     pattern 0..1 and 
     unique 0..1 and 
     disabled 0..1
@@ -13,12 +15,16 @@ Description: ""
 * extension[id].value[x] only string
 * extension[label] ^short = "label"
 * extension[label].value[x] only string
+* extension[hidden] ^short = "hidden"
+* extension[hidden].value[x] only boolean
+* extension[description] ^short = "description"
+* extension[description].value[x] only string
 * extension[pattern] ^short = "pattern"
 * extension[pattern].value[x] only string
 * extension[unique] ^short = "unique"
-* extension[unique].value[x] only string
+* extension[unique].value[x] only boolean
 * extension[disabled] ^short = "disabled"
-* extension[disabled].value[x] only string
+* extension[disabled].value[x] only boolean
 
 
 
