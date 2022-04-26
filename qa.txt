@@ -3,7 +3,7 @@
 
 err = 102, warn = 95, info = 75
 IG Publisher Version: 1.1.115
-Generated Tue Apr 26 15:54:40 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Tue Apr 26 15:58:32 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 190 / 6 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 43
@@ -63,9 +63,9 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.xml.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.json.html#/html/body/div/div/div/p/a at Line 916, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.ttl.html#/html/body/div/div/div/p/a at Line 747, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.xml.html#/html/body/div/div/div/p/a at Line 740, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.json.html#/html/body/div/div/div/p/a at Line 931, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.ttl.html#/html/body/div/div/div/p/a at Line 762, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.xml.html#/html/body/div/div/div/p/a at Line 755, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "Science37" cannot be resolved
