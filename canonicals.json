@@ -28,6 +28,13 @@
     "name": "Example : Questionnaire.Item DateTime"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-DateTimeV2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item DateTime"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-FileUpload",
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-FileUpload",
