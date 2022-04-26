@@ -26,3 +26,43 @@ Title: "Extension : Sub Status"
 Description: ""
 * extension.value[x] only string
 * extension ^short  = "SubStatus"
+
+
+Extension: ResourceInstanceCreateUpdateAtDateTime
+Id: resource-instance-create-updateat-datetime
+Title: "resource_datetime"
+Description: ""
+* extension contains    
+    createdAt 0..1 and 
+    updatedAt 0..1 
+* extension[createdAt] ^short = "createdAt"
+* extension[createdAt].value[x] only dateTime
+* extension[updatedAt] ^short = "updatedAt"
+* extension[updatedAt].value[x] only dateTime
+
+
+
+Extension: Version
+Id: version
+Title: "version"
+Description: ""
+* extension contains
+    type 1..1 and 
+    version 1..1
+* extension[type] ^short = "type"
+* extension[type].value[x] only string
+* extension[version] ^short = "version"
+* extension[version].value[x] only id
+
+Extension: ParentReference
+Id: parent-reference
+Title: "Parent Reference"
+Description: ""
+* extension contains
+    type 1..1 and 
+    value 1..1 
+* extension[type] ^short = "type"
+* extension[type].value[x] only string
+* extension[value] ^short = "value"
+* extension[value].value[x] only uuid or string or canonical or url
+

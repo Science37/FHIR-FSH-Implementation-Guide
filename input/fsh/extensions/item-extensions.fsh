@@ -1,3 +1,27 @@
+Extension: ItemRenderingSettings
+Id: item-rendering-settings
+Title: "Item Rendering Settings"
+Description: ""
+* ^context[0].expression = "Questionnaire.item"
+* extension contains
+    id 0..1 and 
+    label 0..1 and 
+    pattern 0..1 and 
+    unique 0..1 and 
+    disabled 0..1
+* extension[id] ^short = "id"
+* extension[id].value[x] only string
+* extension[label] ^short = "label"
+* extension[label].value[x] only string
+* extension[pattern] ^short = "pattern"
+* extension[pattern].value[x] only string
+* extension[unique] ^short = "unique"
+* extension[unique].value[x] only string
+* extension[disabled] ^short = "disabled"
+* extension[disabled].value[x] only string
+
+
+
 
 Extension:      ItemSettings
 Id:             item-settings

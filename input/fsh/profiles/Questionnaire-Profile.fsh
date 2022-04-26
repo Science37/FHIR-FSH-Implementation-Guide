@@ -19,3 +19,5 @@ Description: "Profile : Questionnaire.item extensions"
 *  item.item.extension contains questionnaire-itemControl named itemControl 0..1
 *  item.extension contains ObservationExtract named observationExtract 0..1
 *  item.item.extension contains ObservationExtract named observationExtract 0..1
+*  item.extension contains ItemRenderingSettings named itemRenderingSettings 0..1
+*  item.item.extension contains ItemRenderingSettings named itemRenderingSettings 0..1

@@ -4,11 +4,12 @@ Title: "Example : Questionnaire"
 Description: "Example : Questionnaire"
 Usage: #example
 /* Form Level Information */
-* status = #draft
+* status = #unknown
 * title = "Example : Questionnaire"
 * name = "Example : Questionnaire"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
+* extension[FormSettings].extension[subStatus].valueString = "deleted"
 * extension[FormSettings].extension[type].valueString = "formType"
 * extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
