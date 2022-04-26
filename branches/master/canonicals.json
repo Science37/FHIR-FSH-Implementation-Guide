@@ -154,6 +154,13 @@
     "name": "FormSettings"
   },
   {
+    "id": "item-rendering-settings",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings",
+    "version": "1.0.0-S37",
+    "name": "ItemRenderingSettings"
+  },
+  {
     "id": "item-settings",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings",
@@ -168,11 +175,25 @@
     "name": "ObservationExtract"
   },
   {
+    "id": "parent-reference",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
+    "version": "1.0.0-S37",
+    "name": "ParentReference"
+  },
+  {
     "id": "questionnaire-s37",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
     "version": "1.0.0-S37",
     "name": "QuestionnaireS37"
+  },
+  {
+    "id": "resource-instance-create-updateat-datetime",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-instance-create-updateat-datetime",
+    "version": "1.0.0-S37",
+    "name": "ResourceInstanceCreateUpdateAtDateTime"
   },
   {
     "id": "settings",
@@ -194,5 +215,12 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item",
     "version": "1.0.0-S37",
     "name": "VASScaleItem"
+  },
+  {
+    "id": "version",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
+    "version": "1.0.0-S37",
+    "name": "Version"
   }
 ]

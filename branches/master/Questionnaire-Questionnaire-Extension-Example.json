@@ -14,6 +14,10 @@
     {
       "extension": [
         {
+          "url": "subStatus",
+          "valueString": "Deleted Status"
+        },
+        {
           "url": "type",
           "valueString": "formType"
         },
@@ -32,10 +36,6 @@
         {
           "url": "requireEditReason",
           "valueBoolean": true
-        },
-        {
-          "url": "subStatus",
-          "valueString": "Deleted Status"
         },
         {
           "url": "controlSchemaVersion",
@@ -78,11 +78,11 @@
   "version": "1.0.0-S37",
   "name": "Example : Questionnaire",
   "title": "Example : Questionnaire",
-  "status": "draft",
+  "status": "unknown",
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-22T13:31:48+00:00",
+  "date": "2022-04-26T11:02:11+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
