@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-04-26T15:55:35+00:00",
+  "date": "2022-04-26T18:38:49+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -545,10 +545,10 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2"
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV3"
         },
-        "name": "Example : Questionnaire.Item-DateTime V2",
-        "description": "Example : Questionnaire.Item-DateTime V2",
+        "name": "Example : Questionnaire.Item-DateTime V3",
+        "description": "Example : Questionnaire.Item-DateTime V3",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
       },
       {
