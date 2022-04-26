@@ -1,15 +1,15 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 102, warn = 95, info = 76
+err = 102, warn = 95, info = 75
 IG Publisher Version: 1.1.115
-Generated Tue Apr 26 15:41:54 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Tue Apr 26 15:54:40 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 190 / 6 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 43
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 2 / 2 / 4
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2 : 23 / 1 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2 : 23 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 2 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Footer : 2 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Header : 2 / 1 / 2
@@ -63,9 +63,9 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.xml.html#/html/body/div/div/div/p/a at Line 313, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.json.html#/html/body/div/div/div/p/a at Line 921, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.ttl.html#/html/body/div/div/div/p/a at Line 751, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.xml.html#/html/body/div/div/div/p/a at Line 745, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.json.html#/html/body/div/div/div/p/a at Line 916, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.ttl.html#/html/body/div/div/div/p/a at Line 747, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV2.xml.html#/html/body/div/div/div/p/a at Line 740, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "Science37" cannot be resolved
@@ -377,7 +377,6 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionna
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire.item[0].item[0]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings is not allowed to be used at this point (allowed = e:Questionnaire.item; this element is [[Questionnaire.item.item, BackboneElement.item, BackboneElement])
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire.item[0].item[1]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings is not allowed to be used at this point (allowed = e:Questionnaire.item; this element is [[Questionnaire.item.item, BackboneElement.item, BackboneElement])
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2: Questionnaire.item[0].item[2]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings is not allowed to be used at this point (allowed = e:Questionnaire.item; this element is [[Questionnaire.item.item, BackboneElement.item, BackboneElement])
