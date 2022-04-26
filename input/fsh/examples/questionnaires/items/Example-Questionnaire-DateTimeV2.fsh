@@ -29,6 +29,7 @@ Usage: #example
 * item[=].item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = true
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 
 * item[=].item[+].linkId = "12345"
@@ -45,6 +46,7 @@ Usage: #example
 */
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 * item[=].item[+].linkId = "12346"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "title"
@@ -59,6 +61,7 @@ Usage: #example
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = true
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 * item[=].item[+].linkId = "12347"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "lable"
@@ -73,6 +76,7 @@ Usage: #example
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 * item[=].item[+].linkId = "12348"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "standardVariable"
@@ -87,6 +91,7 @@ Usage: #example
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = true
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 * item[=].item[+].linkId = "12349"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "description"
@@ -101,6 +106,7 @@ Usage: #example
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 * item[=].item[+].linkId = "123410"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "datetimeType"
@@ -117,6 +123,7 @@ Usage: #example
 */
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 * item[=].item[+].linkId = "123411"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "dateTimeOptions"
@@ -131,6 +138,7 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 
 * item[=].item[+].linkId = "123412"
@@ -146,6 +154,7 @@ Usage: #example
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 
 * item[=].item[+].linkId = "123413"
@@ -161,6 +170,7 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 
 
@@ -177,6 +187,7 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 
 
@@ -193,6 +204,7 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[=].text = "settings"
 
 
 * item[=].item[+].linkId = "123416"
@@ -209,6 +221,7 @@ Usage: #example
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
 * item[=].item[=].extension[minValue].valueInteger = 1
+* item[=].item[=].text = "settings"
 
 
 * item[=].item[+].linkId = "123417"
@@ -225,6 +238,8 @@ Usage: #example
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
 * item[=].item[=].extension[minValue].valueInteger = 1
+* item[=].item[=].text = "settings"
+
 
 * item[=].item[+].linkId = "123418"
 * item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "completionNoOfMonths"
@@ -240,6 +255,7 @@ Usage: #example
 * item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
 * item[=].item[=].extension[minValue].valueInteger = 1
+* item[=].item[=].text = "settings"
 
 /* --------------------------------
 * item[=].item[+].linkId = "123413"
