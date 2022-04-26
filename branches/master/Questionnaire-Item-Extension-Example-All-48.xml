@@ -107,7 +107,7 @@
   <title value="Example : Questionnaire.Item"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-26T11:12:16+00:00"/>
+  <date value="2022-04-26T13:26:02+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -201,7 +201,7 @@
         <valueInteger value="1"/>
       </extension>
       <extension url="completionShouldOccur">
-        <valueBoolean value="true"/>
+        <valueString value="priorFormCompletion"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">

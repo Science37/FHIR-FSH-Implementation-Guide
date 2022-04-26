@@ -132,7 +132,7 @@
         "integer",
         "integer",
         "integer",
-        "boolean",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",
@@ -438,8 +438,11 @@
       "types": [
         "string",
         "string",
+        "boolean",
         "string",
         "string",
+        "boolean",
+        "boolean",
         "string",
         "base64Binary",
         "boolean",
@@ -1185,7 +1188,8 @@
       "Questionnaire.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/minValue": [
-      "Questionnaire.item"
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden": [
       "Questionnaire.item",
