@@ -1,11 +1,11 @@
-Instance: Questionnaire-Item-Extension-Example-DateTimeV3
+Instance: Questionnaire-Item-Extension-Example-DateTimeV1
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-DateTime V3"
-Description: "Example : Questionnaire.Item-DateTime V3"
+Title: "Example : Questionnaire.Item-DateTime V1"
+Description: "Example : Questionnaire.Item-DateTime V1"
 Usage: #example
 * status = #draft
-* title = "Example : Questionnaire.Item DateTime V3"
-* name = "Example : Questionnaire.Item DateTime V3"
+* title = "Example : Questionnaire.Item DateTime V1"
+* name = "Example : Questionnaire.Item DateTime V1"
 * subjectType = #Patient
 * identifier.value = "Form ID1234"
 * item[0].type = #dateTime
@@ -14,7 +14,7 @@ Usage: #example
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
 * item[=].extension[Settings].extension[version].valueId = "1.0.1-dateTime"
-* item[=].text = "date of birth label"
+* item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 
 * item[=].extension[itemRenderingSettings][0].extension[id].valueString = "sponsorVariable"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field OID"
@@ -112,7 +112,7 @@ Usage: #example
 
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "minDate"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Minimum Date"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueBoolean = false
+* item[=].extension[itemRenderingSettings][=].extension[value].valueDateTime = "2013-06-08T10:57:34+01:00"
 * item[=].extension[itemRenderingSettings][=].extension[type].valueString = "dateTime" 
 * item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
 * item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
@@ -122,7 +122,7 @@ Usage: #example
 
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "maxDate"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Maximum Date"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueBoolean = false
+* item[=].extension[itemRenderingSettings][=].extension[value].valueDateTime = "2013-06-08T10:57:34+01:00"
 * item[=].extension[itemRenderingSettings][=].extension[type].valueString = "dateTime" 
 * item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
 * item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
@@ -140,8 +140,8 @@ Usage: #example
 * item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
 
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Number of Hours"
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "completionNoOfHours"
+* item[=].extension[itemRenderingSettings][+].extension[label].valueString = "Number of Hours"
+* item[=].extension[itemRenderingSettings][=].extension[id].valueString = "completionNoOfHours"
 * item[=].extension[itemRenderingSettings][=].extension[value].valueString = ""
 * item[=].extension[itemRenderingSettings][=].extension[type].valueString = "integer" 
 * item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
