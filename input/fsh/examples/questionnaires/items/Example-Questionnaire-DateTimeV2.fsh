@@ -17,19 +17,19 @@ Usage: #example
 * item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-dateTime"
 * item[=].extension[DateTimeItem].extension[OID].valueString = "DATE_TIME_OID"
 
-* item[+].linkId = "1234"
-* item[=].extension[itemRenderingSettings].extension[id].valueString = "sponsorVariable"
-* item[=].extension[itemRenderingSettings].extension[label].valueString = "Field OID"
-* item[=].text = "DS_CONSENT_SIG_FIELD_OID"
-* item[=].extension[itemRenderingSettings].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
-* item[=].required = false
-* item[=].type = #display
-* item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"
-* item[=].maxLength = 256
-* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"
-* item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].item[+].linkId = "1234"
+* item[=].item[=].extension[itemRenderingSettings].extension[id].valueString = "sponsorVariable"
+* item[=].item[=].extension[itemRenderingSettings].extension[label].valueString = "Field OID"
+* item[=].item[=].text = "DS_CONSENT_SIG_FIELD_OID"
+* item[=].item[=].extension[itemRenderingSettings].extension[type].valueString = "text"
+* item[=].item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
+* item[=].item[=].required = false
+* item[=].item[=].type = #display
+* item[=].item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"
+* item[=].item[=].maxLength = 256
+* item[=].item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"
+* item[=].item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = true
+* item[=].item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
 
 
 * item[=].item[+].linkId = "12345"
