@@ -11,7 +11,8 @@ Description: ""
     pattern 0..1 and 
     unique 0..1 and 
     disabled 0..1 and 
-    type 0..1
+    type 0..1 and 
+    value 0..1
 * extension[id] ^short = "id"
 * extension[id].value[x] only string
 * extension[label] ^short = "label"
@@ -28,6 +29,8 @@ Description: ""
 * extension[disabled].value[x] only boolean
 * extension[type] ^short = "type"
 * extension[type].value[x] only string
+* extension[value] ^short = "value"
+* extension[value].value[x] only boolean or decimal or integer or date or dateTime or time or string or Coding or Quantity or Reference
 
 
 
