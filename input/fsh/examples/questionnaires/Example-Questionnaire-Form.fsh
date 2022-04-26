@@ -11,7 +11,6 @@ Usage: #example
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[FormSettings].extension[subStatus].valueString = "deleted"
 * extension[FormSettings].extension[type].valueString = "formType"
-* extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
 * extension[FormSettings].extension[OID].valueString = "FORM OID"
 * extension[FormSettings].extension[standardVariable].valueString = "FORM Standard Variable"
