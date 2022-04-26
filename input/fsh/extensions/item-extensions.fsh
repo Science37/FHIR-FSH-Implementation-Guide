@@ -12,7 +12,12 @@ Description: ""
     unique 0..1 and 
     disabled 0..1 and 
     type 0..1 and 
-    value 0..1
+    value 0..1 and 
+    required 0..1 and 
+    maxLength 0..1 and 
+    minLength 0..1 and 
+    maxValue 0..1 and 
+    minValue 0..1 
 * extension[id] ^short = "id"
 * extension[id].value[x] only string
 * extension[label] ^short = "label"
@@ -31,8 +36,16 @@ Description: ""
 * extension[type].value[x] only string
 * extension[value] ^short = "value"
 * extension[value].value[x] only boolean or decimal or integer or date or dateTime or time or string or Coding or Quantity or Reference
-
-
+* extension[required] ^short = "required"
+* extension[required].value[x] only boolean
+* extension[maxLength] ^short = "maxLength"
+* extension[maxLength].value[x] only integer
+* extension[minLength] ^short = "minLength"
+* extension[minLength].value[x] only integer
+* extension[maxValue] ^short = "maxValue"
+* extension[maxValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity 
+* extension[minValue] ^short = "minValue"
+* extension[minValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity 
 
 
 Extension:      ItemSettings
