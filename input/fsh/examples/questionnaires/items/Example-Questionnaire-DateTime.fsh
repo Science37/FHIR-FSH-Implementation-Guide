@@ -44,4 +44,4 @@ Usage: #example
 * item[=].extension[DateTimeItem].extension[completionNoOfHours].valueInteger = 22
 * item[=].extension[DateTimeItem].extension[completionNoOfDays].valueInteger = 2
 * item[=].extension[DateTimeItem].extension[completionNoOfMonths].valueInteger = 1
-* item[=].extension[DateTimeItem].extension[completionShouldOccur].valueBoolean = true
+* item[=].extension[DateTimeItem].extension[completionShouldOccur].valueString = "priorFormCompletion"

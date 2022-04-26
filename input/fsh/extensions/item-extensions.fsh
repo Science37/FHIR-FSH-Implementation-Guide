@@ -10,7 +10,8 @@ Description: ""
     description 0..1 and 
     pattern 0..1 and 
     unique 0..1 and 
-    disabled 0..1
+    disabled 0..1 and 
+    type 0..1
 * extension[id] ^short = "id"
 * extension[id].value[x] only string
 * extension[label] ^short = "label"
@@ -25,6 +26,8 @@ Description: ""
 * extension[unique].value[x] only boolean
 * extension[disabled] ^short = "disabled"
 * extension[disabled].value[x] only boolean
+* extension[type] ^short = "type"
+* extension[type].value[x] only string
 
 
 
@@ -107,7 +110,7 @@ Description:     "Extension : Questionnaire.item.DateTimeItem "
 * extension[completionNoOfMonths] ^short = "completionNoOfMonths"
 * extension[completionNoOfMonths].value[x] only integer
 * extension[completionShouldOccur] ^short = "completionShouldOccur"
-* extension[completionShouldOccur].value[x] only boolean
+* extension[completionShouldOccur].value[x] only string
 
 
 Extension: VASScaleItem

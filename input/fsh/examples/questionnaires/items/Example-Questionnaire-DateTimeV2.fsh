@@ -21,9 +21,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "sponsorVariable"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Field OID"
 * item[=].text = "DS_CONSENT_SIG_FIELD_OID"
-* item[=].type = #text
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "text"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = false
+* item[=].type = #display
 * item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"
 * item[=].maxLength = 256
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"
@@ -35,9 +36,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "linkId"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "LinkId"
 * item[=].text = "__S37-form-fields-qo3cyvy8fgh"
-* item[=].type = #text
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "text"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
 * item[=].required = true
+* item[=].type = #display
 /* item[=].extension[itemRenderingSettings].extension[description].valueString = ""
 * item[=].maxLength = 256
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = ""
@@ -49,9 +51,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "title"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Title"
 * item[=].text = "DS_CONSENT_SIG_FIELD_ITLE"
-* item[=].type = #text
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "text"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = true
+* item[=].type = #display
 /* item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"*/
 * item[=].maxLength = 100
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
@@ -62,9 +65,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "lable"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Field Lable"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DS_CONSENT_SIG_FIELD_LABEL</strong></p>"
-* item[=].type = #richtext
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "richtext"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = false
+* item[=].type = #display
 * item[=].extension[itemRenderingSettings].extension[description].valueString = "What will display to the respondent."
 * item[=].maxLength = 2000
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
@@ -75,9 +79,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "standardVariable"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Standard Variable"
 * item[=].text = "DS_CONSENT_SIG_FIELD_STD_VAR"
-* item[=].type = #text
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "text"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = false
+* item[=].type = #display
 * item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"
 * item[=].maxLength = 256
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
@@ -88,9 +93,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "description"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Description"
 * item[=].text = "DS_CONSENT_SIG_FIELD_DESC"
-* item[=].type = #textarea
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "textarea"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = false
+* item[=].type = #display
 /* item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"*/
 * item[=].maxLength = 256
 /* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
@@ -101,9 +107,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "datetimeType"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Type"
 * item[=].text = "dt"
-* item[=].type = #select
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "select"
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = true
+* item[=].type = #display
 /* item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"*/
 /* 
 * item[=].maxLength = 256
@@ -116,9 +123,10 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "dateTimeOptions"
 /* item[=].extension[itemRenderingSettings].extension[label].valueString = ""*/
 * item[=].text = "captureDateonSubmit"
-* item[=].type = #radiogroup
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "radiogroup" 
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = false
 * item[=].required = false
+* item[=].type = #display
 /** item[=].extension[itemRenderingSettings].extension[description].valueString = "Max of 256 characters"
 * item[=].maxLength = 256 
 * item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
@@ -130,7 +138,8 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "captureTimeonSubmit"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Capture time on submit"
 * item[=].text = "fase"
-* item[=].type = #checkbox
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "checkbox" 
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
 * item[=].required = false
 * item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
@@ -140,11 +149,12 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
 
 
-* item[+].linkId = "123414"
+* item[+].linkId = "123413"
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "minDate"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Minimum Date"
 * item[=].text = "false"
-* item[=].type = #dateTime
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "dateTime" 
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
 * item[=].required = false
 /* item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
@@ -159,7 +169,8 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "maxDate"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Maximum Date"
 * item[=].text = "false"
-* item[=].type = #dateTime
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "dateTime" 
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
 * item[=].required = false
 /* item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
@@ -168,12 +179,76 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
 * item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
 
+
+
+* item[+].linkId = "123415"
+* item[=].extension[itemRenderingSettings].extension[id].valueString = "completionPeriodOfTime"
+* item[=].extension[itemRenderingSettings].extension[label].valueString = "Period of time"
+* item[=].text = ""
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "select" 
+* item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
+* item[=].required = false
+* item[=].extension[itemRenderingSettings].extension[description].valueString = "Constrain the response by months, days or hours"
+/* item[=].maxLength = 256
+* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
+* item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
+* item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+
+
+* item[+].linkId = "123416"
+* item[=].extension[itemRenderingSettings].extension[id].valueString = "completionNoOfHours"
+* item[=].extension[itemRenderingSettings].extension[label].valueString = "Number of Hours"
+* item[=].text = ""
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "integer" 
+* item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
+* item[=].required = false
+/* item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
+* item[=].maxLength = 256
+* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
+* item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
+* item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].extension[minValue].valueInteger = 1
+
+
+* item[+].linkId = "123417"
+* item[=].extension[itemRenderingSettings].extension[id].valueString = "completionNoOfDays"
+* item[=].extension[itemRenderingSettings].extension[label].valueString = "Number of Days"
+* item[=].text = ""
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "integer" 
+* item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
+* item[=].required = false
+/* item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
+* item[=].maxLength = 256
+* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
+* item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
+* item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].extension[minValue].valueInteger = 1
+
+* item[+].linkId = "123418"
+* item[=].extension[itemRenderingSettings].extension[id].valueString = "completionNoOfMonths"
+* item[=].extension[itemRenderingSettings].extension[label].valueString = "Number of Months"
+* item[=].text = ""
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "integer" 
+* item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
+* item[=].required = false
+/* item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
+* item[=].maxLength = 256
+* item[=].extension[itemRenderingSettings].extension[pattern].valueString = "^(?!.* ).*$"*/
+* item[=].extension[itemRenderingSettings].extension[unique].valueBoolean = false
+* item[=].extension[itemRenderingSettings].extension[disabled].valueBoolean = false
+* item[=].extension[minValue].valueInteger = 1
+
 /* --------------------------------*/
 * item[+].linkId = "123413"
 * item[=].extension[itemRenderingSettings].extension[id].valueString = "minDate"
 * item[=].extension[itemRenderingSettings].extension[label].valueString = "Capture time on submit"
 * item[=].text = "false"
-* item[=].type = #checkbox
+* item[=].type = #display
+* item[=].extension[itemRenderingSettings].extension[type].valueString = "checkbox" 
 * item[=].extension[itemRenderingSettings].extension[hidden].valueBoolean = true
 * item[=].required = false
 * item[=].extension[itemRenderingSettings].extension[description].valueString = "Date field is not editable by user (read only)"
