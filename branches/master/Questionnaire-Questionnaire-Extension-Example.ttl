@@ -24,7 +24,7 @@
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "subStatus" ];
-       fhir:Extension.valueString [ fhir:value "Deleted Status" ]
+       fhir:Extension.valueString [ fhir:value "deleted" ]
      ], [
        fhir:index 1;
        fhir:Extension.url [ fhir:value "type" ];
@@ -89,7 +89,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-26T11:02:11+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-26T11:12:16+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

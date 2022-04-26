@@ -11,7 +11,7 @@
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings">
     <extension url="subStatus">
-      <valueString value="Deleted Status"/>
+      <valueString value="deleted"/>
     </extension>
     <extension url="type">
       <valueString value="formType"/>
@@ -59,7 +59,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-26T11:02:11+00:00"/>
+  <date value="2022-04-26T11:12:16+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
