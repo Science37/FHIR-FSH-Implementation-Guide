@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-04-26T13:26:02+00:00"/>
+  <date value="2022-04-26T13:59:43+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -378,8 +378,8 @@
       <reference>
         <reference value="Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV2"/>
       </reference>
-      <name value="Example : Questionnaire.Item-DateTime"/>
-      <description value="Example : Questionnaire.Item-DateTime"/>
+      <name value="Example : Questionnaire.Item-DateTime V2"/>
+      <description value="Example : Questionnaire.Item-DateTime V2"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
