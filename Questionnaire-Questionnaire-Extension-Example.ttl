@@ -23,28 +23,28 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
+       fhir:Extension.url [ fhir:value "subStatus" ];
+       fhir:Extension.valueString [ fhir:value "Deleted Status" ]
+     ], [
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "type" ];
        fhir:Extension.valueString [ fhir:value "formType" ]
      ], [
-       fhir:index 1;
+       fhir:index 2;
        fhir:Extension.url [ fhir:value "buildLanguage" ];
        fhir:Extension.valueString [ fhir:value "US_English" ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Extension.url [ fhir:value "excludeFromDataExport" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Extension.url [ fhir:value "requireDataReview" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Extension.url [ fhir:value "requireEditReason" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 5;
-       fhir:Extension.url [ fhir:value "subStatus" ];
-       fhir:Extension.valueString [ fhir:value "Deleted Status" ]
      ], [
        fhir:index 6;
        fhir:Extension.url [ fhir:value "controlSchemaVersion" ];
@@ -84,12 +84,12 @@
   fhir:Questionnaire.version [ fhir:value "1.0.0-S37"];
   fhir:Questionnaire.name [ fhir:value "Example : Questionnaire"];
   fhir:Questionnaire.title [ fhir:value "Example : Questionnaire"];
-  fhir:Questionnaire.status [ fhir:value "draft"];
+  fhir:Questionnaire.status [ fhir:value "unknown"];
   fhir:Questionnaire.subjectType [
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-22T13:31:48+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-26T11:02:11+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

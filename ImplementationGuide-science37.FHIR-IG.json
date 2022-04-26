@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-04-22T13:31:48+00:00",
+  "date": "2022-04-26T11:02:11+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -383,6 +383,19 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/item-rendering-settings"
+        },
+        "name": "Item Rendering Settings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/item-settings"
         },
         "name": "Extension : Item Settings ",
@@ -400,6 +413,32 @@
           "reference": "StructureDefinition/observation-extract"
         },
         "name": "Extension : observationExtract",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/parent-reference"
+        },
+        "name": "Parent Reference",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/resource-instance-create-updateat-datetime"
+        },
+        "name": "resource_datetime",
         "exampleBoolean": false
       },
       {
@@ -441,6 +480,19 @@
         },
         "name": "Extension : VASScaleItem Settings ",
         "description": "Extension : Questionnaire.item.VASScaleItem ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/version"
+        },
+        "name": "version",
         "exampleBoolean": false
       },
       {
