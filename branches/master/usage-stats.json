@@ -706,7 +706,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
-      "title": "Parent Reference",
+      "title": "Extension : Parent Reference",
       "types": [
         "string",
         "canonical",
@@ -767,7 +767,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-instance-create-updateat-datetime",
-      "title": "resource_datetime",
+      "title": "Extension : ResourceInstanceCreateUpdateAtDateTime",
       "types": [
         "dateTime",
         "dateTime",
@@ -1128,7 +1128,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
-      "title": "version",
+      "title": "Extension : Version",
       "types": [
         "string",
         "id",
