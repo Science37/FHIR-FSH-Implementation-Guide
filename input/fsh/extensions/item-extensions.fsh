@@ -17,7 +17,8 @@ Description: "Extension : Item Rendering Settings"
     maxLength 0..1 and 
     minLength 0..1 and 
     maxValue 0..1 and 
-    minValue 0..1 
+    minValue 0..1 and 
+    version 0..1
 * extension[id] ^short = "id"
 * extension[id].value[x] only string
 * extension[label] ^short = "label"
@@ -45,7 +46,9 @@ Description: "Extension : Item Rendering Settings"
 * extension[maxValue] ^short = "maxValue"
 * extension[maxValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity 
 * extension[minValue] ^short = "minValue"
-* extension[minValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity 
+* extension[minValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity
+* extension[version] ^short = "version"
+* extension[version].value[x] only id
 
 
 Extension:      ItemSettings
@@ -70,7 +73,7 @@ Description:     "Extension : Questionnaire.item.settings "
     variableName 0..1 and 
     fieldCode 0..1 and 
     description 0..1 and
-    scale	0..1
+    scale	0..1 
 * extension[dateTimeOptions] ^short = "dateTimeOptions"
 * extension[dateTimeOptions].value[x] only string
 * extension[captureTimeonSubmit] ^short = "captureTimeonSubmit"
