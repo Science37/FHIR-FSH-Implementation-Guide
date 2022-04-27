@@ -110,13 +110,4 @@ Usage: #example
 * item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
 
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Number-Version"
-* item[=].extension[ItemSettings].extension[OID].valueString = "NUMBER_OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "NUMBER_TITLE"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[description].valueString = "NUMBER_DESC"
-* item[=].extension[ItemSettings].extension[scale].valueInteger = 3
-
 
