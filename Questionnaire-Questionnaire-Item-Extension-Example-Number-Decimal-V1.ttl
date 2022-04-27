@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-27T18:54:13+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-27T19:43:22+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -397,42 +397,6 @@
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
-     ], [
-       fhir:index 12;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "version" ];
-         fhir:Extension.valueId [ fhir:value "1.0.1-Number-Version" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "OID" ];
-         fhir:Extension.valueString [ fhir:value "NUMBER_OID" ]
-       ], [
-         fhir:index 2;
-         fhir:Extension.url [ fhir:value "title" ];
-         fhir:Extension.valueString [ fhir:value "NUMBER_TITLE" ]
-       ], [
-         fhir:index 3;
-         fhir:Extension.url [ fhir:value "variableName" ];
-         fhir:Extension.valueString [ fhir:value "NOT Assigned by DD" ]
-       ], [
-         fhir:index 4;
-         fhir:Extension.url [ fhir:value "standardVariable" ];
-         fhir:Extension.valueString [ fhir:value "FOOTER_STD_VAR" ]
-       ], [
-         fhir:index 5;
-         fhir:Extension.url [ fhir:value "fieldCode" ];
-         fhir:Extension.valueString [ fhir:value "NOT Assigned by DD" ]
-       ], [
-         fhir:index 6;
-         fhir:Extension.url [ fhir:value "description" ];
-         fhir:Extension.valueString [ fhir:value "NUMBER_DESC" ]
-       ], [
-         fhir:index 7;
-         fhir:Extension.url [ fhir:value "scale" ];
-         fhir:Extension.valueInteger [ fhir:value "3"^^xsd:integer ]
-       ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
      ];
      fhir:Questionnaire.item.linkId [ fhir:value "__S37-form-fields-jntlfakzc05" ];
      fhir:Questionnaire.item.definition [ fhir:value "https://science37.com/NG/widget/id/number/version/2.3" ];

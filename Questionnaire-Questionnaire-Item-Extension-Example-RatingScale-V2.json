@@ -1,0 +1,694 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Questionnaire-Item-Extension-Example-RatingScale-V2",
+  "meta": {
+    "profile": [
+      "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> Example : Questionnaire.Item RatingScale-V2</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2#1.0.0-S37</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" id=\"item.__S37-form-fields-6qupvhtl05b\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Group\" class=\"hierarchy\"/> __S37-form-fields-6qupvhtl05b</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NRS_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question\">question</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Definition: https://science37.com/NG/widget/id/ratingscale/version/2.3</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2",
+  "identifier": [
+    {
+      "value": "Form ID"
+    }
+  ],
+  "version": "1.0.0-S37",
+  "name": "Example : Questionnaire.Item RatingScale-V2",
+  "title": "Example : Questionnaire.Item RatingScale-V2",
+  "status": "draft",
+  "subjectType": [
+    "Patient"
+  ],
+  "date": "2022-04-27T19:43:22+00:00",
+  "publisher": "Science37",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "item": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "rating-scale",
+                "display": "rating-scale"
+              }
+            ],
+            "text": "rating-scale"
+          }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueInteger": 11
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueInteger": 1100
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Rating-ScaleVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "NRS_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "NRS_TITLE"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "NRS_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "NRS_DESC"
+            },
+            {
+              "url": "minValueLabel",
+              "valueString": "Min Value"
+            },
+            {
+              "url": "maxValueLabel",
+              "valueString": "Max Value"
+            },
+            {
+              "url": "naOption",
+              "valueBoolean": true
+            },
+            {
+              "url": "naLabel",
+              "valueString": "N/A label"
+            },
+            {
+              "url": "fromText",
+              "valueString": "1"
+            },
+            {
+              "url": "toText",
+              "valueString": "100"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "sponsorVariable"
+            },
+            {
+              "url": "label",
+              "valueString": "Field OID"
+            },
+            {
+              "url": "value",
+              "valueString": "NRS_OID"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "description",
+              "valueString": "Max of 256 characters"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 256
+            },
+            {
+              "url": "pattern",
+              "valueString": "^(?!.* ).*$"
+            },
+            {
+              "url": "unique",
+              "valueBoolean": true
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "linkId"
+            },
+            {
+              "url": "label",
+              "valueString": "LinkId"
+            },
+            {
+              "url": "value",
+              "valueString": "__S37-form-fields-6qupvhtl05b"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": true
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "title"
+            },
+            {
+              "url": "label",
+              "valueString": "Title"
+            },
+            {
+              "url": "value",
+              "valueString": "NRS_TITLE"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 100
+            },
+            {
+              "url": "unique",
+              "valueBoolean": true
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "label"
+            },
+            {
+              "url": "label",
+              "valueString": "Field label"
+            },
+            {
+              "url": "value",
+              "valueString": "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
+            },
+            {
+              "url": "type",
+              "valueString": "richtext"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
+            },
+            {
+              "url": "description",
+              "valueString": "What will display to the respondent."
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 100000
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "standardVariable"
+            },
+            {
+              "url": "label",
+              "valueString": "Standard Variable"
+            },
+            {
+              "url": "value",
+              "valueString": "NRS_STD_VAR"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
+            },
+            {
+              "url": "description",
+              "valueString": "Max of 256 characters"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 256
+            },
+            {
+              "url": "unique",
+              "valueBoolean": true
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "description"
+            },
+            {
+              "url": "label",
+              "valueString": "Description"
+            },
+            {
+              "url": "value",
+              "valueString": "NRS_DESC"
+            },
+            {
+              "url": "type",
+              "valueString": "textarea"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 100000
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "version"
+            },
+            {
+              "url": "value",
+              "valueString": "1"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": true
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "required"
+            },
+            {
+              "url": "label",
+              "valueString": "Required field"
+            },
+            {
+              "url": "value",
+              "valueString": "false"
+            },
+            {
+              "url": "type",
+              "valueString": "checkbox"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "minValue"
+            },
+            {
+              "url": "label",
+              "valueString": "Min"
+            },
+            {
+              "url": "value",
+              "valueString": "0"
+            },
+            {
+              "url": "type",
+              "valueString": "select"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "maxValue"
+            },
+            {
+              "url": "label",
+              "valueString": "Max"
+            },
+            {
+              "url": "value",
+              "valueString": "10"
+            },
+            {
+              "url": "type",
+              "valueString": "select"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "fromText"
+            },
+            {
+              "url": "label",
+              "valueString": "Minimum Value Label"
+            },
+            {
+              "url": "value",
+              "valueString": "2"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 100000
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "toText"
+            },
+            {
+              "url": "label",
+              "valueString": "Maximum Value Label"
+            },
+            {
+              "url": "value",
+              "valueString": "100"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 100000
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "naOption"
+            },
+            {
+              "url": "label",
+              "valueString": "N/A Option"
+            },
+            {
+              "url": "value",
+              "valueString": "true"
+            },
+            {
+              "url": "type",
+              "valueString": "checkbox"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "naLabel"
+            },
+            {
+              "url": "label",
+              "valueString": "Label"
+            },
+            {
+              "url": "value",
+              "valueString": "N/A Label"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "description",
+              "valueString": "Max of 256 characters."
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 256
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        }
+      ],
+      "linkId": "__S37-form-fields-6qupvhtl05b",
+      "definition": "https://science37.com/NG/widget/id/ratingscale/version/2.3",
+      "text": "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>",
+      "type": "question",
+      "required": true
+    }
+  ]
+}

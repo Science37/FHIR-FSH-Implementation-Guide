@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item Number-Decimal-V1"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-27T18:54:13+00:00"/>
+  <date value="2022-04-27T19:43:22+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -283,32 +283,6 @@
       </extension>
       <extension url="disabled">
         <valueBoolean value="false"/>
-      </extension>
-    </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
-      <extension url="version">
-        <valueId value="1.0.1-Number-Version"/>
-      </extension>
-      <extension url="OID">
-        <valueString value="NUMBER_OID"/>
-      </extension>
-      <extension url="title">
-        <valueString value="NUMBER_TITLE"/>
-      </extension>
-      <extension url="variableName">
-        <valueString value="NOT Assigned by DD"/>
-      </extension>
-      <extension url="standardVariable">
-        <valueString value="FOOTER_STD_VAR"/>
-      </extension>
-      <extension url="fieldCode">
-        <valueString value="NOT Assigned by DD"/>
-      </extension>
-      <extension url="description">
-        <valueString value="NUMBER_DESC"/>
-      </extension>
-      <extension url="scale">
-        <valueInteger value="3"/>
       </extension>
     </extension>
     <linkId value="__S37-form-fields-jntlfakzc05"/>
