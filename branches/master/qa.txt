@@ -1,10 +1,10 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 124, warn = 108, info = 118
+err = 132, warn = 112, info = 124
 IG Publisher Version: 1.1.115
-Generated Wed Apr 27 18:57:09 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
- Build Errors : 270 / 2 / 0
+Generated Wed Apr 27 19:46:17 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+ Build Errors : 290 / 2 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 43
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 1 / 1 / 1
@@ -32,6 +32,8 @@ Generated Wed Apr 27 18:57:09 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer-V1 : 1 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer-V2 : 1 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale : 2 / 1 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1 : 2 / 1 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2 : 2 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText : 3 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select : 2 / 3 / 6
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 1 / 4 / 2
@@ -41,6 +43,8 @@ Generated Wed Apr 27 18:57:09 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derivedV1 : 4 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derivedV2 : 4 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1 : 2 / 1 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2 : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-datetime-item : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-derived-item : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
@@ -155,9 +159,9 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-MultiSelect.xml.html#/html/body/div/div/div/p/a at Line 335, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.json.html#/html/body/div/div/div/p/a at Line 667, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.ttl.html#/html/body/div/div/div/p/a at Line 569, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.xml.html#/html/body/div/div/div/p/a at Line 554, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.json.html#/html/body/div/div/div/p/a at Line 630, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.ttl.html#/html/body/div/div/div/p/a at Line 542, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V1.xml.html#/html/body/div/div/div/p/a at Line 527, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V2.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal-V2.json.html#/html/body/div/div/div/p/a at Line 390, column 28: The link '' for "Science37" cannot be resolved
@@ -183,6 +187,16 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer.ttl.html#/html/body/div/div/div/p/a at Line 314, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer.xml.html#/html/body/div/div/div/p/a at Line 297, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1.json.html#/html/body/div/div/div/p/a at Line 909, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1.ttl.html#/html/body/div/div/div/p/a at Line 746, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1.xml.html#/html/body/div/div/div/p/a at Line 733, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2.json.html#/html/body/div/div/div/p/a at Line 909, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2.ttl.html#/html/body/div/div/div/p/a at Line 746, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2.xml.html#/html/body/div/div/div/p/a at Line 733, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale.json.html#/html/body/div/div/div/p/a at Line 351, column 28: The link '' for "Science37" cannot be resolved
@@ -228,6 +242,16 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-derivedV2.json.html#/html/body/div/div/div/p/a at Line 413, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-derivedV2.ttl.html#/html/body/div/div/div/p/a at Line 377, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-derivedV2.xml.html#/html/body/div/div/div/p/a at Line 361, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.json.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.ttl.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.xml.html#/html/body/div/div/div/p/a at Line 321, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2.json.html#/html/body/div/div/div/p/a at Line 316, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2.ttl.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break.json.html#/html/body/div/div/div/p/a at Line 290, column 28: The link '' for "Science37" cannot be resolved
@@ -283,7 +307,7 @@ ERROR: /github/workspace/output/StructureDefinition-parent-reference.profile.jso
 ERROR: /github/workspace/output/StructureDefinition-parent-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 988, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-parent-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 1038, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-definitions.html#/html/body/div/div/div/p/a at Line 1437, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-examples.html#/html/body/div/div/div/p/a at Line 484, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-examples.html#/html/body/div/div/div/p/a at Line 508, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-mappings.html#/html/body/div/div/div/p/a at Line 420, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.html#/html/body/div/div/div/p/a at Line 1626, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.history.html#/html/body/div/div/div/p/a at Line 258, column 28: The link '' for "Science37" cannot be resolved
@@ -325,7 +349,7 @@ ERROR: /github/workspace/output/StructureDefinition-version.profile.history.html
 ERROR: /github/workspace/output/StructureDefinition-version.profile.json.html#/html/body/div/div/div/p/a at Line 1122, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-version.profile.ttl.html#/html/body/div/div/div/p/a at Line 976, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-version.profile.xml.html#/html/body/div/div/div/p/a at Line 1016, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 639, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 675, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Science37" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-science37.FHIR-IG.json ==
@@ -621,6 +645,20 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionn
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[5]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rating-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rating-scale'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V1.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1: Questionnaire.item[0].extension[4]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rating-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rating-scale'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1: Questionnaire.item[0].extension[9].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale-V2.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2: Questionnaire.item[0].extension[4]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rating-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rating-scale'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2: Questionnaire.item[0].extension[9].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
@@ -686,6 +724,14 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-derivedV2: Quest
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V2.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V2: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V2: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V2: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 == fsh-generated/resources/StructureDefinition-datetime-item.json ==
 WARNING: StructureDefinition/datetime-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/datetime-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '

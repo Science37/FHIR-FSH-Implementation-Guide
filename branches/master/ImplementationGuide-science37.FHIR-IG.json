@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-04-27T18:54:13+00:00",
+  "date": "2022-04-27T19:43:22+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -871,6 +871,34 @@
           }
         ],
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1"
+        },
+        "name": "Example : Questionnaire.Item-All-RatingScale-V1",
+        "description": "Example : Questionnaire.Item-All-RatingScale-V1",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V2"
+        },
+        "name": "Example : Questionnaire.Item-All-RatingScale-V2",
+        "description": "Example : Questionnaire.Item-All-RatingScale-V2",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RichText"
         },
         "name": "Example : Questionnaire.Item-RichText",
@@ -987,6 +1015,34 @@
         },
         "name": "Example : Questionnaire.Item-page-break",
         "description": "Example : Questionnaire.Item-page-break",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1"
+        },
+        "name": "Example : Questionnaire.Item-page-break-V1",
+        "description": "Example : Questionnaire.Item-page-break-V1",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-page-break-V2"
+        },
+        "name": "Example : Questionnaire.Item-page-break-V2",
+        "description": "Example : Questionnaire.Item-page-break-V2",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
       }
     ],
