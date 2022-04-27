@@ -162,18 +162,3 @@ Usage: #example
 * item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
 * item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
-
-/*  old */
-
-* item[=].extension[ItemSettings].extension[OID].valueString = "NRS_OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "NRS_TITLE"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "NRS_STD_VAR"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[description].valueString = "NRS_DESC"
-* item[=].extension[ItemSettings].extension[minValueLabel].valueString = "Min Value"
-* item[=].extension[ItemSettings].extension[maxValueLabel].valueString = "Max Value"
-* item[=].extension[ItemSettings].extension[naOption].valueBoolean = true
-* item[=].extension[ItemSettings].extension[naLabel].valueString = "N/A label"
-* item[=].extension[ItemSettings].extension[fromText].valueString = "1"
-* item[=].extension[ItemSettings].extension[toText].valueString = "100"
