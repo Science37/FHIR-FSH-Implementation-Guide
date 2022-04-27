@@ -187,7 +187,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Attachment-Image-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
 * item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].extension[ItemSettings].extension[label].valueString = "The Item lable"
+* item[=].extension[ItemSettings].extension[label].valueString = "The Item label"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"

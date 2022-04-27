@@ -67,7 +67,7 @@ Usage: #example
 * item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "lable"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field Lable"
+* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field label"
 * item[=].extension[itemRenderingSettings][=].extension[value].valueString = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].extension[itemRenderingSettings][=].extension[type].valueString = "richtext"
 * item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false

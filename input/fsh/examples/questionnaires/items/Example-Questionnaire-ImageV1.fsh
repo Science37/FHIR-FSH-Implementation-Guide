@@ -25,7 +25,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Attachment-Image-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID image"
 * item[=].extension[ItemSettings].extension[title].valueString = "The image Title"
-* item[=].extension[ItemSettings].extension[label].valueString = "The image lable"
+* item[=].extension[ItemSettings].extension[label].valueString = "The image label"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "The image variableName"
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "image standardVariable"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"

@@ -54,7 +54,7 @@ Usage: #example
 
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "label"
 * item[=].extension[itemRenderingSettings][=].extension[version].valueId = "1.0.2-label"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field Lable"
+* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field label"
 * item[=].extension[itemRenderingSettings][=].extension[value].valueString = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].extension[itemRenderingSettings][=].extension[type].valueString = "richtext"
 * item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
