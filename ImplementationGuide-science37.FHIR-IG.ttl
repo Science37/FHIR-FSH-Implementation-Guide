@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-27T16:39:04+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-27T17:38:08+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -409,7 +409,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/parent-reference" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Parent Reference" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Parent Reference" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Parent Reference" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -423,7 +423,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-instance-create-updateat-datetime>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/resource-instance-create-updateat-datetime" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "resource_datetime" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ResourceInstanceCreateUpdateAtDateTime" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 9;
@@ -478,7 +478,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/version" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "version" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Version" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Version" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
