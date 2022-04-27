@@ -82,7 +82,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-27T18:33:33+00:00",
+  "date": "2022-04-27T18:54:13+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -645,7 +645,7 @@
             },
             {
               "url": "label",
-              "valueString": "The Item lable"
+              "valueString": "The Item label"
             },
             {
               "url": "variableName",

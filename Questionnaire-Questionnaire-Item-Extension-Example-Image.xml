@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item Image"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-27T18:33:33+00:00"/>
+  <date value="2022-04-27T18:54:13+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -56,7 +56,7 @@
         <valueString value="The image Title"/>
       </extension>
       <extension url="label">
-        <valueString value="The image lable"/>
+        <valueString value="The image label"/>
       </extension>
       <extension url="variableName">
         <valueString value="The image variableName"/>
