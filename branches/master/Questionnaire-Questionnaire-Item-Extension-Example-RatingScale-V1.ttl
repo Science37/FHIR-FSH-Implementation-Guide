@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-27T19:43:22+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-27T20:06:03+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -79,54 +79,6 @@
          fhir:index 0;
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-Rating-ScaleVersion" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "OID" ];
-         fhir:Extension.valueString [ fhir:value "NRS_OID" ]
-       ], [
-         fhir:index 2;
-         fhir:Extension.url [ fhir:value "title" ];
-         fhir:Extension.valueString [ fhir:value "NRS_TITLE" ]
-       ], [
-         fhir:index 3;
-         fhir:Extension.url [ fhir:value "variableName" ];
-         fhir:Extension.valueString [ fhir:value "NOT Assigned by DD" ]
-       ], [
-         fhir:index 4;
-         fhir:Extension.url [ fhir:value "standardVariable" ];
-         fhir:Extension.valueString [ fhir:value "NRS_STD_VAR" ]
-       ], [
-         fhir:index 5;
-         fhir:Extension.url [ fhir:value "fieldCode" ];
-         fhir:Extension.valueString [ fhir:value "NOT Assigned by DD" ]
-       ], [
-         fhir:index 6;
-         fhir:Extension.url [ fhir:value "description" ];
-         fhir:Extension.valueString [ fhir:value "NRS_DESC" ]
-       ], [
-         fhir:index 7;
-         fhir:Extension.url [ fhir:value "minValueLabel" ];
-         fhir:Extension.valueString [ fhir:value "Min Value" ]
-       ], [
-         fhir:index 8;
-         fhir:Extension.url [ fhir:value "maxValueLabel" ];
-         fhir:Extension.valueString [ fhir:value "Max Value" ]
-       ], [
-         fhir:index 9;
-         fhir:Extension.url [ fhir:value "naOption" ];
-         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-       ], [
-         fhir:index 10;
-         fhir:Extension.url [ fhir:value "naLabel" ];
-         fhir:Extension.valueString [ fhir:value "N/A label" ]
-       ], [
-         fhir:index 11;
-         fhir:Extension.url [ fhir:value "fromText" ];
-         fhir:Extension.valueString [ fhir:value "1" ]
-       ], [
-         fhir:index 12;
-         fhir:Extension.url [ fhir:value "toText" ];
-         fhir:Extension.valueString [ fhir:value "100" ]
        ];
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
      ], [

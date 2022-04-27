@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-27T19:43:22+00:00",
+  "date": "2022-04-27T20:06:03+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -73,54 +73,6 @@
             {
               "url": "version",
               "valueId": "1.0.1-Rating-ScaleVersion"
-            },
-            {
-              "url": "OID",
-              "valueString": "NRS_OID"
-            },
-            {
-              "url": "title",
-              "valueString": "NRS_TITLE"
-            },
-            {
-              "url": "variableName",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "standardVariable",
-              "valueString": "NRS_STD_VAR"
-            },
-            {
-              "url": "fieldCode",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "description",
-              "valueString": "NRS_DESC"
-            },
-            {
-              "url": "minValueLabel",
-              "valueString": "Min Value"
-            },
-            {
-              "url": "maxValueLabel",
-              "valueString": "Max Value"
-            },
-            {
-              "url": "naOption",
-              "valueBoolean": true
-            },
-            {
-              "url": "naLabel",
-              "valueString": "N/A label"
-            },
-            {
-              "url": "fromText",
-              "valueString": "1"
-            },
-            {
-              "url": "toText",
-              "valueString": "100"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings"

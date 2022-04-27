@@ -210,6 +210,20 @@
     "name": "Example : Questionnaire.Item RichText"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-RichText-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RichText-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item RichText-V1"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-RichText-V2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RichText-V2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item RichText-V2"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-Select",
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Select",
