@@ -469,6 +469,7 @@
         "integer",
         "time",
         "Quantity",
+        "id",
         "base64Binary",
         "boolean",
         "canonical",

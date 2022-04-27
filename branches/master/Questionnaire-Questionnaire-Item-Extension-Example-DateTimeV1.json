@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-27T17:38:08+00:00",
+  "date": "2022-04-27T18:33:33+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -51,7 +51,7 @@
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-dateTime"
+              "valueId": "1.0.1.1"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings"
@@ -61,6 +61,10 @@
             {
               "url": "id",
               "valueString": "sponsorVariable"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-sponsorVariable"
             },
             {
               "url": "label",
@@ -112,6 +116,10 @@
               "valueString": "linkId"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-linkId"
+            },
+            {
               "url": "label",
               "valueString": "LinkId"
             },
@@ -147,6 +155,10 @@
             {
               "url": "id",
               "valueString": "title"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-title"
             },
             {
               "url": "label",
@@ -187,7 +199,11 @@
           "extension": [
             {
               "url": "id",
-              "valueString": "lable"
+              "valueString": "label"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-label"
             },
             {
               "url": "label",
@@ -235,6 +251,10 @@
               "valueString": "standardVariable"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-standardVariable"
+            },
+            {
               "url": "label",
               "valueString": "Standard Variable"
             },
@@ -280,6 +300,10 @@
               "valueString": "description"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-description"
+            },
+            {
               "url": "label",
               "valueString": "Description"
             },
@@ -321,6 +345,10 @@
               "valueString": "datetimeType"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-datetimeType"
+            },
+            {
               "url": "label",
               "valueString": "Type"
             },
@@ -358,6 +386,10 @@
               "valueString": "dateTimeOptions"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-dateTimeOptions"
+            },
+            {
               "url": "value",
               "valueString": "captureDateonSubmit"
             },
@@ -389,6 +421,10 @@
             {
               "url": "id",
               "valueString": "captureTimeonSubmit"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-captureTimeonSubmit"
             },
             {
               "url": "label",
@@ -436,6 +472,10 @@
               "valueString": "minDate"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-minDate"
+            },
+            {
               "url": "label",
               "valueString": "Minimum Date"
             },
@@ -471,6 +511,10 @@
             {
               "url": "id",
               "valueString": "maxDate"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-maxDate"
             },
             {
               "url": "label",
@@ -510,6 +554,10 @@
               "valueString": "completionPeriodOfTime"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-completionPeriodOfTime"
+            },
+            {
               "url": "label",
               "valueString": "Period of time"
             },
@@ -546,12 +594,16 @@
         {
           "extension": [
             {
-              "url": "label",
-              "valueString": "Number of Hours"
-            },
-            {
               "url": "id",
               "valueString": "completionNoOfHours"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-completionPeriodOfTime"
+            },
+            {
+              "url": "label",
+              "valueString": "Number of Hours"
             },
             {
               "url": "value"
@@ -588,6 +640,10 @@
             {
               "url": "id",
               "valueString": "completionNoOfDays"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-completionNoOfDays"
             },
             {
               "url": "label",
@@ -628,6 +684,10 @@
             {
               "url": "id",
               "valueString": "completionNoOfMonths"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-completionNoOfMonths"
             },
             {
               "url": "label",
