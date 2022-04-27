@@ -15,6 +15,7 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
 * item[=].extension[Settings].extension[version].valueId = "1.0.1-dateTime"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
+* item[=].required = true
 
 * item[=].extension[itemRenderingSettings][0].extension[id].valueString = "sponsorVariable"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field OID"

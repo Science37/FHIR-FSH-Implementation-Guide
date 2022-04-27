@@ -1,7 +1,7 @@
 Extension: ItemRenderingSettings
 Id: item-rendering-settings
-Title: "Item Rendering Settings"
-Description: ""
+Title: "Extension : Item Rendering Settings"
+Description: "Extension : Item Rendering Settings"
 * ^context[0].expression = "Questionnaire.item"
 * extension contains
     id 0..1 and 

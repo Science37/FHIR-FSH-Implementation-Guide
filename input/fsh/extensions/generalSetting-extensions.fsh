@@ -22,8 +22,8 @@ Description:     "Extension : Common settings "
 
 Extension: SubStatus
 Id: sub-status
-Title: "Extension : Sub Status"
-Description: ""
+Title: "Extension : SubStatus"
+Description: "Extension : SubStatus"
 * extension.value[x] only string
 * extension ^short  = "SubStatus"
 
@@ -45,7 +45,7 @@ Description: ""
 Extension: Version
 Id: version
 Title: "version"
-Description: ""
+Description: "Extension : Version"
 * extension contains
     type 1..1 and 
     version 1..1
@@ -57,7 +57,7 @@ Description: ""
 Extension: ParentReference
 Id: parent-reference
 Title: "Parent Reference"
-Description: ""
+Description: "Extension : Parent Reference"
 * extension contains
     type 1..1 and 
     value 1..1 
