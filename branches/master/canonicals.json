@@ -91,6 +91,20 @@
     "name": "Example : Questionnaire.Item Header"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-Header-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Header-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Header-V1"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Header-V2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Header-V2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Header-V2"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-Image",
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image",
@@ -98,11 +112,32 @@
     "name": "Example : Questionnaire.Item Image"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-Image-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Image-V1"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-MultiSelect",
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item MultiSelect"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-MultiSelect-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item MultiSelect-V1"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-MultiSelect-V2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect-V2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item MultiSelect-V2"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
