@@ -434,7 +434,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings",
-      "title": "Item Rendering Settings",
+      "title": "Extension : Item Rendering Settings",
       "types": [
         "string",
         "string",
@@ -886,7 +886,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
-      "title": "Extension : Sub Status",
+      "title": "Extension : SubStatus",
       "types": [
         "string",
         "base64Binary",
