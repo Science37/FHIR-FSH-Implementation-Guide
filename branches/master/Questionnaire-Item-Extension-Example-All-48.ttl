@@ -89,7 +89,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-27T18:33:33+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-27T18:54:13+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -622,7 +622,7 @@
        ], [
          fhir:index 3;
          fhir:Extension.url [ fhir:value "label" ];
-         fhir:Extension.valueString [ fhir:value "The Item lable" ]
+         fhir:Extension.valueString [ fhir:value "The Item label" ]
        ], [
          fhir:index 4;
          fhir:Extension.url [ fhir:value "variableName" ];

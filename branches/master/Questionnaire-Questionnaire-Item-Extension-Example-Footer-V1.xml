@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item Footer-V1"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-27T18:33:33+00:00"/>
+  <date value="2022-04-27T18:54:13+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -140,7 +140,7 @@
         <valueString value="lable"/>
       </extension>
       <extension url="label">
-        <valueString value="Field Lable"/>
+        <valueString value="Field label"/>
       </extension>
       <extension url="value">
         <valueString value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>

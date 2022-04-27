@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Settings"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Common Settings "];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-04-27T18:33:33+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-04-27T18:54:13+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "Extension : Common settings "];
   fhir:StructureDefinition.jurisdiction [
