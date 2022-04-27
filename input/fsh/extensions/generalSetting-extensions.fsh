@@ -30,7 +30,7 @@ Description: "Extension : SubStatus"
 
 Extension: ResourceInstanceCreateUpdateAtDateTime
 Id: resource-instance-create-updateat-datetime
-Title: "resource_datetime"
+Title: "Extension : ResourceInstanceCreateUpdateAtDateTime"
 Description: ""
 * extension contains    
     createdAt 0..1 and 
@@ -44,7 +44,7 @@ Description: ""
 
 Extension: Version
 Id: version
-Title: "version"
+Title: "Extension : Version"
 Description: "Extension : Version"
 * extension contains
     type 1..1 and 
@@ -56,7 +56,7 @@ Description: "Extension : Version"
 
 Extension: ParentReference
 Id: parent-reference
-Title: "Parent Reference"
+Title: "Extension : Parent Reference"
 Description: "Extension : Parent Reference"
 * extension contains
     type 1..1 and 

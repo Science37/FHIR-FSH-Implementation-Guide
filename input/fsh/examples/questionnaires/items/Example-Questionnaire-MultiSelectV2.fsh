@@ -38,7 +38,6 @@ Usage: #example
 * item[=].answerOption[=].valueCoding.display = "554"
 * item[=].initial.valueString = "554"
 
-
 * item[=].extension[itemRenderingSettings][0].extension[id].valueString = "sponsorVariable"
 * item[=].extension[itemRenderingSettings][=].extension[value].valueString  = "MULTPLE_CHOICE_OID"
 
