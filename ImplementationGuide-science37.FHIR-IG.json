@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-04-27T17:38:08+00:00",
+  "date": "2022-04-27T18:33:33+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -777,6 +777,34 @@
         },
         "name": "Example : Questionnaire.Item-Number-Decimal",
         "description": "Example : Questionnaire.Item-Number-Decimal",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V1"
+        },
+        "name": "Example : Questionnaire.Item-Number-Decimal-V1",
+        "description": "Example : Questionnaire.Item-Number-Decimal-V1",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V2"
+        },
+        "name": "Example : Questionnaire.Item-Number-Decimal-V2",
+        "description": "Example : Questionnaire.Item-Number-Decimal-V2",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
       },
       {
