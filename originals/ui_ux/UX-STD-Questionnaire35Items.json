@@ -1,0 +1,5529 @@
+{
+    "template": {
+      "id": {
+        "id": "FORM_ID",
+        "label": "Id",
+        "value": "b41ca7b6-7842-4bad-b266-0c7cc1ccdf97",
+        "type": "text",
+        "hidden": true,
+        "required": true,
+        "description": "",
+        "pattern": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+      },
+      "type": {
+        "id": "FORM_TYPE",
+        "required": true,
+        "type": "text",
+        "value": "epro",
+        "label": "Form Type",
+        "hidden": false,
+        "description": "",
+        "pattern": ""
+      },
+      "controlsVersion": {
+        "id": "CONTROL_SCHEMA_VERSION",
+        "label": "",
+        "value": "2",
+        "type": "text",
+        "hidden": true,
+        "required": true,
+        "description": "",
+        "pattern": ""
+      },
+      "items": [
+        {
+          "type": {
+            "type": "header",
+            "linkid":"__S37-form-fields-fe09fa6eto2",
+            "text":"<p>HEADER</p>"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "linkid":"__S37-form-fields-fe09fa6eto2",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-fe09fa6eto2",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "text"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "FOOTER_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-rtqqwsi13dj",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "FOOTER_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "FOOTER_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "FOOTER_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "itemflags":[]
+                },
+                {
+                  "id": "maximumCharacterLength",
+                  "label": "Maximum Character Length",
+                  "value": "",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Default(and maximum) is 254 characters",
+                  "min": 0,
+                  "max": 254,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "defaultPlaceholder",
+                  "label": "Placeholder text",
+                  "value": "",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 254,
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-xnt7tlns1ox",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-xynvdph4mrt",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "value": "<p><span style=\"color: rgb(0,0,0);\">RICHTEXT</span></p>\n",
+            "type": "richtext"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-2cg5vgg5kdh",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "RICH_TEXT",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-nfasgpsb3ta",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-vo2qynrt4tg",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "textarea"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "TEXT_AREA-OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-1nhurf7a3d8",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "TEXT_AREA_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "TEXT_AREA_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "TEXT_AREA_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-jxrus1hebnp",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-s47o5ucbel0",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "value": "",
+            "type": "select",
+            "items": [
+              {
+                "key": "1",
+                "value": "1"
+              },
+              {
+                "key": "2",
+                "value": "2"
+              },
+              {
+                "key": "3",
+                "value": "3"
+              },
+              {
+                "key": "554",
+                "value": "554"
+              }
+            ]
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "DROP_DOWN_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-07p3eyadz6n",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "DROP_DOWN_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>DROP_DOWN_LABEL</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "DROP_DOWN_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "DROP_DOWN_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "options",
+                  "label": "Options",
+                  "value": "1|1```2|2```3|3```554|554",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": true,
+                  "description": "Separate encoding and response text with '|'. e.g. CODE1|ResponseA",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "defaultValue",
+                  "label": "Default Value",
+                  "value": "2",
+                  "type": "select",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "1",
+                      "value": "1"
+                    },
+                    {
+                      "key": "2",
+                      "value": "2"
+                    },
+                    {
+                      "key": "3",
+                      "value": "3"
+                    },
+                    {
+                      "key": "554",
+                      "value": "554"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-op0u019mwcn",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-8q4x6e32cld",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "value": "",
+            "type": "multiselect",
+            "items": [
+              {
+                "key": "1",
+                "value": "1"
+              },
+              {
+                "key": "2",
+                "value": "2"
+              },
+              {
+                "key": "3",
+                "value": "3"
+              },
+              {
+                "key": "4",
+                "value": "4"
+              }
+            ]
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "MULTPLE_CHOICE_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-p8wrfhsd01p",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "MULTPLE_CHOICE_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>MULTPLE_CHOICE_LABLE</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "MULTPLE_CHOICE_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "MULTPLE_CHOICE_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "multipleChoiceType",
+                  "label": "Multiple Choice Type",
+                  "value": "ms",
+                  "type": "select",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "ss",
+                      "value": "Single Select (Radio Button)",
+                      "description": "Options will be presented as radio buttons"
+                    },
+                    {
+                      "key": "ms",
+                      "value": "Multi Select (Checkbox)",
+                      "description": "Options will be presented as checkboxes"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "options",
+                  "label": "Options",
+                  "value": "1|1```2|2```3|3```4|4",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": true,
+                  "description": "Separate encoding and response text with '|'. e.g. CODE1|ResponseA",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "defaultValue",
+                  "label": "Default Value",
+                  "value": "2",
+                  "type": "select",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "1",
+                      "value": "1"
+                    },
+                    {
+                      "key": "2",
+                      "value": "2"
+                    },
+                    {
+                      "key": "3",
+                      "value": "3"
+                    },
+                    {
+                      "key": "4",
+                      "value": "4"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-dzq6q7eilwy",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-adhas4b18nw",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "datetime"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "DATE_TIME_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-qo3cyvy8fgh",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "DATE_TIME_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABLE</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "DATE_TIME_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "DATE_TIME_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "datetimeType",
+                  "label": "Type",
+                  "value": "dt",
+                  "type": "select",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "dt",
+                      "value": "Date and Time"
+                    },
+                    {
+                      "key": "do",
+                      "value": "Date only"
+                    },
+                    {
+                      "key": "to",
+                      "value": "Time only"
+                    }
+                  ],
+                  "bind": [
+                    {
+                      "key": "dt",
+                      "ids": [
+                        "dateTimeOptions",
+                        "minDate",
+                        "maxDate"
+                      ]
+                    },
+                    {
+                      "key": "do",
+                      "ids": [
+                        "dateTimeOptions",
+                        "minDate",
+                        "maxDate"
+                      ]
+                    },
+                    {
+                      "key": "to",
+                      "ids": [
+                        "captureTimeonSubmit"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "dateTimeOptions",
+                  "label": "",
+                  "value": "captureDateonSubmit",
+                  "type": "radiogroup",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "captureDateonSubmit",
+                      "value": "Capture date and time on submit",
+                      "description": "Date field is not editable by user (read only)"
+                    },
+                    {
+                      "key": "dontAllowFutureDate",
+                      "value": "Do not allow future dates",
+                      "description": "Does not allow future dates to be selected"
+                    },
+                    {
+                      "key": "pastFutureDatesAllow",
+                      "value": "Past and future dates are allowed",
+                      "description": "Optionally, set a minimum and/or maximum date"
+                    },
+                    {
+                      "key": "formCompletionDate",
+                      "value": "Create date/time range relative to the form completion date",
+                      "description": "These items can set for previous or future dated items"
+                    }
+                  ],
+                  "bind": [
+                    {
+                      "key": "captureDateonSubmit",
+                      "ids": [
+                        
+                      ]
+                    },
+                    {
+                      "key": "dontAllowFutureDate",
+                      "ids": [
+                        "minDate"
+                      ]
+                    },
+                    {
+                      "key": "pastFutureDatesAllow",
+                      "ids": [
+                        "minDate",
+                        "maxDate"
+                      ]
+                    },
+                    {
+                      "key": "formCompletionDate",
+                      "ids": [
+                        "completionPeriodOfTime",
+                        "completionShouldOccur"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "captureTimeonSubmit",
+                  "label": "Capture time on submit",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Date field is not editable by user (read only)",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "minDate",
+                  "label": "Minimum Date",
+                  "value": "",
+                  "type": "datetime",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "maxDate",
+                  "label": "Maximum Date",
+                  "value": "",
+                  "type": "datetime",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "completionPeriodOfTime",
+                  "label": "Period of time",
+                  "value": "",
+                  "type": "select",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Constrain the response by months, days or hours",
+                  "items": [
+                    {
+                      "key": "hr",
+                      "value": "Hours"
+                    },
+                    {
+                      "key": "days",
+                      "value": "Days"
+                    },
+                    {
+                      "key": "mn",
+                      "value": "Months"
+                    }
+                  ],
+                  "bind": [
+                    {
+                      "key": "hr",
+                      "ids": [
+                        "completionNoOfHours"
+                      ]
+                    },
+                    {
+                      "key": "days",
+                      "ids": [
+                        "completionNoOfDays"
+                      ]
+                    },
+                    {
+                      "key": "mn",
+                      "ids": [
+                        "completionNoOfMonths"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "completionNoOfHours",
+                  "label": "Number of Hours",
+                  "value": "",
+                  "type": "integer",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "min": 1,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "completionNoOfDays",
+                  "label": "Number of Days",
+                  "value": "",
+                  "type": "integer",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "min": 1,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "completionNoOfMonths",
+                  "label": "Number of Months",
+                  "value": "",
+                  "type": "integer",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "min": 1,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "completionShouldOccur",
+                  "label": "Should occur",
+                  "value": "",
+                  "type": "select",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "priorFormCompletion",
+                      "value": "Prior to form completion date"
+                    },
+                    {
+                      "key": "afterFormCompletion",
+                      "value": "After form completion date"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-4e0fdycy2cd",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-zgrhz6p3x8e",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "number"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "NUMBER_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-jntlfakzc05",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "NUMBER_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "NUMBER_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "NUMBER_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "numberType",
+                  "label": "Number Type",
+                  "value": "n",
+                  "type": "select",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "n",
+                      "value": "Number(Integer)"
+                    },
+                    {
+                      "key": "d",
+                      "value": "Decimal"
+                    }
+                  ],
+                  "bind": [
+                    {
+                      "key": "n",
+                      "ids": [
+                        "defaultIntValue",
+                        "minIntValue",
+                        "maxIntValue"
+                      ]
+                    },
+                    {
+                      "key": "d",
+                      "ids": [
+                        "decimalScale",
+                        "defaultDeciValue",
+                        "minDeciValue",
+                        "maxDeciValue"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "decimalScale",
+                  "label": "Decimal Scale",
+                  "value": "1",
+                  "type": "integer",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Number of digits after the decimal point. Must be an integer between 1 and 10",
+                  "pattern": "",
+                  "min": 1,
+                  "max": 10,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "defaultIntValue",
+                  "label": "Default Value",
+                  "value": "100",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "minIntValue",
+                  "label": "Minimum Value",
+                  "value": "1",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "maxIntValue",
+                  "label": "Maximum Value",
+                  "value": "1000",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "defaultDeciValue",
+                  "label": "Default Value",
+                  "value": "",
+                  "type": "decimal",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "minDeciValue",
+                  "label": "Minimum Value",
+                  "value": "",
+                  "type": "decimal",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "maxDeciValue",
+                  "label": "Maximum Value",
+                  "value": "",
+                  "type": "decimal",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-s53fp753mo0",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-t2qwhbek7gq",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "fileupload"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "FILE_UPLOAD_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-q6zbrgullmr",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "FILE_UPLOAD_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "FILE_UPLOAD_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "FILE_UPLOAD_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-89pcuhz38lg",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-ooax8avyr0i",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "ratingscale"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "NRS_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-6qupvhtl05b",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "NRS_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "NRS_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "NRS_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "minValue",
+                  "label": "Min",
+                  "value": "0",
+                  "type": "select",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "0",
+                      "value": "0"
+                    },
+                    {
+                      "key": "1",
+                      "value": "1"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "maxValue",
+                  "label": "Max",
+                  "value": "10",
+                  "type": "select",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "1",
+                      "value": "1"
+                    },
+                    {
+                      "key": "2",
+                      "value": "2"
+                    },
+                    {
+                      "key": "3",
+                      "value": "3"
+                    },
+                    {
+                      "key": "4",
+                      "value": "4"
+                    },
+                    {
+                      "key": "5",
+                      "value": "5"
+                    },
+                    {
+                      "key": "6",
+                      "value": "6"
+                    },
+                    {
+                      "key": "7",
+                      "value": "7"
+                    },
+                    {
+                      "key": "8",
+                      "value": "8"
+                    },
+                    {
+                      "key": "9",
+                      "value": "9"
+                    },
+                    {
+                      "key": "10",
+                      "value": "10"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fromText",
+                  "label": "Minimum Value Label",
+                  "value": "2",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 10000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "toText",
+                  "label": "Maximum Value Label",
+                  "value": "100",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 10000,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "naOption",
+                  "label": "N/A Option",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "bind": [
+                    {
+                      "key": "true",
+                      "ids": [
+                        "naLabel"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "naLabel",
+                  "label": "Label",
+                  "value": "N/A LABLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters.",
+                  "maxLength": 256,
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-qscsmsj4gcc",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-6svph9egljm",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "vasscale"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "VAS_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-h0ae575xlf8",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "Visual Analog Scale",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "VAS_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "VAS_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "2",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "displayValueIndicator",
+                  "label": "Display Value Indicator",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "bind": [
+                    {
+                      "key": "true",
+                      "ids": [
+                        "valueIndicatorLabel"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": true,
+                  "fieldTitle": "Value Indicator"
+                },
+                {
+                  "id": "valueIndicatorLabel",
+                  "label": "Value Indicator Label",
+                  "value": "Your Health Today",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 50,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "minValueLabel",
+                  "label": "Minimum Value Label",
+                  "value": "The worst health you can imagine",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "medValueLabel",
+                  "label": "Median Value Label",
+                  "value": "",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "maxValueLabel",
+                  "label": "Maximum Value Label",
+                  "value": "The best health you can imagine",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "naOption",
+                  "label": "N/A Option",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "bind": [
+                    {
+                      "key": "true",
+                      "ids": [
+                        "naLabel"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "naLabel",
+                  "label": "Not Applicable Label",
+                  "value": "Not Applicable",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 500,
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "scaleDesign",
+              "name": "Scale Design",
+              "description": "Scale Design",
+              "settings": [
+                {
+                  "id": "orientation",
+                  "label": "Orientation",
+                  "value": "vertical",
+                  "type": "radiogroup",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "horizontal",
+                      "value": "Horizontal"
+                    },
+                    {
+                      "key": "vertical",
+                      "value": "Vertical"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "minValue",
+                  "label": "Minimum Value",
+                  "value": "0",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "^[0-9]*",
+                  "min": 0,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "maxValue",
+                  "label": "Maximum Value",
+                  "value": "100",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "^[0-9]*",
+                  "min": 1,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "doNotShowNumValue",
+                  "label": "Do not show numeric value to participant",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "showIncrements",
+                  "label": "Show Increments",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "bind": [
+                    {
+                      "key": "true",
+                      "ids": [
+                        "majorIncrements",
+                        "minorIncrements"
+                      ]
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "majorIncrements",
+                  "label": "Major Increments",
+                  "value": "50",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "^[0-9]*",
+                  "min": 0,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "minorIncrements",
+                  "label": "Minor Increments",
+                  "value": "10",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "pattern": "^[0-9]*",
+                  "min": 0,
+                  "unique": false,
+                  "disabled": true
+                },
+                {
+                  "id": "interactionType",
+                  "label": "Show value slider",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": true,
+                  "fieldTitle": "Interaction Type"
+                },
+                {
+                  "id": "scaleSize",
+                  "label": "Scale Size",
+                  "value": "consistentScale",
+                  "type": "radiogroup",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "items": [
+                    {
+                      "key": "scaleBasedOnDevice",
+                      "value": "Scale will adjust based on device size"
+                    },
+                    {
+                      "key": "consistentScale",
+                      "value": "Scale will be consistent across all device sizes"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": true
+                }
+              ]
+            },
+            {
+              "id": "optionalPresets",
+              "name": "Optional Presets",
+              "description": "Optional Presets",
+              "settings": [
+                {
+                  "id": "vasPresets",
+                  "label": "VAS Presets",
+                  "value": "vasTenPointIncrement",
+                  "type": "select",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Presets will set and lock configuration settings below",
+                  "items": [
+                    {
+                      "key": "vasOnePointIncrement",
+                      "value": "EQ VAS - 1 Point Increment"
+                    },
+                    {
+                      "key": "vasTenPointIncrement",
+                      "value": "EQ VAS - 10 Point Increment"
+                    }
+                  ],
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-f0tlgmja5u1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-vatjdyx0wbt",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "derived"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "sponsorVariable",
+                  "label": "Field OID",
+                  "value": "DERIVED_FIELD_OID",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "^(?!.* ).*$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-2zpvlwq3a1c",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "DERIVED_FIELD_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>DERIVED_FIELD_LABLE</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldVariableName",
+                  "label": "Field Variable Name",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "standardVariable",
+                  "label": "Standard Variable",
+                  "value": "DERIVED_FIELD_STD_VAR",
+                  "type": "text",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Max of 256 characters",
+                  "maxLength": 256,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "fieldCode",
+                  "label": "Field Code",
+                  "value": "",
+                  "type": "text",
+                  "hidden": true,
+                  "required": false,
+                  "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                  "maxLength": 8,
+                  "pattern": "^$|^[a-zA-Z0-9_]+$",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "DERIVED_FIELD_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            },
+            {
+              "id": "miscSettings",
+              "name": "Miscellaneous Settings",
+              "description": "Miscellaneous Settings",
+              "settings": [
+                {
+                  "id": "requiredField",
+                  "label": "Required field",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            },
+            {
+              "id": "dataSettings",
+              "name": "Data Settings",
+              "description": "Data Settings",
+              "settings": [
+                {
+                  "id": "scale",
+                  "label": "Decimal Scale",
+                  "value": "10",
+                  "type": "integer",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Must be an integer from 0 to 10.",
+                  "min": 0,
+                  "max": 10,
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "formula",
+                  "label": "Derived Value",
+                  "value": "2",
+                  "type": "formula",
+                  "hidden": false,
+                  "required": false,
+                  "description": "Excel formula to calculate a value based on other form fields. Inputs are represented as %{X} where X is the Field OID of the desired input form field.",
+                  "unique": false,
+                  "disabled": false
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "pagebreak"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-4xr9avg1uzo",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "header"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "General Field Settings",
+              "description": "General Field Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-5ty77nyvjdc",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "value",
+                  "label": "",
+                  "value": "<p>HEADER</p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            
+          ]
+        },
+        {
+          "type": {
+            "type": "group"
+          },
+          "settings": [
+            {
+              "id": "generalSettings",
+              "name": "Consent Signature Settings",
+              "description": "Consent Signature Settings",
+              "settings": [
+                {
+                  "id": "linkId",
+                  "label": "LinkId",
+                  "value": "__S37-form-fields-0cpmu1yrs91",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "title",
+                  "label": "Title",
+                  "value": "CONSENT_SIG_TITLE",
+                  "type": "text",
+                  "hidden": false,
+                  "required": true,
+                  "description": "",
+                  "maxLength": 100,
+                  "pattern": "",
+                  "unique": true,
+                  "disabled": false
+                },
+                {
+                  "id": "label",
+                  "label": "Field Label",
+                  "value": "<p style=\"text-align:left;\"><strong>CONSENT_SIG_LABLE</strong></p>",
+                  "type": "richtext",
+                  "hidden": false,
+                  "required": false,
+                  "description": "What will display to the respondent.",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "description",
+                  "label": "Description",
+                  "value": "CONSENT_SIG_DESC",
+                  "type": "textarea",
+                  "hidden": false,
+                  "required": false,
+                  "description": "",
+                  "maxLength": 100000,
+                  "pattern": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "isLocked",
+                  "label": "isLocked",
+                  "value": "true",
+                  "type": "checkbox",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "isOrdering",
+                  "label": "isOrdering",
+                  "value": "false",
+                  "type": "checkbox",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "unique": false,
+                  "disabled": false
+                },
+                {
+                  "id": "version",
+                  "label": "",
+                  "value": "1",
+                  "type": "text",
+                  "hidden": true,
+                  "required": true,
+                  "description": "",
+                  "pattern": ""
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "type": {
+                "type": "text"
+              },
+              "settings": [
+                {
+                  "id": "generalSettings",
+                  "name": "General Field Settings (Text)",
+                  "description": "General Field Settings (Text)",
+                  "settings": [
+                    {
+                      "id": "sponsorVariable",
+                      "label": "Field OID",
+                      "value": "CONSENT_SIG_OID",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Max of 256 characters",
+                      "maxLength": 256,
+                      "pattern": "^(?!.* ).*$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "linkId",
+                      "label": "LinkId",
+                      "value": "__S37-form-subfields-40ipzqglpxd",
+                      "type": "text",
+                      "hidden": true,
+                      "required": true,
+                      "description": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "title",
+                      "label": "Title",
+                      "value": "CONSENT_SIG_TITLES",
+                      "type": "text",
+                      "hidden": false,
+                      "required": true,
+                      "description": "",
+                      "maxLength": 100,
+                      "pattern": "",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "label",
+                      "label": "Field Label",
+                      "value": "<p style=\"text-align:left;\"><strong>CONSENT_SIG_TITLES</strong></p>",
+                      "type": "richtext",
+                      "hidden": false,
+                      "required": false,
+                      "description": "What will display to the respondent.",
+                      "maxLength": 2000,
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "fieldVariableName",
+                      "label": "Field Variable Name",
+                      "value": "",
+                      "type": "text",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                      "maxLength": 8,
+                      "pattern": "^$|^[a-zA-Z0-9_]+$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "standardVariable",
+                      "label": "Standard Variable",
+                      "value": "CONSENT_SIG_STD_VAR",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Max of 256 characters",
+                      "maxLength": 256,
+                      "pattern": "",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "fieldCode",
+                      "label": "Field Code",
+                      "value": "",
+                      "type": "text",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                      "maxLength": 8,
+                      "pattern": "^$|^[a-zA-Z0-9_]+$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "description",
+                      "label": "Description",
+                      "value": "CONSENT_SIG_DESC",
+                      "type": "textarea",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "maxLength": 256,
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "version",
+                      "label": "",
+                      "value": "1",
+                      "type": "text",
+                      "hidden": true,
+                      "required": true,
+                      "description": "",
+                      "pattern": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "miscSettings",
+                  "name": "Miscellaneous Settings",
+                  "description": "Miscellaneous Settings",
+                  "settings": [
+                    {
+                      "id": "requiredField",
+                      "label": "Required field",
+                      "value": "true",
+                      "type": "checkbox",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    }
+                  ]
+                },
+                {
+                  "id": "dataSettings",
+                  "name": "Data Settings (Text)",
+                  "description": "Data Settings (Text)",
+                  "settings": [
+                    {
+                      "id": "maximumCharacterLength",
+                      "label": "Maximum Character Length",
+                      "value": "254",
+                      "type": "integer",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Default(and maximum) is 254 characters",
+                      "min": 0,
+                      "max": 254,
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "defaultPlaceholder",
+                      "label": "Placeholder Text",
+                      "value": "CONSENT_SIG_PLACEHOLDER_TEXT",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "maxLength": 254,
+                      "unique": false,
+                      "disabled": false
+                    }
+                  ]
+                }
+              ],
+              "items": [
+                
+              ]
+            },
+            {
+              "type": {
+                "type": "signature"
+              },
+              "settings": [
+                {
+                  "id": "generalSettings",
+                  "name": "General Field Settings (Signature)",
+                  "description": "General Field Settings (Signature)",
+                  "settings": [
+                    {
+                      "id": "sponsorVariable",
+                      "label": "Field OID",
+                      "value": "GS_CONSENT_SIG_FIELD_OID",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Max of 256 characters",
+                      "maxLength": 256,
+                      "pattern": "^(?!.* ).*$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "linkId",
+                      "label": "LinkId",
+                      "value": "__S37-form-subfields-ixsrqxlpfzh",
+                      "type": "text",
+                      "hidden": true,
+                      "required": true,
+                      "description": "",
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "title",
+                      "label": "Title",
+                      "value": "GS_CONSENT_SIG_FIELD_TITLE",
+                      "type": "text",
+                      "hidden": false,
+                      "required": true,
+                      "description": "",
+                      "maxLength": 100,
+                      "pattern": "",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "label",
+                      "label": "Field Label",
+                      "value": "<p style=\"text-align:left;\"><strong>GS_CONSENT_SIG_FIELD_LABEL</strong></p>",
+                      "type": "richtext",
+                      "hidden": false,
+                      "required": false,
+                      "description": "What will display to the respondent.",
+                      "maxLength": 2000,
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "fieldVariableName",
+                      "label": "Field Variable Name",
+                      "value": "",
+                      "type": "text",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                      "maxLength": 8,
+                      "pattern": "^$|^[a-zA-Z0-9_]+$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "standardVariable",
+                      "label": "Standard Variable",
+                      "value": "GS_CONSENT_SIG_FIELD_STD_VAR",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Max of 256 characters",
+                      "maxLength": 256,
+                      "pattern": "",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "fieldCode",
+                      "label": "Field Code",
+                      "value": "",
+                      "type": "text",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                      "maxLength": 8,
+                      "pattern": "^$|^[a-zA-Z0-9_]+$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "version",
+                      "label": "",
+                      "value": "1",
+                      "type": "text",
+                      "hidden": true,
+                      "required": true,
+                      "description": "",
+                      "pattern": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "miscSettings",
+                  "name": "Miscellaneous Settings",
+                  "description": "Miscellaneous Settings",
+                  "settings": [
+                    {
+                      "id": "requiredField",
+                      "label": "Required field",
+                      "value": "false",
+                      "type": "checkbox",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    }
+                  ]
+                }
+              ],
+              "items": [
+                
+              ]
+            },
+            {
+              "type": {
+                "type": "datetime"
+              },
+              "settings": [
+                {
+                  "id": "generalSettings",
+                  "name": "General Field Settings (Date and Time)",
+                  "description": "General Field Settings (Date and Time)",
+                  "settings": [
+                    {
+                      "id": "sponsorVariable",
+                      "label": "Field OID",
+                      "value": "DS_CONSENT_SIG_FIELD_OID",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Max of 256 characters",
+                      "maxLength": 256,
+                      "pattern": "^(?!.* ).*$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "linkId",
+                      "label": "LinkId",
+                      "value": "__S37-form-subfields-8n77i1rxtuk",
+                      "type": "text",
+                      "hidden": true,
+                      "required": true,
+                      "description": "",
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "title",
+                      "label": "Title",
+                      "value": "DS_CONSENT_SIG_FIELD_TITLE",
+                      "type": "text",
+                      "hidden": false,
+                      "required": true,
+                      "description": "",
+                      "maxLength": 100,
+                      "pattern": "",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "label",
+                      "label": "Field Label",
+                      "value": "<p style=\"text-align:left;\"><strong>DS_CONSENT_SIG_FIELD_LABEL</strong></p>",
+                      "type": "richtext",
+                      "hidden": false,
+                      "required": false,
+                      "description": "What will display to the respondent.",
+                      "maxLength": 2000,
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "fieldVariableName",
+                      "label": "Field Variable Name",
+                      "value": "",
+                      "type": "text",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                      "maxLength": 8,
+                      "pattern": "^$|^[a-zA-Z0-9_]+$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "standardVariable",
+                      "label": "Standard Variable",
+                      "value": "DS_CONSENT_SIG_FIELD_STD_VAR",
+                      "type": "text",
+                      "hidden": false,
+                      "required": false,
+                      "description": "Max of 256 characters",
+                      "maxLength": 256,
+                      "pattern": "",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "fieldCode",
+                      "label": "Field Code",
+                      "value": "",
+                      "type": "text",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Must contain only numbers, letters and underscores. Max of 8 characters",
+                      "maxLength": 8,
+                      "pattern": "^$|^[a-zA-Z0-9_]+$",
+                      "unique": true,
+                      "disabled": false
+                    },
+                    {
+                      "id": "description",
+                      "label": "Description",
+                      "value": "DS_CONSENT_SIG_FIELD_DESC",
+                      "type": "textarea",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "maxLength": 256,
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "version",
+                      "label": "",
+                      "value": "1",
+                      "type": "text",
+                      "hidden": true,
+                      "required": true,
+                      "description": "",
+                      "pattern": ""
+                    }
+                  ]
+                },
+                {
+                  "id": "miscSettings",
+                  "name": "Miscellaneous Settings",
+                  "description": "Miscellaneous Settings",
+                  "settings": [
+                    {
+                      "id": "requiredField",
+                      "label": "Required field",
+                      "value": "true",
+                      "type": "checkbox",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "pattern": "",
+                      "unique": false,
+                      "disabled": false
+                    }
+                  ]
+                },
+                {
+                  "id": "dataSettings",
+                  "name": "Data Settings (Date and Time)",
+                  "description": "Data Settings (Date and Time)",
+                  "settings": [
+                    {
+                      "id": "datetimeType",
+                      "label": "Type",
+                      "value": "dt",
+                      "type": "select",
+                      "hidden": false,
+                      "required": true,
+                      "description": "",
+                      "items": [
+                        {
+                          "key": "dt",
+                          "value": "Date and Time"
+                        },
+                        {
+                          "key": "do",
+                          "value": "Date only"
+                        },
+                        {
+                          "key": "to",
+                          "value": "Time only"
+                        }
+                      ],
+                      "bind": [
+                        {
+                          "key": "dt",
+                          "ids": [
+                            "dateTimeOptions",
+                            "minDate",
+                            "maxDate"
+                          ]
+                        },
+                        {
+                          "key": "do",
+                          "ids": [
+                            "dateTimeOptions",
+                            "minDate",
+                            "maxDate"
+                          ]
+                        },
+                        {
+                          "key": "to",
+                          "ids": [
+                            "captureTimeonSubmit"
+                          ]
+                        }
+                      ],
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "dateTimeOptions",
+                      "label": "",
+                      "value": "captureDateonSubmit",
+                      "type": "radiogroup",
+                      "hidden": false,
+                      "required": false,
+                      "description": "",
+                      "items": [
+                        {
+                          "key": "captureDateonSubmit",
+                          "value": "Capture date and time on submit",
+                          "description": "Date field is not editable by user (read only)"
+                        },
+                        {
+                          "key": "dontAllowFutureDate",
+                          "value": "Do not allow future dates",
+                          "description": "Does not allow future dates to be selected"
+                        },
+                        {
+                          "key": "pastFutureDatesAllow",
+                          "value": "Past and future dates are allowed",
+                          "description": "Optionally, set a minimum and/or maximum date"
+                        }
+                      ],
+                      "bind": [
+                        {
+                          "key": "captureDateonSubmit",
+                          "ids": [
+                            
+                          ]
+                        },
+                        {
+                          "key": "dontAllowFutureDate",
+                          "ids": [
+                            "minDate"
+                          ]
+                        },
+                        {
+                          "key": "pastFutureDatesAllow",
+                          "ids": [
+                            "minDate",
+                            "maxDate"
+                          ]
+                        }
+                      ],
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "captureTimeonSubmit",
+                      "label": "Capture time on submit",
+                      "value": "false",
+                      "type": "checkbox",
+                      "hidden": true,
+                      "required": false,
+                      "description": "Date field is not editable by user (read only)",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "minDate",
+                      "label": "Minimum Date",
+                      "value": "",
+                      "type": "datetime",
+                      "hidden": true,
+                      "required": false,
+                      "description": "",
+                      "unique": false,
+                      "disabled": false
+                    },
+                    {
+                      "id": "maxDate",
+                      "label": "Maximum Date",
+                      "value": "",
+                      "type": "datetime",
+                      "hidden": true,
+                      "required": false,
+                      "description": "",
+                      "unique": false,
+                      "disabled": false
+                    }
+                  ]
+                }
+              ],
+              "items": [
+                
+              ]
+            }
+          ]
+        }
+      ],
+      "settings": [
+        {
+          "id": "generalFormSettings",
+          "name": "Configure form settings",
+          "description": "Manage features that are unique to this form",
+          "settings": [
+            {
+              "id": "sponsorVariable",
+              "label": "Form OID",
+              "value": "AWS",
+              "type": "text",
+              "hidden": false,
+              "required": false,
+              "description": "Variable name to identify this form",
+              "maxLength": 256,
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "standardVariable",
+              "label": "Standard Variable",
+              "value": "AWS",
+              "type": "text",
+              "hidden": false,
+              "required": false,
+              "description": "Max of 256 characters",
+              "maxLength": 256,
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "title",
+              "label": "Title",
+              "value": "AWS",
+              "type": "text",
+              "hidden": false,
+              "required": true,
+              "description": "",
+              "maxLength": 100,
+              "unique": true,
+              "disabled": false
+            },
+            {
+              "id": "label",
+              "label": "Label",
+              "value": "AWS",
+              "type": "text",
+              "hidden": false,
+              "required": true,
+              "description": "As displayed to user. Usually the same as title",
+              "maxLength": 100000,
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "description",
+              "label": "Description",
+              "value": "dec",
+              "type": "textarea",
+              "hidden": false,
+              "required": false,
+              "description": "",
+              "maxLength": 100000,
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "name",
+              "label": "name",
+              "value": "",
+              "type": "text",
+              "hidden": true,
+              "required": false,
+              "description": "",
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "status",
+              "label": "status",
+              "value": "DRAFT",
+              "type": "select",
+              "hidden": true,
+              "required": true,
+              "description": "",
+              "items": [
+                {
+                  "key": "DRAFT",
+                  "value": "DRAFT"
+                },
+                {
+                  "key": "READY",
+                  "value": "READY"
+                },
+                {
+                  "key": "RETIRED",
+                  "value": "RETIRED"
+                }
+              ],
+              "unique": false,
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "specificSetting",
+          "name": "Form Specifications",
+          "description": "",
+          "settings": [
+            {
+              "id": "specifications",
+              "label": "Require edit reasoning for respondents",
+              "value": "",
+              "type": "checkbox",
+              "hidden": false,
+              "required": false,
+              "description": "Respondents must specify a reason when changing a response to a field in a form that's already been completed.",
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "excludeFromDataExport",
+              "label": "Exclude this form in data exports",
+              "value": "",
+              "type": "checkbox",
+              "hidden": false,
+              "required": false,
+              "description": "This form will not be included when exporting the trial data.",
+              "unique": false,
+              "disabled": false
+            },
+            {
+              "id": "sourceDataReview",
+              "label": "Require this form's source data to be reviewed",
+              "value": "",
+              "type": "checkbox",
+              "hidden": false,
+              "required": false,
+              "description": "The form will need its data reviewed by a study monitor. By enabling this, you are also giving all accounts with a study monitor role access to view this form and it contents.",
+              "unique": false,
+              "disabled": false
+            }
+          ]
+        },
+        {
+          "id": "languageSetting",
+          "name": "Build Language",
+          "description": "",
+          "settings": [
+            {
+              "id": "defaultLangCode",
+              "label": "Build Language",
+              "value": "en-US",
+              "type": "select",
+              "hidden": false,
+              "required": true,
+              "description": "Select the language this form will be built in",
+              "items": [
+                {
+                  "key": "zh-Hans-CN",
+                  "value": "Chinese (Simplified Han, China)"
+                },
+                {
+                  "key": "zh-Hans-MY",
+                  "value": "Chinese (Simplified Han, Malaysia)"
+                },
+                {
+                  "key": "zh-Hans-SG",
+                  "value": "Chinese (Simplified Han, Singapore)"
+                },
+                {
+                  "key": "zh-Hant-HK",
+                  "value": "Chinese (Traditional Han, Hong Kong)"
+                },
+                {
+                  "key": "zh-Hant-TW",
+                  "value": "Chinese (Traditional Han, Taiwan)"
+                },
+                {
+                  "key": "cs-CZ",
+                  "value": "Czech"
+                },
+                {
+                  "key": "da-DK",
+                  "value": "Danish"
+                },
+                {
+                  "key": "nl-NL",
+                  "value": "Dutch (Netherlands)"
+                },
+                {
+                  "key": "en",
+                  "value": "English"
+                },
+                {
+                  "key": "en-AU",
+                  "value": "English (Australia)"
+                },
+                {
+                  "key": "en-GB",
+                  "value": "English (United Kingdom)"
+                },
+                {
+                  "key": "en-US",
+                  "value": "English (United States)"
+                },
+                {
+                  "key": "en-150",
+                  "value": "European English"
+                },
+                {
+                  "key": "pt-PT",
+                  "value": "European Portuguese"
+                },
+                {
+                  "key": "fi-FI",
+                  "value": "Finnish"
+                },
+                {
+                  "key": "nl-BE",
+                  "value": "Flemish"
+                },
+                {
+                  "key": "fr-FR",
+                  "value": "French"
+                },
+                {
+                  "key": "fr-BE",
+                  "value": "French (Belgium)"
+                },
+                {
+                  "key": "fr-CA",
+                  "value": "French (Canada)"
+                },
+                {
+                  "key": "fr-CH",
+                  "value": "French (Switzerland)"
+                },
+                {
+                  "key": "de-DE",
+                  "value": "German"
+                },
+                {
+                  "key": "de-AT",
+                  "value": "German (Austria)"
+                },
+                {
+                  "key": "el-GR",
+                  "value": "Greek"
+                },
+                {
+                  "key": "hu-HU",
+                  "value": "Hungarian"
+                },
+                {
+                  "key": "it-IT",
+                  "value": "Italian"
+                },
+                {
+                  "key": "it-CH",
+                  "value": "Italian (Switzerland)"
+                },
+                {
+                  "key": "ja-JP",
+                  "value": "Japanese"
+                },
+                {
+                  "key": "ko-KR",
+                  "value": "Korean"
+                },
+                {
+                  "key": "ms-MY",
+                  "value": "Malay"
+                },
+                {
+                  "key": "ms-SG",
+                  "value": "Malay (Singapore)"
+                },
+                {
+                  "key": "nb-NO",
+                  "value": "Norwegian Bokmål"
+                },
+                {
+                  "key": "pl-PL",
+                  "value": "Polish"
+                },
+                {
+                  "key": "pt-BR",
+                  "value": "Portuguese (Brazil)"
+                },
+                {
+                  "key": "ro-RO",
+                  "value": "Romanian"
+                },
+                {
+                  "key": "ru-RU",
+                  "value": "Russian"
+                },
+                {
+                  "key": "es-419",
+                  "value": "Spanish (Latin America)"
+                },
+                {
+                  "key": "es-MX",
+                  "value": "Spanish (Mexico)"
+                },
+                {
+                  "key": "es-PE",
+                  "value": "Spanish (Peru)"
+                },
+                {
+                  "key": "es-ES",
+                  "value": "Spanish (Spain)"
+                },
+                {
+                  "key": "es-US",
+                  "value": "Spanish (United States)"
+                },
+                {
+                  "key": "sv-SE",
+                  "value": "Swedish"
+                },
+                {
+                  "key": "de-CH",
+                  "value": "Swiss German"
+                },
+                {
+                  "key": "th-TH",
+                  "value": "Thai"
+                },
+                {
+                  "key": "tr-TR",
+                  "value": "Turkish"
+                },
+                {
+                  "key": "uk-UA",
+                  "value": "Ukrainian"
+                },
+                {
+                  "key": "vi-VN",
+                  "value": "Vietnamese"
+                },
+                {
+                  "key": "en-001",
+                  "value": "World English"
+                }
+              ],
+              "unique": true,
+              "disabled": true
+            }
+          ]
+        }
+      ],
+      "templateTypes": [
+        {
+          "name": "Participant",
+          "id": "1",
+          "type": "epro"
+        },
+        {
+          "name": "Site",
+          "id": "2",
+          "type": "ecrf"
+        },
+        {
+          "name": "eConsent",
+          "id": "3",
+          "type": "econsent"
+        }
+      ]
+    },
+    "settings": [
+      {
+        "id": "roleAccess",
+        "label": "Role Access",
+        "roles": {
+          "id": "role",
+          "label": "",
+          "type": "select",
+          "items": [
+            {
+              "key": "patient",
+              "value": "Patient"
+            },
+            {
+              "key": "studyMonitor",
+              "value": "Study Monitor"
+            },
+            {
+              "key": "coordinator",
+              "value": "Coordinator"
+            },
+            {
+              "key": "investigator",
+              "value": "Investigator"
+            },
+            {
+              "key": "lar",
+              "value": "LAR"
+            },
+            {
+              "key": "nurse",
+              "value": "Nurse"
+            },
+            {
+              "key": "siteDataManager",
+              "value": "Site Data Manager"
+            }
+          ]
+        },
+        "permissionsFormAccess": {
+          "id": "permission",
+          "type": "select",
+          "items": [
+            {
+              "key": "view",
+              "value": "Read Only"
+            },
+            {
+              "key": "viewEdit",
+              "value": "View / Edit"
+            }
+          ]
+        },
+        "permissionsFieldAccess": {
+          "id": "permission",
+          "type": "buttonSegment",
+          "items": [
+            {
+              "key": "viewEdit",
+              "value": "View / Edit"
+            },
+            {
+              "key": "view",
+              "value": "Read Only"
+            },
+            {
+              "key": "hide",
+              "value": "Hide"
+            }
+          ]
+        },
+        "elements": [
+          {
+            "id": "formAccess",
+            "title": "Form Access",
+            "description": "Define the roles that have view and edit access to this form. Roles inherited from trial build.",
+            "section": {
+              "id": "rolePermissions",
+              "title": "Role Permissions",
+              "description": "",
+              "entries": [
+                {
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "fieldAccess",
+            "title": "Field Access",
+            "description": "Define the roles that have view and edit access to fields added to this form. Field access controls are inherited from form access.",
+            "section": {
+              "id": "fieldPermissions",
+              "entries": [
+                {
+                  "id": "__S37-form-fields-rtqqwsi13dj",
+                  "linkId": "__S37-form-fields-rtqqwsi13dj",
+                  "type": "Text",
+                  "name": "FOOTER_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-2cg5vgg5kdh",
+                  "linkId": "__S37-form-fields-2cg5vgg5kdh",
+                  "type": "Rich Text",
+                  "name": "RICH_TEXT",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-1nhurf7a3d8",
+                  "linkId": "__S37-form-fields-1nhurf7a3d8",
+                  "type": "Text Area",
+                  "name": "TEXT_AREA_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-07p3eyadz6n",
+                  "linkId": "__S37-form-fields-07p3eyadz6n",
+                  "type": "Drop Down",
+                  "name": "DROP_DOWN_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-p8wrfhsd01p",
+                  "linkId": "__S37-form-fields-p8wrfhsd01p",
+                  "type": "Multiple Choice",
+                  "name": "MULTPLE_CHOICE_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-qo3cyvy8fgh",
+                  "linkId": "__S37-form-fields-qo3cyvy8fgh",
+                  "type": "Date and Time",
+                  "name": "DATE_TIME_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-jntlfakzc05",
+                  "linkId": "__S37-form-fields-jntlfakzc05",
+                  "type": "Number",
+                  "name": "NUMBER_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-q6zbrgullmr",
+                  "linkId": "__S37-form-fields-q6zbrgullmr",
+                  "type": "File Upload",
+                  "name": "FILE_UPLOAD_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-6qupvhtl05b",
+                  "linkId": "__S37-form-fields-6qupvhtl05b",
+                  "type": "Numeric Rating Scale",
+                  "name": "NRS_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-h0ae575xlf8",
+                  "linkId": "__S37-form-fields-h0ae575xlf8",
+                  "type": "Visual Analog Scale",
+                  "name": "VAS_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-2zpvlwq3a1c",
+                  "linkId": "__S37-form-fields-2zpvlwq3a1c",
+                  "type": "Derived Field",
+                  "name": "DERIVED_FIELD_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "__S37-form-fields-0cpmu1yrs91",
+                  "linkId": "__S37-form-fields-0cpmu1yrs91",
+                  "type": "Consent Signature",
+                  "name": "CONSENT_SIG_TITLE",
+                  "rolePermissions": [
+                    {
+                      "role": {
+                        "key": "patient",
+                        "value": "Patient"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "coordinator",
+                        "value": "Coordinator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "studyMonitor",
+                        "value": "Study Monitor"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "investigator",
+                        "value": "Investigator"
+                      },
+                      "permission": {
+                        "key": "viewEdit",
+                        "value": "View / Edit"
+                      }
+                    },
+                    {
+                      "role": {
+                        "key": "nurse",
+                        "value": "Nurse"
+                      },
+                      "permission": {
+                        "key": "view",
+                        "value": "Read Only"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "translations": [
+      
+    ]
+  }
