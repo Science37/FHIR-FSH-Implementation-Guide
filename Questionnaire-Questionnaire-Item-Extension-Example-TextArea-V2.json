@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-28T14:41:30+00:00",
+  "date": "2022-04-28T16:16:13+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -68,7 +68,7 @@
             },
             {
               "url": "value",
-              "valueString": "TEXT_AREA-OID"
+              "valueString": "TEXT_AREA_OID"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -107,7 +107,7 @@
             },
             {
               "url": "value",
-              "valueString": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
+              "valueString": "<p style=text-align:left;><strong>TEXT_AREA_LABEL</strong></p>"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -134,6 +134,19 @@
             {
               "url": "value",
               "valueString": "TEXT_AREA_DESC"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "requiredField"
+            },
+            {
+              "url": "value",
+              "valueString": "false"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"

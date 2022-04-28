@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-28T14:41:30+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-28T16:16:13+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -74,7 +74,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "TEXT_AREA-OID" ]
+         fhir:Extension.valueString [ fhir:value "TEXT_AREA_OID" ]
        ];
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
      ], [
@@ -110,7 +110,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>" ]
+         fhir:Extension.valueString [ fhir:value "<p style=text-align:left;><strong>TEXT_AREA_LABEL</strong></p>" ]
        ];
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
      ], [
@@ -139,6 +139,18 @@
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
      ], [
        fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "requiredField" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "false" ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "id" ];

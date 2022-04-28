@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item TextArea-V2"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-28T14:41:30+00:00"/>
+  <date value="2022-04-28T16:16:13+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -50,7 +50,7 @@
         <valueString value="sponsorVariable"/>
       </extension>
       <extension url="value">
-        <valueString value="TEXT_AREA-OID"/>
+        <valueString value="TEXT_AREA_OID"/>
       </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
@@ -74,7 +74,7 @@
         <valueString value="lable"/>
       </extension>
       <extension url="value">
-        <valueString value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;TEXT_AREA_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
+        <valueString value="&lt;p style=text-align:left;&gt;&lt;strong&gt;TEXT_AREA_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
       </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
@@ -91,6 +91,14 @@
       </extension>
       <extension url="value">
         <valueString value="TEXT_AREA_DESC"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="requiredField"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
       </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
