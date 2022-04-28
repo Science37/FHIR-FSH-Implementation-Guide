@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item DateTime V2"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-28T16:16:13+00:00"/>
+  <date value="2022-04-28T17:50:19+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -69,7 +69,7 @@
         <valueString value="lable"/>
       </extension>
       <extension url="value">
-        <valueString value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
+        <valueString value="&lt;p style=text-align:left;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
       </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
@@ -90,7 +90,26 @@
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
       <extension url="id">
+        <valueString value="requiredField"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="1"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
         <valueString value="datetimeType"/>
+      </extension>
+      <extension url="version">
+        <valueId value="1.0.2-datetimeType"/>
       </extension>
       <extension url="value">
         <valueString value="dt"/>
@@ -100,6 +119,9 @@
       <extension url="id">
         <valueString value="dateTimeOptions"/>
       </extension>
+      <extension url="version">
+        <valueId value="1.0.2-dateTimeOptions"/>
+      </extension>
       <extension url="value">
         <valueString value="captureDateonSubmit"/>
       </extension>
@@ -107,6 +129,9 @@
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
       <extension url="id">
         <valueString value="captureTimeonSubmit"/>
+      </extension>
+      <extension url="version">
+        <valueId value="1.0.2-captureTimeonSubmit"/>
       </extension>
       <extension url="value">
         <valueBoolean value="false"/>
@@ -116,6 +141,9 @@
       <extension url="id">
         <valueString value="minDate"/>
       </extension>
+      <extension url="version">
+        <valueId value="1.0.2-minDate"/>
+      </extension>
       <extension url="value">
         <valueDateTime value="2013-06-08T10:57:34+01:00"/>
       </extension>
@@ -124,33 +152,59 @@
       <extension url="id">
         <valueString value="maxDate"/>
       </extension>
+      <extension url="version">
+        <valueId value="1.0.2-maxDate"/>
+      </extension>
       <extension url="value">
-        <valueDateTime value="2022-01-01T10:57:34+01:00"/>
+        <valueDateTime value="2022-06-08T10:57:34+01:00"/>
       </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
       <extension url="id">
         <valueString value="completionPeriodOfTime"/>
       </extension>
-      <extension url="value"/>
+      <extension url="version">
+        <valueId value="1.0.2-completionPeriodOfTime"/>
+      </extension>
+      <extension url="value">
+        <valueString value="xxx"/>
+      </extension>
+      <extension url="type">
+        <valueString value="select"/>
+      </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="numberOfHours"/>
+      </extension>
+      <extension url="version">
+        <valueId value="1.0.2-numberOfHours"/>
+      </extension>
       <extension url="label">
         <valueString value="Number of Hours"/>
       </extension>
-      <extension url="value"/>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
       <extension url="id">
         <valueString value="completionNoOfDays"/>
       </extension>
-      <extension url="value"/>
+      <extension url="version">
+        <valueId value="1.0.2-completionNoOfDays"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Number of Days"/>
+      </extension>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
       <extension url="id">
         <valueString value="completionNoOfMonths"/>
       </extension>
-      <extension url="value"/>
+      <extension url="version">
+        <valueId value="1.0.2-completionNoOfMonths"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Number of Months"/>
+      </extension>
     </extension>
     <linkId value="__S37-form-fields-qo3cyvy8fgh"/>
     <definition value="https://science37.com/NG/widget/id/datetime/version/2.3"/>

@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-28T16:16:13+00:00",
+  "date": "2022-04-28T17:50:19+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -103,7 +103,7 @@
             },
             {
               "url": "value",
-              "valueString": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
+              "valueString": "<p style=text-align:left;><strong>DATE_TIME_LABEL</strong></p>"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -138,7 +138,37 @@
           "extension": [
             {
               "url": "id",
+              "valueString": "requiredField"
+            },
+            {
+              "url": "value",
+              "valueString": "false"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "version"
+            },
+            {
+              "url": "value",
+              "valueString": "1"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
               "valueString": "datetimeType"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-datetimeType"
             },
             {
               "url": "value",
@@ -154,6 +184,10 @@
               "valueString": "dateTimeOptions"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-dateTimeOptions"
+            },
+            {
               "url": "value",
               "valueString": "captureDateonSubmit"
             }
@@ -165,6 +199,10 @@
             {
               "url": "id",
               "valueString": "captureTimeonSubmit"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.2-captureTimeonSubmit"
             },
             {
               "url": "value",
@@ -180,6 +218,10 @@
               "valueString": "minDate"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-minDate"
+            },
+            {
               "url": "value",
               "valueDateTime": "2013-06-08T10:57:34+01:00"
             }
@@ -193,8 +235,12 @@
               "valueString": "maxDate"
             },
             {
+              "url": "version",
+              "valueId": "1.0.2-maxDate"
+            },
+            {
               "url": "value",
-              "valueDateTime": "2022-01-01T10:57:34+01:00"
+              "valueDateTime": "2022-06-08T10:57:34+01:00"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -206,7 +252,16 @@
               "valueString": "completionPeriodOfTime"
             },
             {
-              "url": "value"
+              "url": "version",
+              "valueId": "1.0.2-completionPeriodOfTime"
+            },
+            {
+              "url": "value",
+              "valueString": "xxx"
+            },
+            {
+              "url": "type",
+              "valueString": "select"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -214,11 +269,16 @@
         {
           "extension": [
             {
-              "url": "label",
-              "valueString": "Number of Hours"
+              "url": "id",
+              "valueString": "numberOfHours"
             },
             {
-              "url": "value"
+              "url": "version",
+              "valueId": "1.0.2-numberOfHours"
+            },
+            {
+              "url": "label",
+              "valueString": "Number of Hours"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -230,7 +290,12 @@
               "valueString": "completionNoOfDays"
             },
             {
-              "url": "value"
+              "url": "version",
+              "valueId": "1.0.2-completionNoOfDays"
+            },
+            {
+              "url": "label",
+              "valueString": "Number of Days"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -242,7 +307,12 @@
               "valueString": "completionNoOfMonths"
             },
             {
-              "url": "value"
+              "url": "version",
+              "valueId": "1.0.2-completionNoOfMonths"
+            },
+            {
+              "url": "label",
+              "valueString": "Number of Months"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"

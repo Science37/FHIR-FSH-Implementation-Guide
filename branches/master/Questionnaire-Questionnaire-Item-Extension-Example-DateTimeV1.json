@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-28T16:16:13+00:00",
+  "date": "2022-04-28T17:50:19+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -61,10 +61,6 @@
             {
               "url": "id",
               "valueString": "sponsorVariable"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-sponsorVariable"
             },
             {
               "url": "label",
@@ -116,10 +112,6 @@
               "valueString": "linkId"
             },
             {
-              "url": "version",
-              "valueId": "1.0.2-linkId"
-            },
-            {
               "url": "label",
               "valueString": "LinkId"
             },
@@ -155,10 +147,6 @@
             {
               "url": "id",
               "valueString": "title"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-title"
             },
             {
               "url": "label",
@@ -199,11 +187,7 @@
           "extension": [
             {
               "url": "id",
-              "valueString": "label"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-label"
+              "valueString": "lable"
             },
             {
               "url": "label",
@@ -211,7 +195,7 @@
             },
             {
               "url": "value",
-              "valueString": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
+              "valueString": "<p style=text-align:left;><strong>DATE_TIME_LABEL</strong></p>"
             },
             {
               "url": "type",
@@ -249,10 +233,6 @@
             {
               "url": "id",
               "valueString": "standardVariable"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-standardVariable"
             },
             {
               "url": "label",
@@ -300,10 +280,6 @@
               "valueString": "description"
             },
             {
-              "url": "version",
-              "valueId": "1.0.2-description"
-            },
-            {
               "url": "label",
               "valueString": "Description"
             },
@@ -334,6 +310,68 @@
             {
               "url": "disabled",
               "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "requiredField"
+            },
+            {
+              "url": "label",
+              "valueString": "Required field"
+            },
+            {
+              "url": "value",
+              "valueString": "false"
+            },
+            {
+              "url": "type",
+              "valueString": "checkbox"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "version"
+            },
+            {
+              "url": "value",
+              "valueString": "1"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": true
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
@@ -522,7 +560,7 @@
             },
             {
               "url": "value",
-              "valueDateTime": "2013-06-08T10:57:34+01:00"
+              "valueDateTime": "2022-06-08T10:57:34+01:00"
             },
             {
               "url": "type",
@@ -562,7 +600,8 @@
               "valueString": "Period of time"
             },
             {
-              "url": "value"
+              "url": "value",
+              "valueString": "xxx"
             },
             {
               "url": "type",

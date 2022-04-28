@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-28T16:16:13+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-28T17:50:19+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -397,66 +397,618 @@
        fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "displayValueIndicator" ];
-         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "displayValueIndicator" ]
        ], [
          fhir:index 1;
-         fhir:Extension.url [ fhir:value "valueIndicatorLabel" ];
-         fhir:Extension.valueString [ fhir:value "Your Health Today" ]
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Display Value Indicator" ]
        ], [
          fhir:index 2;
-         fhir:Extension.url [ fhir:value "minValueLabel" ];
-         fhir:Extension.valueString [ fhir:value "The worst healthyou can imagine" ]
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
        ], [
          fhir:index 3;
-         fhir:Extension.url [ fhir:value "maxValueLabel" ];
-         fhir:Extension.valueString [ fhir:value "Type Something " ]
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "checkbox" ]
        ], [
          fhir:index 4;
-         fhir:Extension.url [ fhir:value "medValueLabel" ];
-         fhir:Extension.valueString [ fhir:value "Median Value Label " ]
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ], [
          fhir:index 5;
-         fhir:Extension.url [ fhir:value "naOption" ];
-         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ], [
          fhir:index 6;
-         fhir:Extension.url [ fhir:value "naLabel" ];
-         fhir:Extension.valueString [ fhir:value "The NA Label" ]
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
          fhir:index 7;
-         fhir:Extension.url [ fhir:value "orientation" ];
-         fhir:Extension.valueString [ fhir:value "vertical" ]
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "valueIndicatorLabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Value Indicator Label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "Your Health Today" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "50"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
          fhir:index 8;
-         fhir:Extension.url [ fhir:value "doNotShowNumValue" ];
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "minValueLabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Minimum Value Label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "The lease worst health you can imagine" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "100"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "maxValueLabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Maximum Value Label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "The worst health you can imagine" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "1000"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "maxValueLabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Maximum Value Label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "The worst health you can imagine" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "1000"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "medalueLabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Median Value Label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "The worst health you can imagine" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "100"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "naOption" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "N/A Option" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "false" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "checkbox" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "naLabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "N/A Label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "Not Applicable" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "texgt" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "500"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "orientation" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Orientation" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "vertical" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "radiogroup" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "doNotShowNumValue" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "doNotShowNumValue" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "false" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "checkbox" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "showIncrements" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "showIncrements" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "checkbox" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "minorIncrements" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "minorIncrements" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "10" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "integer" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "pattern" ];
+         fhir:Extension.valueString [ fhir:value "^[0-9]*" ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "minValue" ];
+         fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "unique" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ], [
          fhir:index 9;
-         fhir:Extension.url [ fhir:value "showIncrements" ];
+         fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "majorIncrements" ]
        ], [
-         fhir:index 10;
-         fhir:Extension.url [ fhir:value "minorIncrements" ];
-         fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "majorIncrements" ]
        ], [
-         fhir:index 11;
-         fhir:Extension.url [ fhir:value "majorIncrements" ];
-         fhir:Extension.valueInteger [ fhir:value "10"^^xsd:integer ]
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "50" ]
        ], [
-         fhir:index 12;
-         fhir:Extension.url [ fhir:value "interactionType" ];
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "integer" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "pattern" ];
+         fhir:Extension.valueString [ fhir:value "^[0-9]*" ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "minValue" ];
+         fhir:Extension.valueInteger [ fhir:value "0"^^xsd:integer ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 9;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "interactionType" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
          fhir:Extension.valueString [ fhir:value "Show value slider" ]
        ], [
-         fhir:index 13;
-         fhir:Extension.url [ fhir:value "scaleSize" ];
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "checkbox" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "scaleSize" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "scaleSize" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
          fhir:Extension.valueString [ fhir:value "consistentScale" ]
        ], [
-         fhir:index 14;
-         fhir:Extension.url [ fhir:value "optionalPresets" ];
-         fhir:Extension.valueString [ fhir:value "vasTenPointIncrement" ]
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "radiogroup" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "vasPresets" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "vasPresets" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "vasTenPointIncrement" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "select" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
      ];
      fhir:Questionnaire.item.linkId [ fhir:value "__S37-form-fields-h0ae575xlf8" ];
      fhir:Questionnaire.item.definition [ fhir:value "https://science37.com/NG/widget/id/vasscale/version/2.3" ];
