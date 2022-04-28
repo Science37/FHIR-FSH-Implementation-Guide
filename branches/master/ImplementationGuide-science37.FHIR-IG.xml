@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-04-28T17:50:19+00:00"/>
+  <date value="2022-04-28T19:25:11+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -351,6 +351,28 @@
       </reference>
       <name value="Example : Questionnaire.Item-All-48"/>
       <description value="Example : Questionnaire.Item-All-48"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Item-Extension-Example-All-48-V1"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-All-48-V1"/>
+      <description value="Example : Questionnaire.Item-All-48-V1"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Item-Extension-Example-All-48-V2"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-All-48-V2"/>
+      <description value="Example : Questionnaire.Item-All-48-V2"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
