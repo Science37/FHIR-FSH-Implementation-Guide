@@ -155,3 +155,27 @@ RuleSet: DateTimeCompletionNoOfMonthsV2
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "completionNoOfMonths"
 * item[=].extension[itemRenderingSettings][=].extension[version].valueId = "1.0.2-completionNoOfMonths"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Number of Months"
+
+
+
+RuleSet: FullDatetime
+* insert DateTimeType
+* insert DateTimeOption
+* insert DateTimeCaptureTimeonSubmit
+* insert DateTimeMinDate
+* insert DateTimeMaxDate
+* insert DateTimeCompletionPeriodOfTime
+* insert DateTimeNumberOfHours
+* insert DateTimeCompletionNoOfDays
+* insert DateTimeCompletionNoOfMonths
+
+RuleSet: FullDatetimeV2
+* insert DateTimeTypeV2
+* insert DateTimeOptionV2
+* insert DateTimeCaptureTimeonSubmitV2
+* insert DateTimeMinDateV2
+* insert DateTimeMaxDateV2
+* insert DateTimeCompletionPeriodOfTimeV2
+* insert DateTimeNumberOfHoursV2
+* insert DateTimeCompletionNoOfDaysV2
+* insert DateTimeCompletionNoOfMonthsV2

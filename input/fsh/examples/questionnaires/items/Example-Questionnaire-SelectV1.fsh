@@ -12,7 +12,6 @@ Usage: #example
 
 /* Item  Level Information */
 * item[0].type = #choice
-
 * item[=].linkId = "__S37-form-fields-p8wrfhsd01p"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/Select/version/2.3"
