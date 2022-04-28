@@ -24,11 +24,11 @@
   fhir:StructureDefinition.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"];
   fhir:StructureDefinition.version [ fhir:value "1.0.0-S37"];
   fhir:StructureDefinition.name [ fhir:value "QuestionnaireS37"];
-  fhir:StructureDefinition.title [ fhir:value "Profile : Questionnaire.item extensions"];
+  fhir:StructureDefinition.title [ fhir:value "Profile : Questionnaire"];
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2022-04-07T10:59:49+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
-  fhir:StructureDefinition.description [ fhir:value "Profile : Questionnaire.item extensions"];
+  fhir:StructureDefinition.description [ fhir:value "Profile : Questionnaire"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

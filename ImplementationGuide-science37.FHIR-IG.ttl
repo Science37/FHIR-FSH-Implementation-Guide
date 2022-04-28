@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-28T19:36:30+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-28T20:42:10+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -312,8 +312,8 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : Questionnaire.item extensions" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile : Questionnaire.item extensions" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : Questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile : Questionnaire" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;

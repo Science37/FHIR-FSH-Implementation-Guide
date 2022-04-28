@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-04-28T19:36:30+00:00",
+  "date": "2022-04-28T20:42:10+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -329,8 +329,8 @@
         "reference": {
           "reference": "StructureDefinition/questionnaire-s37"
         },
-        "name": "Profile : Questionnaire.item extensions",
-        "description": "Profile : Questionnaire.item extensions",
+        "name": "Profile : Questionnaire",
+        "description": "Profile : Questionnaire",
         "exampleBoolean": false
       },
       {

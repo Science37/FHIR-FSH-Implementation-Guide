@@ -1190,7 +1190,7 @@
     "Questionnaire": [
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
-        "title": "Profile : Questionnaire.item extensions"
+        "title": "Profile : Questionnaire"
       }
     ]
   },

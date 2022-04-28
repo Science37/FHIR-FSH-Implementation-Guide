@@ -18,11 +18,11 @@
   "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
   "version": "1.0.0-S37",
   "name": "QuestionnaireS37",
-  "title": "Profile : Questionnaire.item extensions",
+  "title": "Profile : Questionnaire",
   "status": "active",
   "date": "2022-04-07T10:59:49+00:00",
   "publisher": "Science37",
-  "description": "Profile : Questionnaire.item extensions",
+  "description": "Profile : Questionnaire",
   "jurisdiction": [
     {
       "coding": [
