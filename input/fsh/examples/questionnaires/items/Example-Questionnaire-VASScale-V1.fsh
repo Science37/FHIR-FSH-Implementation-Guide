@@ -34,20 +34,25 @@ Usage: #example
 * insert VersionRS(1)
 
 
+/*VAS*/
+* insert VASDisplayValueIndicator
+* insert VASValueIndicatorLabel
+* insert VASMinValueLabel
+* insert VASMaxValueLabel
+* insert VASMaxValueLabel
+* insert VASMedValueLabel
+* insert VASNAOption
+* insert VASNALabel
+* insert VASScaleOrientation
+* insert VASDoNotShowNumValue
+* insert VASShowIncrements
+* insert VASMinorIncrements
+* insert VASMajorIncrements
+* insert VASInteractionType
+* insert VASScaleSize
+* insert VASVASPresent
 
 
-* item[=].extension[VASScaleItem].extension[displayValueIndicator].valueBoolean = true
-* item[=].extension[VASScaleItem].extension[valueIndicatorLabel].valueString = "Your Health Today"
-* item[=].extension[VASScaleItem].extension[minValueLabel].valueString = "The worst healthyou can imagine"
-* item[=].extension[VASScaleItem].extension[maxValueLabel].valueString = "Type Something "
-* item[=].extension[VASScaleItem].extension[medValueLabel].valueString = "Median Value Label "
-* item[=].extension[VASScaleItem].extension[naOption].valueBoolean = true
-* item[=].extension[VASScaleItem].extension[naLabel].valueString = "The NA Label"
-* item[=].extension[VASScaleItem].extension[orientation].valueString = "vertical"
-* item[=].extension[VASScaleItem].extension[doNotShowNumValue].valueBoolean = false
-* item[=].extension[VASScaleItem].extension[showIncrements].valueBoolean = true
-* item[=].extension[VASScaleItem].extension[minorIncrements].valueInteger = 1
-* item[=].extension[VASScaleItem].extension[majorIncrements].valueInteger = 10
-* item[=].extension[VASScaleItem].extension[interactionType].valueString = "Show value slider"
-* item[=].extension[VASScaleItem].extension[scaleSize].valueString = "consistentScale"
-* item[=].extension[VASScaleItem].extension[optionalPresets].valueString = "vasTenPointIncrement"
+
+
+
