@@ -1,8 +1,8 @@
 Profile: QuestionnaireS37
 Parent: Questionnaire
 Id: questionnaire-s37
-Title: "Profile : Questionnaire.item extensions"
-Description: "Profile : Questionnaire.item extensions"
+Title: "Profile : Questionnaire"
+Description: "Profile : Questionnaire"
 * version 1..1 
 * version = "1.0.0A-S37"
 * ^status = #active
