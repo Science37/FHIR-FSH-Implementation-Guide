@@ -1,10 +1,10 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 138, warn = 116, info = 126
-IG Publisher Version: 1.1.115
-Generated Wed Apr 27 20:09:15 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
- Build Errors : 300 / 2 / 0
+err = 147, warn = 132, info = 145
+IG Publisher Version: 1.1.116
+Generated Thu Apr 28 14:44:30 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+ Build Errors : 330 / 2 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 43
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 1 / 1 / 1
@@ -38,8 +38,14 @@ Generated Wed Apr 27 20:09:15 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText-V1 : 3 / 2 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText-V2 : 3 / 2 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select : 2 / 3 / 6
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1 : 2 / 1 / 7
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2 : 2 / 1 / 7
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 1 / 4 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1 : 2 / 4 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2 : 1 / 4 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 1 / 3 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1 : 1 / 3 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2 : 1 / 3 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 2 / 3 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derived : 2 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derivedV1 : 4 / 1 / 3
@@ -219,16 +225,46 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RichText.json.html#/html/body/div/div/div/p/a at Line 323, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RichText.ttl.html#/html/body/div/div/div/p/a at Line 317, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-RichText.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1.json.html#/html/body/div/div/div/p/a at Line 579, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1.ttl.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1.xml.html#/html/body/div/div/div/p/a at Line 496, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2.json.html#/html/body/div/div/div/p/a at Line 399, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2.ttl.html#/html/body/div/div/div/p/a at Line 368, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2.xml.html#/html/body/div/div/div/p/a at Line 361, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select.json.html#/html/body/div/div/div/p/a at Line 358, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select.ttl.html#/html/body/div/div/div/p/a at Line 341, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Select.xml.html#/html/body/div/div/div/p/a at Line 333, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1.json.html#/html/body/div/div/div/p/a at Line 633, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1.ttl.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1.xml.html#/html/body/div/div/div/p/a at Line 528, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2.json.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2.ttl.html#/html/body/div/div/div/p/a at Line 320, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2.xml.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text.json.html#/html/body/div/div/div/p/a at Line 328, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text.ttl.html#/html/body/div/div/div/p/a at Line 320, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-Text.xml.html#/html/body/div/div/div/p/a at Line 304, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1.json.html#/html/body/div/div/div/p/a at Line 602, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1.ttl.html#/html/body/div/div/div/p/a at Line 521, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1.xml.html#/html/body/div/div/div/p/a at Line 507, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2.json.html#/html/body/div/div/div/p/a at Line 377, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2.ttl.html#/html/body/div/div/div/p/a at Line 353, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2.xml.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-TextArea.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link '' for "Science37" cannot be resolved
@@ -319,7 +355,7 @@ ERROR: /github/workspace/output/StructureDefinition-parent-reference.profile.jso
 ERROR: /github/workspace/output/StructureDefinition-parent-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 988, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-parent-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 1038, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-definitions.html#/html/body/div/div/div/p/a at Line 1437, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-examples.html#/html/body/div/div/div/p/a at Line 520, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-examples.html#/html/body/div/div/div/p/a at Line 556, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-mappings.html#/html/body/div/div/div/p/a at Line 420, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.html#/html/body/div/div/div/p/a at Line 1626, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.history.html#/html/body/div/div/div/p/a at Line 258, column 28: The link '' for "Science37" cannot be resolved
@@ -361,7 +397,7 @@ ERROR: /github/workspace/output/StructureDefinition-version.profile.history.html
 ERROR: /github/workspace/output/StructureDefinition-version.profile.json.html#/html/body/div/div/div/p/a at Line 1122, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-version.profile.ttl.html#/html/body/div/div/div/p/a at Line 976, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-version.profile.xml.html#/html/body/div/div/div/p/a at Line 1016, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 693, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 747, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Science37" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-science37.FHIR-IG.json ==
@@ -704,6 +740,26 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Question
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select-V1.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0]: que-11: 'If one or more answerOption is present, initial[x] must be missing' Rule 'If one or more answerOption is present, initial[x] must be missing' Failed
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0].extension[6].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0].answerOption[0].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V1: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select-V2.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0]: que-11: 'If one or more answerOption is present, initial[x] must be missing' Rule 'If one or more answerOption is present, initial[x] must be missing' Failed
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0].extension[6].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0].answerOption[0].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select-V2: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
@@ -711,12 +767,42 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text' for 'http://hl7.org/fhir/questionnaire-item-control#text'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text-V1.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.item[0]: que-10: 'Maximum length can only be declared for simple question types' Rule 'Maximum length can only be declared for simple question types' Failed
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text' for 'http://hl7.org/fhir/questionnaire-item-control#text'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.item[0].extension[7].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V1: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text-V2.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V2: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text-V2: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V2: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V2: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text' for 'http://hl7.org/fhir/questionnaire-item-control#text'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Text-V2: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text-V2: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox'
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox' for 'http://hl7.org/fhir/questionnaire-item-control#text-box'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V1.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox' for 'http://hl7.org/fhir/questionnaire-item-control#text-box'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1: Questionnaire.item[0].extension[6].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea-V2.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox' for 'http://hl7.org/fhir/questionnaire-item-control#text-box'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2: Questionnaire.item[0].extension[6].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'

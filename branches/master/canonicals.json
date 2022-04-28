@@ -231,6 +231,20 @@
     "name": "Example : Questionnaire.Item Select"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-Select-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Select-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Select-V1"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Select-V2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Select-V2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Select-V2"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-Text",
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Text",
@@ -238,11 +252,39 @@
     "name": "Example : Questionnaire.Item Text"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-Text-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Text-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Text-V1"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Text-V2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Text-V2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Text-V2"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-TextArea",
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-TextArea",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item TextArea"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-TextArea-V1",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item TextArea-V1"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-TextArea-V2",
+    "type": "Questionnaire",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V2",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item TextArea-V2"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-VASScale",
