@@ -35,11 +35,11 @@
   <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
   <version value="1.0.0-S37"/>
   <name value="QuestionnaireS37"/>
-  <title value="Profile : Questionnaire.item extensions"/>
+  <title value="Profile : Questionnaire"/>
   <status value="active"/>
   <date value="2022-04-07T10:59:49+00:00"/>
   <publisher value="Science37"/>
-  <description value="Profile : Questionnaire.item extensions"/>
+  <description value="Profile : Questionnaire"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
