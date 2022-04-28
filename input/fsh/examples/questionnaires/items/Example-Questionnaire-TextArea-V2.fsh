@@ -24,29 +24,11 @@ Usage: #example
   * valueCodeableConcept.text = $ITEMCONTROL#text-box
 
 
-* item[=].extension[itemRenderingSettings][0].extension[id].valueString = "sponsorVariable"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString  = "TEXT_AREA-OID"
-
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "linkId"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "__S37-form-fields-1nhurf7a3d8"
-
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "title"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "TEXT_AREA_TITLE"
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "lable"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "standardVariable"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "TEXT_AREA_STD_VAR"
-
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "description"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "TEXT_AREA_DESC"
-
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "version"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "1"
-
+* insert SponsorVariableRSV2(TEXT_AREA_OID)
+* insert LinkIdRSV2(__S37-form-fields-1nhurf7a3d8)
+* insert TitleRSV2(TEXT_AREA_TITLE)
+* insert LableRSV2(<p style=text-align:left;><strong>TEXT_AREA_LABEL</strong></p>)
+* insert StandardVariableRSV2(TEXT_AREA_STD_VAR)
+* insert DescriptionRSV2(TEXT_AREA_DESC)
+* insert RequiredRSV2(false)
+* insert VersionRSV2(1)
