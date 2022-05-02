@@ -22,4 +22,4 @@ Description: "Profile : Questionnaire"
 *  item.extension contains ItemRenderingSettings named itemRenderingSettings 0..*
 *  item.item.extension contains ItemRenderingSettings named itemRenderingSettings 0..1
 *  item.extension contains minValue named minValue 0..1
-*  item.item.extension contains minValue named minValue 0..1
+*  item.item.extension contains minValue named minValue 0..1  
