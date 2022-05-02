@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-02T17:39:54+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-02T18:57:01+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -51,10 +51,18 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minValue" ];
+       fhir:Extension.valueInteger [ fhir:value "11"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
+       fhir:Extension.valueInteger [ fhir:value "1100"^^xsd:integer ]
+     ], [
+       fhir:index 3;
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 4;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
@@ -65,14 +73,6 @@
          ];
          fhir:CodeableConcept.text [ fhir:value "vas-scale" ]
        ]
-     ], [
-       fhir:index 3;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minValue" ];
-       fhir:Extension.valueInteger [ fhir:value "11"^^xsd:integer ]
-     ], [
-       fhir:index 4;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
-       fhir:Extension.valueInteger [ fhir:value "1100"^^xsd:integer ]
      ], [
        fhir:index 5;
        fhir:Element.extension [

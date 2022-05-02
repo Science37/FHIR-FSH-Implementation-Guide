@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> Example : Questionnaire.Item Image-V1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image-V1#1.0.0-S37</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" id=\"item.isdfu9s0df8us8dfy\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-attachment.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Attachment\" class=\"hierarchy\"/> isdfu9s0df8us8dfy</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;IMAGE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-attachment\">attachment</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Max Length: 22<br/>Definition: https://science37.com/NG/widget/id/image/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> Example : Questionnaire.Item Image-V1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image-V1#1.0.0-S37</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" id=\"item.__S37-form-fields-isdfu9s0df8us8dfy\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-attachment.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Attachment\" class=\"hierarchy\"/> __S37-form-fields-isdfu9s0df8us8dfy</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;IMAGE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-attachment\">attachment</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Definition: https://science37.com/NG/widget/id/image/version/2.3</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ];
   fhir:Questionnaire.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image-V1"];
   fhir:Questionnaire.identifier [
@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-02T17:39:54+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-02T18:57:01+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -70,48 +70,327 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "version" ];
-         fhir:Extension.valueId [ fhir:value "1.0.1-Attachment-Image-Version" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "OID" ];
-         fhir:Extension.valueString [ fhir:value "OID image" ]
-       ], [
-         fhir:index 2;
-         fhir:Extension.url [ fhir:value "title" ];
-         fhir:Extension.valueString [ fhir:value "The image Title" ]
-       ], [
-         fhir:index 3;
-         fhir:Extension.url [ fhir:value "label" ];
-         fhir:Extension.valueString [ fhir:value "The image label" ]
-       ], [
-         fhir:index 4;
-         fhir:Extension.url [ fhir:value "variableName" ];
-         fhir:Extension.valueString [ fhir:value "The image variableName" ]
-       ], [
-         fhir:index 5;
-         fhir:Extension.url [ fhir:value "standardVariable" ];
-         fhir:Extension.valueString [ fhir:value "image standardVariable" ]
-       ], [
-         fhir:index 6;
-         fhir:Extension.url [ fhir:value "fieldCode" ];
-         fhir:Extension.valueString [ fhir:value "The fieldCode" ]
-       ], [
-         fhir:index 7;
-         fhir:Extension.url [ fhir:value "description" ];
-         fhir:Extension.valueString [ fhir:value "The description" ]
+         fhir:Extension.valueId [ fhir:value "1.0.1-Attachment-Image" ]
        ];
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "sponsorVariable" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Field OID" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "IMAGE_FIELD_OID" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "description" ];
+         fhir:Extension.valueString [ fhir:value "Max of 256 characters" ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "256"^^xsd:integer ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "pattern" ];
+         fhir:Extension.valueString [ fhir:value "^(?!.* ).*$" ]
+       ], [
+         fhir:index 9;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 10;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "linkId" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "LinkId" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "__S37-form-fields-isdfu9s0df8us8dfy" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "title" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Title" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "IMAGE_FIELD_TITLE" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "100"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "lable" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Field label" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "<p style=text-align:left;><strong>IMAGE_LABEL</strong></p>" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "richtext" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "description" ];
+         fhir:Extension.valueString [ fhir:value "What will display to the respondent." ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "2000"^^xsd:integer ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 9;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "standardVariable" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Standard Variable" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "IMAGE_FIELD_STD_VAR" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "description" ];
+         fhir:Extension.valueString [ fhir:value "Max of 256 characters" ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "256"^^xsd:integer ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 9;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "description" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Description" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "IMAGE_FIELD_DESC" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "textarea" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "256"^^xsd:integer ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "requiredField" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Required field" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "false" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "checkbox" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "1" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
      ];
-     fhir:Questionnaire.item.linkId [ fhir:value "isdfu9s0df8us8dfy" ];
+     fhir:Questionnaire.item.linkId [ fhir:value "__S37-form-fields-isdfu9s0df8us8dfy" ];
      fhir:Questionnaire.item.definition [ fhir:value "https://science37.com/NG/widget/id/image/version/2.3" ];
      fhir:Questionnaire.item.text [ fhir:value "<p style=\"text-align:left;\"><strong>IMAGE_UPLOAD_LABEL</strong></p>" ];
      fhir:Questionnaire.item.type [ fhir:value "attachment" ];
-     fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ];
-     fhir:Questionnaire.item.maxLength [ fhir:value "22"^^xsd:integer ];
-     fhir:Questionnaire.item.initial [
-       fhir:index 0;
-       fhir:Questionnaire.item.initial.valueString [ fhir:value " Replacement for defaultPlaceholder" ]
-     ]
+     fhir:Questionnaire.item.required [ fhir:value "true"^^xsd:boolean ]
   ] .
 
 # - ontology header ------------------------------------------------------------
