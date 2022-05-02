@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Questionnaire xmlns="http://hl7.org/fhir">
+  <id value="Questionnaire-Extension-Example"/>
+  <meta>
+    <profile value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> Example : Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example#1.0.0-S37</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings">
+    <extension url="subStatus">
+      <valueString value="deleted"/>
+    </extension>
+    <extension url="type">
+      <valueString value="formType"/>
+    </extension>
+    <extension url="buildLanguage">
+      <valueString value="US_English"/>
+    </extension>
+    <extension url="excludeFromDataExport">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="requireDataReview">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="requireEditReason">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="controlSchemaVersion">
+      <valueString value="2.1.9"/>
+    </extension>
+    <extension url="OID">
+      <valueString value="FORM OID"/>
+    </extension>
+    <extension url="standardVariable">
+      <valueString value="FORM Standard Variable"/>
+    </extension>
+    <extension url="title">
+      <valueString value="Form Title"/>
+    </extension>
+    <extension url="label">
+      <valueString value="Form Label"/>
+    </extension>
+    <extension url="createdAt">
+      <valueDateTime value="2015-02-07T13:28:17Z"/>
+    </extension>
+    <extension url="updatedAt">
+      <valueDateTime value="2022-01-01T10:08:10Z"/>
+    </extension>
+  </extension>
+  <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example"/>
+  <identifier>
+    <value value="Form ID-odfu9sdfyisyd78y877"/>
+  </identifier>
+  <version value="1.0.0-S37"/>
+  <name value="Example : Questionnaire"/>
+  <title value="Example : Questionnaire"/>
+  <status value="unknown"/>
+  <subjectType value="Patient"/>
+  <date value="2022-05-02T20:54:37+00:00"/>
+  <publisher value="Science37"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+</Questionnaire>

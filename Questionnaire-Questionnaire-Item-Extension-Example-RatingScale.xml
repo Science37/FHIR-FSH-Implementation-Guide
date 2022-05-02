@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Questionnaire xmlns="http://hl7.org/fhir">
+  <id value="Questionnaire-Item-Extension-Example-RatingScale"/>
+  <meta>
+    <profile value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> Example : Questionnaire.Item RatingScale</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale#1.0.0-S37</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.__S37-form-fields-6qupvhtl05b" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-6qupvhtl05b</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NRS_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/ratingscale/version/2.3</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale"/>
+  <identifier>
+    <value value="Form ID"/>
+  </identifier>
+  <version value="1.0.0-S37"/>
+  <name value="Example : Questionnaire.Item RatingScale"/>
+  <title value="Example : Questionnaire.Item RatingScale"/>
+  <status value="draft"/>
+  <subjectType value="Patient"/>
+  <date value="2022-05-02T20:54:37+00:00"/>
+  <publisher value="Science37"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="rating-scale"/>
+          <display value="rating-scale"/>
+        </coding>
+        <text value="rating-scale"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Rating-ScaleVersion"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="NRS_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="NRS_TITLE"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="NOT Assigned by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="NRS_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="NOT Assigned by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="NRS_DESC"/>
+      </extension>
+      <extension url="minValueLabel">
+        <valueString value="Min Value"/>
+      </extension>
+      <extension url="maxValueLabel">
+        <valueString value="Max Value"/>
+      </extension>
+      <extension url="naOption">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="naLabel">
+        <valueString value="N/A label"/>
+      </extension>
+      <extension url="fromText">
+        <valueString value="1"/>
+      </extension>
+      <extension url="toText">
+        <valueString value="100"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/minValue">
+      <valueInteger value="11"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">
+      <valueInteger value="1100"/>
+    </extension>
+    <linkId value="__S37-form-fields-6qupvhtl05b"/>
+    <definition value="https://science37.com/NG/widget/id/ratingscale/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NRS_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="question"/>
+    <required value="true"/>
+  </item>
+</Questionnaire>

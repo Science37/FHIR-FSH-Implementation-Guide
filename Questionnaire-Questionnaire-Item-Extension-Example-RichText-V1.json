@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-02T18:57:01+00:00",
+  "date": "2022-05-02T20:54:37+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -68,55 +68,6 @@
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "sponsorVariable"
-            },
-            {
-              "url": "label",
-              "valueString": "Field OID"
-            },
-            {
-              "url": "value",
-              "valueString": "RICH_TEXT_FIELD_OID"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "description",
-              "valueString": "Max of 256 characters"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 256
-            },
-            {
-              "url": "pattern",
-              "valueString": "^(?!.* ).*$"
-            },
-            {
-              "url": "unique",
-              "valueBoolean": true
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
         },
         {
           "extension": [
@@ -167,7 +118,7 @@
             },
             {
               "url": "value",
-              "valueString": "RICH_TEXT_ITLE"
+              "valueString": "RICH_TEXT"
             },
             {
               "url": "type",

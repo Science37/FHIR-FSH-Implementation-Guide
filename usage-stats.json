@@ -1240,6 +1240,12 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/datetime-item": [
+      "Questionnaire.item"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/derived-item": [
+      "Questionnaire.item"
+    ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings": [
       "Questionnaire"
     ],
@@ -1254,6 +1260,9 @@
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract": [
       "Questionnaire.item",
       "Questionnaire.item.item"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item": [
+      "Questionnaire.item"
     ]
   }
 }
