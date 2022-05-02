@@ -1,8 +1,0 @@
-canonical: https://science37.github.io/FHIR-FSH-Implementation-Guide
-fhirVersion: 4.0.1
-FSHOnly: true
-applyExtensionMetadataToRoot: false
-id: science37.FHIR-IG
-name: S37FHIRIG
-status: active
-version: 1.0.0-S37
