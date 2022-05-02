@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Questionnaire xmlns="http://hl7.org/fhir">
+  <id value="Questionnaire-Item-Extension-Example-Number-Decimal-V1"/>
+  <meta>
+    <profile value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> Example : Questionnaire.Item Number-Decimal-V1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V1#1.0.0-S37</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.__S37-form-fields-jntlfakzc05" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-jntlfakzc05</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/decimal/version/2.3<br/>Initial Value: decimal = 1.5</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V1"/>
+  <identifier>
+    <value value="Form ID"/>
+  </identifier>
+  <version value="1.0.0-S37"/>
+  <name value="Example : Questionnaire.Item Number-Decimal-V1"/>
+  <title value="Example : Questionnaire.Item Number-Decimal-V1"/>
+  <status value="draft"/>
+  <subjectType value="Patient"/>
+  <date value="2022-05-02T18:57:01+00:00"/>
+  <publisher value="Science37"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+      <valueBoolean value="true"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/minValue">
+      <valueDecimal value="1.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">
+      <valueDecimal value="10.5"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="decimal"/>
+          <display value="decimal"/>
+        </coding>
+        <text value="decimal"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1.1"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="sponsorVariable"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Field OID"/>
+      </extension>
+      <extension url="value">
+        <valueString value="NUMBER_OID"/>
+      </extension>
+      <extension url="type">
+        <valueString value="text"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="description">
+        <valueString value="Max of 256 characters"/>
+      </extension>
+      <extension url="maxLength">
+        <valueInteger value="256"/>
+      </extension>
+      <extension url="pattern">
+        <valueString value="^(?!.* ).*$"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="linkId"/>
+      </extension>
+      <extension url="label">
+        <valueString value="LinkId"/>
+      </extension>
+      <extension url="value">
+        <valueString value="__S37-form-fields-jntlfakzc05"/>
+      </extension>
+      <extension url="type">
+        <valueString value="text"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="title"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Title"/>
+      </extension>
+      <extension url="value">
+        <valueString value="NUMBER_TITLE"/>
+      </extension>
+      <extension url="type">
+        <valueString value="text"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="maxLength">
+        <valueInteger value="100"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="lable"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Field label"/>
+      </extension>
+      <extension url="value">
+        <valueString value="&lt;p style=text-align:left;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
+      </extension>
+      <extension url="type">
+        <valueString value="richtext"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="description">
+        <valueString value="What will display to the respondent."/>
+      </extension>
+      <extension url="maxLength">
+        <valueInteger value="2000"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="standardVariable"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Standard Variable"/>
+      </extension>
+      <extension url="value">
+        <valueString value="NUMBER_STD_VAR"/>
+      </extension>
+      <extension url="type">
+        <valueString value="text"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="description">
+        <valueString value="Max of 256 characters"/>
+      </extension>
+      <extension url="maxLength">
+        <valueInteger value="256"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="description"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Description"/>
+      </extension>
+      <extension url="value">
+        <valueString value="NUMBER_DESC"/>
+      </extension>
+      <extension url="type">
+        <valueString value="textarea"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="maxLength">
+        <valueInteger value="256"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="requiredField"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Required field"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+      <extension url="type">
+        <valueString value="checkbox"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="1"/>
+      </extension>
+      <extension url="type">
+        <valueString value="text"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="true"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="decimalScale"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Decimal Scale"/>
+      </extension>
+      <extension url="value">
+        <valueString value="1"/>
+      </extension>
+      <extension url="type">
+        <valueString value="integer"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="description">
+        <valueString value="Number of digits after the decimal point. Must be an integer between 1 and 10"/>
+      </extension>
+      <extension url="minValue">
+        <valueDecimal value="1.5"/>
+      </extension>
+      <extension url="maxValue">
+        <valueDecimal value="1000.5"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="defaultValue"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Default Value"/>
+      </extension>
+      <extension url="value">
+        <valueDecimal value="1.5"/>
+      </extension>
+      <extension url="type">
+        <valueString value="decimal"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-jntlfakzc05"/>
+    <definition value="https://science37.com/NG/widget/id/decimal/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="question"/>
+    <required value="true"/>
+    <initial>
+      <valueDecimal value="1.5"/>
+    </initial>
+  </item>
+</Questionnaire>
