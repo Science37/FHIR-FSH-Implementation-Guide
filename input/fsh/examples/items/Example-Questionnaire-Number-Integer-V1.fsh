@@ -23,7 +23,7 @@ Usage: #example
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#integer "integer"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#integer
-* item[=].extension[Settings].extension[version].valueId = "1.0.1.1"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1.1"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 

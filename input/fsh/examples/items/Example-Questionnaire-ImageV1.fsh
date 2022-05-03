@@ -20,7 +20,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-Attachment-Image"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Attachment-Image"
 
 * insert SponsorVariableRS(IMAGE_FIELD_OID)
 * insert LinkIdRS(__S37-form-fields-isdfu9s0df8us8dfy)

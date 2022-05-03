@@ -17,8 +17,8 @@ Description: "Profile : Questionnaire"
 *  extension contains RenderingSettings named formSettings 0..*
 
 /*Item Level*/
-*  item.extension contains ItemSettings named Settings 0..1 
-*  item.item.extension contains ItemSettings named Settings 0..1
+/*  item.extension contains ItemSettings named Settings 0..1 
+*  item.item.extension contains ItemSettings named Settings 0..1*/
 
 *  item.extension contains RenderingSettings named itemRenderingSettings 0..*
 *  item.item.extension contains RenderingSettings named itemRenderingSettings 0..1

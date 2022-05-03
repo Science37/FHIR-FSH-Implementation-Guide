@@ -25,7 +25,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 
 * insert SponsorVariableRS(VAS_OID)
 * insert LinkIdRS(__S37-form-fields-h0ae575xlf8)

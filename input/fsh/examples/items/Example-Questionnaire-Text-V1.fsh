@@ -21,7 +21,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Text-Version"
 
 
 

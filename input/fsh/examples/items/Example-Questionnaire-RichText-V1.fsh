@@ -20,7 +20,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
 
 
 

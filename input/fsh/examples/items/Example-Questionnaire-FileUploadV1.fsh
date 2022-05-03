@@ -17,7 +17,7 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
 * item[=].required = true
 
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-fileupload"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-fileupload"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
 * item[=].extension[hidden].valueBoolean = false

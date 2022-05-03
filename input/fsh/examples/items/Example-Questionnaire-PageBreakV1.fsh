@@ -15,11 +15,10 @@ Usage: #example
 
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-page-break-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-page-break-Version"
 
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
-* item[=].extension[Settings].extension[version].valueId = "1.0.1.1"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 

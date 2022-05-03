@@ -30,7 +30,7 @@ Usage: #example
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
 * item[=].required = true
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-fileupload"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-fileupload"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"

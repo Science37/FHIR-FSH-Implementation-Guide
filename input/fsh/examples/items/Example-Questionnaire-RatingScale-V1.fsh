@@ -20,7 +20,7 @@ Usage: #example
 
 * item[=].extension[minValue].valueInteger = 11
 * item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
