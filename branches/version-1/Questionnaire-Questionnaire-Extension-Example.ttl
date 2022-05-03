@@ -34,7 +34,7 @@
        fhir:Extension.url [ fhir:value "updatedAt" ];
        fhir:Extension.valueDateTime [ fhir:value "2022-01-01T10:08:10Z"^^xsd:dateTime ]
      ];
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource--create-updateat-datetime" ]
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime" ]
   ], [
      fhir:index 2;
      fhir:Element.extension [
@@ -129,7 +129,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T16:40:40+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T16:58:51+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

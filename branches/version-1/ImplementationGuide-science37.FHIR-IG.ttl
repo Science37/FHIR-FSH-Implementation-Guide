@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-03T16:40:40+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-03T16:58:51+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -420,8 +420,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource--create-updateat-datetime>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/resource--create-updateat-datetime" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/resource-create-updateat-datetime" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ResourceCreateUpdateAtDateTime" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
