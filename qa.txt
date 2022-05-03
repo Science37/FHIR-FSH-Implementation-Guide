@@ -1,12 +1,12 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 114, warn = 70, info = 150
+err = 114, warn = 46, info = 122
 IG Publisher Version: 1.1.116
-Generated Tue May 03 18:03:06 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
- Build Errors : 185 / 2 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 12 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1 : 75 / 8 / 110
+Generated Tue May 03 18:18:50 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+ Build Errors : 150 / 2 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1 : 75 / 8 / 82
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV1 : 5 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUploadV1 : 2 / 1 / 3
@@ -24,10 +24,7 @@ Generated Tue May 03 18:03:06 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale-V1 : 2 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derivedV1 : 2 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1 : 2 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-datetime-item : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-derived-item : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-observation-extract : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-parent-reference : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 0 / 1
@@ -35,8 +32,6 @@ Generated Tue May 03 18:03:06 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/StructureDefinition-resource-create-updateat-datetime : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-settings : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sub-status : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-vasScale-item : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-version : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -131,20 +126,6 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Examp
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.json.html#/html/body/div/div/div/p/a at Line 355, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.ttl.html#/html/body/div/div/div/p/a at Line 339, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-page-break-V1.xml.html#/html/body/div/div/div/p/a at Line 324, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item-definitions.html#/html/body/div/div/div/p/a at Line 1294, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item-mappings.html#/html/body/div/div/div/p/a at Line 374, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item.html#/html/body/div/div/div/p/a at Line 1406, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item.profile.json.html#/html/body/div/div/div/p/a at Line 6355, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item.profile.ttl.html#/html/body/div/div/div/p/a at Line 5320, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-datetime-item.profile.xml.html#/html/body/div/div/div/p/a at Line 5467, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item-definitions.html#/html/body/div/div/div/p/a at Line 1146, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item-mappings.html#/html/body/div/div/div/p/a at Line 358, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item.html#/html/body/div/div/div/p/a at Line 1290, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item.profile.json.html#/html/body/div/div/div/p/a at Line 5467, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item.profile.ttl.html#/html/body/div/div/div/p/a at Line 4580, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-derived-item.profile.xml.html#/html/body/div/div/div/p/a at Line 4711, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-form-settings-definitions.html#/html/body/div/div/div/p/a at Line 813, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-form-settings-mappings.html#/html/body/div/div/div/p/a at Line 321, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-form-settings.html#/html/body/div/div/div/p/a at Line 875, column 28: The link '' for "Science37" cannot be resolved
@@ -152,13 +133,6 @@ ERROR: /github/workspace/output/StructureDefinition-form-settings.profile.histor
 ERROR: /github/workspace/output/StructureDefinition-form-settings.profile.json.html#/html/body/div/div/div/p/a at Line 3646, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-form-settings.profile.ttl.html#/html/body/div/div/div/p/a at Line 3087, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-form-settings.profile.xml.html#/html/body/div/div/div/p/a at Line 3155, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings-definitions.html#/html/body/div/div/div/p/a at Line 1109, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings-mappings.html#/html/body/div/div/div/p/a at Line 354, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings.html#/html/body/div/div/div/p/a at Line 1386, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings.profile.json.html#/html/body/div/div/div/p/a at Line 5662, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings.profile.ttl.html#/html/body/div/div/div/p/a at Line 4720, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-item-settings.profile.xml.html#/html/body/div/div/div/p/a at Line 4909, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-observation-extract-definitions.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-observation-extract-mappings.html#/html/body/div/div/div/p/a at Line 265, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-observation-extract.html#/html/body/div/div/div/p/a at Line 508, column 28: The link '' for "Science37" cannot be resolved
@@ -209,42 +183,19 @@ ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.history.h
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.json.html#/html/body/div/div/div/p/a at Line 535, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.ttl.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.xml.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item-definitions.html#/html/body/div/div/div/p/a at Line 1442, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item-mappings.html#/html/body/div/div/div/p/a at Line 390, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item.html#/html/body/div/div/div/p/a at Line 1522, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item.profile.json.html#/html/body/div/div/div/p/a at Line 7243, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item.profile.ttl.html#/html/body/div/div/div/p/a at Line 6060, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-vasScale-item.profile.xml.html#/html/body/div/div/div/p/a at Line 6223, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version-definitions.html#/html/body/div/div/div/p/a at Line 369, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version-mappings.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version.html#/html/body/div/div/div/p/a at Line 569, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version.profile.json.html#/html/body/div/div/div/p/a at Line 1122, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version.profile.ttl.html#/html/body/div/div/div/p/a at Line 976, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-version.profile.xml.html#/html/body/div/div/div/p/a at Line 1016, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 486, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 441, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Science37" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-science37.FHIR-IG.json ==
 WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[1].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.DateTimeItem '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[2].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.DerivedItem '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[3].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[4].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[4].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[9].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[9].description: value should not start or finish with whitespace 'Extension...settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[11].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[11].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.VASScaleItem '
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[6].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace 'Extension...settings '
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1.json ==
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' Rule 'The link ids for groups and questions must be unique within the questionnaire' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0].extension[11].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0].extension[12].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
@@ -255,10 +206,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[1].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[1].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[1].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[2].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[2].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[3]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[3].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[3].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[3].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[4].extension[3].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#fileupload in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#fileupload'
@@ -269,10 +218,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[5].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[5].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[5].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[6].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[6].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[7]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[7].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[7].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[7].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[8]: que-10: 'Maximum length can only be declared for simple question types' Rule 'Maximum length can only be declared for simple question types' Failed
@@ -285,10 +232,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[9].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[9].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[9].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[10].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[10].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[11]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[11].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[11].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[11].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[12].extension[3]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
@@ -299,10 +244,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[13].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[13].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[13].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[14].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[14].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[15]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[15].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[15].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[15].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[16].extension[3]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
@@ -313,14 +256,11 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[17].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[17].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[17].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[18].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[18].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[19]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[19].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[19].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[19].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[20].extension[4]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[20].extension[5]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[20].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rating-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rating-scale'
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[20].extension[9].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[20].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
@@ -329,14 +269,11 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[21].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[21].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[21].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[22].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[22].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[23]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[23].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[23].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[23].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[24].extension[4]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[24].extension[5]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[24].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#vas-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#vas-scale'
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[24].extension[9].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[24].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
@@ -345,10 +282,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[25].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[25].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[25].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[26].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[26].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[27]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[27].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[27].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[27].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[28].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox'
@@ -360,14 +295,11 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[29].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[29].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[29].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[30].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[30].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[31]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[31].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[31].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[31].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[32]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[32].extension[3]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[32].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rich-text in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rich-text'
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[32].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[32].text: value should not start or finish with whitespace '<p><span...rgb(0,0,0);">RICHTEXT</span></p>
@@ -377,14 +309,11 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[33].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[33].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[33].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[34].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[34].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[35]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[35].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[35].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[35].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[36]: que-10: 'Maximum length can only be declared for simple question types' Rule 'Maximum length can only be declared for simple question types' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[36].extension[3]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[36].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text'
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[36].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text' for 'http://hl7.org/fhir/questionnaire-item-control#text'
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[36].extension[7].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
@@ -395,10 +324,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[37].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[37].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[37].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[38].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[38].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[39]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[39].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[39].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[39].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[40]: que-11: 'If one or more answerOption is present, initial[x] must be missing' Rule 'If one or more answerOption is present, initial[x] must be missing' Failed
@@ -413,10 +340,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[41].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[41].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[41].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[42].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[42].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[43]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[43].extension[1]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[43].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[43].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[44]: que-11: 'If one or more answerOption is present, initial[x] must be missing' Rule 'If one or more answerOption is present, initial[x] must be missing' Failed
@@ -431,7 +356,6 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[45].extension[9].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[45].extension[10].extension[2]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[45].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[46].extension[2]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[46].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 == fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example.json ==
 WARNING: Questionnaire/Questionnaire-Extension-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -554,25 +478,11 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-derivedV1: Quest
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
-== fsh-generated/resources/StructureDefinition-datetime-item.json ==
-WARNING: StructureDefinition/datetime-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/datetime-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/datetime-item: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/datetime-item'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-derived-item.json ==
-WARNING: StructureDefinition/derived-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/derived-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/derived-item: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/derived-item'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-form-settings.json ==
 WARNING: StructureDefinition/form-settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/form-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/form-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-item-settings.json ==
-WARNING: StructureDefinition/item-settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/item-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/item-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 == fsh-generated/resources/StructureDefinition-observation-extract.json ==
 == fsh-generated/resources/StructureDefinition-parent-reference.json ==
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference'): The Implementation Guide contains no examples for this extension
@@ -585,10 +495,3 @@ WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].s
 WARNING: StructureDefinition/settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/settings'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-sub-status.json ==
-== fsh-generated/resources/StructureDefinition-vasScale-item.json ==
-WARNING: StructureDefinition/vasScale-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/vasScale-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/vasScale-item: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-version.json ==
-WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version'): The Implementation Guide contains no examples for this extension

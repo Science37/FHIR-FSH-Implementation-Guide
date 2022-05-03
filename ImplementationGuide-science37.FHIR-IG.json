@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-03T18:00:02+00:00",
+  "date": "2022-05-03T18:15:57+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -341,52 +341,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/datetime-item"
-        },
-        "name": "Extension : DateTimeItem Settings ",
-        "description": "Extension : Questionnaire.item.DateTimeItem ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/derived-item"
-        },
-        "name": "Extension : DerivedItem Settings ",
-        "description": "Extension : Questionnaire.item.DerivedItem ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/form-settings"
         },
         "name": "Extension : Form Settings ",
         "description": "Extension : Questionnaire.settings ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/item-settings"
-        },
-        "name": "Extension : Item Settings ",
-        "description": "Extension : Questionnaire.item.settings ",
         "exampleBoolean": false
       },
       {
@@ -469,34 +427,6 @@
         },
         "name": "Extension : SubStatus",
         "description": "Extension : SubStatus",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/vasScale-item"
-        },
-        "name": "Extension : VASScaleItem Settings ",
-        "description": "Extension : Questionnaire.item.VASScaleItem ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/version"
-        },
-        "name": "Extension : Version",
-        "description": "Extension : Version",
         "exampleBoolean": false
       },
       {

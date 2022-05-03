@@ -133,32 +133,11 @@
     "name": "Example : Questionnaire.Item page-break-V1"
   },
   {
-    "id": "datetime-item",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/datetime-item",
-    "version": "1.0.0-S37",
-    "name": "DateTimeItem"
-  },
-  {
-    "id": "derived-item",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/derived-item",
-    "version": "1.0.0-S37",
-    "name": "DerivedItem"
-  },
-  {
     "id": "form-settings",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings",
     "version": "1.0.0-S37",
     "name": "FormSettings"
-  },
-  {
-    "id": "item-settings",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings",
-    "version": "1.0.0-S37",
-    "name": "ItemSettings"
   },
   {
     "id": "observation-extract",
@@ -208,19 +187,5 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
     "version": "1.0.0-S37",
     "name": "SubStatus"
-  },
-  {
-    "id": "vasScale-item",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/vasScale-item",
-    "version": "1.0.0-S37",
-    "name": "VASScaleItem"
-  },
-  {
-    "id": "version",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
-    "version": "1.0.0-S37",
-    "name": "Version"
   }
 ]

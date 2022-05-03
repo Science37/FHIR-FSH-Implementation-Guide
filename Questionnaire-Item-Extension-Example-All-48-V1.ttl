@@ -129,7 +129,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T18:00:02+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T18:15:57+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -153,7 +153,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -1012,7 +1012,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -1091,7 +1091,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -1861,7 +1861,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -1940,7 +1940,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -2707,7 +2707,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -2786,7 +2786,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -3632,7 +3632,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -3711,7 +3711,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -4473,7 +4473,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -4552,7 +4552,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -4680,7 +4680,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-Rating-ScaleVersion" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 6;
        fhir:Element.extension [
@@ -5622,7 +5622,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -5701,7 +5701,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -5829,7 +5829,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-VAS-Scale-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 6;
        fhir:Element.extension [
@@ -7155,7 +7155,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -7234,7 +7234,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -8056,7 +8056,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -8135,7 +8135,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -8255,7 +8255,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-Rich-Text-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
@@ -8837,7 +8837,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -8916,7 +8916,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -9036,7 +9036,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-Text-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
@@ -9799,7 +9799,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -9878,7 +9878,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -10733,7 +10733,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -10812,7 +10812,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-header-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
@@ -11668,7 +11668,7 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-page-break-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
