@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ObservationExtract"];
   fhir:StructureDefinition.title [ fhir:value "Extension : observationExtract"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-03T18:15:57+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-03T18:29:57+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
