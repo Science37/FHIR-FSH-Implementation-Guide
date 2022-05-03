@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-03T18:00:02+00:00"/>
+  <date value="2022-05-03T18:15:57+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -217,43 +217,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/datetime-item"/>
-      </reference>
-      <name value="Extension : DateTimeItem Settings "/>
-      <description value="Extension : Questionnaire.item.DateTimeItem "/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/derived-item"/>
-      </reference>
-      <name value="Extension : DerivedItem Settings "/>
-      <description value="Extension : Questionnaire.item.DerivedItem "/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/form-settings"/>
       </reference>
       <name value="Extension : Form Settings "/>
       <description value="Extension : Questionnaire.settings "/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/item-settings"/>
-      </reference>
-      <name value="Extension : Item Settings "/>
-      <description value="Extension : Questionnaire.item.settings "/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -318,28 +285,6 @@
       </reference>
       <name value="Extension : SubStatus"/>
       <description value="Extension : SubStatus"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/vasScale-item"/>
-      </reference>
-      <name value="Extension : VASScaleItem Settings "/>
-      <description value="Extension : Questionnaire.item.VASScaleItem "/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/version"/>
-      </reference>
-      <name value="Extension : Version"/>
-      <description value="Extension : Version"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

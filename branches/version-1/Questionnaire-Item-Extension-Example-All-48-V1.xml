@@ -134,7 +134,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-03T18:00:02+00:00"/>
+  <date value="2022-05-03T18:15:57+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -147,7 +147,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -770,7 +770,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -827,7 +827,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -1391,7 +1391,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -1448,7 +1448,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -2011,7 +2011,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -2068,7 +2068,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -2687,7 +2687,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -2744,7 +2744,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -3302,7 +3302,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -3359,7 +3359,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -3455,7 +3455,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">
       <valueInteger value="1100"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-Rating-ScaleVersion"/>
       </extension>
@@ -4140,7 +4140,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -4197,7 +4197,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -4293,7 +4293,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/maxValue">
       <valueInteger value="1100"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-VAS-Scale-Version"/>
       </extension>
@@ -5256,7 +5256,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -5313,7 +5313,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -5915,7 +5915,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -5972,7 +5972,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -6062,7 +6062,7 @@
         <text value="rich-text"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-Rich-Text-Version"/>
       </extension>
@@ -6486,7 +6486,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -6543,7 +6543,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -6633,7 +6633,7 @@
         <text value="text"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-Text-Version"/>
       </extension>
@@ -7189,7 +7189,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -7246,7 +7246,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -7879,7 +7879,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
@@ -7936,7 +7936,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -8570,7 +8570,7 @@
         <text value="page-break"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-page-break-Version"/>
       </extension>
