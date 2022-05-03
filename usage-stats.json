@@ -1191,8 +1191,7 @@
       "ImplementationGuide.definition.resource"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings": [
-      "Questionnaire.item",
-      "Questionnaire.item.item"
+      "Questionnaire.item"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract": [
       "Questionnaire.item",
