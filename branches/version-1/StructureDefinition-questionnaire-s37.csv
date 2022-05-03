@@ -114,6 +114,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Questionnaire.item.extension","itemRenderingSettings","","",0,*,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings]]} {[]}
+","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.extension","hidden","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/questionnaire-hidden]]} {[]}
 ","Don't display to user","If true, indicates that the extended item should not be displayed to the user.","If an item is hidden, all descendant items are hidden as well.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -124,10 +128,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract]]} {[]}
 ","Extension : observationExtract","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.extension","itemRenderingSettings","","",0,*,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings]]} {[]}
-","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.extension","minValue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/minValue]]} {[]}
@@ -276,6 +276,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Questionnaire.item.item.extension","itemRenderingSettings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings]]} {[]}
+","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.extension","hidden","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/questionnaire-hidden]]} {[]}
 ","Don't display to user","If true, indicates that the extended item should not be displayed to the user.","If an item is hidden, all descendant items are hidden as well.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -286,10 +290,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract]]} {[]}
 ","Extension : observationExtract","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.item.extension","itemRenderingSettings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings]]} {[]}
-","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.extension","minValue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/minValue]]} {[]}

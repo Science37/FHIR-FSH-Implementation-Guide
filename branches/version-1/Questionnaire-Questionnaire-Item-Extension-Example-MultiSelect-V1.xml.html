@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.33"}
-    h3,h4,h5,h6{--heading-prefix:"2.33"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.21"}
+    h3,h4,h5,h6{--heading-prefix:"2.21"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -204,7 +204,7 @@
   &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Example : Questionnaire.Item MultiSelect-V1"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="draft"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.subjectType">subjectType</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="Patient"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2022-05-03T15:10:48+00:00"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2022-05-03T15:15:42+00:00"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Science37"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.jurisdiction">jurisdiction</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -336,7 +336,7 @@
       &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="value"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>
-                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt;p style=&amp;quot;text-align:left;&amp;quot;&amp;gt;&amp;lt;strong&amp;gt;MULTPLE_CHOICE_LABLE&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;"/&gt;
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="&amp;lt;p style=text-align:left;&amp;gt;&amp;lt;strong&amp;gt;MULTPLE_CHOICE_LABLE&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;"/&gt;
       &lt;/extension&gt;
       &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="type"&gt;
         &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="richtext"/&gt;
@@ -423,6 +423,51 @@
         &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
       &lt;/extension&gt;
     &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.item.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="id"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="requiredField"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="label"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Required field"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="value"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="false"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="type"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="checkbox"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="hidden"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="required"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="unique"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="disabled"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="false"/&gt;
+      &lt;/extension&gt;
+    &lt;/extension&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.item.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="id"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="version"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="value"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="type"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="text"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="hidden"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="true"/&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="required"&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>="true"/&gt;
+      &lt;/extension&gt;
+    &lt;/extension&gt;
     &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.item.linkId">linkId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="__S37-form-fields-p8wrfhsd01p"/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/questionnaire.html#Questionnaire.item.definition">definition</a>
                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://science37.com/NG/widget/id/MultiSelect/version/2.3"/&gt;
@@ -492,8 +537,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l1346">​</a>
-          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="null">Science37</a>.  Package science37.FHIR-IG#1.0.0-S37 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 3, 2022 15:10+0000">2022-05-03</span>
+        <p><a name="l1514">​</a>
+          IG &copy; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="null">Science37</a>.  Package science37.FHIR-IG#1.0.0-S37 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 3, 2022 15:15+0000">2022-05-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

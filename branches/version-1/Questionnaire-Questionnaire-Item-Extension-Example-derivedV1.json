@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T15:10:48+00:00",
+  "date": "2022-05-03T15:15:42+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -40,14 +40,6 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
-          "valueBoolean": false
-        },
-        {
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
-          "valueBoolean": true
-        },
-        {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
           "valueCodeableConcept": {
             "coding": [
@@ -59,6 +51,14 @@
             ],
             "text": "derived"
           }
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
+          "valueBoolean": true
         },
         {
           "extension": [
@@ -199,7 +199,7 @@
             },
             {
               "url": "value",
-              "valueString": "<p style=\"text-align:left;\"><strong>DERIVED_FIELD_LABLE</strong></p>"
+              "valueString": "<p style=text-align:left;><strong>DERIVED_FIELD_LABLE</strong></p>"
             },
             {
               "url": "type",
@@ -224,54 +224,6 @@
             {
               "url": "unique",
               "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "fieldVariableName"
-            },
-            {
-              "url": "label",
-              "valueString": "Field Variable Name"
-            },
-            {
-              "url": "value"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "description",
-              "valueString": "Must contain only numbers, letters and underscores. Max of 8 characters"
-            },
-            {
-              "url": "pattern",
-              "valueString": "^$|^[a-zA-Z0-9_]+$"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 8
-            },
-            {
-              "url": "unique",
-              "valueBoolean": true
             },
             {
               "url": "disabled",
@@ -329,54 +281,6 @@
           "extension": [
             {
               "url": "id",
-              "valueString": "fieldCode"
-            },
-            {
-              "url": "label",
-              "valueString": "Field Code"
-            },
-            {
-              "url": "value"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "description",
-              "valueString": "Must contain only numbers, letters and underscores. Max of 8 characters"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 8
-            },
-            {
-              "url": "pattern",
-              "valueString": "^$|^[a-zA-Z0-9_]+$"
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
               "valueString": "description"
             },
             {
@@ -410,6 +314,68 @@
             {
               "url": "disabled",
               "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "requiredField"
+            },
+            {
+              "url": "label",
+              "valueString": "Required field"
+            },
+            {
+              "url": "value",
+              "valueString": "false"
+            },
+            {
+              "url": "type",
+              "valueString": "checkbox"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": false
+            },
+            {
+              "url": "required",
+              "valueBoolean": false
+            },
+            {
+              "url": "unique",
+              "valueBoolean": false
+            },
+            {
+              "url": "disabled",
+              "valueBoolean": false
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "id",
+              "valueString": "version"
+            },
+            {
+              "url": "value",
+              "valueString": "1"
+            },
+            {
+              "url": "type",
+              "valueString": "text"
+            },
+            {
+              "url": "hidden",
+              "valueBoolean": true
+            },
+            {
+              "url": "required",
+              "valueBoolean": true
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
