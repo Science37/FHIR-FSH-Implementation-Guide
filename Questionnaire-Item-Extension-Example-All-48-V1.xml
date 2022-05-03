@@ -125,11 +125,13 @@
       <valueBoolean value="true"/>
     </extension>
   </extension>
-  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language">
-    <valueCode value="US-ENG"/>
-  </extension>
-  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language">
-    <valueCode value="US-ENG2"/>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages">
+    <extension url="language">
+      <valueCode value="US-ENG"/>
+    </extension>
+    <extension url="language">
+      <valueCode value="US-ENG2"/>
+    </extension>
   </extension>
   <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-48-V1"/>
   <identifier>
@@ -140,7 +142,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-03T19:20:08+00:00"/>
+  <date value="2022-05-03T19:37:02+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

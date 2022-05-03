@@ -117,12 +117,16 @@
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
   ], [
      fhir:index 5;
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language" ];
-     fhir:Extension.valueCode [ fhir:value "US-ENG" ]
-  ], [
-     fhir:index 6;
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language" ];
-     fhir:Extension.valueCode [ fhir:value "US-ENG2" ]
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "language" ];
+       fhir:Extension.valueCode [ fhir:value "US-ENG" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "language" ];
+       fhir:Extension.valueCode [ fhir:value "US-ENG2" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages" ]
   ];
   fhir:Questionnaire.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-48-V1"];
   fhir:Questionnaire.identifier [
@@ -137,7 +141,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T19:20:08+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T19:37:02+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

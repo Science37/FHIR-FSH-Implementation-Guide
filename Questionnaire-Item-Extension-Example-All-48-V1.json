@@ -112,12 +112,17 @@
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
     },
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language",
-      "valueCode": "US-ENG"
-    },
-    {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language",
-      "valueCode": "US-ENG2"
+      "extension": [
+        {
+          "url": "language",
+          "valueCode": "US-ENG"
+        },
+        {
+          "url": "language",
+          "valueCode": "US-ENG2"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages"
     }
   ],
   "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-48-V1",
@@ -133,7 +138,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T19:20:08+00:00",
+  "date": "2022-05-03T19:37:02+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
