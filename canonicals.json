@@ -189,9 +189,9 @@
     "name": "RenderingSettings"
   },
   {
-    "id": "resource--create-updateat-datetime",
+    "id": "resource-create-updateat-datetime",
     "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource--create-updateat-datetime",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime",
     "version": "1.0.0-S37",
     "name": "ResourceCreateUpdateAtDateTime"
   },
