@@ -146,7 +146,7 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].extension[minValue].valueInteger = 11
 * item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
 
 * insert SponsorVariableRS(NRS_OID)
 * insert LinkIdRS(__S37-form-fields-6qupvhtl05b)
@@ -233,7 +233,7 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
 * item[=].extension[minValue].valueInteger = 11
 * item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 
 * insert SponsorVariableRS(VAS_OID)
 * insert LinkIdRS(__S37-form-fields-h0ae575xlf8)
@@ -304,7 +304,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
 
 * insert SponsorVariableRS(RICH_TEXT_OID)
 * insert LinkIdRS(__S37-form-fields-2cg5vgg5kdh)
@@ -327,7 +327,7 @@ Usage: #example
 * item[=].required = true
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
 * item[=].maxLength = 22
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Text-Version"
 
 * insert SponsorVariableRS(TEXT_OID)
 * insert LinkIdRS(__S37-form-fields-rtqqwsi13dj)

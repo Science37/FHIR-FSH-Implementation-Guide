@@ -12,13 +12,15 @@ Description: "Profile : Questionnaire"
 *  status 1..1
 /* Form Level*/
 
-*  extension contains SubStatus named subStatus 0..1
-*  extension contains ResourceCreateUpdateAtDateTime named createUpdateAtDateTime 0..1
+/* Form Builder and Rendering utilizes these attributes and cluters of information*/
 *  extension contains RenderingSettings named formSettings 0..*
+/* SubStatus is used to off-set the unknown status to enable elaboration*/
+*  extension contains SubStatus named subStatus 0..1
+/* standard create and update at datetime */
+*  extension contains ResourceCreateUpdateAtDateTime named createUpdateAtDateTime 0..1
+
 
 /*Item Level*/
-/*  item.extension contains ItemSettings named Settings 0..1 
-*  item.item.extension contains ItemSettings named Settings 0..1*/
 
 *  item.extension contains RenderingSettings named itemRenderingSettings 0..*
 *  item.item.extension contains RenderingSettings named itemRenderingSettings 0..1

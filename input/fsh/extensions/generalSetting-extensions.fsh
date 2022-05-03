@@ -44,19 +44,6 @@ Description: ""
 * extension[updatedAt].value[x] only dateTime
 
 
-
-Extension: Version
-Id: version
-Title: "Extension : Version"
-Description: "Extension : Version"
-* extension contains
-    type 1..1 and 
-    version 1..1
-* extension[type] ^short = "type"
-* extension[type].value[x] only string
-* extension[version] ^short = "version"
-* extension[version].value[x] only id
-
 Extension: ParentReference
 Id: parent-reference
 Title: "Extension : Parent Reference"
