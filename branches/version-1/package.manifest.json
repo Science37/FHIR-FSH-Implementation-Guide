@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0-S37",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "date": "20220503150713",
+  "name": "science37.FHIR-IG"
+}
