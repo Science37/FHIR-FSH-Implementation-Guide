@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T15:10:48+00:00",
+  "date": "2022-05-03T15:15:42+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -44,6 +44,14 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueInteger": 11
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueInteger": 1100
+        },
+        {
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
           "valueBoolean": true
         },
@@ -59,14 +67,6 @@
             ],
             "text": "vas-scale"
           }
-        },
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
-          "valueInteger": 11
-        },
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
-          "valueInteger": 1100
         },
         {
           "extension": [

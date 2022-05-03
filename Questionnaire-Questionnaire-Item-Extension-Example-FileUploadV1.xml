@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item FileUpload-V1"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-03T15:10:48+00:00"/>
+  <date value="2022-05-03T15:15:42+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -34,12 +34,6 @@
         <valueId value="1.0.1-fileupload"/>
       </extension>
     </extension>
-    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
-      <valueBoolean value="false"/>
-    </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
-      <valueBoolean value="true"/>
-    </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>
@@ -49,6 +43,12 @@
         </coding>
         <text value="fileupload"/>
       </valueCodeableConcept>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+      <valueBoolean value="true"/>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
       <extension url="id">
@@ -148,7 +148,7 @@
         <valueString value="Field label"/>
       </extension>
       <extension url="value">
-        <valueString value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FILE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
+        <valueString value="&lt;p style=text-align:left;&gt;&lt;strong&gt;FILE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
       </extension>
       <extension url="type">
         <valueString value="richtext"/>
@@ -231,6 +231,49 @@
       </extension>
       <extension url="disabled">
         <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="requiredField"/>
+      </extension>
+      <extension url="label">
+        <valueString value="Required field"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+      <extension url="type">
+        <valueString value="checkbox"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="unique">
+        <valueBoolean value="false"/>
+      </extension>
+      <extension url="disabled">
+        <valueBoolean value="false"/>
+      </extension>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+      <extension url="id">
+        <valueString value="version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="1"/>
+      </extension>
+      <extension url="type">
+        <valueString value="text"/>
+      </extension>
+      <extension url="hidden">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="required">
+        <valueBoolean value="true"/>
       </extension>
     </extension>
     <linkId value="__S37-form-fields-q6zbrgullmr"/>
