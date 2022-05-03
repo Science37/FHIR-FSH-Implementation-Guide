@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T16:58:51+00:00",
+  "date": "2022-05-03T18:00:02+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -54,7 +54,7 @@
               "valueId": "1.0.1-Rating-ScaleVersion"
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",

@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item RichText-V1"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-03T16:58:51+00:00"/>
+  <date value="2022-05-03T18:00:02+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -46,7 +46,7 @@
         <text value="rich-text"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-Rich-Text-Version"/>
       </extension>
