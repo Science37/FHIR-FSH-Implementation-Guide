@@ -34,13 +34,13 @@ Description:     "Extension : Questionnaire.settings "
 * extension[updatedAt].value[x] only dateTime
 
 
-
-Extension: SupportedLanguage
-Id: supported-language
-Title: "Supported Language"
+Extension: SupportedLanguages
+Id: supported-languages
+Title: "Supported Languages"
 Description: ""
 * ^context[0].expression = "Questionnaire"
-* value[x] only code
-* valueCode from http://hl7.org/fhir/ValueSet/languages (required)
-
+* extension contains
+  language 0..*
+* extension[language].value[x] only code
+* extension[language].valueCode from http://hl7.org/fhir/ValueSet/languages (required) /* Extend with valueset to add our specific sub-languages*/
 

@@ -35,8 +35,8 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
-* extension[supportedLanguage][+].valueCode = #US-ENG
-* extension[supportedLanguage][+].valueCode = #US-ENG2
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
 
 * insert SponsorVariableRS(FILE_UPLOAD_OID)
 * insert LinkIdRS(__S37-form-fields-q6zbrgullmr)
