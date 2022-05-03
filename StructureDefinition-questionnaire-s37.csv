@@ -24,8 +24,16 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.extension","settings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings]]} {[]}
-","Extension : Form Settings ","Extension : Questionnaire.settings ","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Questionnaire.extension","subStatus","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status]]} {[]}
+","Extension : SubStatus","Extension : SubStatus","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Questionnaire.extension","createUpdateAtDateTime","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource--create-updateat-datetime]]} {[]}
+","Extension : ResourceCreateUpdateAtDateTime","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Questionnaire.extension","formSettings","","",0,*,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings]]} {[]}
+","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.modifierExtension","","extensions
@@ -114,7 +122,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.extension","itemRenderingSettings","","",0,*,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings]]} {[]}
+"Questionnaire.item.extension","itemRenderingSettings","","",0,*,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings]]} {[]}
 ","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -276,7 +284,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Item Settings ","Extension : Questionnaire.item.settings ","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.item.extension","itemRenderingSettings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings]]} {[]}
+"Questionnaire.item.item.extension","itemRenderingSettings","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings]]} {[]}
 ","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

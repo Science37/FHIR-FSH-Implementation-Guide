@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T15:15:42+00:00",
+  "date": "2022-05-03T16:40:40+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -107,7 +107,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -144,7 +144,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -185,7 +185,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -230,7 +230,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -275,7 +275,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -316,7 +316,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -353,7 +353,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -378,7 +378,7 @@
               "valueBoolean": true
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -426,7 +426,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         },
         {
           "extension": [
@@ -466,7 +466,7 @@
               "valueBoolean": false
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
         }
       ],
       "linkId": "__S37-form-fields-adhas4b1899nw",

@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-03T15:15:42+00:00",
+  "date": "2022-05-03T16:40:40+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -383,20 +383,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/item-rendering-settings"
-        },
-        "name": "Extension : Item Rendering Settings",
-        "description": "Extension : Item Rendering Settings",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/item-settings"
         },
         "name": "Extension : Item Settings ",
@@ -438,9 +424,23 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/resource-instance-create-updateat-datetime"
+          "reference": "StructureDefinition/rendering-settings"
         },
-        "name": "Extension : ResourceInstanceCreateUpdateAtDateTime",
+        "name": "Extension : Item Rendering Settings",
+        "description": "Extension : Item Rendering Settings",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/resource--create-updateat-datetime"
+        },
+        "name": "Extension : ResourceCreateUpdateAtDateTime",
         "exampleBoolean": false
       },
       {
