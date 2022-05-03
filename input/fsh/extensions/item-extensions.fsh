@@ -1,8 +1,11 @@
-Extension: ItemRenderingSettings
-Id: item-rendering-settings
+Extension: RenderingSettings
+Id: rendering-settings
 Title: "Extension : Item Rendering Settings"
 Description: "Extension : Item Rendering Settings"
-* ^context[0].expression = "Questionnaire.item"
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire.item"
 * extension contains
     id 0..1 and 
     label 0..1 and

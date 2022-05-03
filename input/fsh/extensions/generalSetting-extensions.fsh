@@ -24,14 +24,17 @@ Extension: SubStatus
 Id: sub-status
 Title: "Extension : SubStatus"
 Description: "Extension : SubStatus"
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
 * extension.value[x] only string
-* extension ^short  = "SubStatus"
 
 
-Extension: ResourceInstanceCreateUpdateAtDateTime
-Id: resource-instance-create-updateat-datetime
-Title: "Extension : ResourceInstanceCreateUpdateAtDateTime"
+Extension: ResourceCreateUpdateAtDateTime
+Id: resource--create-updateat-datetime
+Title: "Extension : ResourceCreateUpdateAtDateTime"
 Description: ""
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
 * extension contains    
     createdAt 0..1 and 
     updatedAt 0..1 
