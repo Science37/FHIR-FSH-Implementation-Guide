@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-03T15:15:42+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-03T16:40:40+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -365,20 +365,6 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/item-rendering-settings" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Item Rendering Settings" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Item Rendering Settings" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/item-settings" ]
        ];
@@ -386,7 +372,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.item.settings " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -399,7 +385,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : observationExtract" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -413,6 +399,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Parent Reference" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/rendering-settings" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Item Rendering Settings" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Item Rendering Settings" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
        fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
@@ -420,10 +420,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-instance-create-updateat-datetime>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/resource-instance-create-updateat-datetime" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource--create-updateat-datetime>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/resource--create-updateat-datetime" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ResourceInstanceCreateUpdateAtDateTime" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ResourceCreateUpdateAtDateTime" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 9;

@@ -11,7 +11,7 @@
     "type": "Questionnaire",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-48-V1",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item"
+    "name": "Example : Questionnaire"
   },
   {
     "id": "Questionnaire-Extension-Example",
@@ -154,13 +154,6 @@
     "name": "FormSettings"
   },
   {
-    "id": "item-rendering-settings",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings",
-    "version": "1.0.0-S37",
-    "name": "ItemRenderingSettings"
-  },
-  {
     "id": "item-settings",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings",
@@ -189,11 +182,18 @@
     "name": "QuestionnaireS37"
   },
   {
-    "id": "resource-instance-create-updateat-datetime",
+    "id": "rendering-settings",
     "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-instance-create-updateat-datetime",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings",
     "version": "1.0.0-S37",
-    "name": "ResourceInstanceCreateUpdateAtDateTime"
+    "name": "RenderingSettings"
+  },
+  {
+    "id": "resource--create-updateat-datetime",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource--create-updateat-datetime",
+    "version": "1.0.0-S37",
+    "name": "ResourceCreateUpdateAtDateTime"
   },
   {
     "id": "settings",
