@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ResourceCreateUpdateAtDateTime"];
   fhir:StructureDefinition.title [ fhir:value "Extension : ResourceCreateUpdateAtDateTime"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-03T19:37:02+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-03T19:45:57+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
