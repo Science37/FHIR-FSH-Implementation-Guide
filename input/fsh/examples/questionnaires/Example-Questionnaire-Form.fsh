@@ -12,7 +12,8 @@ Usage: #example
 * extension[subStatus].valueString = "deleted"
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
-
+* extension[supportedLanguage][+].valueCode = #US-ENG
+* extension[supportedLanguage][+].valueCode = #US-ENG2
 
 * insert FORMIDRS
 * insert FORMTypeRS

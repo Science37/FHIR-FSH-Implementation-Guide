@@ -35,6 +35,12 @@ Description:     "Extension : Questionnaire.settings "
 
 
 
-
+Extension: SupportedLanguage
+Id: supported-language
+Title: "Supported Language"
+Description: ""
+* ^context[0].expression = "Questionnaire"
+* value[x] only code
+* valueCode from http://hl7.org/fhir/ValueSet/languages (required)
 
 
