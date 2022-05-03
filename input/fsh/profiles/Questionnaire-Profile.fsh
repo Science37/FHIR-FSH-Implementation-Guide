@@ -18,7 +18,7 @@ Description: "Profile : Questionnaire"
 *  extension contains SubStatus named subStatus 0..1
 /* standard create and update at datetime */
 *  extension contains ResourceCreateUpdateAtDateTime named createUpdateAtDateTime 0..1
-
+*  extension contains SupportedLanguages named supportedLanguages 0..*
 
 /*Item Level*/
 
