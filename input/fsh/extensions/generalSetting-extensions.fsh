@@ -24,14 +24,17 @@ Extension: SubStatus
 Id: sub-status
 Title: "Extension : SubStatus"
 Description: "Extension : SubStatus"
-* extension.value[x] only string
-* extension ^short  = "SubStatus"
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
+* value[x] only string
 
 
-Extension: ResourceInstanceCreateUpdateAtDateTime
-Id: resource-instance-create-updateat-datetime
-Title: "Extension : ResourceInstanceCreateUpdateAtDateTime"
+Extension: ResourceCreateUpdateAtDateTime
+Id: resource-create-updateat-datetime
+Title: "Extension : ResourceCreateUpdateAtDateTime"
 Description: ""
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
 * extension contains    
     createdAt 0..1 and 
     updatedAt 0..1 
@@ -40,19 +43,6 @@ Description: ""
 * extension[updatedAt] ^short = "updatedAt"
 * extension[updatedAt].value[x] only dateTime
 
-
-
-Extension: Version
-Id: version
-Title: "Extension : Version"
-Description: "Extension : Version"
-* extension contains
-    type 1..1 and 
-    version 1..1
-* extension[type] ^short = "type"
-* extension[type].value[x] only string
-* extension[version] ^short = "version"
-* extension[version].value[x] only id
 
 Extension: ParentReference
 Id: parent-reference

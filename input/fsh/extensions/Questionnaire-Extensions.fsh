@@ -14,11 +14,6 @@ Description:     "Extension : Questionnaire.settings "
     requireEditReason 1..1 and
     createdAt 0..1 and
     updatedAt 0..1
-/* 
-    FORM_ID --> Questionnaire.identifier
-    name --> Questionnaire.name
-    status --> Questionnaire.status
-*/
 * extension[type] ^short = "type"
 * extension[type].value[x] only string
 * extension[subStatus] ^short = "deteted"

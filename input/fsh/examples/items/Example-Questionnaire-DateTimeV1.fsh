@@ -8,15 +8,19 @@ Usage: #example
 * name = "Example : Questionnaire.Item DateTime V1"
 * subjectType = #Patient
 * identifier.value = "Form ID1234"
-* item[0].type = #dateTime
-* item[=].extension[hidden].valueBoolean = false
-* item[=].extension[observationExtract].valueBoolean = true
+
+* item[+].type = #question
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-dateTime"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1.1"
+
+
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#dateTime "dateTime"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#dateTime
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1.1"
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
 
 
 * insert SponsorVariableRS(DS_CONSENT_SIG_FIELD_OID)

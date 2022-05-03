@@ -20,29 +20,15 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "linkId"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "LinkId"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "__S37-form-fields-2cg5vgg5kdh"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "title"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Title"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "RICH_TEXT"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 100
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "version"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "1"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
+* insert SponsorVariableRS(RICH_TEXT_FIELD_OID)
+* insert LinkIdRS(__S37-form-fields-2cg5vgg5kdh)
+* insert TitleRS(RICH_TEXT_ITLE)
+/* insert LableRS(<p style=text-align:left;><strong>DATE_TIME_LABEL</strong></p>)
+* insert StandardVariableRS(DS_CONSENT_SIG_FIELD_STD_VAR)
+* insert DescriptionRS(DS_CONSENT_SIG_FIELD_DESC)
+* insert RequiredRS(false)*/
+* insert VersionRS(1)

@@ -37,67 +37,11 @@ Usage: #example
 * item[=].initial.valueString = "554"
 
 
-* item[=].extension[itemRenderingSettings][0].extension[id].valueString = "sponsorVariable"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field OID"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString  = "MULTPLE_CHOICE_OID"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[description].valueString = "Max of 256 characters"
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger =  256
-* item[=].extension[itemRenderingSettings][=].extension[pattern].valueString = "^(?!.* ).*$"
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "linkId"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "LinkId"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "__S37-form-fields-p8wrfhsd01p"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "title"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Title"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "MULTPLE_CHOICE_TITLE"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 100
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "lable"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field label"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "<p style=\"text-align:left;\"><strong>MULTPLE_CHOICE_LABLE</strong></p>"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "richtext"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[description].valueString = "What will display to the respondent."
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 2000
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "standardVariable"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Standard Variable"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "MULTPLE_CHOICE_STD_VAR"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[description].valueString = "Max of 256 characters"
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 256
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "description"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Description"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "MULTPLE_CHOICE_DESC"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "textarea"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 256
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
+* insert SponsorVariableRS(MULTPLE_CHOICE_OID)
+* insert LinkIdRS(__S37-form-fields-p8wrfhsd01p)
+* insert TitleRS(MULTPLE_CHOICE_TITLE)
+* insert LableRS(<p style=text-align:left;><strong>MULTPLE_CHOICE_LABEL</strong></p>)
+* insert StandardVariableRS(MULTPLE_CHOICE_STD_VAR)
+* insert DescriptionRS(MULTPLE_CHOICE_DESC)
+* insert RequiredRS(false)
+* insert VersionRS(1)

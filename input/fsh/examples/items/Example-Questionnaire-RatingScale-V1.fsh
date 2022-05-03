@@ -17,91 +17,27 @@ Usage: #example
 * item[=].required = true
 
 
+
+* item[=].extension[minValue].valueInteger = 11
+* item[=].extension[maxValue].valueInteger = 1100
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
-* item[=].extension[minValue].valueInteger = 11
-* item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
 
-* item[=].extension[itemRenderingSettings][0].extension[id].valueString = "sponsorVariable"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field OID"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString  = "NRS_OID"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[description].valueString = "Max of 256 characters"
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger =  256
-* item[=].extension[itemRenderingSettings][=].extension[pattern].valueString = "^(?!.* ).*$"
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "linkId"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "LinkId"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "__S37-form-fields-6qupvhtl05b"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "title"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Title"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "NRS_TITLE"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 100
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
+* insert SponsorVariableRS(NRS_OID)
+* insert LinkIdRS(__S37-form-fields-6qupvhtl05b)
+* insert TitleRS(NRS_TITLE)
+* insert LableRS(<p style=text-align:left;><strong>NRS_LABEL</strong></p>)
+* insert StandardVariableRS(NRS_STD_VAR)
+* insert DescriptionRS(NRS_DESC)
+* insert RequiredRS(false)
+* insert VersionRS(1)
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "label"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Field label"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "richtext"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[description].valueString = "What will display to the respondent."
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 100000
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "standardVariable"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Standard Variable"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "NRS_STD_VAR"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[description].valueString = "Max of 256 characters"
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 256
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "description"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Description"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "NRS_DESC"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "textarea"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[maxLength].valueInteger = 100000
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "version"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "1"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "text"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = true
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = true
-
-* item[=].extension[itemRenderingSettings][+].extension[id].valueString = "required"
-* item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Required field"
-* item[=].extension[itemRenderingSettings][=].extension[value].valueString = "false"
-* item[=].extension[itemRenderingSettings][=].extension[type].valueString = "checkbox"
-* item[=].extension[itemRenderingSettings][=].extension[hidden].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[required].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[unique].valueBoolean = false
-* item[=].extension[itemRenderingSettings][=].extension[disabled].valueBoolean = false
 
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "minValue"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "Min"

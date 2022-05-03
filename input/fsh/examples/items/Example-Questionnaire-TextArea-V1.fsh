@@ -15,14 +15,13 @@ Usage: #example
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
 * item[=].required = true
-* item[=].extension[hidden]
-  * valueBoolean = false
-* item[=].extension[observationExtract]
-  * valueBoolean = true
-* item[=].extension[itemControl]
-  * valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
-* item[=].extension[itemControl]
-  * valueCodeableConcept.text = $ITEMCONTROL#text-box
+
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+
+
 
 * insert SponsorVariableRS(TEXT_AREA_OID)
 * insert LinkIdRS(__S37-form-fields-1nhurf7a3d8)

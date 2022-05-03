@@ -5,7 +5,7 @@ RuleSet: Header
 * item[=].text = "<p>HEADER</p>"
 * item[=].required = true
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-header-Version"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 
@@ -34,7 +34,7 @@ RuleSet: HeaderV2
 * item[=].text = "<p>HEADER</p>"
 * item[=].required = true
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-header-Version"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 
@@ -187,7 +187,7 @@ RuleSet: PageBreak
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-page-break-Version"
 
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "linkId"
 * item[=].extension[itemRenderingSettings][=].extension[label].valueString = "LinkId"
@@ -213,7 +213,7 @@ RuleSet: PageBreakV2
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-page-break-Version"
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "linkId"
 * item[=].extension[itemRenderingSettings][=].extension[value].valueString = "__S37-form-fields-adhas4b1899nw"
 * item[=].extension[itemRenderingSettings][+].extension[id].valueString = "version"

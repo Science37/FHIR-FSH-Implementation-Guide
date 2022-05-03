@@ -3,24 +3,20 @@ InstanceOf: QuestionnaireS37
 Title: "Example : Questionnaire.Item-All-48-V1"
 Description: "Example : Questionnaire.Item-All-48-V1"
 Usage: #example
-* status = #draft
-* title = "Example : Questionnaire.Item"
-* name = "Example : Questionnaire.Item"
+
+* status = #unknown
+* title = "Example : Questionnaire"
+* name = "Example : Questionnaire"
 * subjectType = #Patient
-* identifier.value = "Form ID"
-* extension[FormSettings].extension[type].valueString = "formType"
-* extension[FormSettings].extension[subStatus].valueString = "Unknown Status"
-* extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
-* extension[FormSettings].extension[OID].valueString = "FORM OID"
-* extension[FormSettings].extension[standardVariable].valueString = "Standard Variable"
-* extension[FormSettings].extension[title].valueString = "Form Title"
-* extension[FormSettings].extension[label].valueString = "Form Label"
-* extension[FormSettings].extension[buildLanguage].valueString = "US_English"
-* extension[FormSettings].extension[excludeFromDataExport].valueBoolean = true
-* extension[FormSettings].extension[requireEditReason].valueBoolean = true
-* extension[FormSettings].extension[requireDataReview].valueBoolean = true
-* extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
-* extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* identifier.value = "Form ID-odfu9sdfyisyd78y877"
+* extension[subStatus].valueString = "deleted"
+* extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
+* extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+
+
+* insert FORMIDRS
+* insert FORMTypeRS
+* insert FORMControlSchemaVersionRS
 
 
 * insert Header
@@ -34,7 +30,7 @@ Usage: #example
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
 * item[=].required = true
-* item[=].extension[Settings].extension[version].valueId = "1.0.1-fileupload"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-fileupload"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
@@ -150,7 +146,7 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].extension[minValue].valueInteger = 11
 * item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
 
 * insert SponsorVariableRS(NRS_OID)
 * insert LinkIdRS(__S37-form-fields-6qupvhtl05b)
@@ -237,7 +233,7 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
 * item[=].extension[minValue].valueInteger = 11
 * item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 
 * insert SponsorVariableRS(VAS_OID)
 * insert LinkIdRS(__S37-form-fields-h0ae575xlf8)
@@ -308,7 +304,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
 
 * insert SponsorVariableRS(RICH_TEXT_OID)
 * insert LinkIdRS(__S37-form-fields-2cg5vgg5kdh)
@@ -331,7 +327,7 @@ Usage: #example
 * item[=].required = true
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
 * item[=].maxLength = 22
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Version"
+* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Text-Version"
 
 * insert SponsorVariableRS(TEXT_OID)
 * insert LinkIdRS(__S37-form-fields-rtqqwsi13dj)
