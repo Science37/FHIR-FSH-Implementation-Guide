@@ -37,14 +37,18 @@
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime" ]
   ], [
      fhir:index 2;
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language" ];
-     fhir:Extension.valueCode [ fhir:value "US-ENG" ]
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "language" ];
+       fhir:Extension.valueCode [ fhir:value "US-ENG" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "language" ];
+       fhir:Extension.valueCode [ fhir:value "US-ENG2" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages" ]
   ], [
      fhir:index 3;
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language" ];
-     fhir:Extension.valueCode [ fhir:value "US-ENG2" ]
-  ], [
-     fhir:index 4;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "id" ];
@@ -76,7 +80,7 @@
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
   ], [
-     fhir:index 5;
+     fhir:index 4;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "id" ];
@@ -100,7 +104,7 @@
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
   ], [
-     fhir:index 6;
+     fhir:index 5;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "id" ];
@@ -137,7 +141,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T19:20:08+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T19:37:02+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

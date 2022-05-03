@@ -3,7 +3,7 @@
 
 err = 118, warn = 47, info = 122
 IG Publisher Version: 1.1.116
-Generated Tue May 03 19:23:14 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Tue May 03 19:40:00 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 157 / 3 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1 : 77 / 8 / 82
@@ -32,22 +32,22 @@ Generated Tue May 03 19:23:14 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/StructureDefinition-resource-create-updateat-datetime : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-settings : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sub-status : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-supported-language : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-supported-languages : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/resource-create-updateat-datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/supported-language.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/supported-languages.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.json.html#/html/body/div/div/div/p/a at Line 12344, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.ttl.html#/html/body/div/div/div/p/a at Line 9132, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.xml.html#/html/body/div/div/div/p/a at Line 9317, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.json.html#/html/body/div/div/div/p/a at Line 12349, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.ttl.html#/html/body/div/div/div/p/a at Line 9134, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.xml.html#/html/body/div/div/div/p/a at Line 9318, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.html#/html/body/div/div/div/p/a at Line 216, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.json.html#/html/body/div/div/div/p/a at Line 364, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.ttl.html#/html/body/div/div/div/p/a at Line 352, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.xml.html#/html/body/div/div/div/p/a at Line 329, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.json.html#/html/body/div/div/div/p/a at Line 369, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.ttl.html#/html/body/div/div/div/p/a at Line 354, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.xml.html#/html/body/div/div/div/p/a at Line 330, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV1.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV1.json.html#/html/body/div/div/div/p/a at Line 1001, column 28: The link '' for "Science37" cannot be resolved
@@ -185,13 +185,13 @@ ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.history.h
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.json.html#/html/body/div/div/div/p/a at Line 535, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.ttl.html#/html/body/div/div/div/p/a at Line 510, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.xml.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language-definitions.html#/html/body/div/div/div/p/a at Line 306, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language-mappings.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language.html#/html/body/div/div/div/p/a at Line 540, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language.profile.json.html#/html/body/div/div/div/p/a at Line 604, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language.profile.ttl.html#/html/body/div/div/div/p/a at Line 568, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-language.profile.xml.html#/html/body/div/div/div/p/a at Line 552, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages-definitions.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.html#/html/body/div/div/div/p/a at Line 560, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.json.html#/html/body/div/div/div/p/a at Line 974, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.ttl.html#/html/body/div/div/div/p/a at Line 854, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.xml.html#/html/body/div/div/div/p/a at Line 889, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 450, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Science37" cannot be resolved
@@ -203,8 +203,8 @@ WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.r
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1.json ==
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' Rule 'The link ids for groups and questions must be unique within the questionnaire' Failed
-ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.extension[5].value.ofType(code): The value provided ('US-ENG') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
-ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.extension[6].value.ofType(code): The value provided ('US-ENG2') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
+ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.extension[5].extension[0].value.ofType(code): The value provided ('US-ENG') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
+ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.extension[5].extension[1].value.ofType(code): The value provided ('US-ENG2') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
 INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[0].extension[4].extension[1].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
@@ -370,8 +370,8 @@ INFORMATION: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire.item[46].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 == fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example.json ==
 WARNING: Questionnaire/Questionnaire-Extension-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: Questionnaire/Questionnaire-Extension-Example: Questionnaire.extension[2].value.ofType(code): The value provided ('US-ENG') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
-ERROR: Questionnaire/Questionnaire-Extension-Example: Questionnaire.extension[3].value.ofType(code): The value provided ('US-ENG2') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
+ERROR: Questionnaire/Questionnaire-Extension-Example: Questionnaire.extension[2].extension[0].value.ofType(code): The value provided ('US-ENG') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
+ERROR: Questionnaire/Questionnaire-Extension-Example: Questionnaire.extension[2].extension[1].value.ofType(code): The value provided ('US-ENG2') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
 ERROR: Questionnaire/Questionnaire-Extension-Example: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV1.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -508,4 +508,4 @@ WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].s
 WARNING: StructureDefinition/settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/settings'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-sub-status.json ==
-== fsh-generated/resources/StructureDefinition-supported-language.json ==
+== fsh-generated/resources/StructureDefinition-supported-languages.json ==
