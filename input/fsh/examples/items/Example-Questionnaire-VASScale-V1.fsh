@@ -17,12 +17,15 @@ Usage: #example
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/vasscale/version/2.3"
 * item[=].required = true
+
+* item[=].extension[minValue].valueInteger = 11
+* item[=].extension[maxValue].valueInteger = 1100
+
+* item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
-* item[=].extension[minValue].valueInteger = 11
-* item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
+* item[=].extension[Settings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 
 * insert SponsorVariableRS(VAS_OID)
 * insert LinkIdRS(__S37-form-fields-h0ae575xlf8)

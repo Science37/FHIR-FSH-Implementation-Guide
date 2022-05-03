@@ -17,7 +17,7 @@ Usage: #example
 * item[=].text = "<p>HEADER</p>"
 * item[=].required = true
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[Settings].extension[version].valueId = "1.0.1-header-Version"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 
