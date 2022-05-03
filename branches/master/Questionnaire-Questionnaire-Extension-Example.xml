@@ -20,6 +20,14 @@
       <valueDateTime value="2022-01-01T10:08:10Z"/>
     </extension>
   </extension>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages">
+    <extension url="language">
+      <valueCode value="US-ENG"/>
+    </extension>
+    <extension url="language">
+      <valueCode value="US-ENG2"/>
+    </extension>
+  </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
     <extension url="id">
       <valueString value="FORM_ID"/>
@@ -86,7 +94,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-03T18:30:43+00:00"/>
+  <date value="2022-05-03T19:45:57+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

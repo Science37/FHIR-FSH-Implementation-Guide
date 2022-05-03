@@ -187,5 +187,12 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
     "version": "1.0.0-S37",
     "name": "SubStatus"
+  },
+  {
+    "id": "supported-languages",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages",
+    "version": "1.0.0-S37",
+    "name": "SupportedLanguages"
   }
 ]
