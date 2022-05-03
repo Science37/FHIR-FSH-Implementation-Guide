@@ -29,6 +29,14 @@
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime"
     },
     {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language",
+      "valueCode": "US-ENG"
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language",
+      "valueCode": "US-ENG2"
+    },
+    {
       "extension": [
         {
           "url": "id",
@@ -125,7 +133,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T18:29:57+00:00",
+  "date": "2022-05-03T19:20:08+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {

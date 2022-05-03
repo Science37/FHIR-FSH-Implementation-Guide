@@ -357,6 +357,14 @@
       "types": [
         "string"
       ]
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language",
+      "title": "Supported Language",
+      "types": [
+        "code",
+        "code"
+      ]
     }
   ],
   "profiles": {
@@ -426,6 +434,9 @@
       "Questionnaire"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status": [
+      "Questionnaire"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-language": [
       "Questionnaire"
     ]
   }
