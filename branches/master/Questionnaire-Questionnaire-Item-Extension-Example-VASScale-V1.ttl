@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T12:17:31+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T18:30:43+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -51,10 +51,18 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minValue" ];
+       fhir:Extension.valueInteger [ fhir:value "11"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
+       fhir:Extension.valueInteger [ fhir:value "1100"^^xsd:integer ]
+     ], [
+       fhir:index 3;
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 4;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
@@ -66,21 +74,13 @@
          fhir:CodeableConcept.text [ fhir:value "vas-scale" ]
        ]
      ], [
-       fhir:index 3;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minValue" ];
-       fhir:Extension.valueInteger [ fhir:value "11"^^xsd:integer ]
-     ], [
-       fhir:index 4;
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
-       fhir:Extension.valueInteger [ fhir:value "1100"^^xsd:integer ]
-     ], [
        fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-VAS-Scale-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 6;
        fhir:Element.extension [
@@ -128,7 +128,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 7;
        fhir:Element.extension [
@@ -164,7 +164,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 8;
        fhir:Element.extension [
@@ -204,7 +204,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 9;
        fhir:Element.extension [
@@ -248,7 +248,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 10;
        fhir:Element.extension [
@@ -292,7 +292,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 11;
        fhir:Element.extension [
@@ -332,7 +332,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 12;
        fhir:Element.extension [
@@ -368,7 +368,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 13;
        fhir:Element.extension [
@@ -392,7 +392,7 @@
          fhir:Extension.url [ fhir:value "required" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 14;
        fhir:Element.extension [
@@ -428,7 +428,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 15;
        fhir:Element.extension [
@@ -468,7 +468,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 16;
        fhir:Element.extension [
@@ -508,7 +508,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 17;
        fhir:Element.extension [
@@ -548,7 +548,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 18;
        fhir:Element.extension [
@@ -588,7 +588,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 19;
        fhir:Element.extension [
@@ -628,7 +628,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 20;
        fhir:Element.extension [
@@ -664,7 +664,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 21;
        fhir:Element.extension [
@@ -704,7 +704,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 22;
        fhir:Element.extension [
@@ -740,7 +740,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 23;
        fhir:Element.extension [
@@ -776,7 +776,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 24;
        fhir:Element.extension [
@@ -812,7 +812,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 25;
        fhir:Element.extension [
@@ -856,7 +856,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 26;
        fhir:Element.extension [
@@ -900,7 +900,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 27;
        fhir:Element.extension [
@@ -936,7 +936,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 28;
        fhir:Element.extension [
@@ -972,7 +972,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 29;
        fhir:Element.extension [
@@ -1008,7 +1008,7 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ];
      fhir:Questionnaire.item.linkId [ fhir:value "__S37-form-fields-h0ae575xlf8" ];
      fhir:Questionnaire.item.definition [ fhir:value "https://science37.com/NG/widget/id/vasscale/version/2.3" ];

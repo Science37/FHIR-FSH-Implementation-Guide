@@ -21,60 +21,100 @@
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status" ];
+     fhir:Extension.valueString [ fhir:value "deleted" ]
+  ], [
+     fhir:index 1;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "subStatus" ];
-       fhir:Extension.valueString [ fhir:value "deleted" ]
-     ], [
-       fhir:index 1;
-       fhir:Extension.url [ fhir:value "type" ];
-       fhir:Extension.valueString [ fhir:value "formType" ]
-     ], [
-       fhir:index 2;
-       fhir:Extension.url [ fhir:value "buildLanguage" ];
-       fhir:Extension.valueString [ fhir:value "US_English" ]
-     ], [
-       fhir:index 3;
-       fhir:Extension.url [ fhir:value "excludeFromDataExport" ];
-       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 4;
-       fhir:Extension.url [ fhir:value "requireDataReview" ];
-       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 5;
-       fhir:Extension.url [ fhir:value "requireEditReason" ];
-       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 6;
-       fhir:Extension.url [ fhir:value "controlSchemaVersion" ];
-       fhir:Extension.valueString [ fhir:value "2.1.9" ]
-     ], [
-       fhir:index 7;
-       fhir:Extension.url [ fhir:value "OID" ];
-       fhir:Extension.valueString [ fhir:value "FORM OID" ]
-     ], [
-       fhir:index 8;
-       fhir:Extension.url [ fhir:value "standardVariable" ];
-       fhir:Extension.valueString [ fhir:value "FORM Standard Variable" ]
-     ], [
-       fhir:index 9;
-       fhir:Extension.url [ fhir:value "title" ];
-       fhir:Extension.valueString [ fhir:value "Form Title" ]
-     ], [
-       fhir:index 10;
-       fhir:Extension.url [ fhir:value "label" ];
-       fhir:Extension.valueString [ fhir:value "Form Label" ]
-     ], [
-       fhir:index 11;
        fhir:Extension.url [ fhir:value "createdAt" ];
        fhir:Extension.valueDateTime [ fhir:value "2015-02-07T13:28:17Z"^^xsd:dateTime ]
      ], [
-       fhir:index 12;
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "updatedAt" ];
        fhir:Extension.valueDateTime [ fhir:value "2022-01-01T10:08:10Z"^^xsd:dateTime ]
      ];
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings" ]
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "id" ];
+       fhir:Extension.valueString [ fhir:value "FORM_ID" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "label" ];
+       fhir:Extension.valueString [ fhir:value "Id" ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "value" ];
+       fhir:Extension.valueString [ fhir:value "b41ca7b6-7842-4bad-b266-0c7cc1ccdf97" ]
+     ], [
+       fhir:index 3;
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueString [ fhir:value "text" ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "hidden" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Extension.url [ fhir:value "required" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Extension.url [ fhir:value "pattern" ];
+       fhir:Extension.valueString [ fhir:value "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "id" ];
+       fhir:Extension.valueString [ fhir:value "FORM_TYPE" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "label" ];
+       fhir:Extension.valueString [ fhir:value "Form Type" ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "value" ];
+       fhir:Extension.valueString [ fhir:value "epro" ]
+     ], [
+       fhir:index 3;
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueString [ fhir:value "text" ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "hidden" ];
+       fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
+  ], [
+     fhir:index 4;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "id" ];
+       fhir:Extension.valueString [ fhir:value "CONTROL_SCHEMA_VERSION" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "value" ];
+       fhir:Extension.valueString [ fhir:value "2" ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueString [ fhir:value "text" ]
+     ], [
+       fhir:index 3;
+       fhir:Extension.url [ fhir:value "hidden" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "required" ];
+       fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
   ];
   fhir:Questionnaire.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example"];
   fhir:Questionnaire.identifier [
@@ -89,7 +129,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T12:17:31+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T18:30:43+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

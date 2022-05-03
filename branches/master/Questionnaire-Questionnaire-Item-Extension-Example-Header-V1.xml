@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item Header-V1"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-03T12:17:31+00:00"/>
+  <date value="2022-05-03T18:30:43+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -32,7 +32,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="version">
         <valueId value="1.0.1-header-Version"/>
       </extension>
@@ -47,7 +47,7 @@
         <text value="header"/>
       </valueCodeableConcept>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="id">
         <valueString value="linkId"/>
       </extension>
@@ -73,7 +73,7 @@
         <valueBoolean value="false"/>
       </extension>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings">
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings">
       <extension url="id">
         <valueString value="value"/>
       </extension>

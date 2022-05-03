@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-03T12:17:31+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-03T18:30:43+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -72,9 +72,57 @@
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-Rich-Text-Version" ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
        fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "id" ];
+         fhir:Extension.valueString [ fhir:value "sponsorVariable" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "Field OID" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "RICH_TEXT_FIELD_OID" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "text" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "hidden" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "required" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "description" ];
+         fhir:Extension.valueString [ fhir:value "Max of 256 characters" ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "maxLength" ];
+         fhir:Extension.valueInteger [ fhir:value "256"^^xsd:integer ]
+       ], [
+         fhir:index 8;
+         fhir:Extension.url [ fhir:value "pattern" ];
+         fhir:Extension.valueString [ fhir:value "^(?!.* ).*$" ]
+       ], [
+         fhir:index 9;
+         fhir:Extension.url [ fhir:value "unique" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 10;
+         fhir:Extension.url [ fhir:value "disabled" ];
+         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+       ];
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
+     ], [
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "id" ];
@@ -108,9 +156,9 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "id" ];
@@ -122,7 +170,7 @@
        ], [
          fhir:index 2;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "RICH_TEXT" ]
+         fhir:Extension.valueString [ fhir:value "RICH_TEXT_ITLE" ]
        ], [
          fhir:index 3;
          fhir:Extension.url [ fhir:value "type" ];
@@ -148,9 +196,9 @@
          fhir:Extension.url [ fhir:value "disabled" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "id" ];
@@ -172,7 +220,7 @@
          fhir:Extension.url [ fhir:value "required" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/item-rendering-settings" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings" ]
      ];
      fhir:Questionnaire.item.linkId [ fhir:value "__S37-form-fields-2cg5vgg5kdh" ];
      fhir:Questionnaire.item.definition [ fhir:value "https://science37.com/NG/widget/id/richText/version/2.3" ];

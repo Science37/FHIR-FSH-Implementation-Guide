@@ -12,51 +12,11 @@
   },
   "extension": [
     {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
+      "valueString": "deleted"
+    },
+    {
       "extension": [
-        {
-          "url": "subStatus",
-          "valueString": "deleted"
-        },
-        {
-          "url": "type",
-          "valueString": "formType"
-        },
-        {
-          "url": "buildLanguage",
-          "valueString": "US_English"
-        },
-        {
-          "url": "excludeFromDataExport",
-          "valueBoolean": true
-        },
-        {
-          "url": "requireDataReview",
-          "valueBoolean": true
-        },
-        {
-          "url": "requireEditReason",
-          "valueBoolean": true
-        },
-        {
-          "url": "controlSchemaVersion",
-          "valueString": "2.1.9"
-        },
-        {
-          "url": "OID",
-          "valueString": "FORM OID"
-        },
-        {
-          "url": "standardVariable",
-          "valueString": "FORM Standard Variable"
-        },
-        {
-          "url": "title",
-          "valueString": "Form Title"
-        },
-        {
-          "url": "label",
-          "valueString": "Form Label"
-        },
         {
           "url": "createdAt",
           "valueDateTime": "2015-02-07T13:28:17Z"
@@ -66,7 +26,90 @@
           "valueDateTime": "2022-01-01T10:08:10Z"
         }
       ],
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings"
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime"
+    },
+    {
+      "extension": [
+        {
+          "url": "id",
+          "valueString": "FORM_ID"
+        },
+        {
+          "url": "label",
+          "valueString": "Id"
+        },
+        {
+          "url": "value",
+          "valueString": "b41ca7b6-7842-4bad-b266-0c7cc1ccdf97"
+        },
+        {
+          "url": "type",
+          "valueString": "text"
+        },
+        {
+          "url": "hidden",
+          "valueBoolean": true
+        },
+        {
+          "url": "required",
+          "valueBoolean": true
+        },
+        {
+          "url": "pattern",
+          "valueString": "[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
+    },
+    {
+      "extension": [
+        {
+          "url": "id",
+          "valueString": "FORM_TYPE"
+        },
+        {
+          "url": "label",
+          "valueString": "Form Type"
+        },
+        {
+          "url": "value",
+          "valueString": "epro"
+        },
+        {
+          "url": "type",
+          "valueString": "text"
+        },
+        {
+          "url": "hidden",
+          "valueBoolean": false
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
+    },
+    {
+      "extension": [
+        {
+          "url": "id",
+          "valueString": "CONTROL_SCHEMA_VERSION"
+        },
+        {
+          "url": "value",
+          "valueString": "2"
+        },
+        {
+          "url": "type",
+          "valueString": "text"
+        },
+        {
+          "url": "hidden",
+          "valueBoolean": true
+        },
+        {
+          "url": "required",
+          "valueBoolean": true
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
     }
   ],
   "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example",
@@ -82,7 +125,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-03T12:17:31+00:00",
+  "date": "2022-05-03T18:30:43+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
