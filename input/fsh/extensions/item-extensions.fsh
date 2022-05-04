@@ -52,11 +52,3 @@ Description: "Extension : Item Rendering Settings"
 * extension[minValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity
 * extension[version] ^short = "version : Indicates the version number of the widget used to display the rendering settings and votes"
 * extension[version].value[x] only id
-
-
-Extension: ObservationExtract
-Id: observation-extract
-Title: "Extension : observationExtract"
-Description: ""
-* ^context[0].expression = "Questionnaire.item"
-* value[x] only boolean 
