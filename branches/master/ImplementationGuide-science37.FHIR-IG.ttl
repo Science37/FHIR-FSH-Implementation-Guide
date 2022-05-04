@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-04T13:14:35+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-04T18:39:34+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -34,6 +34,16 @@
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
      fhir:index 0
+  ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "hl7_fhir_uv_sdc" ];
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc";
+       fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.sdc" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -320,14 +330,14 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/form-settings" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37-sdc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Form Settings " ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.settings " ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : QuestionnaireS37SDC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile : QuestionnaireS37SDC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -337,10 +347,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/observation-extract" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/form-settings" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : observationExtract" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Form Settings " ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.settings " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;

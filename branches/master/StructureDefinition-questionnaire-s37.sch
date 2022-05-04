@@ -208,7 +208,7 @@
     <sch:rule context="f:Questionnaire/f:item">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/questionnaire-hidden']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/questionnaire-hidden': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/minValue']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/minValue': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
@@ -429,7 +429,7 @@
       <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/questionnaire-hidden']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/questionnaire-hidden': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/minValue']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/minValue': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:linkId) &gt;= 1">linkId: minimum cardinality of 'linkId' is 1</sch:assert>
       <sch:assert test="count(f:linkId) &lt;= 1">linkId: maximum cardinality of 'linkId' is 1</sch:assert>

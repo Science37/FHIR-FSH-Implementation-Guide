@@ -75,13 +75,6 @@
       ]
     },
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
-      "title": "Extension : observationExtract",
-      "types": [
-        "boolean"
-      ]
-    },
-    {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
       "title": "Extension : Parent Reference",
       "types": [
@@ -422,10 +415,21 @@
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
         "title": "Profile : Questionnaire"
+      },
+      {
+        "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc",
+        "title": "Profile : QuestionnaireS37SDC"
       }
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/cqf-expression": [
+      "Questionnaire.item.text"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/designNote": [
+      "Questionnaire",
+      "Questionnaire.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -441,12 +445,24 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/entryFormat": [
+      "Questionnaire.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/maxValue": [
       "Questionnaire.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/minValue": [
       "Questionnaire.item",
       "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-choiceOrientation": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-displayCategory": [
+      "Questionnaire.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden": [
       "Questionnaire.item",
@@ -455,6 +471,32 @@
     "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
       "Questionnaire.item",
       "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-sliderStepValue": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-supportLink": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/rendering-style": [
+      "Questionnaire.item.answerOption.value[x]",
+      "Questionnaire.item.answerOption.value[x].display",
+      "Questionnaire.item.prefix",
+      "Questionnaire.item.text",
+      "Questionnaire.title"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/rendering-styleSensitive": [
+      "Questionnaire"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/rendering-xhtml": [
+      "Questionnaire.item.answerOption.value[x]",
+      "Questionnaire.item.answerOption.value[x].display",
+      "Questionnaire.item.prefix",
+      "Questionnaire.item.text",
+      "Questionnaire.title"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
@@ -471,9 +513,43 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract": [
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-assemble-expectation": [
+      "Questionnaire"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-choiceColumn": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-collapsible": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemAnswerMedia": [
+      "Questionnaire.item.answerOption"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemMedia": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract": [
       "Questionnaire.item",
       "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-openLabel": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-optionalDisplay": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-performerType": [
+      "Questionnaire"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-preferredTerminologyServer": [
+      "Questionnaire",
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-shortText": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-width": [
+      "Questionnaire.item"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings": [
       "Questionnaire",

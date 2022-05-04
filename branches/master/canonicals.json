@@ -140,13 +140,6 @@
     "name": "FormSettings"
   },
   {
-    "id": "observation-extract",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
-    "version": "1.0.0-S37",
-    "name": "ObservationExtract"
-  },
-  {
     "id": "parent-reference",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
@@ -159,6 +152,13 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
     "version": "1.0.0-S37",
     "name": "QuestionnaireS37"
+  },
+  {
+    "id": "questionnaire-s37-sdc",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc",
+    "version": "1.0.0-S37",
+    "name": "QuestionnaireS37SDC"
   },
   {
     "id": "rendering-settings",

@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-04T13:14:35+00:00",
+  "date": "2022-05-04T18:39:34+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -28,6 +28,14 @@
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7_fhir_uv_sdc",
+      "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+      "packageId": "hl7.fhir.uv.sdc",
+      "version": "current"
+    }
   ],
   "definition": {
     "extension": [
@@ -337,14 +345,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
+            "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/form-settings"
+          "reference": "StructureDefinition/questionnaire-s37-sdc"
         },
-        "name": "Extension : Form Settings ",
-        "description": "Extension : Questionnaire.settings ",
+        "name": "Profile : QuestionnaireS37SDC",
+        "description": "Profile : QuestionnaireS37SDC",
         "exampleBoolean": false
       },
       {
@@ -355,9 +363,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/observation-extract"
+          "reference": "StructureDefinition/form-settings"
         },
-        "name": "Extension : observationExtract",
+        "name": "Extension : Form Settings ",
+        "description": "Extension : Questionnaire.settings ",
         "exampleBoolean": false
       },
       {

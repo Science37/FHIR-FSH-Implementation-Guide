@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-04T13:14:35+00:00"/>
+  <date value="2022-05-04T18:39:34+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -24,6 +24,11 @@
   <packageId value="science37.FHIR-IG"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7_fhir_uv_sdc">
+    <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
+    <packageId value="hl7.fhir.uv.sdc"/>
+    <version value="current"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -214,13 +219,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/form-settings"/>
+        <reference value="StructureDefinition/questionnaire-s37-sdc"/>
       </reference>
-      <name value="Extension : Form Settings "/>
-      <description value="Extension : Questionnaire.settings "/>
+      <name value="Profile : QuestionnaireS37SDC"/>
+      <description value="Profile : QuestionnaireS37SDC"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -228,9 +233,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/observation-extract"/>
+        <reference value="StructureDefinition/form-settings"/>
       </reference>
-      <name value="Extension : observationExtract"/>
+      <name value="Extension : Form Settings "/>
+      <description value="Extension : Questionnaire.settings "/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
