@@ -3,9 +3,9 @@
   "name": "S37FHIRIG",
   "package-id": "science37.FHIR-IG",
   "ig-ver": "1.0.0-S37",
-  "date": "Wed, 04 May, 2022 13:13:59 +0000",
+  "date": "Wed, 04 May, 2022 13:39:21 +0000",
   "errs": 118,
-  "warnings": 47,
+  "warnings": 46,
   "hints": 122,
   "version": "4.0.1",
   "tool": "5.0.0-snapshot1 (3)"

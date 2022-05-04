@@ -1998,7 +1998,7 @@
         "path": "Questionnaire.item.extension",
         "sliceName": "observationExtract",
         "short": "Extension : observationExtract",
-        "definition": "An Extension",
+        "definition": "If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present).",
         "min": 0,
         "max": "1",
         "base": {
@@ -3815,7 +3815,7 @@
         "path": "Questionnaire.item.item.extension",
         "sliceName": "observationExtract",
         "short": "Extension : observationExtract",
-        "definition": "An Extension",
+        "definition": "If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present).",
         "min": 0,
         "max": "1",
         "base": {
