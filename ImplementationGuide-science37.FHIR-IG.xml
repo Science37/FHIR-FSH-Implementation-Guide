@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-04T13:14:35+00:00"/>
+  <date value="2022-05-04T13:39:21+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -231,6 +231,7 @@
         <reference value="StructureDefinition/observation-extract"/>
       </reference>
       <name value="Extension : observationExtract"/>
+      <description value="If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

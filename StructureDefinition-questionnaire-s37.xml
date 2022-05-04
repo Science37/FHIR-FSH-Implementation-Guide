@@ -1680,7 +1680,7 @@
       <path value="Questionnaire.item.extension"/>
       <sliceName value="observationExtract"/>
       <short value="Extension : observationExtract"/>
-      <definition value="An Extension"/>
+      <definition value="If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3133,7 +3133,7 @@
       <path value="Questionnaire.item.item.extension"/>
       <sliceName value="observationExtract"/>
       <short value="Extension : observationExtract"/>
-      <definition value="An Extension"/>
+      <definition value="If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present)."/>
       <min value="0"/>
       <max value="1"/>
       <base>

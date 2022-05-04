@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-04T13:14:35+00:00",
+  "date": "2022-05-04T13:39:21+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -358,6 +358,7 @@
           "reference": "StructureDefinition/observation-extract"
         },
         "name": "Extension : observationExtract",
+        "description": "If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present).",
         "exampleBoolean": false
       },
       {
