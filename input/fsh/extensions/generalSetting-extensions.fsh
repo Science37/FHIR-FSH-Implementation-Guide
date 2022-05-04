@@ -30,7 +30,7 @@ Description: "Extension : SubStatus"
 
 
 Extension: ResourceCreateUpdateAtDateTime
-Id: resource-create-updateat-datetime
+Id: resource-create-update-at-datetime
 Title: "Extension : ResourceCreateUpdateAtDateTime"
 Description: ""
 * ^context[+].type = #element
