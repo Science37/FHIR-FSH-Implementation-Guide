@@ -570,7 +570,7 @@
         "path": "Questionnaire.extension",
         "sliceName": "supportedLanguages",
         "short": "Supported Languages",
-        "definition": "An Extension",
+        "definition": " Supported Languages : Contains a list of languages that is supported by the questionnaire",
         "min": 0,
         "max": "*",
         "base": {

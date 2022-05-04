@@ -639,7 +639,7 @@
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "supportedLanguages" ];
        fhir:ElementDefinition.short [ fhir:value "Supported Languages" ];
-       fhir:ElementDefinition.definition [ fhir:value "An Extension" ];
+       fhir:ElementDefinition.definition [ fhir:value " Supported Languages : Contains a list of languages that is supported by the questionnaire" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [

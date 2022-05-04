@@ -3,9 +3,9 @@
 
 err = 118, warn = 47, info = 122
 IG Publisher Version: 1.1.116
-Generated Wed May 04 13:13:38 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
- Build Errors : 157 / 3 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 4 / 1
+Generated Wed May 04 13:16:47 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+ Build Errors : 157 / 2 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 5 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1 : 77 / 8 / 82
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 3 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTimeV1 : 5 / 1 / 3
@@ -37,7 +37,6 @@ Generated Wed May 04 13:13:38 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/resource-create-update-at-datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/supported-languages.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.json.html#/html/body/div/div/div/p/a at Line 12349, column 28: The link '' for "Science37" cannot be resolved
@@ -156,7 +155,7 @@ ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.html#/html
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.history.html#/html/body/div/div/div/p/a at Line 258, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.json.html#/html/body/div/div/div/p/a at Line 5967, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.ttl.html#/html/body/div/div/div/p/a at Line 5265, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.xml.html#/html/body/div/div/div/p/a at Line 5310, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37.profile.xml.html#/html/body/div/div/div/p/a at Line 5311, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-rendering-settings-definitions.html#/html/body/div/div/div/p/a at Line 853, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-rendering-settings-mappings.html#/html/body/div/div/div/p/a at Line 325, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-rendering-settings.html#/html/body/div/div/div/p/a at Line 1079, column 28: The link '' for "Science37" cannot be resolved
@@ -170,7 +169,7 @@ ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-da
 ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.json.html#/html/body/div/div/div/p/a at Line 1126, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.ttl.html#/html/body/div/div/div/p/a at Line 980, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.xml.html#/html/body/div/div/div/p/a at Line 1018, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.xml.html#/html/body/div/div/div/p/a at Line 1022, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-settings-definitions.html#/html/body/div/div/div/p/a at Line 483, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-settings-mappings.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-settings.html#/html/body/div/div/div/p/a at Line 654, column 28: The link '' for "Science37" cannot be resolved
@@ -187,11 +186,11 @@ ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.ttl.html#
 ERROR: /github/workspace/output/StructureDefinition-sub-status.profile.xml.html#/html/body/div/div/div/p/a at Line 493, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-supported-languages-definitions.html#/html/body/div/div/div/p/a at Line 346, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-supported-languages-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-languages.html#/html/body/div/div/div/p/a at Line 560, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.html#/html/body/div/div/div/p/a at Line 563, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.json.html#/html/body/div/div/div/p/a at Line 974, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.ttl.html#/html/body/div/div/div/p/a at Line 854, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.xml.html#/html/body/div/div/div/p/a at Line 889, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.json.html#/html/body/div/div/div/p/a at Line 976, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.ttl.html#/html/body/div/div/div/p/a at Line 856, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-supported-languages.profile.xml.html#/html/body/div/div/div/p/a at Line 894, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 450, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 207, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Science37" cannot be resolved
@@ -200,6 +199,7 @@ WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.r
 WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
 WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[6].name: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace 'Extension...settings '
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace ' Supported...questionnaire'
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1.json ==
 WARNING: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48-V1: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' Rule 'The link ids for groups and questions must be unique within the questionnaire' Failed
