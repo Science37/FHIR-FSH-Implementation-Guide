@@ -32,7 +32,7 @@ publisher:
 #     version: 1.0.0
 #
 dependencies:
-  hl7.fhir.us.core: current
+ # hl7.fhir.us.core: current
   hl7.fhir.uv.sdc: current
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
