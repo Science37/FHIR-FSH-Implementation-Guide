@@ -3,7 +3,7 @@
 
 err = 118, warn = 47, info = 122
 IG Publisher Version: 1.1.116
-Generated Wed May 04 16:25:30 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Wed May 04 18:42:19 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 160 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 5 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1 : 77 / 8 / 82
