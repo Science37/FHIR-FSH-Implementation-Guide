@@ -462,10 +462,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Don't display to user","If true, indicates that the extended item should not be displayed to the user.","If an item is hidden, all descendant items are hidden as well.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.item.extension","itemControl","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl]]} {[]}
-","E.g. Fly-over, Table, Checkbox, Combo-box, Lookup, etc.","The type of data entry control or structure that should be used to render the item.","Different controls may be appropriate for different item types.  It is up to the system rendering a questionnaire as to what controls it will support and for which data types.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.extension","observationExtract","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract]]} {[]}
 ","Marks an item (or all items in a questionnaire) to be extracted using the observation-based approach","If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present).","This extension canot be specified on ""display"" items.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
