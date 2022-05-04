@@ -30,7 +30,7 @@ Description: "Extension : SubStatus"
 
 
 Extension: ResourceCreateUpdateAtDateTime
-Id: resource-create-updateat-datetime
+Id: resource-create-update-at-datetime
 Title: "Extension : ResourceCreateUpdateAtDateTime"
 Description: ""
 * ^context[+].type = #element
@@ -38,9 +38,9 @@ Description: ""
 * extension contains    
     createdAt 0..1 and 
     updatedAt 0..1 
-* extension[createdAt] ^short = "createdAt"
+* extension[createdAt] ^short = "createdAt :  Contains the date/timestamp for when the instance is created"
 * extension[createdAt].value[x] only dateTime
-* extension[updatedAt] ^short = "updatedAt"
+* extension[updatedAt] ^short = "updatedAt : Contains the date/timestamp for when the instance is last updated"
 * extension[updatedAt].value[x] only dateTime
 
 
