@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-04T13:39:21+00:00",
+  "date": "2022-05-04T15:50:12+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -28,6 +28,14 @@
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7_fhir_uv_sdc",
+      "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+      "packageId": "hl7.fhir.uv.sdc",
+      "version": "current"
+    }
   ],
   "definition": {
     "extension": [
@@ -345,20 +353,6 @@
         },
         "name": "Extension : Form Settings ",
         "description": "Extension : Questionnaire.settings ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/observation-extract"
-        },
-        "name": "Extension : observationExtract",
-        "description": "If true, indicates that the observation-based approach should be used to extract either the particular item (if extension is defined on an individual question or group based on the code present) or all items in the questionnaire (if defined at the questionnaire root and if they have a code present).",
         "exampleBoolean": false
       },
       {

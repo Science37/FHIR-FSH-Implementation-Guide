@@ -142,7 +142,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-04T13:39:21+00:00"/>
+  <date value="2022-05-04T15:50:12+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -502,7 +502,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -917,7 +917,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -1123,7 +1123,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -1533,7 +1533,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -1743,7 +1743,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -2153,7 +2153,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/minValue">
@@ -2419,7 +2419,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -2829,7 +2829,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/minValue">
@@ -3034,7 +3034,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -3444,7 +3444,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -3872,7 +3872,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -4282,7 +4282,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -4988,7 +4988,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -5398,7 +5398,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -5647,7 +5647,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -6057,7 +6057,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -6218,7 +6218,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -6628,7 +6628,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -6921,7 +6921,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -7331,7 +7331,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -7611,7 +7611,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -8021,7 +8021,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
@@ -8302,7 +8302,7 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract">
+    <extension url="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract">
       <valueBoolean value="true"/>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
