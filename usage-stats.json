@@ -75,13 +75,6 @@
       ]
     },
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract",
-      "title": "Extension : observationExtract",
-      "types": [
-        "boolean"
-      ]
-    },
-    {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
       "title": "Extension : Parent Reference",
       "types": [
@@ -471,7 +464,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract": [
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract": [
       "Questionnaire.item",
       "Questionnaire.item.item"
     ],

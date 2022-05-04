@@ -141,7 +141,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-04T13:39:21+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-04T15:50:12+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -641,7 +641,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -1210,7 +1210,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 3;
@@ -1490,7 +1490,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -2051,7 +2051,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -2336,7 +2336,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -2897,7 +2897,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -3261,7 +3261,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -3822,7 +3822,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -4102,7 +4102,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -4663,7 +4663,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -5251,7 +5251,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -5812,7 +5812,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -6784,7 +6784,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -7345,7 +7345,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -7685,7 +7685,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -8246,7 +8246,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -8466,7 +8466,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -9027,7 +9027,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -9428,7 +9428,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -9989,7 +9989,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -10362,7 +10362,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -10923,7 +10923,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -11297,7 +11297,7 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/observation-extract" ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 2;
