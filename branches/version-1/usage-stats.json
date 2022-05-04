@@ -418,7 +418,7 @@
       },
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc",
-        "title": "Profile : Questionnaire"
+        "title": "Profile : QuestionnaireS37SDC"
       }
     ]
   },
