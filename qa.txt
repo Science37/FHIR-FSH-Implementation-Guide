@@ -3,7 +3,7 @@
 
 err = 118, warn = 47, info = 122
 IG Publisher Version: 1.1.116
-Generated Wed May 04 13:06:29 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Wed May 04 13:13:38 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 157 / 3 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48-V1 : 77 / 8 / 82
@@ -29,14 +29,14 @@ Generated Wed May 04 13:06:29 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/StructureDefinition-parent-reference : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-rendering-settings : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-resource-create-updateat-datetime : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-resource-create-update-at-datetime : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-settings : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sub-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-supported-languages : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/resource-create-updateat-datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/resource-create-update-at-datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/supported-languages.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Item-Extension-Example-All-48-V1.html#/html/body/div/div/div/p/a at Line 264, column 28: The link '' for "Science37" cannot be resolved
@@ -164,13 +164,13 @@ ERROR: /github/workspace/output/StructureDefinition-rendering-settings.profile.h
 ERROR: /github/workspace/output/StructureDefinition-rendering-settings.profile.json.html#/html/body/div/div/div/p/a at Line 4132, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-rendering-settings.profile.ttl.html#/html/body/div/div/div/p/a at Line 3467, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-rendering-settings.profile.xml.html#/html/body/div/div/div/p/a at Line 3647, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime-definitions.html#/html/body/div/div/div/p/a at Line 372, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime-mappings.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime.html#/html/body/div/div/div/p/a at Line 565, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime.profile.json.html#/html/body/div/div/div/p/a at Line 1126, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime.profile.ttl.html#/html/body/div/div/div/p/a at Line 980, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-resource-create-updateat-datetime.profile.xml.html#/html/body/div/div/div/p/a at Line 1018, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime-definitions.html#/html/body/div/div/div/p/a at Line 372, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime-mappings.html#/html/body/div/div/div/p/a at Line 273, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.html#/html/body/div/div/div/p/a at Line 565, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.history.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.json.html#/html/body/div/div/div/p/a at Line 1126, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.ttl.html#/html/body/div/div/div/p/a at Line 980, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-resource-create-update-at-datetime.profile.xml.html#/html/body/div/div/div/p/a at Line 1018, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-settings-definitions.html#/html/body/div/div/div/p/a at Line 483, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-settings-mappings.html#/html/body/div/div/div/p/a at Line 285, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-settings.html#/html/body/div/div/div/p/a at Line 654, column 28: The link '' for "Science37" cannot be resolved
@@ -501,7 +501,7 @@ WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-I
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-questionnaire-s37.json ==
 == fsh-generated/resources/StructureDefinition-rendering-settings.json ==
-== fsh-generated/resources/StructureDefinition-resource-create-updateat-datetime.json ==
+== fsh-generated/resources/StructureDefinition-resource-create-update-at-datetime.json ==
 == fsh-generated/resources/StructureDefinition-settings.json ==
 WARNING: StructureDefinition/settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '

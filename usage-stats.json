@@ -233,7 +233,7 @@
       ]
     },
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime",
       "title": "Extension : ResourceCreateUpdateAtDateTime",
       "types": [
         "dateTime",
@@ -480,7 +480,7 @@
       "Questionnaire.item",
       "Questionnaire.item.item"
     ],
-    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-updateat-datetime": [
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime": [
       "Questionnaire"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status": [
