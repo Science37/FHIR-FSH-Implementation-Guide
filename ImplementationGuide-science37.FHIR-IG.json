@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-09T16:15:14+00:00",
+  "date": "2022-05-09T16:42:31+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -335,20 +335,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/questionnaire-s37"
-        },
-        "name": "Profile : Questionnaire",
-        "description": "Profile : Questionnaire",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/questionnaire-s37-sdc"
         },
         "name": "Profile : QuestionnaireS37SDC",
@@ -393,22 +379,8 @@
         "reference": {
           "reference": "StructureDefinition/rendering"
         },
-        "name": "Extension : Item Rendering Settings",
-        "description": "Extension : Item Rendering Settings",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/rendering-settings"
-        },
-        "name": "Extension : Item Rendering Settings",
-        "description": "Extension : Item Rendering Settings",
+        "name": "Extension : Object Rendering Settings",
+        "description": "Extension : Object Rendering Settings",
         "exampleBoolean": false
       },
       {
@@ -462,7 +434,7 @@
         "reference": {
           "reference": "StructureDefinition/supported-languages"
         },
-        "name": "Supported Languages",
+        "name": "Extension : Supported Languages",
         "description": " Supported Languages : Contains a list of languages that is supported by the questionnaire",
         "exampleBoolean": false
       },
