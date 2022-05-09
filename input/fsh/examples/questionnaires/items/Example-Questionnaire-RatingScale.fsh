@@ -1,7 +1,7 @@
 Instance: Questionnaire-Item-Extension-Example-RatingScale
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-All-RatingScale"
-Description: "Example : Questionnaire.Item-All-RatingScale"
+Title: "Example : Questionnaire.Item-RatingScale"
+Description: "Example : Questionnaire.Item-RatingScale"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
