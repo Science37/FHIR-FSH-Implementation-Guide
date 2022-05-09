@@ -1,4 +1,4 @@
-Extension:      Settings
+/*Extension:      Settings
 Id:             settings
 Title:          "Extension : Common Settings "
 Description:     "Extension : Common settings "
@@ -18,6 +18,7 @@ Description:     "Extension : Common settings "
 * extension[standardVariable].value[x] only string
 * extension[version] ^short = "version"
 * extension[version].value[x] only id
+*/
 
 
 Extension: SubStatus
@@ -52,17 +53,3 @@ Description: ""
 * extension[createdAt].value[x] only dateTime
 * extension[updatedAt] ^short = "updatedAt : Contains the date/timestamp for when the instance is last updated"
 * extension[updatedAt].value[x] only dateTime
-
-
-Extension: ParentReference
-Id: parent-reference
-Title: "Extension : Parent Reference"
-Description: "Extension : Parent Reference"
-* extension contains
-    type 1..1 and 
-    value 1..1 
-* extension[type] ^short = "type"
-* extension[type].value[x] only string
-* extension[value] ^short = "value"
-* extension[value].value[x] only uuid or string or canonical or url
-

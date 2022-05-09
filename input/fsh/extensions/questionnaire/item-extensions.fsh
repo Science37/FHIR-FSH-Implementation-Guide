@@ -1,5 +1,3 @@
-
-
 Extension: Rendering
 Id: rendering
 Title: "Extension : Object Rendering Settings"
@@ -86,11 +84,3 @@ Description: "Extension : Object Rendering Settings"
 * extension[setting].extension[version] only Extension
 * extension[setting].extension[version] ^short = "version : Indicates the version number of the widget used to display the rendering settings and votes"
 * extension[setting].extension[version].value[x] only id
-
-
-
-
-
-
-
-
