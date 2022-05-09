@@ -17,7 +17,7 @@ Usage: #example
 * extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
 
 /* Item  Level Information */
-* item[0].type = #question
+* item[0].type = #choice
 * item[=].repeats = true
 
 * item[=].linkId = "__S37-form-fields-p8wrfhsd01p"
