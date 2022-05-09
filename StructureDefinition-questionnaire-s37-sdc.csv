@@ -47,10 +47,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Object Rendering Settings","Extension : Object Rendering Settings","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.extension:subStatus","Questionnaire.extension","subStatus","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status]]} {[]}
-","Extension : SubStatus","Extension : SubStatus","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension : Questionniare SubStatus","used to capture other statuses when questionnaire status is set to unknown","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.extension:createUpdateAtDateTime","Questionnaire.extension","createUpdateAtDateTime","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime]]} {[]}
-","Extension : ResourceCreateUpdateAtDateTime","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension : ResourceCreateUpdateAtDateTime","Captures the created at an updated at attributes of date timestamps for a questionnaire","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.extension:supportedLanguages","Questionnaire.extension","supportedLanguages","","",0,*,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages]]} {[]}
 ","Extension : Supported Languages"," Supported Languages : Contains a list of languages that is supported by the questionnaire","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -207,7 +207,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Object Rendering Settings","Extension : Object Rendering Settings","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.extension:version","Questionnaire.item.extension","version","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version]]} {[]}
-","Extension : SubStatus","Extension : SubStatus","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension : Item Version","Item Version","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.extension:hidden","Questionnaire.item.extension","hidden","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/questionnaire-hidden]]} {[]}
 ","Don't display to user","If true, indicates that the extended item should not be displayed to the user.","If an item is hidden, all descendant items are hidden as well.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -462,7 +462,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.extension:version","Questionnaire.item.item.extension","version","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version]]} {[]}
-","Extension : SubStatus","Extension : SubStatus","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Extension : Item Version","Item Version","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.extension:hidden","Questionnaire.item.item.extension","hidden","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/questionnaire-hidden]]} {[]}

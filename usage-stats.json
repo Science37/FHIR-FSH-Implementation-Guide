@@ -204,7 +204,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
-      "title": "Extension : SubStatus",
+      "title": "Extension : Questionniare SubStatus",
       "types": [
         "string"
       ]
@@ -269,7 +269,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
-      "title": "Extension : SubStatus",
+      "title": "Extension : Item Version",
       "types": [
         "id"
       ]
