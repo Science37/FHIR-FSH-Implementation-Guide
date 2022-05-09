@@ -10,7 +10,7 @@
   "name": "ResourceCreateUpdateAtDateTime",
   "title": "Extension : ResourceCreateUpdateAtDateTime",
   "status": "active",
-  "date": "2022-05-09T17:47:29+00:00",
+  "date": "2022-05-09T17:48:55+00:00",
   "publisher": "Science37",
   "description": "Captures the created at an updated at attributes of date timestamps for a questionnaire",
   "jurisdiction": [
