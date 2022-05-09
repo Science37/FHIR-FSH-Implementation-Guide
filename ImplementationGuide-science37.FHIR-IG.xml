@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-09T17:25:07+00:00"/>
+  <date value="2022-05-09T17:41:36+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -27,7 +27,7 @@
   <dependsOn id="hl7_fhir_uv_sdc">
     <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
     <packageId value="hl7.fhir.uv.sdc"/>
-    <version value="current"/>
+    <version value="3.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -222,28 +222,6 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/form-settings"/>
-      </reference>
-      <name value="Extension : Form Settings "/>
-      <description value="Extension : Questionnaire.settings "/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/parent-reference"/>
-      </reference>
-      <name value="Extension : Parent Reference"/>
-      <description value="Extension : Parent Reference"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/rendering"/>
       </reference>
       <name value="Extension : Object Rendering Settings"/>
@@ -258,17 +236,6 @@
         <reference value="StructureDefinition/resource-create-update-at-datetime"/>
       </reference>
       <name value="Extension : ResourceCreateUpdateAtDateTime"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/settings"/>
-      </reference>
-      <name value="Extension : Common Settings "/>
-      <description value="Extension : Common settings "/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

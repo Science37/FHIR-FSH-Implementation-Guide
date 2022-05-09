@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-09T17:25:07+00:00",
+  "date": "2022-05-09T17:41:36+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -34,7 +34,7 @@
       "id": "hl7_fhir_uv_sdc",
       "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
       "packageId": "hl7.fhir.uv.sdc",
-      "version": "current"
+      "version": "3.0.0"
     }
   ],
   "definition": {
@@ -349,34 +349,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/form-settings"
-        },
-        "name": "Extension : Form Settings ",
-        "description": "Extension : Questionnaire.settings ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/parent-reference"
-        },
-        "name": "Extension : Parent Reference",
-        "description": "Extension : Parent Reference",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/rendering"
         },
         "name": "Extension : Object Rendering Settings",
@@ -394,20 +366,6 @@
           "reference": "StructureDefinition/resource-create-update-at-datetime"
         },
         "name": "Extension : ResourceCreateUpdateAtDateTime",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/settings"
-        },
-        "name": "Extension : Common Settings ",
-        "description": "Extension : Common settings ",
         "exampleBoolean": false
       },
       {
