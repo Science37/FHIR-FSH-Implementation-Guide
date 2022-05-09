@@ -133,20 +133,6 @@
     "name": "S37FHIRIG"
   },
   {
-    "id": "form-settings",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings",
-    "version": "1.0.0-S37",
-    "name": "FormSettings"
-  },
-  {
-    "id": "parent-reference",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
-    "version": "1.0.0-S37",
-    "name": "ParentReference"
-  },
-  {
     "id": "questionnaire-s37-sdc",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc",
@@ -166,13 +152,6 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime",
     "version": "1.0.0-S37",
     "name": "ResourceCreateUpdateAtDateTime"
-  },
-  {
-    "id": "settings",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/settings",
-    "version": "1.0.0-S37",
-    "name": "Settings"
   },
   {
     "id": "sub-status",
