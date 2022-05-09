@@ -1,7 +1,7 @@
 Instance: Questionnaire-Item-Extension-Example-TextArea
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-All-TextArea"
-Description: "Example : Questionnaire.Item-All-TextArea"
+Title: "Example : Questionnaire.Item-TextArea"
+Description: "Example : Questionnaire.Item-TextArea"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
