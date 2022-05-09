@@ -1,226 +1,226 @@
-"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"Extension","","","",0,*,"","","","","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"Extension","Extension","","","",0,*,"","","","","Extension : Item Rendering Settings","Extension : Item Rendering Settings","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension","","extensions
+"Extension.extension","Extension.extension","","extensions
 user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"Extension.extension","id","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:id","Extension.extension","id","","",0,1,"","","","Extension {[]} {[]}
 ","id : Uniquely identifies the specific redering settings instance. Must be Unique.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:id.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:id.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:id.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""id""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:id.value[x]","Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","label","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:label","Extension.extension","label","","",0,1,"","","","Extension {[]} {[]}
 ","label: text used for describing the rendering settings instance","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:label.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:label.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:label.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""label""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:label.value[x]","Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","hidden","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:hidden","Extension.extension","hidden","","",0,1,"","","","Extension {[]} {[]}
 ","hidden : Kids if the rendering settings are hidden or not Boolean value.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:hidden.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:hidden.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:hidden.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""hidden""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
+"Extension.extension:hidden.value[x]","Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:description","Extension.extension","description","","",0,1,"","","","Extension {[]} {[]}
 ","description : Human readable explanation of what the rendering settings are for.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:description.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:description.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:description.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""description""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:description.value[x]","Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","pattern","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:pattern","Extension.extension","pattern","","",0,1,"","","","Extension {[]} {[]}
 ","pattern : Describes the specific regular expression pattern used within a rendering setting.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:pattern.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:pattern.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:pattern.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""pattern""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:pattern.value[x]","Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","unique","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:unique","Extension.extension","unique","","",0,1,"","","","Extension {[]} {[]}
 ","unique : Indicates of the value of the setting is to be distinctive","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:unique.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:unique.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:unique.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""unique""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
+"Extension.extension:unique.value[x]","Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","disabled","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:disabled","Extension.extension","disabled","","",0,1,"","","","Extension {[]} {[]}
 ","disabled : Indicates if the specific rendering settings is enabled or disabled","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:disabled.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:disabled.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:disabled.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""disabled""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
+"Extension.extension:disabled.value[x]","Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","type","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:type","Extension.extension","type","","",0,1,"","","","Extension {[]} {[]}
 ","type : Indicates the UIUX specific display component to be used example text, checkbox, text area.","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:type.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:type.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:type.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""type""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:type.value[x]","Extension.extension.value[x]","","","",0,1,"","","","string {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","value","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:value","Extension.extension","value","","",0,1,"","","","Extension {[]} {[]}
 ","value : Contains the value entered by the end user for this specific rendering setting","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:value.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:value.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:value.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""value""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
+"Extension.extension:value.value[x]","Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
 date {[]} {[]}dateTime {[]} {[]}decimal {[]} {[]}integer {[]} {[]}string {[]} {[]}time {[]} {[]}Coding {[]} {[]}Quantity {[]} {[]}Reference {[]} {[]}","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","required","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:required","Extension.extension","required","","",0,1,"","","","Extension {[]} {[]}
 ","required : Indicates if the specific rendering setting is or is not required","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:required.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:required.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:required.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""required""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
+"Extension.extension:required.value[x]","Extension.extension.value[x]","","","",0,1,"","","","boolean {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","maxLength","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:maxLength","Extension.extension","maxLength","","",0,1,"","","","Extension {[]} {[]}
 ","maxLength : Indicates the maximum length of the rendering setting value","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:maxLength.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:maxLength.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:maxLength.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""maxLength""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","integer {[]} {[]}
+"Extension.extension:maxLength.value[x]","Extension.extension.value[x]","","","",0,1,"","","","integer {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","minLength","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:minLength","Extension.extension","minLength","","",0,1,"","","","Extension {[]} {[]}
 ","minLength : Indicates minimum length of the rendering setting value","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:minLength.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:minLength.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:minLength.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""minLength""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","integer {[]} {[]}
+"Extension.extension:minLength.value[x]","Extension.extension.value[x]","","","",0,1,"","","","integer {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","maxValue","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:maxValue","Extension.extension","maxValue","","",0,1,"","","","Extension {[]} {[]}
 ","maxValue : Indicates the maximum value that can be held within the rendering settings value","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:maxValue.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:maxValue.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:maxValue.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""maxValue""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","date {[]} {[]}
+"Extension.extension:maxValue.value[x]","Extension.extension.value[x]","","","",0,1,"","","","date {[]} {[]}
 dateTime {[]} {[]}decimal {[]} {[]}integer {[]} {[]}time {[]} {[]}Quantity {[]} {[]}","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","minValue","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:minValue","Extension.extension","minValue","","",0,1,"","","","Extension {[]} {[]}
 ","minValue : Indicates the  minimum value that can be held within the rendering settings value","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:minValue.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:minValue.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:minValue.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""minValue""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","date {[]} {[]}
+"Extension.extension:minValue.value[x]","Extension.extension.value[x]","","","",0,1,"","","","date {[]} {[]}
 dateTime {[]} {[]}decimal {[]} {[]}integer {[]} {[]}time {[]} {[]}Quantity {[]} {[]}","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.extension","version","","",0,1,"","","","Extension {[]} {[]}
+"Extension.extension:version","Extension.extension","version","","",0,1,"","","","Extension {[]} {[]}
 ","version : Indicates the version number of the widget used to display the rendering settings and votes","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
+"Extension.extension:version.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+"Extension.extension:version.extension","Extension.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.extension:version.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""version""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension.value[x]","","","",0,1,"","","","id {[]} {[]}
+"Extension.extension:version.value[x]","Extension.extension.value[x]","","","",0,1,"","","","id {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
-"Extension.url","","","",1,1,"","","","uri {[]} {[]}
+"Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.value[x]","","","",0,0,"","","","base64Binary {[]} {[]}
+"Extension.value[x]","Extension.value[x]","","","",0,0,"","","","base64Binary {[]} {[]}
 boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[]}decimal {[]} {[]}id {[]} {[]}instant {[]} {[]}integer {[]} {[]}markdown {[]} {[]}oid {[]} {[]}positiveInt {[]} {[]}string {[]} {[]}time {[]} {[]}unsignedInt {[]} {[]}uri {[]} {[]}url {[]} {[]}uuid {[]} {[]}Address {[]} {[]}Age {[]} {[]}Annotation {[]} {[]}Attachment {[]} {[]}CodeableConcept {[]} {[]}Coding {[]} {[]}ContactPoint {[]} {[]}Count {[]} {[]}Distance {[]} {[]}Duration {[]} {[]}HumanName {[]} {[]}Identifier {[]} {[]}Money {[]} {[]}Period {[]} {[]}Quantity {[]} {[]}Range {[]} {[]}Ratio {[]} {[]}Reference {[]} {[]}SampledData {[]} {[]}Signature {[]} {[]}Timing {[]} {[]}ContactDetail {[]} {[]}Contributor {[]} {[]}DataRequirement {[]} {[]}Expression {[]} {[]}ParameterDefinition {[]} {[]}RelatedArtifact {[]} {[]}TriggerDefinition {[]} {[]}UsageContext {[]} {[]}Dosage {[]} {[]}Meta {[]} {[]}","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"

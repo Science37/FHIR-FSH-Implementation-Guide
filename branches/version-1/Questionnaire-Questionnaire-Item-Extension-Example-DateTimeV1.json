@@ -3,27 +3,59 @@
   "id": "Questionnaire-Item-Extension-Example-DateTimeV1",
   "meta": {
     "profile": [
-      "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37"
+      "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> Example : Questionnaire.Item DateTime V1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV1#1.0.0-S37</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" id=\"item.__S37-form-fields-qo3cyvy8fgh\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Group\" class=\"hierarchy\"/> __S37-form-fields-qo3cyvy8fgh</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question\">question</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Definition: https://science37.com/NG/widget/id/datetime/version/2.3</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> Example : Questionnaire DateTimeV1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">http://science37.com/questionnaire#1.0.0-S37</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" id=\"item.__S37-form-fields-qo3cyvy8fgh\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-group.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Group\" class=\"hierarchy\"/> __S37-form-fields-qo3cyvy8fgh</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question\">question</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Definition: https://science37.com/NG/widget/id/datetime/version/2.3</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   },
-  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV1",
+  "extension": [
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
+      "valueString": "deleted"
+    },
+    {
+      "extension": [
+        {
+          "url": "createdAt",
+          "valueDateTime": "2015-02-07T13:28:17Z"
+        },
+        {
+          "url": "updatedAt",
+          "valueDateTime": "2022-01-01T10:08:10Z"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime"
+    },
+    {
+      "extension": [
+        {
+          "url": "language",
+          "valueCode": "US-ENG"
+        },
+        {
+          "url": "language",
+          "valueCode": "US-ENG2"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages"
+    }
+  ],
+  "url": "http://science37.com/questionnaire",
   "identifier": [
     {
-      "value": "Form ID1234"
+      "value": "Form ID-odfu9sdfyisyd78y877"
     }
   ],
   "version": "1.0.0-S37",
-  "name": "Example : Questionnaire.Item DateTime V1",
-  "title": "Example : Questionnaire.Item DateTime V1",
-  "status": "draft",
+  "name": "Example : Questionnaire DateTimeV1",
+  "title": "Example : Questionnaire DateTime",
+  "status": "unknown",
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-04T18:38:54+00:00",
+  "date": "2022-05-09T16:15:14+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -53,13 +85,8 @@
           }
         },
         {
-          "extension": [
-            {
-              "url": "version",
-              "valueId": "1.0.1.1"
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
+          "valueId": "1.0.1-item"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
@@ -72,708 +99,713 @@
         {
           "extension": [
             {
-              "url": "id",
-              "valueString": "sponsorVariable"
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "sponsorVariable"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Field OID"
+                },
+                {
+                  "url": "value",
+                  "valueString": "DS_CONSENT_SIG_FIELD_OID"
+                },
+                {
+                  "url": "type",
+                  "valueString": "text"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "description",
+                  "valueString": "Max of 256 characters"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 256
+                },
+                {
+                  "url": "pattern",
+                  "valueString": "^(?!.* ).*$"
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "label",
-              "valueString": "Field OID"
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "linkId"
+                },
+                {
+                  "url": "label",
+                  "valueString": "LinkId"
+                },
+                {
+                  "url": "value",
+                  "valueString": "__S37-form-fields-qo3cyvy8fgh"
+                },
+                {
+                  "url": "type",
+                  "valueString": "text"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "value",
-              "valueString": "DS_CONSENT_SIG_FIELD_OID"
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "title"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Title"
+                },
+                {
+                  "url": "value",
+                  "valueString": "DS_CONSENT_SIG_FIELD_ITLE"
+                },
+                {
+                  "url": "type",
+                  "valueString": "text"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 100
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "type",
-              "valueString": "text"
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "lable"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Field label"
+                },
+                {
+                  "url": "value",
+                  "valueString": "<p style=text-align:left;><strong>DATE_TIME_LABEL</strong></p>"
+                },
+                {
+                  "url": "type",
+                  "valueString": "richtext"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "description",
+                  "valueString": "What will display to the respondent."
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 2000
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "hidden",
-              "valueBoolean": false
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "standardVariable"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Standard Variable"
+                },
+                {
+                  "url": "value",
+                  "valueString": "DS_CONSENT_SIG_FIELD_STD_VAR"
+                },
+                {
+                  "url": "type",
+                  "valueString": "text"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "description",
+                  "valueString": "Max of 256 characters"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 256
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "required",
-              "valueBoolean": false
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "description"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Description"
+                },
+                {
+                  "url": "value",
+                  "valueString": "DS_CONSENT_SIG_FIELD_DESC"
+                },
+                {
+                  "url": "type",
+                  "valueString": "textarea"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 256
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "description",
-              "valueString": "Max of 256 characters"
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "requiredField"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Required field"
+                },
+                {
+                  "url": "value",
+                  "valueString": "false"
+                },
+                {
+                  "url": "type",
+                  "valueString": "checkbox"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "maxLength",
-              "valueInteger": 256
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "version"
+                },
+                {
+                  "url": "value",
+                  "valueString": "1"
+                },
+                {
+                  "url": "type",
+                  "valueString": "text"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": true
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "pattern",
-              "valueString": "^(?!.* ).*$"
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "datetimeType"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-datetimeType"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Type"
+                },
+                {
+                  "url": "value",
+                  "valueString": "dt"
+                },
+                {
+                  "url": "type",
+                  "valueString": "select"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "unique",
-              "valueBoolean": true
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "dateTimeOptions"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-dateTimeOptions"
+                },
+                {
+                  "url": "value",
+                  "valueString": "captureDateonSubmit"
+                },
+                {
+                  "url": "type",
+                  "valueString": "radiogroup"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
             },
             {
-              "url": "disabled",
-              "valueBoolean": false
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "captureTimeonSubmit"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-captureTimeonSubmit"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Capture time on submit"
+                },
+                {
+                  "url": "value",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "type",
+                  "valueString": "checkbox"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "description",
+                  "valueString": "Date field is not editable by user (read only)"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 256
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
+            },
+            {
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "minDate"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-minDate"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Minimum Date"
+                },
+                {
+                  "url": "value",
+                  "valueDateTime": "2013-06-08T10:57:34+01:00"
+                },
+                {
+                  "url": "type",
+                  "valueString": "dateTime"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
+            },
+            {
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "maxDate"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-maxDate"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Maximum Date"
+                },
+                {
+                  "url": "value",
+                  "valueDateTime": "2022-06-08T10:57:34+01:00"
+                },
+                {
+                  "url": "type",
+                  "valueString": "dateTime"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
+            },
+            {
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "completionPeriodOfTime"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-completionPeriodOfTime"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Period of time"
+                },
+                {
+                  "url": "value",
+                  "valueString": "xxx"
+                },
+                {
+                  "url": "type",
+                  "valueString": "select"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "description",
+                  "valueString": "Constrain the response by months, days or hours"
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                }
+              ],
+              "url": "setting"
+            },
+            {
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "completionNoOfHours"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-completionPeriodOfTime"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Number of Hours"
+                },
+                {
+                  "url": "value"
+                },
+                {
+                  "url": "type",
+                  "valueString": "integer"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "minValue",
+                  "valueInteger": 1
+                }
+              ],
+              "url": "setting"
+            },
+            {
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "completionNoOfDays"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-completionNoOfDays"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Number of Days"
+                },
+                {
+                  "url": "value"
+                },
+                {
+                  "url": "type",
+                  "valueString": "integer"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "minValue",
+                  "valueInteger": 1
+                }
+              ],
+              "url": "setting"
+            },
+            {
+              "extension": [
+                {
+                  "url": "id",
+                  "valueString": "completionNoOfMonths"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.2-completionNoOfMonths"
+                },
+                {
+                  "url": "label",
+                  "valueString": "Number of Months"
+                },
+                {
+                  "url": "value"
+                },
+                {
+                  "url": "type",
+                  "valueString": "integer"
+                },
+                {
+                  "url": "hidden",
+                  "valueBoolean": true
+                },
+                {
+                  "url": "required",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "unique",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "disabled",
+                  "valueBoolean": false
+                },
+                {
+                  "url": "minValue",
+                  "valueInteger": 1
+                }
+              ],
+              "url": "setting"
             }
           ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "linkId"
-            },
-            {
-              "url": "label",
-              "valueString": "LinkId"
-            },
-            {
-              "url": "value",
-              "valueString": "__S37-form-fields-qo3cyvy8fgh"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": true
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "title"
-            },
-            {
-              "url": "label",
-              "valueString": "Title"
-            },
-            {
-              "url": "value",
-              "valueString": "DS_CONSENT_SIG_FIELD_ITLE"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": true
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 100
-            },
-            {
-              "url": "unique",
-              "valueBoolean": true
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "lable"
-            },
-            {
-              "url": "label",
-              "valueString": "Field label"
-            },
-            {
-              "url": "value",
-              "valueString": "<p style=text-align:left;><strong>DATE_TIME_LABEL</strong></p>"
-            },
-            {
-              "url": "type",
-              "valueString": "richtext"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": true
-            },
-            {
-              "url": "description",
-              "valueString": "What will display to the respondent."
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 2000
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "standardVariable"
-            },
-            {
-              "url": "label",
-              "valueString": "Standard Variable"
-            },
-            {
-              "url": "value",
-              "valueString": "DS_CONSENT_SIG_FIELD_STD_VAR"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": true
-            },
-            {
-              "url": "description",
-              "valueString": "Max of 256 characters"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 256
-            },
-            {
-              "url": "unique",
-              "valueBoolean": true
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "description"
-            },
-            {
-              "url": "label",
-              "valueString": "Description"
-            },
-            {
-              "url": "value",
-              "valueString": "DS_CONSENT_SIG_FIELD_DESC"
-            },
-            {
-              "url": "type",
-              "valueString": "textarea"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 256
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "requiredField"
-            },
-            {
-              "url": "label",
-              "valueString": "Required field"
-            },
-            {
-              "url": "value",
-              "valueString": "false"
-            },
-            {
-              "url": "type",
-              "valueString": "checkbox"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "version"
-            },
-            {
-              "url": "value",
-              "valueString": "1"
-            },
-            {
-              "url": "type",
-              "valueString": "text"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": true
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "datetimeType"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-datetimeType"
-            },
-            {
-              "url": "label",
-              "valueString": "Type"
-            },
-            {
-              "url": "value",
-              "valueString": "dt"
-            },
-            {
-              "url": "type",
-              "valueString": "select"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": true
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "dateTimeOptions"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-dateTimeOptions"
-            },
-            {
-              "url": "value",
-              "valueString": "captureDateonSubmit"
-            },
-            {
-              "url": "type",
-              "valueString": "radiogroup"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": false
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "captureTimeonSubmit"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-captureTimeonSubmit"
-            },
-            {
-              "url": "label",
-              "valueString": "Capture time on submit"
-            },
-            {
-              "url": "value",
-              "valueBoolean": false
-            },
-            {
-              "url": "type",
-              "valueString": "checkbox"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "description",
-              "valueString": "Date field is not editable by user (read only)"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 256
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "minDate"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-minDate"
-            },
-            {
-              "url": "label",
-              "valueString": "Minimum Date"
-            },
-            {
-              "url": "value",
-              "valueDateTime": "2013-06-08T10:57:34+01:00"
-            },
-            {
-              "url": "type",
-              "valueString": "dateTime"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "maxDate"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-maxDate"
-            },
-            {
-              "url": "label",
-              "valueString": "Maximum Date"
-            },
-            {
-              "url": "value",
-              "valueDateTime": "2022-06-08T10:57:34+01:00"
-            },
-            {
-              "url": "type",
-              "valueString": "dateTime"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "completionPeriodOfTime"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-completionPeriodOfTime"
-            },
-            {
-              "url": "label",
-              "valueString": "Period of time"
-            },
-            {
-              "url": "value",
-              "valueString": "xxx"
-            },
-            {
-              "url": "type",
-              "valueString": "select"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "description",
-              "valueString": "Constrain the response by months, days or hours"
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "completionNoOfHours"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-completionPeriodOfTime"
-            },
-            {
-              "url": "label",
-              "valueString": "Number of Hours"
-            },
-            {
-              "url": "value"
-            },
-            {
-              "url": "type",
-              "valueString": "integer"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            },
-            {
-              "url": "minValue",
-              "valueInteger": 1
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "completionNoOfDays"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-completionNoOfDays"
-            },
-            {
-              "url": "label",
-              "valueString": "Number of Days"
-            },
-            {
-              "url": "value"
-            },
-            {
-              "url": "type",
-              "valueString": "integer"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            },
-            {
-              "url": "minValue",
-              "valueInteger": 1
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "id",
-              "valueString": "completionNoOfMonths"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.2-completionNoOfMonths"
-            },
-            {
-              "url": "label",
-              "valueString": "Number of Months"
-            },
-            {
-              "url": "value"
-            },
-            {
-              "url": "type",
-              "valueString": "integer"
-            },
-            {
-              "url": "hidden",
-              "valueBoolean": true
-            },
-            {
-              "url": "required",
-              "valueBoolean": false
-            },
-            {
-              "url": "unique",
-              "valueBoolean": false
-            },
-            {
-              "url": "disabled",
-              "valueBoolean": false
-            },
-            {
-              "url": "minValue",
-              "valueInteger": 1
-            }
-          ],
-          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings"
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering"
         }
       ],
       "linkId": "__S37-form-fields-qo3cyvy8fgh",
