@@ -1,14 +1,20 @@
 Instance: Questionnaire-Item-Extension-Example-FileUploadV1
-InstanceOf: QuestionnaireS37
+InstanceOf: QuestionnaireS37SDC
 Title: "Example : Questionnaire.Item-FileUpload-V1"
 Description: "Example : Questionnaire.Item-FileUpload-V1"
 Usage: #example
 /* Form Level Information */
-* status = #draft
+* url = "http://science37.com/questionnaire"
+* status = #unknown
 * title = "Example : Questionnaire.Item FileUpload-V1"
 * name = "Example : Questionnaire.Item FileUpload-V1"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID-odfu9sdfyisyd78y877"
+* extension[subStatus].valueString = "deleted"
+* extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
+* extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2"
 
 
 * item[0].type = #attachment
@@ -16,6 +22,7 @@ Usage: #example
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
 * item[=].required = true
+* item[=].extension[version].valueId = "1.0.1-item"
 
 * item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-fileupload"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
@@ -24,11 +31,11 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 
 
-* insert SponsorVariableRS(FILE_UPLOAD_OID)
-* insert LinkIdRS(__S37-form-fields-q6zbrgullmr)
-* insert TitleRS(FILE_UPLOAD_TITLE)
-* insert LableRS(<p style=text-align:left;><strong>FILE_UPLOAD_LABEL</strong></p>)
-* insert StandardVariableRS(FILE_UPLOAD_STD_VAR)
-* insert DescriptionRS(FILE_UPLOAD_DESC)
-* insert RequiredRS(false)
-* insert VersionRS(1)
+* insert SponsorVariableRS_SDC(FILE_UPLOAD_OID)
+* insert LinkIdRS_SDC(__S37-form-fields-q6zbrgullmr)
+* insert TitleRS_SDC(FILE_UPLOAD_TITLE)
+* insert LableRS_SDC(<p style=text-align:left;><strong>FILE_UPLOAD_LABEL</strong></p>)
+* insert StandardVariableRS_SDC(FILE_UPLOAD_STD_VAR)
+* insert DescriptionRS_SDC(FILE_UPLOAD_DESC)
+* insert RequiredRS_SDC(false)
+* insert VersionRS_SDC(1)

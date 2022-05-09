@@ -1,14 +1,21 @@
 Instance: Questionnaire-Item-Extension-Example-RichText-V1
-InstanceOf: QuestionnaireS37
+InstanceOf: QuestionnaireS37SDC
 Title: "Example : Questionnaire.Item-RichText-V1"
 Description: "Example : Questionnaire.Item-RichText-V1"
 Usage: #example
 /* Form Level Information */
-* status = #draft
+* url = "http://science37.com/questionnaire"
+* status = #unknown
 * title = "Example : Questionnaire.Item RichText-V1"
 * name = "Example : Questionnaire.Item RichText-V1"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID-odfu9sdfyisyd78y877"
+* extension[subStatus].valueString = "deleted"
+* extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
+* extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
+
 
 /* Item  Level Information */
 * item[0].type = #display
@@ -24,11 +31,7 @@ Usage: #example
 
 
 
-* insert SponsorVariableRS(RICH_TEXT_FIELD_OID)
-* insert LinkIdRS(__S37-form-fields-2cg5vgg5kdh)
-* insert TitleRS(RICH_TEXT_ITLE)
-/* insert LableRS(<p style=text-align:left;><strong>DATE_TIME_LABEL</strong></p>)
-* insert StandardVariableRS(DS_CONSENT_SIG_FIELD_STD_VAR)
-* insert DescriptionRS(DS_CONSENT_SIG_FIELD_DESC)
-* insert RequiredRS(false)*/
-* insert VersionRS(1)
+* insert SponsorVariableRS_SDC(RICH_TEXT_FIELD_OID)
+* insert LinkIdRS_SDC(__S37-form-fields-2cg5vgg5kdh)
+* insert TitleRS_SDC(RICH_TEXT_ITLE)
+* insert VersionRS_SDC(1)

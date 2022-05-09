@@ -1,14 +1,20 @@
 Instance: Questionnaire-Item-Extension-Example-MultiSelect-V1
-InstanceOf: QuestionnaireS37
+InstanceOf: QuestionnaireS37SDC
 Title: "Example : Questionnaire.Item-MultiMultiSelect-V1"
 Description: "Example : Questionnaire.Item-MultiSelect-V1"
 Usage: #example
 /* Form Level Information */
-* status = #draft
+* url = "http://science37.com/questionnaire"
+* status = #unknown
 * title = "Example : Questionnaire.Item MultiSelect-V1"
 * name = "Example : Questionnaire.Item MultiSelect-V1"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID-odfu9sdfyisyd78y877"
+* extension[subStatus].valueString = "deleted"
+* extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
+* extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
 
 /* Item  Level Information */
 * item[0].type = #choice
@@ -19,6 +25,7 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/MultiSelect/version/2.3"
 * item[=].required = true
 
+* item[=].extension[version].valueId = "1.0.1-item"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop Down"
@@ -39,12 +46,12 @@ Usage: #example
 * item[=].initial.valueString = "554"
 
 
-* insert SponsorVariableRS(MULTPLE_CHOICE_OID)
-* insert LinkIdRS(__S37-form-fields-p8wrfhsd01p)
-* insert TitleRS(MULTPLE_CHOICE_TITLE)
-* insert LableRS(<p style=text-align:left;><strong>MULTPLE_CHOICE_LABLE</strong></p>)
-* insert StandardVariableRS(MULTPLE_CHOICE_STD_VAR)
-* insert DescriptionRS(MULTPLE_CHOICE_DESC)
-* insert RequiredRS(false)
-* insert VersionRS(1)
+* insert SponsorVariableRS_SDC(MULTPLE_CHOICE_OID)
+* insert LinkIdRS_SDC(__S37-form-fields-p8wrfhsd01p)
+* insert TitleRS_SDC(MULTPLE_CHOICE_TITLE)
+* insert LableRS_SDC(<p style=text-align:left;><strong>MULTPLE_CHOICE_LABLE</strong></p>)
+* insert StandardVariableRS_SDC(MULTPLE_CHOICE_STD_VAR)
+* insert DescriptionRS_SDC(MULTPLE_CHOICE_DESC)
+* insert RequiredRS_SDC(false)
+* insert VersionRS_SDC(1)
 

@@ -1,14 +1,20 @@
 Instance: Questionnaire-Item-Extension-Example-VASScale-V1
-InstanceOf: QuestionnaireS37
+InstanceOf: QuestionnaireS37SDC
 Title: "Example : Questionnaire.Item-VASScale-V1"
 Description: "Example : Questionnaire.Item-VASScale-V1"
 Usage: #example
 /* Form Level Information */
-* status = #draft
+* url = "http://science37.com/questionnaire"
+* status = #unknown
 * title = "Example : Questionnaire.Item VASScale-V1"
 * name = "Example : Questionnaire.Item VASScale-V1"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID-odfu9sdfyisyd78y877"
+* extension[subStatus].valueString = "deleted"
+* extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
+* extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
+* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
 
 * item[0].type = #question
 * item[=].extension[hidden].valueBoolean = false
@@ -26,34 +32,21 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
 * item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
+* item[=].extension[version].valueId = "1.0.1-item"
 
-* insert SponsorVariableRS(VAS_OID)
-* insert LinkIdRS(__S37-form-fields-h0ae575xlf8)
-* insert TitleRS(VAS_TITLE)
-* insert LableRS(<p style=text-align:left;><strong>TEXT_AREA_LABEL</strong></p>)
-* insert StandardVariableRS(VAS_STD_VAR)
-* insert DescriptionRS(VAS_DESC)
-* insert RequiredRS(false)
-* insert VersionRS(1)
+* insert SponsorVariableRS_SDC(VAS_OID)
+* insert LinkIdRS_SDC(__S37-form-fields-h0ae575xlf8)
+* insert TitleRS_SDC(VAS_TITLE)
+* insert LableRS_SDC(<p style=text-align:left;><strong>TEXT_AREA_LABEL</strong></p>)
+* insert StandardVariableRS_SDC(VAS_STD_VAR)
+* insert DescriptionRS_SDC(VAS_DESC)
+* insert RequiredRS_SDC(false)
+* insert VersionRS_SDC(1)
 
 
 /*VAS*/
-* insert VASDisplayValueIndicator
-* insert VASValueIndicatorLabel
-* insert VASMinValueLabel
-* insert VASMaxValueLabel
-* insert VASMaxValueLabel
-* insert VASMedValueLabel
-* insert VASNAOption
-* insert VASNALabel
-* insert VASScaleOrientation
-* insert VASDoNotShowNumValue
-* insert VASShowIncrements
-* insert VASMinorIncrements
-* insert VASMajorIncrements
-* insert VASInteractionType
-* insert VASScaleSize
-* insert VASVASPresent
+* insert AllVAS
+
 
 
 

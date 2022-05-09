@@ -29,6 +29,16 @@ Description: "Extension : SubStatus"
 * value[x] only string
 
 
+Extension: Version
+Id: version
+Title: "Extension : SubStatus"
+Description: "Extension : SubStatus"
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire.item"
+* value[x] only id
+
+
+
 Extension: ResourceCreateUpdateAtDateTime
 Id: resource-create-update-at-datetime
 Title: "Extension : ResourceCreateUpdateAtDateTime"
