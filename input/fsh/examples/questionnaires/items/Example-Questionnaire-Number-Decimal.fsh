@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-Number-Decimal-V1
+Instance: Questionnaire-Item-Extension-Example-Number-Decimal
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-Number-Decimal-V1"
-Description: "Example : Questionnaire.Item-Number-Decimal-V1"
+Title: "Example : Questionnaire.Item-Number-Decimal"
+Description: "Example : Questionnaire.Item-Number-Decimal"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
-* title = "Example : Questionnaire.Item Number-Decimal-V1"
-* name = "Example : Questionnaire.Item Number-Decimal-V1"
+* title = "Example : Questionnaire.Item Number-Decimal"
+* name = "Example : Questionnaire.Item Number-Decimal"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"

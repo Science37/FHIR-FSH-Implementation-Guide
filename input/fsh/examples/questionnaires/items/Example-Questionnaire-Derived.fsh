@@ -1,7 +1,7 @@
-Instance: Questionnaire-Item-Extension-Example-derivedV1
+Instance: Questionnaire-Item-Extension-Example-derived
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-derived-V1"
-Description: "Example : Questionnaire.Item-derived-V1"
+Title: "Example : Questionnaire.Item-derived"
+Description: "Example : Questionnaire.Item-derived"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"

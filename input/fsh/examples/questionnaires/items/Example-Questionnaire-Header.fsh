@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-Header-V1
+Instance: Questionnaire-Item-Extension-Example-Header
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-Header-V1"
-Description: "Example : Questionnaire.Item-Header-V1"
+Title: "Example : Questionnaire.Item-Header"
+Description: "Example : Questionnaire.Item-Header"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
-* title = "Example : Questionnaire.Item Header-V1"
-* name = "Example : Questionnaire.Item Header-V1"
+* title = "Example : Questionnaire.Item Header"
+* name = "Example : Questionnaire.Item Header"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"

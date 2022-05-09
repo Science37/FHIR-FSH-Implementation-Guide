@@ -1,7 +1,7 @@
-Instance: Questionnaire-Item-Extension-Example-DateTimeV1
+Instance: Questionnaire-Item-Extension-Example-DateTime
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-DateTime V1"
-Description: "Example : Questionnaire.Item-DateTime V1"
+Title: "Example : Questionnaire.Item-DateTime"
+Description: "Example : Questionnaire.Item-DateTime"
 Usage: #example
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown

@@ -1,7 +1,7 @@
-Instance: Item-Extension-Example-All-48-V1
+Instance: Item-Extension-Example-All-Items
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-All-48-V1"
-Description: "Example : Questionnaire.Item-All-48-V1"
+Title: "Example : Questionnaire.Item-All-Items"
+Description: "Example : Questionnaire.Item-All-Items"
 Usage: #example
 
 /* Form Level Information */
