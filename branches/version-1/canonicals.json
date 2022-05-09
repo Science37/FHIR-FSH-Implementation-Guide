@@ -116,14 +116,14 @@
     "type": "Questionnaire",
     "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item derived-V1"
+    "name": "Example : Questionnaire.Item Derived-V1"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-page-break",
     "type": "Questionnaire",
     "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item page-break"
+    "name": "Example : Questionnaire.Item Page-Break"
   },
   {
     "id": "science37.FHIR-IG",

@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-09T17:47:29+00:00",
+  "date": "2022-05-09T17:48:55+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -617,8 +617,8 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-TextArea"
         },
-        "name": "Example : Questionnaire.Item-All-TextArea",
-        "description": "Example : Questionnaire.Item-All-TextArea",
+        "name": "Example : Questionnaire.Item-TextArea",
+        "description": "Example : Questionnaire.Item-TextArea",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
       },
       {
@@ -645,8 +645,8 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-derived"
         },
-        "name": "Example : Questionnaire.Item-derived",
-        "description": "Example : Questionnaire.Item-derived",
+        "name": "Example : Questionnaire.Item-Derived",
+        "description": "Example : Questionnaire.Item-Derived",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
       },
       {
@@ -659,8 +659,8 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-page-break"
         },
-        "name": "Example : Questionnaire.Item-page-break",
-        "description": "Example : Questionnaire.Item-page-break",
+        "name": "Example : Questionnaire.Item-Page-Break",
+        "description": "Example : Questionnaire.Item-Page-Break",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
       }
     ],
