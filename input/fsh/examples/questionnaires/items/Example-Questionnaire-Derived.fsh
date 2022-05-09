@@ -1,13 +1,13 @@
 Instance: Questionnaire-Item-Extension-Example-derived
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-derived"
-Description: "Example : Questionnaire.Item-derived"
+Title: "Example : Questionnaire.Item-Derived"
+Description: "Example : Questionnaire.Item-Derived"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
-* title = "Example : Questionnaire.Item derived-V1"
-* name = "Example : Questionnaire.Item derived-V1"
+* title = "Example : Questionnaire.Item Derived-V1"
+* name = "Example : Questionnaire.Item Derived-V1"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"

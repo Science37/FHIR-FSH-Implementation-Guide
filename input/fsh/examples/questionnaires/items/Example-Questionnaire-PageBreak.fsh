@@ -1,13 +1,13 @@
 Instance: Questionnaire-Item-Extension-Example-page-break
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-page-break"
-Description: "Example : Questionnaire.Item-page-break"
+Title: "Example : Questionnaire.Item-Page-Break"
+Description: "Example : Questionnaire.Item-Page-Break"
 Usage: #example
 /* Form Level Information */
 * url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
-* title = "Example : Questionnaire.Item page-break"
-* name = "Example : Questionnaire.Item page-break"
+* title = "Example : Questionnaire.Item Page-Break"
+* name = "Example : Questionnaire.Item Page-Break"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"
