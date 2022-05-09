@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-09T17:41:36+00:00",
+  "date": "2022-05-09T17:47:29+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -366,6 +366,7 @@
           "reference": "StructureDefinition/resource-create-update-at-datetime"
         },
         "name": "Extension : ResourceCreateUpdateAtDateTime",
+        "description": "Captures the created at an updated at attributes of date timestamps for a questionnaire",
         "exampleBoolean": false
       },
       {
@@ -378,8 +379,8 @@
         "reference": {
           "reference": "StructureDefinition/sub-status"
         },
-        "name": "Extension : SubStatus",
-        "description": "Extension : SubStatus",
+        "name": "Extension : Questionniare SubStatus",
+        "description": "used to capture other statuses when questionnaire status is set to unknown",
         "exampleBoolean": false
       },
       {
@@ -406,8 +407,8 @@
         "reference": {
           "reference": "StructureDefinition/version"
         },
-        "name": "Extension : SubStatus",
-        "description": "Extension : SubStatus",
+        "name": "Extension : Item Version",
+        "description": "Item Version",
         "exampleBoolean": false
       },
       {
@@ -434,8 +435,8 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Extension-Example"
         },
-        "name": "Example : Questionnaire",
-        "description": "Example : Questionnaire",
+        "name": "Example : Questionnaire Basic Example",
+        "description": "Example : Questionnaire Basic Example",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
       },
       {

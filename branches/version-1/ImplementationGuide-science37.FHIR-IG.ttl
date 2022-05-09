@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-09T17:41:36+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-09T17:47:29+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -351,6 +351,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/resource-create-update-at-datetime" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ResourceCreateUpdateAtDateTime" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Captures the created at an updated at attributes of date timestamps for a questionnaire" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;
@@ -363,8 +364,8 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/sub-status" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : SubStatus" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : SubStatus" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionniare SubStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "used to capture other statuses when questionnaire status is set to unknown" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
@@ -391,8 +392,8 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/version" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : SubStatus" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : SubStatus" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Item Version" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Item Version" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 6;
@@ -422,8 +423,8 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example>;
          fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Extension-Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire Basic Example" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire Basic Example" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
