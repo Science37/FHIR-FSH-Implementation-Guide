@@ -4,7 +4,7 @@ Title: "Example : Questionnaire.Item-VASScale-V1"
 Description: "Example : Questionnaire.Item-VASScale-V1"
 Usage: #example
 /* Form Level Information */
-* url = "http://science37.com/questionnaire"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire.Item VASScale-V1"
 * name = "Example : Questionnaire.Item VASScale-V1"
@@ -31,7 +31,6 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 * item[=].extension[version].valueId = "1.0.1-item"
 
 * insert SponsorVariableRS_SDC(VAS_OID)

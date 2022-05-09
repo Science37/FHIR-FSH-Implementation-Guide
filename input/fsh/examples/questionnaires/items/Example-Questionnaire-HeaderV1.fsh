@@ -4,7 +4,7 @@ Title: "Example : Questionnaire.Item-Header-V1"
 Description: "Example : Questionnaire.Item-Header-V1"
 Usage: #example
 /* Form Level Information */
-* url = "http://science37.com/questionnaire"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire.Item Header-V1"
 * name = "Example : Questionnaire.Item Header-V1"
@@ -24,9 +24,9 @@ Usage: #example
 * item[=].required = true
 * item[=].extension[version].valueId = "1.0.1-item"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-header-Version"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+
 
 * item[=].extension[itemRenderingSettings].extension[setting][+].extension[id].valueString = "linkId"
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[label].valueString = "LinkId"

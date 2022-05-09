@@ -4,7 +4,7 @@ Title: "Example : Questionnaire.Item-FileUpload-V1"
 Description: "Example : Questionnaire.Item-FileUpload-V1"
 Usage: #example
 /* Form Level Information */
-* url = "http://science37.com/questionnaire"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire.Item FileUpload-V1"
 * name = "Example : Questionnaire.Item FileUpload-V1"
@@ -24,7 +24,7 @@ Usage: #example
 * item[=].required = true
 * item[=].extension[version].valueId = "1.0.1-item"
 
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-fileupload"
+
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
 * item[=].extension[hidden].valueBoolean = false

@@ -36,7 +36,7 @@ Description:     "Extension : Questionnaire.settings "
 
 Extension: SupportedLanguages
 Id: supported-languages
-Title: "Supported Languages"
+Title: "Extension : Supported Languages"
 Description: " Supported Languages : Contains a list of languages that is supported by the questionnaire"
 * ^context[0].expression = "Questionnaire"
 * extension contains

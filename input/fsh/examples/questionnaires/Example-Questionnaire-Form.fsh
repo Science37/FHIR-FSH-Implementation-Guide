@@ -4,7 +4,7 @@ Title: "Example : Questionnaire"
 Description: "Example : Questionnaire"
 Usage: #example
 /* Form Level Information */
-* url = "urn:formTemplate/odfu9sdfyisyd78y877"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire"
 * name = "Example : Questionnaire"

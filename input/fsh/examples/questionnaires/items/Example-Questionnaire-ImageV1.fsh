@@ -4,7 +4,7 @@ Title: "Example : Questionnaire.Item-Image-V1"
 Description: "Example : Questionnaire.Item-Image-V1"
 Usage: #example
 /* Form Level Information */
-* url = "http://science37.com/questionnaire"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire.Item Image-V1"
 * name = "Example : Questionnaire.Item Image-V1"
@@ -27,7 +27,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Attachment-Image"
+
 
 * insert SponsorVariableRS_SDC(IMAGE_FIELD_OID)
 * insert LinkIdRS_SDC(__S37-form-fields-isdfu9s0df8us8dfy)

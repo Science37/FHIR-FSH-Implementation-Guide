@@ -5,7 +5,7 @@ Description: "Example : Questionnaire.Item-All-48-V1"
 Usage: #example
 
 /* Form Level Information */
-* url = "urn:formTemplate/odfu9sdfyisyd78y877"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire"
 * name = "Example : Questionnaire"
@@ -111,7 +111,6 @@ Usage: #example
 * item[=].required = true
 * item[=].extension[version].valueId = "1.0.1-item"
 
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-fileupload"
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
 * item[=].extension[hidden].valueBoolean = false
@@ -141,7 +140,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Attachment-Image"
+
 
 * insert SponsorVariableRS_SDC(IMAGE_FIELD_OID)
 * insert LinkIdRS_SDC(__S37-form-fields-isdfu9s0df8us8dfy)
@@ -293,7 +292,7 @@ Usage: #example
 
 * item[=].extension[minValue].valueInteger = 11
 * item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
+* item[=].extension[version].valueId = "1.0.1-item"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
@@ -381,7 +380,7 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[version].valueId = "1.0.1-item"
 
 * insert SponsorVariableRS_SDC(RICH_TEXT_FIELD_OID)
 * insert LinkIdRS_SDC(__S37-form-fields-2cg5vgg5kdh)
@@ -512,7 +511,6 @@ Usage: #example
 * item[=].extension[observationExtract].valueBoolean = true
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
-* item[=].extension[itemRenderingSettings].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 * item[=].extension[version].valueId = "1.0.1-item"
 
 * insert SponsorVariableRS_SDC(VAS_OID)

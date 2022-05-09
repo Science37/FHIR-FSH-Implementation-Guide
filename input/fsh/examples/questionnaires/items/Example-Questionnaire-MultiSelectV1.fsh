@@ -4,7 +4,7 @@ Title: "Example : Questionnaire.Item-MultiMultiSelect-V1"
 Description: "Example : Questionnaire.Item-MultiSelect-V1"
 Usage: #example
 /* Form Level Information */
-* url = "http://science37.com/questionnaire"
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire.Item MultiSelect-V1"
 * name = "Example : Questionnaire.Item MultiSelect-V1"
@@ -17,7 +17,7 @@ Usage: #example
 * extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
 
 /* Item  Level Information */
-* item[0].type = #choice
+* item[0].type = #question
 * item[=].repeats = true
 
 * item[=].linkId = "__S37-form-fields-p8wrfhsd01p"
