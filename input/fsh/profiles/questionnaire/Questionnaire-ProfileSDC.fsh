@@ -1,3 +1,4 @@
+
 Profile: QuestionnaireS37SDC
 Parent: SDCQuestionnaireRender
 Id: questionnaire-s37-sdc
@@ -10,10 +11,11 @@ Description: "Profile : QuestionnaireS37SDC"
 * ^publisher = "S37 Platform"
 *  identifier 1..1
 *  status 1..1
+
 /* Form Level*/
 
 /* Form Builder and Rendering utilizes these attributes and cluters of information*/
-*  extension contains RenderingSettings named formSettings 0..*
+*  extension contains Rendering named formSettings 0..*
 /* SubStatus is used to off-set the unknown status to enable elaboration*/
 *  extension contains SubStatus named subStatus 0..1
 /* standard create and update at datetime */
@@ -22,8 +24,11 @@ Description: "Profile : QuestionnaireS37SDC"
 
 /*Item Level*/
 
-*  item.extension contains RenderingSettings named itemRenderingSettings 0..*
-*  item.item.extension contains RenderingSettings named itemRenderingSettings 0..1
+*  item.extension contains Rendering named itemRenderingSettings 0..1
+*  item.item.extension contains Rendering named itemRenderingSettings 0..1
+
+*  item.extension contains Version named version 0..1
+*  item.item.extension contains Version named version 0..1
 
 *  item.extension contains questionnaire-hidden named hidden 0..1
 *  item.item.extension contains questionnaire-hidden named hidden 0..1

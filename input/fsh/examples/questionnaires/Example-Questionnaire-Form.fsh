@@ -1,9 +1,10 @@
 Instance: Questionnaire-Extension-Example
-InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire"
-Description: "Example : Questionnaire"
+InstanceOf: QuestionnaireS37SDC
+Title: "Example : Questionnaire Basic Example"
+Description: "Example : Questionnaire Basic Example"
 Usage: #example
 /* Form Level Information */
+* url = "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"
 * status = #unknown
 * title = "Example : Questionnaire"
 * name = "Example : Questionnaire"
@@ -15,9 +16,9 @@ Usage: #example
 * extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
 * extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
 
-* insert FORMIDRS
-* insert FORMTypeRS
-* insert FORMControlSchemaVersionRS
+* insert FORMIDRS_SDC
+* insert FORMTypeRS_SDC
+* insert FORMControlSchemaVersionRS_SDC
 
 
 
