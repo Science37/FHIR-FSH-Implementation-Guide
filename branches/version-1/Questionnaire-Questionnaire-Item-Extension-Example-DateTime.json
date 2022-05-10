@@ -55,7 +55,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-09T19:51:46+00:00",
+  "date": "2022-05-10T12:02:28+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -95,6 +95,14 @@
         {
           "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract",
           "valueBoolean": true
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueDateTime": "2022-01-01T10:08:10Z"
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueDateTime": "2015-02-07T13:28:17Z"
         },
         {
           "extension": [
