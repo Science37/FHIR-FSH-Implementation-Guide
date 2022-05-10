@@ -26,6 +26,8 @@ Usage: #example
 * item[=].extension[version].valueId = "1.0.1-item"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[maxValue].valueDateTime = "2022-01-01T10:08:10Z"
+* item[=].extension[minValue].valueDateTime = "2015-02-07T13:28:17Z"
 
 
 * insert SponsorVariableRS_SDC(DS_CONSENT_SIG_FIELD_OID)
