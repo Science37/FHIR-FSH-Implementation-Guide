@@ -666,7 +666,7 @@
         "path": "Questionnaire.extension",
         "sliceName": "formSettings",
         "short": "Extension : Object Rendering Settings",
-        "definition": "Extension : Object Rendering Settings",
+        "definition": "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level.",
         "min": 0,
         "max": "*",
         "base": {
@@ -3087,7 +3087,7 @@
         "path": "Questionnaire.item.extension",
         "sliceName": "itemRenderingSettings",
         "short": "Extension : Object Rendering Settings",
-        "definition": "Extension : Object Rendering Settings",
+        "definition": "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level.",
         "min": 0,
         "max": "1",
         "base": {
@@ -6352,7 +6352,7 @@
         "path": "Questionnaire.item.item.extension",
         "sliceName": "itemRenderingSettings",
         "short": "Extension : Object Rendering Settings",
-        "definition": "Extension : Object Rendering Settings",
+        "definition": "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level.",
         "min": 0,
         "max": "1",
         "base": {

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-10T12:02:28+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-10T12:53:35+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -337,7 +337,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/rendering" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Object Rendering Settings" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Object Rendering Settings" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;

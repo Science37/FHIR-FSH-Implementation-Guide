@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-10T12:02:28+00:00",
+  "date": "2022-05-10T12:53:35+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -352,7 +352,7 @@
           "reference": "StructureDefinition/rendering"
         },
         "name": "Extension : Object Rendering Settings",
-        "description": "Extension : Object Rendering Settings",
+        "description": "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level.",
         "exampleBoolean": false
       },
       {
