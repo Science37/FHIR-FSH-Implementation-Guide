@@ -48,7 +48,7 @@ Description: "Captures the created at an updated at attributes of date timestamp
 Extension: Rendering
 Id: rendering
 Title: "Extension : Object Rendering Settings"
-Description: "Extension : Object Rendering Settings"
+Description: "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level."
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire"
 * ^context[+].type = #element
