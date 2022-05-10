@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ResourceCreateUpdateAtDateTime"];
   fhir:StructureDefinition.title [ fhir:value "Extension : ResourceCreateUpdateAtDateTime"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-10T17:44:22+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-10T18:22:34+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "Captures the created at an updated at attributes of date timestamps for a questionnaire"];
   fhir:StructureDefinition.jurisdiction [
