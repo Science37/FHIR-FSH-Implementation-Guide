@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-04T18:39:34+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-10T18:22:34+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -43,7 +43,7 @@
        fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.sdc" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "current" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.0.0" ]
   ];
   fhir:ImplementationGuide.definition [
      fhir:Element.extension [
@@ -319,20 +319,6 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : Questionnaire" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile : Questionnaire" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37-sdc" ]
        ];
@@ -340,49 +326,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile : QuestionnaireS37SDC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/rendering" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Object Rendering Settings" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
        fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/form-settings" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Form Settings " ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.settings " ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/parent-reference" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Parent Reference" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Parent Reference" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/rendering-settings" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Item Rendering Settings" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Item Rendering Settings" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -393,23 +351,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/resource-create-update-at-datetime" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ResourceCreateUpdateAtDateTime" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Captures the created at an updated at attributes of date timestamps for a questionnaire" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/settings>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/settings" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Common Settings " ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Common settings " ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 7;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -419,11 +364,11 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/sub-status" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : SubStatus" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : SubStatus" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionniare SubStatus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "used to capture other statuses when questionnaire status is set to unknown" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -433,28 +378,42 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/supported-languages" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Supported Languages" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Supported Languages" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value " Supported Languages : Contains a list of languages that is supported by the questionnaire" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/version" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Item Version" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Item Version" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-48-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Item-Extension-Example-All-48-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-Items>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Item-Extension-Example-All-Items" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-All-48-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-All-48-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-All-Items" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-All-Items" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 10;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -464,11 +423,62 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example>;
          fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Extension-Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire Basic Example" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire Basic Example" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-DateTime>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-DateTime" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-DateTime" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-DateTime" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-FileUpload>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-FileUpload" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-FileUpload" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-FileUpload" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Footer>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Footer" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Footer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Footer" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 11;
@@ -478,14 +488,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Header>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Header" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-DateTime V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-DateTime V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Header" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Header" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 12;
@@ -495,14 +505,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-FileUploadV1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-FileUploadV1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Image" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-FileUpload-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-FileUpload-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Image" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Image" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 13;
@@ -512,14 +522,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Footer-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Footer-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Footer-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Footer-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-MultiMultiSelect" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-MultiSelect" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 14;
@@ -529,14 +539,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Header-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Header-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Header-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Header-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Number-Decimal" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Number-Decimal" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 15;
@@ -546,14 +556,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Image-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Image-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Image-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Number-Integer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Number-Integer" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 16;
@@ -563,14 +573,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-RatingScale" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-MultiMultiSelect-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-MultiSelect-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-RatingScale" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-RatingScale" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 17;
@@ -580,14 +590,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RichText>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-RichText" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Number-Decimal-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Number-Decimal-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-RichText" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-RichText" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 18;
@@ -597,14 +607,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Select>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Select" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Number-Integer-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Number-Integer-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Select" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Select" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 19;
@@ -614,14 +624,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Text>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Text" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-All-RatingScale-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-All-RatingScale-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Text" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Text" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 20;
@@ -631,14 +641,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RichText-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-RichText-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-TextArea>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-TextArea" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-RichText-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-RichText-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-TextArea" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-TextArea" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 21;
@@ -648,14 +658,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Select-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Select-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-VASScale>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-VASScale" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Select-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Select-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-VASScale" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-VASScale" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 22;
@@ -665,14 +675,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Text-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-Text-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-derived>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-derived" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Text-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Text-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Derived" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Derived" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
        fhir:index 23;
@@ -682,65 +692,14 @@
          fhir:Extension.valueString [ fhir:value "Questionnaire" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-page-break>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-page-break" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-All-TextArea-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-All-TextArea-V1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-Page-Break" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-Page-Break" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
-       ]
-     ], [
-       fhir:index 24;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-VASScale-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-VASScale-V1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-VASScale-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-VASScale-V1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
-       ]
-     ], [
-       fhir:index 25;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-derivedV1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-derivedV1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-derived-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-derived-V1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
-       ]
-     ], [
-       fhir:index 26;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-page-break-V1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-page-break-V1" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37";
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37>
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ];
      fhir:ImplementationGuide.definition.page [

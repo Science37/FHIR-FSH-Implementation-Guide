@@ -1,157 +1,136 @@
 [
   {
-    "id": "science37.FHIR-IG",
-    "type": "ImplementationGuide",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/ImplementationGuide/science37.FHIR-IG",
-    "version": "1.0.0-S37",
-    "name": "S37FHIRIG"
-  },
-  {
-    "id": "Item-Extension-Example-All-48-V1",
+    "id": "Item-Extension-Example-All-Items",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-48-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire"
   },
   {
     "id": "Questionnaire-Extension-Example",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Extension-Example",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-DateTimeV1",
+    "id": "Questionnaire-Item-Extension-Example-DateTime",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-DateTimeV1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item DateTime V1"
+    "name": "Example : Questionnaire DateTimeV1"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-FileUploadV1",
+    "id": "Questionnaire-Item-Extension-Example-FileUpload",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-FileUploadV1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item FileUpload-V1"
+    "name": "Example : Questionnaire.Item FileUpload"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Footer-V1",
+    "id": "Questionnaire-Item-Extension-Example-Footer",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Footer-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Footer-V1"
+    "name": "Example : Questionnaire.Item Footer"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Header-V1",
+    "id": "Questionnaire-Item-Extension-Example-Header",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Header-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Header-V1"
+    "name": "Example : Questionnaire.Item Header"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Image-V1",
+    "id": "Questionnaire-Item-Extension-Example-Image",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Image-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Image-V1"
+    "name": "Example : Questionnaire.Item Image"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-MultiSelect-V1",
+    "id": "Questionnaire-Item-Extension-Example-MultiSelect",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item MultiSelect-V1"
+    "name": "Example : Questionnaire.Item MultiSelect"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Number-Decimal-V1",
+    "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Number-Decimal-V1"
+    "name": "Example : Questionnaire.Item Number-Decimal"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Number-Integer-V1",
+    "id": "Questionnaire-Item-Extension-Example-Number-Integer",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Number-Integer-V1"
+    "name": "Example : Questionnaire.Item Number-Integer"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-RatingScale-V1",
+    "id": "Questionnaire-Item-Extension-Example-RatingScale",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item RatingScale-V1"
+    "name": "Example : Questionnaire.Item RatingScale"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-RichText-V1",
+    "id": "Questionnaire-Item-Extension-Example-RichText",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-RichText-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item RichText-V1"
+    "name": "Example : Questionnaire.Item RichText"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Select-V1",
+    "id": "Questionnaire-Item-Extension-Example-Select",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Select-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Select-V1"
+    "name": "Example : Questionnaire.Item Select"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-Text-V1",
+    "id": "Questionnaire-Item-Extension-Example-Text",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-Text-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Text-V1"
+    "name": "Example : Questionnaire.Item Text"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-TextArea-V1",
+    "id": "Questionnaire-Item-Extension-Example-TextArea",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-TextArea-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item TextArea-V1"
+    "name": "Example : Questionnaire.Item TextArea"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-VASScale-V1",
+    "id": "Questionnaire-Item-Extension-Example-VASScale",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-VASScale-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item VASScale-V1"
+    "name": "Example : Questionnaire.Item VASScale"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-derivedV1",
+    "id": "Questionnaire-Item-Extension-Example-derived",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-derivedV1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item derived-V1"
+    "name": "Example : Questionnaire.Item Derived-V1"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-page-break-V1",
+    "id": "Questionnaire-Item-Extension-Example-page-break",
     "type": "Questionnaire",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Questionnaire-Item-Extension-Example-page-break-V1",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item page-break-V1"
+    "name": "Example : Questionnaire.Item Page-Break"
   },
   {
-    "id": "form-settings",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-settings",
+    "id": "science37.FHIR-IG",
+    "type": "ImplementationGuide",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/ImplementationGuide/science37.FHIR-IG",
     "version": "1.0.0-S37",
-    "name": "FormSettings"
-  },
-  {
-    "id": "parent-reference",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
-    "version": "1.0.0-S37",
-    "name": "ParentReference"
-  },
-  {
-    "id": "questionnaire-s37",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37",
-    "version": "1.0.0-S37",
-    "name": "QuestionnaireS37"
+    "name": "S37FHIRIG"
   },
   {
     "id": "questionnaire-s37-sdc",
@@ -161,11 +140,11 @@
     "name": "QuestionnaireS37SDC"
   },
   {
-    "id": "rendering-settings",
+    "id": "rendering",
     "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering-settings",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering",
     "version": "1.0.0-S37",
-    "name": "RenderingSettings"
+    "name": "Rendering"
   },
   {
     "id": "resource-create-update-at-datetime",
@@ -173,13 +152,6 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime",
     "version": "1.0.0-S37",
     "name": "ResourceCreateUpdateAtDateTime"
-  },
-  {
-    "id": "settings",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/settings",
-    "version": "1.0.0-S37",
-    "name": "Settings"
   },
   {
     "id": "sub-status",
@@ -194,5 +166,12 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages",
     "version": "1.0.0-S37",
     "name": "SupportedLanguages"
+  },
+  {
+    "id": "version",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
+    "version": "1.0.0-S37",
+    "name": "Version"
   }
 ]
