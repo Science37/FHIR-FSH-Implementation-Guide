@@ -1,14 +1,14 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 238, warn = 31, info = 134
+err = 238, warn = 31, info = 135
 IG Publisher Version: 1.1.118
-Generated Mon May 09 19:55:24 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Tue May 10 12:06:28 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 138 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items : 149 / 7 / 94
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 3 / 1 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 8 / 1 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 8 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 5 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Footer : 8 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Header : 5 / 1 / 3
@@ -44,9 +44,9 @@ ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.tt
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Extension-Example.xml.html#/html/body/div/div/div/p/a at Line 375, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.json.html#/html/body/div/div/div/p/a at Line 1033, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.ttl.html#/html/body/div/div/div/p/a at Line 837, column 28: The link '' for "Science37" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.xml.html#/html/body/div/div/div/p/a at Line 801, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.json.html#/html/body/div/div/div/p/a at Line 1041, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.ttl.html#/html/body/div/div/div/p/a at Line 843, column 28: The link '' for "Science37" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.xml.html#/html/body/div/div/div/p/a at Line 807, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.change.history.html#/html/body/div/div/div/p/a at Line 213, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.html#/html/body/div/div/div/p/a at Line 217, column 28: The link '' for "Science37" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json.html#/html/body/div/div/div/p/a at Line 647, column 28: The link '' for "Science37" cannot be resolved
@@ -434,11 +434,12 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnair
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.extension[2].extension[1].value.ofType(code): The value provided ('US-ENG2') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages), and a code is required from this value set) (error message = Error from server: Access violation at address 0000000000C592A8 in module 'FHIRServer.exe'. Read of address 0000000000000050)
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[2]: Profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc, Element matches more than one slice - itemHidden, hidden
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[4]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#dateTime in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#dateTime'
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[4].extension[3].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[4].extension[14].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[4].extension[15].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[4].extension[16].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[3].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[14].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[15].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[16].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
