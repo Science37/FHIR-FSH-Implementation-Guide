@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-10T12:02:28+00:00"/>
+  <date value="2022-05-10T12:53:35+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -225,7 +225,7 @@
         <reference value="StructureDefinition/rendering"/>
       </reference>
       <name value="Extension : Object Rendering Settings"/>
-      <description value="Extension : Object Rendering Settings"/>
+      <description value="Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
