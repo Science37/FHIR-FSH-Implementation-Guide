@@ -65,6 +65,9 @@
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">PAGE BREAK</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table><hr/><p><b>Option Sets</b></p><a name="opt-item.__S37-form-fields-p8wrfhsd01p"> </a><p><b>Answer options for __S37-form-fields-p8wrfhsd01p</b></p><ul><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#1 (&quot;1&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#2 (&quot;2&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#3 (&quot;3&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#554 (&quot;554&quot;)</li></ul><a name="opt-item.__S37-form-fields-p8wrfhsd01p"> </a><p><b>Answer options for __S37-form-fields-p8wrfhsd01p</b></p><ul><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#1 (&quot;1&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#2 (&quot;2&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#3 (&quot;3&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#554 (&quot;554&quot;)</li></ul></div>
   </text>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type">
+    <valueString value="FITBIT"/>
+  </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status">
     <valueString value="deleted"/>
   </extension>
@@ -197,7 +200,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-10T18:22:34+00:00"/>
+  <date value="2022-05-19T18:33:46+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

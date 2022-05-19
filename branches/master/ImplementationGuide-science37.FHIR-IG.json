@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-10T18:22:34+00:00",
+  "date": "2022-05-19T18:33:46+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -30,6 +30,12 @@
     "4.0.1"
   ],
   "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    },
     {
       "id": "hl7_fhir_uv_sdc",
       "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
@@ -339,6 +345,34 @@
         },
         "name": "Profile : QuestionnaireS37SDC",
         "description": "Profile : QuestionnaireS37SDC",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/device-report-field"
+        },
+        "name": "DeviceReportField",
+        "description": "the third party report field used to obtain the value of the item ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/device-type"
+        },
+        "name": "device Type",
+        "description": "identifies the specific device type that is registered with a third-party provider",
         "exampleBoolean": false
       },
       {
