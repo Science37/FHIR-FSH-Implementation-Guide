@@ -21,10 +21,14 @@
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type" ];
+     fhir:Extension.valueString [ fhir:value "FITBIT" ]
+  ], [
+     fhir:index 1;
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status" ];
      fhir:Extension.valueString [ fhir:value "deleted" ]
   ], [
-     fhir:index 1;
+     fhir:index 2;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "createdAt" ];
@@ -36,7 +40,7 @@
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime" ]
   ], [
-     fhir:index 2;
+     fhir:index 3;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "language" ];
@@ -48,7 +52,7 @@
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages" ]
   ], [
-     fhir:index 3;
+     fhir:index 4;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Element.extension [
@@ -205,7 +209,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-10T18:22:34+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-19T18:33:46+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

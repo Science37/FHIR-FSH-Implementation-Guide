@@ -133,6 +133,20 @@
     "name": "S37FHIRIG"
   },
   {
+    "id": "device-report-field",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field",
+    "version": "1.0.0-S37",
+    "name": "DeviceReportField"
+  },
+  {
+    "id": "device-type",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
+    "version": "1.0.0-S37",
+    "name": "DeviceType"
+  },
+  {
     "id": "questionnaire-s37-sdc",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc",

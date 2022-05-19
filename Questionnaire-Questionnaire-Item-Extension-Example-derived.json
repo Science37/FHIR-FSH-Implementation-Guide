@@ -40,6 +40,10 @@
         }
       ],
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages"
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
+      "valueString": "FITBIT"
     }
   ],
   "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
@@ -55,7 +59,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-10T18:22:34+00:00",
+  "date": "2022-05-19T18:33:46+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -74,6 +78,10 @@
         {
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
           "valueId": "1.0.1-item"
+        },
+        {
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field",
+          "valueString": "BP"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
