@@ -14,6 +14,9 @@ Description: "Profile : QuestionnaireS37SDC"
 
 /* Form Level*/
 
+/* */
+*  extension contains DeviceType named deviceType 0..1
+
 /* Form Builder and Rendering utilizes these attributes and cluters of information*/
 *  extension contains Rendering named formSettings 0..*
 /* SubStatus is used to off-set the unknown status to enable elaboration*/
@@ -33,12 +36,11 @@ Description: "Profile : QuestionnaireS37SDC"
 *  item.extension contains questionnaire-hidden named hidden 0..1
 *  item.item.extension contains questionnaire-hidden named hidden 0..1
 
-/*  item.extension contains questionnaire-itemControl named itemControl 0..1
-*  item.item.extension contains questionnaire-itemControl named itemControl 0..1ß
-*/
-
 *  item.extension contains ObservationExtractExtension named observationExtract 0..1
 *  item.item.extension contains ObservationExtractExtension named observationExtract 0..1
 
 *  item.extension contains minValue named minValue 0..1
 *  item.item.extension contains minValue named minValue 0..1  
+
+*  item.extension contains DeviceReportField named deviceReportField 0..1
+*  item.item.extension contains DeviceReportField named deviceReportField 0..1

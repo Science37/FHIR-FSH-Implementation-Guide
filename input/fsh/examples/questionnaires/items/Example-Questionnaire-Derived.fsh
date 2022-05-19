@@ -15,14 +15,16 @@ Usage: #example
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 * extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
 * extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
+* extension[deviceType].valueString = "FITBIT"
 
 
-
-* item[0].type = #question
+* item[+].type = #question
 * item[=].linkId = "__S37-form-fields-2zpvlwq3a1c"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DERIVED_FIELD_LABLE</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/derived/version/2.3"
 * item[=].extension[version].valueId = "1.0.1-item"
+
+* item[=].extension[deviceReportField].valueString = "BP"
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#derived "derived"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#derived

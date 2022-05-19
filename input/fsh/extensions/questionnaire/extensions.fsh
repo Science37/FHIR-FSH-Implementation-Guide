@@ -19,15 +19,6 @@ Description: "used to capture other statuses when questionnaire status is set to
 * value[x] only string
 
 
-Extension: Version
-Id: version
-Title: "Extension : Item Version"
-Description: "Item Version"
-* ^context[+].type = #element
-* ^context[=].expression = "Questionnaire.item"
-* value[x] only id
-
-
 
 Extension: ResourceCreateUpdateAtDateTime
 Id: resource-create-update-at-datetime
@@ -127,6 +118,13 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
 * extension[setting].extension[minValue] ^short = "minValue : Indicates the  minimum value that can be held within the rendering settings value"
 * extension[setting].extension[minValue].value[x]  only decimal or integer or date or dateTime or time  or Quantity
 
-
 * extension[setting].extension[version] ^short = "version : Indicates the version number of the widget used to display the rendering settings and votes"
 * extension[setting].extension[version].value[x] only id
+
+
+Extension: DeviceType
+Id: device-type
+Title: "device Type"
+Description: "identifies the specific device type that is registered with a third-party provider"
+* ^context.expression = "Questionnaire"
+* extension.value[x] only string
