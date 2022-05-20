@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-20T20:32:52+00:00",
+  "date": "2022-05-20T20:57:10+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -343,7 +343,7 @@
         "reference": {
           "reference": "StructureDefinition/plandefinition-s37"
         },
-        "name": "PlanDefinitionS37 ",
+        "name": "PlanDefinitionS37",
         "description": "plan definition specific to science 37 implementation.",
         "exampleBoolean": false
       },
@@ -372,7 +372,7 @@
           "reference": "StructureDefinition/device-report-field"
         },
         "name": "DeviceReportField",
-        "description": "the third party report field used to obtain the value of the item ",
+        "description": "the third party report field used to obtain the value of the item",
         "exampleBoolean": false
       },
       {
@@ -470,7 +470,7 @@
           "reference": "StructureDefinition/supported-languages"
         },
         "name": "Extension : Supported Languages",
-        "description": " Supported Languages : Contains a list of languages that is supported by the questionnaire",
+        "description": "Supported Languages : Contains a list of languages that is supported by the questionnaire",
         "exampleBoolean": false
       },
       {

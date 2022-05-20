@@ -24,9 +24,9 @@
   fhir:StructureDefinition.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"];
   fhir:StructureDefinition.version [ fhir:value "1.0.0-S37"];
   fhir:StructureDefinition.name [ fhir:value "PlanDefinitionS37"];
-  fhir:StructureDefinition.title [ fhir:value "PlanDefinitionS37 "];
+  fhir:StructureDefinition.title [ fhir:value "PlanDefinitionS37"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-20T20:32:52+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-20T20:57:10+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "plan definition specific to science 37 implementation."];
   fhir:StructureDefinition.jurisdiction [

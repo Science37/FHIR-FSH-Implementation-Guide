@@ -18,9 +18,9 @@
   "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
   "version": "1.0.0-S37",
   "name": "PlanDefinitionS37",
-  "title": "PlanDefinitionS37 ",
+  "title": "PlanDefinitionS37",
   "status": "active",
-  "date": "2022-05-20T20:32:52+00:00",
+  "date": "2022-05-20T20:57:10+00:00",
   "publisher": "Science37",
   "description": "plan definition specific to science 37 implementation.",
   "jurisdiction": [
