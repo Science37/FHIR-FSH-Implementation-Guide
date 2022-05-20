@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"PlanDefintionsExample\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-plandefinition-s37.html\">PlanDefinitionS37 </a></p></div><blockquote><p><b>Parent Reference</b></p><p><b>value</b>: Master</p><p><b>value</b>: Expected</p><p><b>value</b>: VISIT</p></blockquote><p><b>ProtocalVersion</b>: 13.5</p><blockquote><p><b>Version Number</b></p><p><b>value</b>: 1.2.2</p><p><b>value</b>: 1.2.2</p></blockquote><blockquote><p><b>Extension : ResourceCreateUpdateAtDateTime</b></p><p><b>value</b>: 2015-02-07 01:28:17+0000</p><p><b>value</b>: 2022-01-01 10:08:10+0000</p></blockquote><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/PlanDefintionsExample</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-20 08:32:52+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"PlanDefintionsExample\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-plandefinition-s37.html\">PlanDefinitionS37</a></p></div><blockquote><p><b>Parent Reference</b></p><p><b>value</b>: Master</p><p><b>value</b>: Expected</p><p><b>value</b>: VISIT</p></blockquote><p><b>ProtocalVersion</b>: 13.5</p><blockquote><p><b>Version Number</b></p><p><b>value</b>: 1.2.2</p><p><b>value</b>: 1.2.2</p></blockquote><blockquote><p><b>Extension : ResourceCreateUpdateAtDateTime</b></p><p><b>value</b>: 2015-02-07 01:28:17+0000</p><p><b>value</b>: 2022-01-01 10:08:10+0000</p></blockquote><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/PlanDefintionsExample</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-20 08:57:10+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -67,7 +67,7 @@
   fhir:PlanDefinition.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/PlanDefintionsExample"];
   fhir:PlanDefinition.version [ fhir:value "1.0.0-S37"];
   fhir:PlanDefinition.status [ fhir:value "active"];
-  fhir:PlanDefinition.date [ fhir:value "2022-05-20T20:32:52+00:00"^^xsd:dateTime];
+  fhir:PlanDefinition.date [ fhir:value "2022-05-20T20:57:10+00:00"^^xsd:dateTime];
   fhir:PlanDefinition.publisher [ fhir:value "Science37"];
   fhir:PlanDefinition.jurisdiction [
      fhir:index 0;

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-20T20:32:52+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-20T20:57:10+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -331,7 +331,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/plandefinition-s37" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PlanDefinitionS37 " ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "plan definition specific to science 37 implementation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -360,7 +360,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/device-report-field" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeviceReportField" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "the third party report field used to obtain the value of the item " ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "the third party report field used to obtain the value of the item" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;
@@ -458,7 +458,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/supported-languages" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Supported Languages" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value " Supported Languages : Contains a list of languages that is supported by the questionnaire" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Supported Languages : Contains a list of languages that is supported by the questionnaire" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 10;
