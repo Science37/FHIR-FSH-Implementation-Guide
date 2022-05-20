@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-19T18:33:46+00:00",
+  "date": "2022-05-20T20:32:52+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -341,6 +341,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/plandefinition-s37"
+        },
+        "name": "PlanDefinitionS37 ",
+        "description": "plan definition specific to science 37 implementation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/questionnaire-s37-sdc"
         },
         "name": "Profile : QuestionnaireS37SDC",
@@ -373,6 +387,34 @@
         },
         "name": "device Type",
         "description": "identifies the specific device type that is registered with a third-party provider",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/parent-reference"
+        },
+        "name": "Parent Reference",
+        "description": "extension to show reference back to a parent instance",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/protocal-version"
+        },
+        "name": "ProtocalVersion",
+        "description": "identifies the specific protocal version",
         "exampleBoolean": false
       },
       {
@@ -449,6 +491,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/version-number"
+        },
+        "name": "Version Number",
+        "description": "version number",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Questionnaire"
           }
         ],
@@ -458,6 +514,20 @@
         "name": "Example : Questionnaire.Item-All-Items",
         "description": "Example : Questionnaire.Item-All-Items",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/PlanDefintionsExample"
+        },
+        "name": "PlanDefintionsExample",
+        "description": "PlanDefintionsExample",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
       {
         "extension": [

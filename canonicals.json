@@ -133,6 +133,12 @@
     "name": "S37FHIRIG"
   },
   {
+    "id": "PlanDefintionsExample",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/PlanDefintionsExample",
+    "version": "1.0.0-S37"
+  },
+  {
     "id": "device-report-field",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field",
@@ -145,6 +151,27 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
     "version": "1.0.0-S37",
     "name": "DeviceType"
+  },
+  {
+    "id": "parent-reference",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
+    "version": "1.0.0-S37",
+    "name": "ParentReference"
+  },
+  {
+    "id": "plandefinition-s37",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
+    "version": "1.0.0-S37",
+    "name": "PlanDefinitionS37"
+  },
+  {
+    "id": "protocal-version",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version",
+    "version": "1.0.0-S37",
+    "name": "ProtocalVersion"
   },
   {
     "id": "questionnaire-s37-sdc",
@@ -187,5 +214,12 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
     "version": "1.0.0-S37",
     "name": "Version"
+  },
+  {
+    "id": "version-number",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number",
+    "version": "1.0.0-S37",
+    "name": "VersionNumber"
   }
 ]
