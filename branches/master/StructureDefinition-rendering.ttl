@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Rendering"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Object Rendering Settings"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-19T18:33:46+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-20T20:32:52+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level."];
   fhir:StructureDefinition.jurisdiction [

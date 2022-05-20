@@ -1,11 +1,12 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 238, warn = 32, info = 135
+err = 239, warn = 35, info = 135
 IG Publisher Version: 1.1.120
-Generated Thu May 19 18:36:58 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Fri May 20 20:36:15 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 2 / 0 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-PlanDefintionsExample : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items : 149 / 7 / 94
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 3 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 8 / 1 / 4
@@ -26,19 +27,27 @@ Generated Thu May 19 18:36:58 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break : 5 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-report-field : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-parent-reference : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-plandefinition-s37 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-protocal-version : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37-sdc : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-rendering : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-resource-create-update-at-datetime : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sub-status : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-supported-languages : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-version : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-version-number : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-sdc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 316, column 238: The link 'OperationDefinition-Questionnaire-assemble.html' for "$assemble" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-sdc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 316, column 580: The link 'StructureDefinition-sdc-questionnaire-subQuestionnaire.html' for "sub-questionnaire" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-science37.FHIR-IG.json ==
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'the...item '
-WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace ' Supported...questionnaire'
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[0].name: value should not start or finish with whitespace 'PlanDefinitionS37 '
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'the...item '
+WARNING: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[9].description: value should not start or finish with whitespace ' Supported...questionnaire'
+== fsh-generated/resources/PlanDefinition-PlanDefintionsExample.json ==
+WARNING: PlanDefinition/PlanDefintionsExample: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/PlanDefintionsExample: PlanDefinition: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime is not allowed to be used at this point (allowed = e:Questionnaire; this element is [[PlanDefinition])
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items.json ==
 WARNING: Questionnaire/Item-Extension-Example-All-Items: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-Items: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' Rule 'The link ids for groups and questions must be unique within the questionnaire' Failed
@@ -464,9 +473,14 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionna
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 == fsh-generated/resources/StructureDefinition-device-report-field.json ==
 == fsh-generated/resources/StructureDefinition-device-type.json ==
+== fsh-generated/resources/StructureDefinition-parent-reference.json ==
+== fsh-generated/resources/StructureDefinition-plandefinition-s37.json ==
+WARNING: StructureDefinition/plandefinition-s37: StructureDefinition.title: value should not start or finish with whitespace 'PlanDefinitionS37 '
+== fsh-generated/resources/StructureDefinition-protocal-version.json ==
 == fsh-generated/resources/StructureDefinition-questionnaire-s37-sdc.json ==
 == fsh-generated/resources/StructureDefinition-rendering.json ==
 == fsh-generated/resources/StructureDefinition-resource-create-update-at-datetime.json ==
 == fsh-generated/resources/StructureDefinition-sub-status.json ==
 == fsh-generated/resources/StructureDefinition-supported-languages.json ==
 == fsh-generated/resources/StructureDefinition-version.json ==
+== fsh-generated/resources/StructureDefinition-version-number.json ==
