@@ -4,6 +4,8 @@ Title: "Extension : ResourceCreateUpdateAtDateTime"
 Description: "Captures the created at an updated at attributes of date timestamps for a questionnaire"
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire"
+* ^context[+].type = #element
+* ^context[=].expression = "PlanDefinition"
 * extension contains    
     createdAt 0..1 and 
     updatedAt 0..1 

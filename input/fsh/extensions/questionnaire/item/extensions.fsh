@@ -10,7 +10,7 @@ Description: "Item Version"
 Extension: DeviceReportField
 Id: device-report-field
 Title: "DeviceReportField"
-Description: "the third party report field used to obtain the value of the item "
+Description: "the third party report field used to obtain the value of the item"
 * ^context[0].expression = "Questionnaire.item"
 * value[x] only string 
 
