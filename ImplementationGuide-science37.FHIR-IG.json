@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-23T01:13:32+00:00",
+  "date": "2022-05-23T10:52:07+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -341,10 +341,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/questionnaire-s37-sdc"
+          "reference": "StructureDefinition/plandefinition-s37"
         },
-        "name": "Profile : QuestionnaireS37SDC",
-        "description": "Profile : QuestionnaireS37SDC",
+        "name": "Profile : PlanDefinitionS37",
+        "description": "plan definition specific to science 37 implementation.",
         "exampleBoolean": false
       },
       {
@@ -355,10 +355,24 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/plandefinition-s37"
+          "reference": "StructureDefinition/questionnaire-s37-sdc"
         },
-        "name": "PlanDefinitionS37",
-        "description": "plan definition specific to science 37 implementation.",
+        "name": "Profile : QuestionnaireS37SDC",
+        "description": "Profile : QuestionnaireS37SDC",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/conditional-logic-id"
+        },
+        "name": "Extension : Conditional Logic Id",
+        "description": "list of conditional logic ids",
         "exampleBoolean": false
       },
       {
@@ -371,7 +385,7 @@
         "reference": {
           "reference": "StructureDefinition/day-0"
         },
-        "name": "Day0",
+        "name": "Extension : Day0",
         "description": "collection which diferenciates specific date start of a patients start date.",
         "exampleBoolean": false
       },
@@ -413,7 +427,7 @@
         "reference": {
           "reference": "StructureDefinition/form-config"
         },
-        "name": "form Config",
+        "name": "Extension : Form Config",
         "description": "plan definition action extention for form configurations",
         "exampleBoolean": false
       },
@@ -427,7 +441,7 @@
         "reference": {
           "reference": "StructureDefinition/parent-reference"
         },
-        "name": "Parent Reference",
+        "name": "Extension : Parent Reference",
         "description": "extension to show reference back to a parent instance",
         "exampleBoolean": false
       },
@@ -441,7 +455,7 @@
         "reference": {
           "reference": "StructureDefinition/protocal-version"
         },
-        "name": "ProtocalVersion",
+        "name": "Extension : Protocal Version",
         "description": "identifies the specific protocal version",
         "exampleBoolean": false
       },
@@ -483,7 +497,7 @@
         "reference": {
           "reference": "StructureDefinition/site-config"
         },
-        "name": "Site Config",
+        "name": "Extension : Site Config",
         "exampleBoolean": false
       },
       {
@@ -524,7 +538,7 @@
         "reference": {
           "reference": "StructureDefinition/time-period"
         },
-        "name": "Time Period",
+        "name": "Extension : Time Period",
         "description": "Description of time period",
         "exampleBoolean": false
       },
@@ -552,7 +566,7 @@
         "reference": {
           "reference": "StructureDefinition/version-number"
         },
-        "name": "Version Number",
+        "name": "Extension : Version Number",
         "description": "version number",
         "exampleBoolean": false
       },
@@ -566,8 +580,8 @@
         "reference": {
           "reference": "PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"
         },
-        "name": "Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37",
-        "description": "Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37",
+        "name": "Example : Expected Visit Plan PlanDefinitionS37",
+        "description": "Example : Expected Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
       {
@@ -580,8 +594,8 @@
         "reference": {
           "reference": "PlanDefinition/FormListPlanDefinitionS37Example"
         },
-        "name": "Example : MasterVisitPlan-PlanDefinitionS37",
-        "description": "Example : MasterVisitPlan-PlanDefinitionS37",
+        "name": "Example : Forms List PlanDefinitionS37",
+        "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
       {
@@ -846,8 +860,8 @@
         "reference": {
           "reference": "PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"
         },
-        "name": "Example : MasterVisitPlan-PlanDefinitionS37",
-        "description": "Example : MasterVisitPlan-PlanDefinitionS37",
+        "name": "Example : Master Visit Plan PlanDefinitionS37",
+        "description": "Example : Master Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       }
     ],
