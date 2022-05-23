@@ -1,13 +1,14 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 185, warn = 32, info = 135
+err = 185, warn = 31, info = 135
 IG Publisher Version: 1.1.120
-Generated Mon May 23 11:50:04 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Mon May 23 12:40:38 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 2 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-EXPECTEDVISITPLANPlanDefinitionS37Example : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-FormListPlanDefinitionS37Example : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-RecurringFormListPlanDefinitionS37Example : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-VisitPlanMasterVisitPlanDefinitionS37Example : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items : 146 / 7 / 94
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 0 / 1 / 1
@@ -27,7 +28,7 @@ Generated Mon May 23 11:50:04 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 2 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derived : 2 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break : 2 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-conditional-logic-id : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-conditional-logic-id : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-day-0 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-report-field : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-type : 0 / 0 / 1
@@ -52,6 +53,7 @@ ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-sdc-defini
 == fsh-generated/resources/ImplementationGuide-science37.FHIR-IG.json ==
 == fsh-generated/resources/PlanDefinition-EXPECTEDVISITPLANPlanDefinitionS37Example.json ==
 == fsh-generated/resources/PlanDefinition-FormListPlanDefinitionS37Example.json ==
+== fsh-generated/resources/PlanDefinition-RecurringFormListPlanDefinitionS37Example.json ==
 == fsh-generated/resources/PlanDefinition-VisitPlanMasterVisitPlanDefinitionS37Example.json ==
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items.json ==
 WARNING: Questionnaire/Item-Extension-Example-All-Items: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -424,7 +426,6 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Question
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.item[0].extension[2]: Profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc, Element matches more than one slice - itemHidden, hidden
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
 == fsh-generated/resources/StructureDefinition-conditional-logic-id.json ==
-WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-day-0.json ==
 == fsh-generated/resources/StructureDefinition-device-report-field.json ==
 == fsh-generated/resources/StructureDefinition-device-type.json ==

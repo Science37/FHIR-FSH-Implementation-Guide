@@ -147,6 +147,13 @@
     "name": "FORMS_LIST"
   },
   {
+    "id": "RecurringFormListPlanDefinitionS37Example",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/RecurringFormListPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "RECURRING_FORMS_LIST"
+  },
+  {
     "id": "VisitPlanMasterVisitPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example",
