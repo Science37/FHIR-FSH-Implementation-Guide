@@ -39,9 +39,9 @@ Description: "version number"
 * extension[audit-trail-version].value[x] only id
 
 
-Extension: Day0
+Extension: DayZero
 Id: day-0
-Title: "Extension : Day0"
+Title: "Extension : Day Zero"
 Description: "collection which diferenciates specific date start of a patients start date."
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
