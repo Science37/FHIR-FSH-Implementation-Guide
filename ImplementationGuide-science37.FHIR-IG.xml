@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-23T11:08:31+00:00"/>
+  <date value="2022-05-23T11:30:07+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -273,7 +273,7 @@
       <reference>
         <reference value="StructureDefinition/device-type"/>
       </reference>
-      <name value="device Type"/>
+      <name value="Extension : device Type"/>
       <description value="identifies the specific device type that is registered with a third-party provider"/>
       <exampleBoolean value="false"/>
     </resource>
