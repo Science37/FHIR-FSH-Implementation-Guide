@@ -222,7 +222,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Must be >= this value","The inclusive lower bound on the range of allowed values for the data element.","Data type specified must be the same as the data type for the data element.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A (MIF-level)","N/A"
 "Questionnaire.item.extension:deviceReportField","Questionnaire.item.extension","deviceReportField","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field]]} {[]}
-","DeviceReportField","the third party report field used to obtain the value of the item","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Extension : Device Report Field","the third party report field used to obtain the value of the item","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.modifierExtension","Questionnaire.item.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
@@ -484,7 +484,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A (MIF-level)","N/A"
 "Questionnaire.item.item.extension:deviceReportField","Questionnaire.item.item.extension","deviceReportField","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field]]} {[]}
-","DeviceReportField","the third party report field used to obtain the value of the item","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Extension : Device Report Field","the third party report field used to obtain the value of the item","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.item.item.modifierExtension","Questionnaire.item.item.modifierExtension","","extensions
