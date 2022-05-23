@@ -165,7 +165,7 @@
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
     "version": "1.0.0-S37",
-    "name": "Day0"
+    "name": "DayZero"
   },
   {
     "id": "device-report-field",
