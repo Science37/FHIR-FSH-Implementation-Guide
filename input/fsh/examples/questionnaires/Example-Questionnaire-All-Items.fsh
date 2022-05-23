@@ -1,7 +1,7 @@
 Instance: Item-Extension-Example-All-Items
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item-All-Items"
-Description: "Example : Questionnaire.Item-All-Items"
+Title: "Example : Questionnaire.Item All S37 Widgets"
+Description: "Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak"
 Usage: #example
 
 /* Form Level Information */
