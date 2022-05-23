@@ -154,6 +154,13 @@
     "name": "MASTER_VISIT_PLAN"
   },
   {
+    "id": "conditional-logic-id",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id",
+    "version": "1.0.0-S37",
+    "name": "ConditionalLogicId"
+  },
+  {
     "id": "day-0",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
@@ -193,7 +200,7 @@
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
     "version": "1.0.0-S37",
-    "name": "VisitPlanPlanDefinitionS37"
+    "name": "PlanDefinitionS37"
   },
   {
     "id": "protocal-version",

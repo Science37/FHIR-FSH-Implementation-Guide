@@ -5,8 +5,15 @@
   "jurisdiction": "US",
   "extensions": [
     {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id",
+      "title": "Extension : Conditional Logic Id",
+      "types": [
+        "string"
+      ]
+    },
+    {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
-      "title": "Day0",
+      "title": "Extension : Day0",
       "types": [
         "string",
         "string",
@@ -183,7 +190,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
-      "title": "form Config",
+      "title": "Extension : Form Config",
       "types": [
         "string",
         "string",
@@ -243,6 +250,114 @@
         "Meta",
         "string",
         "boolean",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "string",
+        "string",
+        "time",
+        "time",
+        "positiveInt",
+        "string",
+        "integer",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
         "base64Binary",
         "boolean",
         "canonical",
@@ -347,7 +462,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
-      "title": "Parent Reference",
+      "title": "Extension : Parent Reference",
       "types": [
         "string",
         "string",
@@ -406,7 +521,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version",
-      "title": "ProtocalVersion",
+      "title": "Extension : Protocal Version",
       "types": [
         "id",
         "base64Binary",
@@ -661,7 +776,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config",
-      "title": "Site Config",
+      "title": "Extension : Site Config",
       "types": [
         "string",
         "string",
@@ -784,7 +899,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/time-period",
-      "title": "Time Period",
+      "title": "Extension : Time Period",
       "types": [
         "string",
         "string",
@@ -849,7 +964,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number",
-      "title": "Version Number",
+      "title": "Extension : Version Number",
       "types": [
         "id",
         "id",
@@ -910,7 +1025,7 @@
     "PlanDefinition": [
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
-        "title": "PlanDefinitionS37"
+        "title": "Profile : PlanDefinitionS37"
       }
     ],
     "Questionnaire": [
@@ -1047,6 +1162,9 @@
     ],
     "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-width": [
       "Questionnaire.item"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id": [
+      "Extension.extension"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0": [
       "PlanDefinition"

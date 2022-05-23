@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-23T01:13:32+00:00"/>
+  <date value="2022-05-23T10:52:07+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -216,6 +216,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/plandefinition-s37"/>
+      </reference>
+      <name value="Profile : PlanDefinitionS37"/>
+      <description value="plan definition specific to science 37 implementation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/questionnaire-s37-sdc"/>
       </reference>
       <name value="Profile : QuestionnaireS37SDC"/>
@@ -224,13 +235,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/plandefinition-s37"/>
+        <reference value="StructureDefinition/conditional-logic-id"/>
       </reference>
-      <name value="PlanDefinitionS37"/>
-      <description value="plan definition specific to science 37 implementation."/>
+      <name value="Extension : Conditional Logic Id"/>
+      <description value="list of conditional logic ids"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -240,7 +251,7 @@
       <reference>
         <reference value="StructureDefinition/day-0"/>
       </reference>
-      <name value="Day0"/>
+      <name value="Extension : Day0"/>
       <description value="collection which diferenciates specific date start of a patients start date."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -273,7 +284,7 @@
       <reference>
         <reference value="StructureDefinition/form-config"/>
       </reference>
-      <name value="form Config"/>
+      <name value="Extension : Form Config"/>
       <description value="plan definition action extention for form configurations"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -284,7 +295,7 @@
       <reference>
         <reference value="StructureDefinition/parent-reference"/>
       </reference>
-      <name value="Parent Reference"/>
+      <name value="Extension : Parent Reference"/>
       <description value="extension to show reference back to a parent instance"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -295,7 +306,7 @@
       <reference>
         <reference value="StructureDefinition/protocal-version"/>
       </reference>
-      <name value="ProtocalVersion"/>
+      <name value="Extension : Protocal Version"/>
       <description value="identifies the specific protocal version"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -328,7 +339,7 @@
       <reference>
         <reference value="StructureDefinition/site-config"/>
       </reference>
-      <name value="Site Config"/>
+      <name value="Extension : Site Config"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -360,7 +371,7 @@
       <reference>
         <reference value="StructureDefinition/time-period"/>
       </reference>
-      <name value="Time Period"/>
+      <name value="Extension : Time Period"/>
       <description value="Description of time period"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -382,7 +393,7 @@
       <reference>
         <reference value="StructureDefinition/version-number"/>
       </reference>
-      <name value="Version Number"/>
+      <name value="Extension : Version Number"/>
       <description value="version number"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -393,8 +404,8 @@
       <reference>
         <reference value="PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37"/>
-      <description value="Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37"/>
+      <name value="Example : Expected Visit Plan PlanDefinitionS37"/>
+      <description value="Example : Expected Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
     <resource>
@@ -404,8 +415,8 @@
       <reference>
         <reference value="PlanDefinition/FormListPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : MasterVisitPlan-PlanDefinitionS37"/>
-      <description value="Example : MasterVisitPlan-PlanDefinitionS37"/>
+      <name value="Example : Forms List PlanDefinitionS37"/>
+      <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
     <resource>
@@ -613,8 +624,8 @@
       <reference>
         <reference value="PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : MasterVisitPlan-PlanDefinitionS37"/>
-      <description value="Example : MasterVisitPlan-PlanDefinitionS37"/>
+      <name value="Example : Master Visit Plan PlanDefinitionS37"/>
+      <description value="Example : Master Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
     <page>
