@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-23T11:30:07+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-23T11:46:37+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -373,7 +373,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/day-0" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Day0" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Day Zero" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "collection which diferenciates specific date start of a patients start date." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -401,7 +401,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/device-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : device Type" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Device Type" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "identifies the specific device type that is registered with a third-party provider" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [

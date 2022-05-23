@@ -13,7 +13,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
-      "title": "Extension : Day0",
+      "title": "Extension : Day Zero",
       "types": [
         "string",
         "string",
@@ -133,7 +133,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
-      "title": "Extension : device Type",
+      "title": "Extension : Device Type",
       "types": [
         "string",
         "base64Binary",
