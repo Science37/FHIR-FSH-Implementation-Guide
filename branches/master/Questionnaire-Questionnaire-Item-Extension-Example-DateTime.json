@@ -36,11 +36,11 @@
       "extension": [
         {
           "url": "language",
-          "valueCode": "US-ENG"
+          "valueCode": "en-US"
         },
         {
           "url": "language",
-          "valueCode": "US-ENG2"
+          "valueCode": "en-SG"
         }
       ],
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages"
@@ -59,7 +59,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-20T20:57:10+00:00",
+  "date": "2022-05-23T01:13:32+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {

@@ -23,10 +23,10 @@
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages">
     <extension url="language">
-      <valueCode value="US-ENG"/>
+      <valueCode value="en-US"/>
     </extension>
     <extension url="language">
-      <valueCode value="US-ENG2"/>
+      <valueCode value="en-SG"/>
     </extension>
   </extension>
   <url value="http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"/>
@@ -38,7 +38,7 @@
   <title value="Example : Questionnaire.Item Text"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-20T20:57:10+00:00"/>
+  <date value="2022-05-23T01:13:32+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

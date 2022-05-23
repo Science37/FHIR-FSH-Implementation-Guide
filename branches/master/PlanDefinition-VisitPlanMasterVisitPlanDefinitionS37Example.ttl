@@ -1,0 +1,144 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example> a fhir:PlanDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "VisitPlanMasterVisitPlanDefinitionS37Example"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
+       fhir:index 0;
+       fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"VisitPlanMasterVisitPlanDefinitionS37Example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-plandefinition-s37.html\">PlanDefinitionS37</a></p></div><blockquote><p><b>Parent Reference</b></p><p><b>value</b>: 449e0f70-9c78-11eb-a748-70b5e89dfcd9</p><p><b>value</b>: 449e0f70-9c78-11eb-a748-70b5e89dfcsd9</p><p><b>value</b>: 449e0f70-9c78-11eb-a748-70b5e89dsfcd9</p></blockquote><p><b>ProtocalVersion</b>: 13.5</p><blockquote><p><b>Version Number</b></p><p><b>value</b>: 1.2.2</p><p><b>value</b>: 1.2.2</p></blockquote><blockquote><p><b>Extension : ResourceCreateUpdateAtDateTime</b></p><p><b>value</b>: 2015-02-07 01:28:17+0000</p><p><b>value</b>: 2022-01-01 10:08:10+0000</p></blockquote><blockquote><p><b>Day0</b></p><p><b>value</b>: Visit OID</p><p><b>value</b>: Visit ID</p><p><b>value</b>: Visit title</p><p><b>value</b>: FormId</p><p><b>value</b>: title</p><p><b>value</b>: version</p><p><b>value</b>: form-day0-date-field-id</p><p><b>value</b>: form-day0-date-field-name</p></blockquote><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: MASTER_VISIT_PLAN</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-23 01:13:32+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>action</b></p><p><b>definition</b>: <code>EXPECTED_VISIT_PLAN/e358d87d-d340-43eb-ae17-fabe787cf001</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>ALTERNATIVE_VISIT_PLAN/e358d87d-d340-43eb-ae17-fabe787cf002</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>UNSCHEDULED_VISIT/e358d87d-d340-43eb-ae17-fabe787cf004</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>RECURRING_FORMS_LIST/f358d87d-d340-43eb-ae17-fabe787cf001</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>ADHOC_FORMS_LIST/f358d87d-d340-43eb-ae17-fabe787cf001</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>ONGOING_FORMS_LIST/f358d87d-d340-43eb-ae17-fabe787cf001</code></p></blockquote></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "MASTER_VISIT_PLAN" ];
+       fhir:Extension.valueString [ fhir:value "449e0f70-9c78-11eb-a748-70b5e89dfcd9" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "EXPECTED_VISIT_PLAN" ];
+       fhir:Extension.valueString [ fhir:value "449e0f70-9c78-11eb-a748-70b5e89dfcsd9" ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "VISIT" ];
+       fhir:Extension.valueString [ fhir:value "449e0f70-9c78-11eb-a748-70b5e89dsfcd9" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference" ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version" ];
+     fhir:Extension.valueId [ fhir:value "13.5" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "version-number" ];
+       fhir:Extension.valueId [ fhir:value "1.2.2" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "audit-trail-version" ];
+       fhir:Extension.valueId [ fhir:value "1.2.2" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number" ]
+  ], [
+     fhir:index 3;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "createdAt" ];
+       fhir:Extension.valueDateTime [ fhir:value "2015-02-07T13:28:17Z"^^xsd:dateTime ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "updatedAt" ];
+       fhir:Extension.valueDateTime [ fhir:value "2022-01-01T10:08:10Z"^^xsd:dateTime ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime" ]
+  ], [
+     fhir:index 4;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "visit-oid" ];
+       fhir:Extension.valueString [ fhir:value "Visit OID" ]
+     ], [
+       fhir:index 1;
+       fhir:Extension.url [ fhir:value "visit-id" ];
+       fhir:Extension.valueString [ fhir:value "Visit ID" ]
+     ], [
+       fhir:index 2;
+       fhir:Extension.url [ fhir:value "visit-title" ];
+       fhir:Extension.valueString [ fhir:value "Visit title" ]
+     ], [
+       fhir:index 3;
+       fhir:Extension.url [ fhir:value "form-id" ];
+       fhir:Extension.valueString [ fhir:value "FormId" ]
+     ], [
+       fhir:index 4;
+       fhir:Extension.url [ fhir:value "form-title" ];
+       fhir:Extension.valueString [ fhir:value "title" ]
+     ], [
+       fhir:index 5;
+       fhir:Extension.url [ fhir:value "form-version" ];
+       fhir:Extension.valueString [ fhir:value "version" ]
+     ], [
+       fhir:index 6;
+       fhir:Extension.url [ fhir:value "form-day0-date-field-id" ];
+       fhir:Extension.valueString [ fhir:value "form-day0-date-field-id" ]
+     ], [
+       fhir:index 7;
+       fhir:Extension.url [ fhir:value "form-day0-data-field-name" ];
+       fhir:Extension.valueString [ fhir:value "form-day0-date-field-name" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0" ]
+  ];
+  fhir:PlanDefinition.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"];
+  fhir:PlanDefinition.version [ fhir:value "1.0.0-S37"];
+  fhir:PlanDefinition.name [ fhir:value "MASTER_VISIT_PLAN"];
+  fhir:PlanDefinition.status [ fhir:value "active"];
+  fhir:PlanDefinition.date [ fhir:value "2022-05-23T01:13:32+00:00"^^xsd:dateTime];
+  fhir:PlanDefinition.publisher [ fhir:value "Science37"];
+  fhir:PlanDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ];
+       fhir:Coding.display [ fhir:value "United States of America" ]
+     ]
+  ];
+  fhir:PlanDefinition.action [
+     fhir:index 0;
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "EXPECTED_VISIT_PLAN/e358d87d-d340-43eb-ae17-fabe787cf001" ]
+  ], [
+     fhir:index 1;
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "ALTERNATIVE_VISIT_PLAN/e358d87d-d340-43eb-ae17-fabe787cf002" ]
+  ], [
+     fhir:index 2;
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "UNSCHEDULED_VISIT/e358d87d-d340-43eb-ae17-fabe787cf004" ]
+  ], [
+     fhir:index 3;
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "RECURRING_FORMS_LIST/f358d87d-d340-43eb-ae17-fabe787cf001" ]
+  ], [
+     fhir:index 4;
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "ADHOC_FORMS_LIST/f358d87d-d340-43eb-ae17-fabe787cf001" ]
+  ], [
+     fhir:index 5;
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "ONGOING_FORMS_LIST/f358d87d-d340-43eb-ae17-fabe787cf001" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
