@@ -31,7 +31,7 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
     setting 0..*
 * extension[setting] only Extension
 * extension[setting].extension contains
- id 0..1 and 
+    id 0..1 and 
     label 0..1 and
     hidden 0..1 and
     description 0..1 and 

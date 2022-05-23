@@ -5,7 +5,7 @@ Id: questionnaire-s37-sdc
 Title: "Profile : QuestionnaireS37SDC"
 Description: "Profile : QuestionnaireS37SDC"
 * version 1..1 
-* version = "1.0.0A-S37"
+* version = "1.0.0-S37"
 * ^status = #active
 * ^date = "2022-04-07T10:59:49+00:00"
 * ^publisher = "S37 Platform"

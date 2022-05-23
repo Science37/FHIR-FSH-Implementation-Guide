@@ -17,8 +17,8 @@ Usage: #example
 * extension[subStatus].valueString = "deleted"
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
-* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG
-* extension[supportedLanguages].extension[language][+].valueCode = #US-ENG2
+* extension[supportedLanguages].extension[language][+].valueCode = #en-US
+* extension[supportedLanguages].extension[language][+].valueCode = #en-SG
 
 * insert FORMIDRS_SDC
 * insert FORMTypeRS_SDC
@@ -162,7 +162,7 @@ Usage: #example
 * item[+].type = #question
 * item[=].repeats = true
 
-* item[=].linkId = "__S37-form-fields-p8wrfhsd01p"
+* item[=].linkId = "__S37-form-fields-p8wrfhsd01p1"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/MultiSelect/version/2.3"
 * item[=].required = true
@@ -396,7 +396,7 @@ Usage: #example
 
 * insert Header
 * item[+].type = #choice
-* item[=].linkId = "__S37-form-fields-p8wrfhsd01p"
+* item[=].linkId = "__S37-form-fields-p8wrfhsd01p2"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/Select/version/2.3"
 * item[=].required = true
@@ -421,7 +421,7 @@ Usage: #example
 * item[=].initial.valueString = "554"
 
 * insert SponsorVariableRS_SDC(MULTPLE_CHOICE_OID)
-* insert LinkIdRS_SDC(__S37-form-fields-p8wrfhsd01p)
+* insert LinkIdRS_SDC(__S37-form-fields-p8wrfhsd01p1)
 * insert TitleRS_SDC(MULTPLE_CHOICE_TITLE)
 * insert LableRS_SDC(<p style=text-align:left;><strong>MULTPLE_CHOICE_LABEL</strong></p>)
 * insert StandardVariableRS_SDC(MULTPLE_CHOICE_STD_VAR)
