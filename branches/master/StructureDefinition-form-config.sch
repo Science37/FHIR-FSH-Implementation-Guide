@@ -23,6 +23,7 @@
       <sch:assert test="count(f:extension[@url = 'allow-multilple-submit']) &lt;= 1">extension with URL = 'allow-multilple-submit': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'time-of-day-type']) &lt;= 1">extension with URL = 'time-of-day-type': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'freqency']) &lt;= 1">extension with URL = 'freqency': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'conditional-reference-list']) &lt;= 1">extension with URL = 'conditional-reference-list': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value[x]) &lt;= 0">value[x]: maximum cardinality of 'value[x]' is 0</sch:assert>
     </sch:rule>
   </sch:pattern>
