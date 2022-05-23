@@ -126,7 +126,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field",
-      "title": "DeviceReportField",
+      "title": "Extension : Device Report Field",
       "types": [
         "string"
       ]

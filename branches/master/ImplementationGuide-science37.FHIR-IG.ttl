@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-23T10:54:56+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-23T11:06:18+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -387,7 +387,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/device-report-field" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeviceReportField" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Device Report Field" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "the third party report field used to obtain the value of the item" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
