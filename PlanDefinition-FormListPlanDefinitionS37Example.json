@@ -1,0 +1,247 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "FormListPlanDefinitionS37Example",
+  "meta": {
+    "profile": [
+      "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"FormListPlanDefinitionS37Example\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-plandefinition-s37.html\">PlanDefinitionS37</a></p></div><blockquote><p><b>Parent Reference</b></p><p><b>value</b>: 449e0f70-9c78-11eb-a748-70b5e89dfcd9</p><p><b>value</b>: 449e0f70-9c78-11eb-a748-70b5e89dfcsd9</p><p><b>value</b>: 449e0f70-9c78-11eb-a748-70b5e89dsfcd9</p></blockquote><blockquote><p><b>Extension : ResourceCreateUpdateAtDateTime</b></p><p><b>value</b>: 2015-02-07 01:28:17+0000</p><p><b>value</b>: 2022-01-01 10:08:10+0000</p></blockquote><blockquote><p><b>Version Number</b></p><p><b>value</b>: 1.2.2</p></blockquote><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/FormListPlanDefinitionS37Example</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: FORMS_LIST</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-23 01:13:32+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>action</b></p><blockquote><p><b>form Config</b></p><p><b>value</b>: 2</p><p><b>value</b>: e358d87d-d340-43eb-ae17-fabe787cq002</p><p><b>value</b>: Form1</p><p><b>value</b>: 1.0</p><p><b>value</b>: EPRO</p><p><b>value</b>: TIME_DAY</p><p><b>value</b>: true</p><blockquote><p><b>Site Config</b></p><p><b>value</b>: siteA</p><p><b>value</b>: 8112d5e4-76b0-451f-a2bf-4970b271ca61</p></blockquote><blockquote><p><b>Site Config</b></p><p><b>value</b>: siteA</p><p><b>value</b>: 8112d5e4-76b0-451f-a2bf-4970b271ca61</p></blockquote><blockquote><p><b>Time Period</b></p><p><b>value</b>: 13:00</p><p><b>value</b>: 18:00</p></blockquote></blockquote><p><b>definition</b>: <code>Questionnaire/e358d87d-d340-43eb-ae17-fabe787cq002</code></p></blockquote><blockquote><p><b>action</b></p><blockquote><p><b>form Config</b></p><p><b>value</b>: 1</p><p><b>value</b>: e358d87d-d340-43eb-ae17-fabe787cq002</p><p><b>value</b>: Form1</p><p><b>value</b>: 1.0</p><p><b>value</b>: EPRO</p><p><b>value</b>: TIME_DAY</p><p><b>value</b>: true</p><blockquote><p><b>Site Config</b></p><p><b>value</b>: siteA</p><p><b>value</b>: 8112d5e4-76b0-451f-a2bf-4970b271ca61</p></blockquote><blockquote><p><b>Site Config</b></p><p><b>value</b>: siteA</p><p><b>value</b>: 8112d5e4-76b0-451f-a2bf-4970b271ca61</p></blockquote><blockquote><p><b>Time Period</b></p><p><b>value</b>: 13:00</p><p><b>value</b>: 18:00</p></blockquote></blockquote><p><b>definition</b>: <code>Questionnaire/e358d87d-d340-43eb-ae17-fabe787cq0113</code></p></blockquote></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "MASTER_VISIT_PLAN",
+          "valueString": "449e0f70-9c78-11eb-a748-70b5e89dfcd9"
+        },
+        {
+          "url": "EXPECTED_VISIT_PLAN",
+          "valueString": "449e0f70-9c78-11eb-a748-70b5e89dfcsd9"
+        },
+        {
+          "url": "VISIT",
+          "valueString": "449e0f70-9c78-11eb-a748-70b5e89dsfcd9"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference"
+    },
+    {
+      "extension": [
+        {
+          "url": "createdAt",
+          "valueDateTime": "2015-02-07T13:28:17Z"
+        },
+        {
+          "url": "updatedAt",
+          "valueDateTime": "2022-01-01T10:08:10Z"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime"
+    },
+    {
+      "extension": [
+        {
+          "url": "audit-trail-version",
+          "valueId": "1.2.2"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number"
+    }
+  ],
+  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/FormListPlanDefinitionS37Example",
+  "version": "1.0.0-S37",
+  "name": "FORMS_LIST",
+  "status": "active",
+  "date": "2022-05-23T01:13:32+00:00",
+  "publisher": "Science37",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "action": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "display-order",
+              "valueInteger": 2
+            },
+            {
+              "url": "form-id",
+              "valueString": "e358d87d-d340-43eb-ae17-fabe787cq002"
+            },
+            {
+              "url": "form-title",
+              "valueString": "Form1"
+            },
+            {
+              "url": "form-version",
+              "valueString": "1.0"
+            },
+            {
+              "url": "form-type",
+              "valueString": "EPRO"
+            },
+            {
+              "url": "experation",
+              "valueString": "TIME_DAY"
+            },
+            {
+              "url": "allow-multilple-submit",
+              "valueBoolean": true
+            },
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "site-name",
+                      "valueString": "siteA"
+                    },
+                    {
+                      "url": "site-id",
+                      "valueString": "8112d5e4-76b0-451f-a2bf-4970b271ca61"
+                    }
+                  ],
+                  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "site-name",
+                      "valueString": "siteA"
+                    },
+                    {
+                      "url": "site-id",
+                      "valueString": "8112d5e4-76b0-451f-a2bf-4970b271ca61"
+                    }
+                  ],
+                  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config"
+                }
+              ],
+              "url": "site-list"
+            },
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "military-start-time",
+                      "valueString": "13:00"
+                    },
+                    {
+                      "url": "military-end-time",
+                      "valueString": "18:00"
+                    }
+                  ],
+                  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/time-period"
+                }
+              ],
+              "url": "time-of-day-type"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config"
+        }
+      ],
+      "definitionUri": "Questionnaire/e358d87d-d340-43eb-ae17-fabe787cq002"
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "display-order",
+              "valueInteger": 1
+            },
+            {
+              "url": "form-id",
+              "valueString": "e358d87d-d340-43eb-ae17-fabe787cq002"
+            },
+            {
+              "url": "form-title",
+              "valueString": "Form1"
+            },
+            {
+              "url": "form-version",
+              "valueString": "1.0"
+            },
+            {
+              "url": "form-type",
+              "valueString": "EPRO"
+            },
+            {
+              "url": "experation",
+              "valueString": "TIME_DAY"
+            },
+            {
+              "url": "allow-multilple-submit",
+              "valueBoolean": true
+            },
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "site-name",
+                      "valueString": "siteA"
+                    },
+                    {
+                      "url": "site-id",
+                      "valueString": "8112d5e4-76b0-451f-a2bf-4970b271ca61"
+                    }
+                  ],
+                  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "site-name",
+                      "valueString": "siteA"
+                    },
+                    {
+                      "url": "site-id",
+                      "valueString": "8112d5e4-76b0-451f-a2bf-4970b271ca61"
+                    }
+                  ],
+                  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config"
+                }
+              ],
+              "url": "site-list"
+            },
+            {
+              "extension": [
+                {
+                  "extension": [
+                    {
+                      "url": "military-start-time",
+                      "valueString": "13:00"
+                    },
+                    {
+                      "url": "military-end-time",
+                      "valueString": "18:00"
+                    }
+                  ],
+                  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/time-period"
+                }
+              ],
+              "url": "time-of-day-type"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config"
+        }
+      ],
+      "definitionUri": "Questionnaire/e358d87d-d340-43eb-ae17-fabe787cq0113"
+    }
+  ]
+}

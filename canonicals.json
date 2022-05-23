@@ -133,10 +133,32 @@
     "name": "S37FHIRIG"
   },
   {
-    "id": "PlanDefintionsExample",
+    "id": "EXPECTEDVISITPLANPlanDefinitionS37Example",
     "type": "PlanDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/PlanDefintionsExample",
-    "version": "1.0.0-S37"
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "EXPECTED_VISIT_PLAN"
+  },
+  {
+    "id": "FormListPlanDefinitionS37Example",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/FormListPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "FORMS_LIST"
+  },
+  {
+    "id": "VisitPlanMasterVisitPlanDefinitionS37Example",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "MASTER_VISIT_PLAN"
+  },
+  {
+    "id": "day-0",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
+    "version": "1.0.0-S37",
+    "name": "Day0"
   },
   {
     "id": "device-report-field",
@@ -153,6 +175,13 @@
     "name": "DeviceType"
   },
   {
+    "id": "form-config",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
+    "version": "1.0.0-S37",
+    "name": "FormConfig"
+  },
+  {
     "id": "parent-reference",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
@@ -164,7 +193,7 @@
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
     "version": "1.0.0-S37",
-    "name": "PlanDefinitionS37"
+    "name": "VisitPlanPlanDefinitionS37"
   },
   {
     "id": "protocal-version",
@@ -195,6 +224,13 @@
     "name": "ResourceCreateUpdateAtDateTime"
   },
   {
+    "id": "site-config",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config",
+    "version": "1.0.0-S37",
+    "name": "SiteConfig"
+  },
+  {
     "id": "sub-status",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
@@ -207,6 +243,13 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages",
     "version": "1.0.0-S37",
     "name": "SupportedLanguages"
+  },
+  {
+    "id": "time-period",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/time-period",
+    "version": "1.0.0-S37",
+    "name": "TimePeriod"
   },
   {
     "id": "version",

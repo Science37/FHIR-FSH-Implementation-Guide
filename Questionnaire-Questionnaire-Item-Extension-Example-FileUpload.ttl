@@ -40,11 +40,11 @@
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "language" ];
-       fhir:Extension.valueCode [ fhir:value "US-ENG" ]
+       fhir:Extension.valueCode [ fhir:value "en-US" ]
      ], [
        fhir:index 1;
        fhir:Extension.url [ fhir:value "language" ];
-       fhir:Extension.valueCode [ fhir:value "US-ENG2\"" ]
+       fhir:Extension.valueCode [ fhir:value "en-SG\"" ]
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages" ]
   ];
@@ -61,7 +61,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-20T20:57:10+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-23T01:13:32+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-20T20:57:10+00:00",
+  "date": "2022-05-23T01:13:32+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -341,10 +341,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/plandefinition-s37"
+          "reference": "StructureDefinition/questionnaire-s37-sdc"
         },
-        "name": "PlanDefinitionS37",
-        "description": "plan definition specific to science 37 implementation.",
+        "name": "Profile : QuestionnaireS37SDC",
+        "description": "Profile : QuestionnaireS37SDC",
         "exampleBoolean": false
       },
       {
@@ -355,10 +355,24 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/questionnaire-s37-sdc"
+          "reference": "StructureDefinition/plandefinition-s37"
         },
-        "name": "Profile : QuestionnaireS37SDC",
-        "description": "Profile : QuestionnaireS37SDC",
+        "name": "PlanDefinitionS37",
+        "description": "plan definition specific to science 37 implementation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/day-0"
+        },
+        "name": "Day0",
+        "description": "collection which diferenciates specific date start of a patients start date.",
         "exampleBoolean": false
       },
       {
@@ -387,6 +401,20 @@
         },
         "name": "device Type",
         "description": "identifies the specific device type that is registered with a third-party provider",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/form-config"
+        },
+        "name": "form Config",
+        "description": "plan definition action extention for form configurations",
         "exampleBoolean": false
       },
       {
@@ -453,6 +481,19 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/site-config"
+        },
+        "name": "Site Config",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/sub-status"
         },
         "name": "Extension : Questionniare SubStatus",
@@ -471,6 +512,20 @@
         },
         "name": "Extension : Supported Languages",
         "description": "Supported Languages : Contains a list of languages that is supported by the questionnaire",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/time-period"
+        },
+        "name": "Time Period",
+        "description": "Description of time period",
         "exampleBoolean": false
       },
       {
@@ -505,15 +560,15 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
+            "valueString": "PlanDefinition"
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Item-Extension-Example-All-Items"
+          "reference": "PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"
         },
-        "name": "Example : Questionnaire.Item-All-Items",
-        "description": "Example : Questionnaire.Item-All-Items",
-        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+        "name": "Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37",
+        "description": "Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
       {
         "extension": [
@@ -523,11 +578,25 @@
           }
         ],
         "reference": {
-          "reference": "PlanDefinition/PlanDefintionsExample"
+          "reference": "PlanDefinition/FormListPlanDefinitionS37Example"
         },
-        "name": "PlanDefintionsExample",
-        "description": "PlanDefintionsExample",
+        "name": "Example : MasterVisitPlan-PlanDefinitionS37",
+        "description": "Example : MasterVisitPlan-PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Item-Extension-Example-All-Items"
+        },
+        "name": "Example : Questionnaire.Item-All-Items",
+        "description": "Example : Questionnaire.Item-All-Items",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
       },
       {
         "extension": [
@@ -766,6 +835,20 @@
         "name": "Example : Questionnaire.Item-Page-Break",
         "description": "Example : Questionnaire.Item-Page-Break",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"
+        },
+        "name": "Example : MasterVisitPlan-PlanDefinitionS37",
+        "description": "Example : MasterVisitPlan-PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       }
     ],
     "page": {
