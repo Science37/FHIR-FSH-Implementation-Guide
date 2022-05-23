@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "FormConfig"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Form Config"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-23T11:06:18+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-23T11:08:31+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "plan definition action extention for form configurations"];
   fhir:StructureDefinition.jurisdiction [

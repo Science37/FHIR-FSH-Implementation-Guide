@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-23T11:06:18+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-23T11:08:31+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -602,8 +602,8 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-Items>;
          fhir:Reference.reference [ fhir:value "Questionnaire/Item-Extension-Example-All-Items" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item-All-Items" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item-All-Items" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item All S37 Widgets" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
