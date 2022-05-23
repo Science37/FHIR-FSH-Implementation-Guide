@@ -22,7 +22,7 @@ Title: "Extension : Protocal Version"
 Description: "identifies the specific protocal version"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
-* extension.value[x] only id
+* value[x] only id
 
 Extension: VersionNumber
 Id: version-number
