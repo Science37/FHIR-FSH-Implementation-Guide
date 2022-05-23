@@ -1,8 +1,8 @@
 Instance: EXPECTEDVISITPLANPlanDefinitionS37Example
-InstanceOf: VisitPlanPlanDefinitionS37
+InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37"
-Description: "Example : EXPECTED_VISIT_PLAN-PlanDefinitionS37"
+Title: "Example : Expected Visit Plan PlanDefinitionS37"
+Description: "Example : Expected Visit Plan PlanDefinitionS37"
 * status = #active
 * name = "EXPECTED_VISIT_PLAN"
 * action[+].definitionUri = "VISIT/e358d87d-d340-43eb-ae17-fabe787ca001"

@@ -1,8 +1,8 @@
 Instance: FormListPlanDefinitionS37Example
-InstanceOf: VisitPlanPlanDefinitionS37
+InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Example : MasterVisitPlan-PlanDefinitionS37"
-Description: "Example : MasterVisitPlan-PlanDefinitionS37"
+Title: "Example : Forms List PlanDefinitionS37"
+Description: "Example : Forms List PlanDefinitionS37"
 * status = #active
 * name = "FORMS_LIST"
 * action[+].definitionUri =  "Questionnaire/e358d87d-d340-43eb-ae17-fabe787cq002"

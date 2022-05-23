@@ -1,6 +1,6 @@
 Extension: ParentReference
 Id: parent-reference
-Title: "Parent Reference"
+Title: "Extension : Parent Reference"
 Description: "extension to show reference back to a parent instance"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -18,7 +18,7 @@ Description: "extension to show reference back to a parent instance"
 
 Extension: ProtocalVersion
 Id: protocal-version
-Title: "ProtocalVersion"
+Title: "Extension : Protocal Version"
 Description: "identifies the specific protocal version"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -26,7 +26,7 @@ Description: "identifies the specific protocal version"
 
 Extension: VersionNumber
 Id: version-number
-Title: "Version Number"
+Title: "Extension : Version Number"
 Description: "version number"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -41,7 +41,7 @@ Description: "version number"
 
 Extension: Day0
 Id: day-0
-Title: "Day0"
+Title: "Extension : Day0"
 Description: "collection which diferenciates specific date start of a patients start date."
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -72,7 +72,7 @@ Description: "collection which diferenciates specific date start of a patients s
 
 Extension: FormConfig
 Id: form-config
-Title: "form Config"
+Title: "Extension : Form Config"
 Description: "plan definition action extention for form configurations"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
@@ -86,7 +86,9 @@ Description: "plan definition action extention for form configurations"
   site-list 0..1 and 
   experation 0..1 and
   allow-multilple-submit 0..1 and
-  time-of-day-type 0..1
+  time-of-day-type 0..1 and 
+  freqency 0..1 and
+  conditional-logic-list 0..*
 * extension[form-id] ^short = "Id to the form"
 * extension[form-id].value[x] only string
 * extension[form-title] ^short = "title to the form"
@@ -107,10 +109,46 @@ Description: "plan definition action extention for form configurations"
 * extension[allow-multilple-submit].value[x] only boolean
 * extension[time-of-day-type] only Extension
 * extension[time-of-day-type].extension contains TimePeriod named timePeriod 0..*
+* extension[freqency] only Extension
+* extension[freqency].extension contains
+  weekly-on-day 0..1 and
+  trigger 0..1 and
+  start-time 0..1 and
+  end-time 0..1 and
+  max-occurence 0..1 and
+  max-occurence-unit 0..1 and
+  delay 0..1 and
+  delay-unit 0..1
+* extension[freqency].extension[weekly-on-day] ^short = "comma delimited day of week"
+* extension[freqency].extension[weekly-on-day].value[x] only string
+* extension[freqency].extension[trigger] ^short = "trigger"
+* extension[freqency].extension[trigger].value[x] only string
+* extension[freqency].extension[start-time] ^short = "start-time"
+* extension[freqency].extension[start-time].value[x] only time
+* extension[freqency].extension[end-time] ^short = "end-time"
+* extension[freqency].extension[end-time].value[x] only time
+* extension[freqency].extension[max-occurence] ^short = "max-occurence"
+* extension[freqency].extension[max-occurence].value[x] only positiveInt
+* extension[freqency].extension[max-occurence-unit] ^short = "max-occurence-unit"
+* extension[freqency].extension[max-occurence-unit].value[x] only string
+* extension[freqency].extension[delay] ^short = "delay"
+* extension[freqency].extension[delay].value[x] only integer
+* extension[freqency].extension[delay-unit] ^short = "delay-unit"
+* extension[freqency].extension[delay-unit].value[x] only string
+
+* extension[conditional-logic-list] only Extension
+* extension[conditional-logic-list].extension contains ConditionalLogicId named conditionalLogicId 0..*
+
+Extension: ConditionalLogicId
+Id: conditional-logic-id
+Title: "Extension : Conditional Logic Id"
+Description: "list of conditional logic ids"
+* value[x] only string
+
 
 Extension: TimePeriod
 Id: time-period
-Title: "Time Period"
+Title: "Extension : Time Period"
 Description: "Description of time period"
 * extension contains
   military-start-time 0..1 and 
@@ -122,7 +160,7 @@ Description: "Description of time period"
 
 Extension: SiteConfig
 Id: site-config
-Title: "Site Config"
+Title: "Extension : Site Config"
 Description: ""
 * extension contains
   site-id 0..1 and 
