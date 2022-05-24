@@ -140,6 +140,13 @@
     "name": "ADHOC_FORMS_LIST"
   },
   {
+    "id": "EConsentFormGroupPlanDefinitionS37Example",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EConsentFormGroupPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "ECONSENT_FORM_GROUP"
+  },
+  {
     "id": "EXPECTEDVISITPLANPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example",
@@ -173,13 +180,6 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example",
     "version": "1.0.0-S37",
     "name": "MASTER_VISIT_PLAN"
-  },
-  {
-    "id": "conditional-logic-id",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id",
-    "version": "1.0.0-S37",
-    "name": "ConditionalLogicId"
   },
   {
     "id": "day-0",

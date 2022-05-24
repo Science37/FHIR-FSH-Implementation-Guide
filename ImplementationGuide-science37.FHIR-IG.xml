@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-24T18:19:26+00:00"/>
+  <date value="2022-05-24T18:58:53+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -238,17 +238,6 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/conditional-logic-id"/>
-      </reference>
-      <name value="Extension : Conditional Logic Id"/>
-      <description value="list of conditional logic ids"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/day-0"/>
       </reference>
       <name value="Extension : Day Zero"/>
@@ -414,6 +403,17 @@
       </extension>
       <reference>
         <reference value="PlanDefinition/AdhocFormsListPlanDefinitionS37Example"/>
+      </reference>
+      <name value="Example : Forms List PlanDefinitionS37"/>
+      <description value="Example : Forms List PlanDefinitionS37"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"/>
       </reference>
       <name value="Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
