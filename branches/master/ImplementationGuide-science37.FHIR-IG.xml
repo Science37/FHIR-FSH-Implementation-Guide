@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-24T14:28:11+00:00"/>
+  <date value="2022-05-24T16:07:29+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -282,10 +282,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/form-config"/>
+        <reference value="StructureDefinition/form-collection"/>
       </reference>
-      <name value="Extension : Form Config"/>
-      <description value="plan definition action extention for form configurations"/>
+      <name value="Ongoing Form"/>
+      <description value="List of ongoing Forms"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -293,10 +293,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ongoing-form"/>
+        <reference value="StructureDefinition/form-config"/>
       </reference>
-      <name value="Ongoing Form"/>
-      <description value="List of ongoing Forms"/>
+      <name value="Extension : Form Config"/>
+      <description value="plan definition action extention for form configurations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

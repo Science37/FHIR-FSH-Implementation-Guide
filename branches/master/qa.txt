@@ -3,7 +3,7 @@
 
 err = 186, warn = 31, info = 135
 IG Publisher Version: 1.1.120
-Generated Tue May 24 14:31:37 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Tue May 24 16:10:54 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 2 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-EXPECTEDVISITPLANPlanDefinitionS37Example : 0 / 0 / 1
@@ -33,8 +33,8 @@ Generated Tue May 24 14:31:37 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/StructureDefinition-day-0 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-report-field : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-device-type : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-form-collection : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-config : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-ongoing-form : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-parent-reference : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-plandefinition-s37 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-protocal-version : 0 / 0 / 1
@@ -56,7 +56,7 @@ ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-sdc-defini
 == fsh-generated/resources/PlanDefinition-EXPECTEDVISITPLANPlanDefinitionS37Example.json ==
 == fsh-generated/resources/PlanDefinition-FormListPlanDefinitionS37Example.json ==
 == fsh-generated/resources/PlanDefinition-OnGoingFormsListPlanDefinitionS37Example.json ==
-ERROR: PlanDefinition/OnGoingFormsListPlanDefinitionS37Example: PlanDefinition.action[0].extension[0].extension[0]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config is not allowed to be used at this point (allowed = e:PlanDefinition.action; this element is [[PlanDefinition.action.extension.extension, BackboneElement.extension.extension, Extension.extension, Extension])
+ERROR: PlanDefinition/OnGoingFormsListPlanDefinitionS37Example: PlanDefinition.action[0].extension[0].extension[1]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config is not allowed to be used at this point (allowed = e:PlanDefinition.action; this element is [[PlanDefinition.action.extension.extension, BackboneElement.extension.extension, Extension.extension, Extension])
 == fsh-generated/resources/PlanDefinition-RecurringFormListPlanDefinitionS37Example.json ==
 == fsh-generated/resources/PlanDefinition-VisitPlanMasterVisitPlanDefinitionS37Example.json ==
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items.json ==
@@ -433,8 +433,8 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionna
 == fsh-generated/resources/StructureDefinition-day-0.json ==
 == fsh-generated/resources/StructureDefinition-device-report-field.json ==
 == fsh-generated/resources/StructureDefinition-device-type.json ==
+== fsh-generated/resources/StructureDefinition-form-collection.json ==
 == fsh-generated/resources/StructureDefinition-form-config.json ==
-== fsh-generated/resources/StructureDefinition-ongoing-form.json ==
 == fsh-generated/resources/StructureDefinition-parent-reference.json ==
 == fsh-generated/resources/StructureDefinition-plandefinition-s37.json ==
 == fsh-generated/resources/StructureDefinition-protocal-version.json ==

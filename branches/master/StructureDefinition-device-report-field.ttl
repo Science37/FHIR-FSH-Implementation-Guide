@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "DeviceReportField"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Device Report Field"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-24T14:28:11+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-24T16:07:29+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "the third party report field used to obtain the value of the item"];
   fhir:StructureDefinition.jurisdiction [

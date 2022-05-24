@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-24T14:28:11+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-24T16:07:29+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -412,11 +412,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/form-config" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/form-collection" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Form Config" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "plan definition action extention for form configurations" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ongoing Form" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of ongoing Forms" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 7;
@@ -426,11 +426,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/ongoing-form" ]
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/form-config" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ongoing Form" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of ongoing Forms" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Form Config" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "plan definition action extention for form configurations" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8;
