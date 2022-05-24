@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-24T14:28:11+00:00",
+  "date": "2022-05-24T16:07:29+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -425,10 +425,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/form-config"
+          "reference": "StructureDefinition/form-collection"
         },
-        "name": "Extension : Form Config",
-        "description": "plan definition action extention for form configurations",
+        "name": "Ongoing Form",
+        "description": "List of ongoing Forms",
         "exampleBoolean": false
       },
       {
@@ -439,10 +439,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/ongoing-form"
+          "reference": "StructureDefinition/form-config"
         },
-        "name": "Ongoing Form",
-        "description": "List of ongoing Forms",
+        "name": "Extension : Form Config",
+        "description": "plan definition action extention for form configurations",
         "exampleBoolean": false
       },
       {

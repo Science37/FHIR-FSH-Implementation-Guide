@@ -196,18 +196,18 @@
     "name": "DeviceType"
   },
   {
+    "id": "form-collection",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection",
+    "version": "1.0.0-S37",
+    "name": "FormCollection"
+  },
+  {
     "id": "form-config",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
     "version": "1.0.0-S37",
     "name": "FormConfig"
-  },
-  {
-    "id": "ongoing-form",
-    "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form",
-    "version": "1.0.0-S37",
-    "name": "OngoingForm"
   },
   {
     "id": "parent-reference",
