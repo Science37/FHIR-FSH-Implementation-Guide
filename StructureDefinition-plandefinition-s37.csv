@@ -213,6 +213,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension : Form Config","plan definition action extention for form configurations","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"PlanDefinition.action.extension:ongoingForm","PlanDefinition.action.extension","ongoingForm","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form]]} {[]}
+","Ongoing Form","List of ongoing Forms","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.modifierExtension","PlanDefinition.action.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -385,6 +389,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.action.extension:formConfig","PlanDefinition.action.action.extension","formConfig","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config]]} {[]}
 ","Extension : Form Config","plan definition action extention for form configurations","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"PlanDefinition.action.action.extension:ongoingForm","PlanDefinition.action.action.extension","ongoingForm","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form]]} {[]}
+","Ongoing Form","List of ongoing Forms","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.action.modifierExtension","PlanDefinition.action.action.modifierExtension","","extensions

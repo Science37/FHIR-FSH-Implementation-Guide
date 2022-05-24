@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-23T12:36:41+00:00",
+  "date": "2022-05-24T14:28:11+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -439,6 +439,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/ongoing-form"
+        },
+        "name": "Ongoing Form",
+        "description": "List of ongoing Forms",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/parent-reference"
         },
         "name": "Extension : Parent Reference",
@@ -611,6 +625,20 @@
         "name": "Example : Questionnaire.Item All S37 Widgets",
         "description": "Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/OnGoingFormsListPlanDefinitionS37Example"
+        },
+        "name": "Example : Forms List PlanDefinitionS37",
+        "description": "Example : Forms List PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
       {
         "extension": [
