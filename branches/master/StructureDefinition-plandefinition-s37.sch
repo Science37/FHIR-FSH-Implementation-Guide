@@ -350,6 +350,7 @@
     <sch:title>f:PlanDefinition/f:action</sch:title>
     <sch:rule context="f:PlanDefinition/f:action">
       <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -363,6 +364,8 @@
     <sch:rule context="f:PlanDefinition/f:action/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
@@ -645,6 +648,7 @@
     <sch:rule context="f:PlanDefinition/f:action/f:action">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form']) &lt;= 1">extension with URL = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:prefix) &lt;= 1">prefix: maximum cardinality of 'prefix' is 1</sch:assert>
       <sch:assert test="count(f:title) &lt;= 1">title: maximum cardinality of 'title' is 1</sch:assert>
       <sch:assert test="count(f:description) &lt;= 1">description: maximum cardinality of 'description' is 1</sch:assert>
@@ -673,6 +677,8 @@
     <sch:rule context="f:PlanDefinition/f:action/f:action/f:extension">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>

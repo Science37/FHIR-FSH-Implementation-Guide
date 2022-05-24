@@ -147,6 +147,13 @@
     "name": "FORMS_LIST"
   },
   {
+    "id": "OnGoingFormsListPlanDefinitionS37Example",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/OnGoingFormsListPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "ONGOING_FORMS_LIST"
+  },
+  {
     "id": "RecurringFormListPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/RecurringFormListPlanDefinitionS37Example",
@@ -194,6 +201,13 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
     "version": "1.0.0-S37",
     "name": "FormConfig"
+  },
+  {
+    "id": "ongoing-form",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/ongoing-form",
+    "version": "1.0.0-S37",
+    "name": "OngoingForm"
   },
   {
     "id": "parent-reference",
