@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-24T16:07:29+00:00",
+  "date": "2022-05-24T18:19:26+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -583,6 +583,20 @@
         "name": "Extension : Version Number",
         "description": "version number",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/AdhocFormsListPlanDefinitionS37Example"
+        },
+        "name": "Example : Forms List PlanDefinitionS37",
+        "description": "Example : Forms List PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
       {
         "extension": [

@@ -133,6 +133,13 @@
     "name": "S37FHIRIG"
   },
   {
+    "id": "AdhocFormsListPlanDefinitionS37Example",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AdhocFormsListPlanDefinitionS37Example",
+    "version": "1.0.0-S37",
+    "name": "ADHOC_FORMS_LIST"
+  },
+  {
     "id": "EXPECTEDVISITPLANPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example",
