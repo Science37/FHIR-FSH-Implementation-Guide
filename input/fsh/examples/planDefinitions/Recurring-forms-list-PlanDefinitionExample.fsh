@@ -32,8 +32,8 @@ Description: "Example : Recurring Forms List PlanDefinitionS37"
 * action[=].extension[formConfig].extension[freqency].extension[delay].valueInteger = 0
 * action[=].extension[formConfig].extension[freqency].extension[delay-unit].valueString = "d"
 
-* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditionalLogicId][+].valueString = "4297fd21-2140-4a2c-820d-ee567b2ad6c9" 
-* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditionalLogicId][+].valueString = "14b3570b-6634-4448-a6df-02eb8a0a43e3" 
+* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditional-logic-id][+].valueString = "4297fd21-2140-4a2c-820d-ee567b2ad6c9" 
+* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditional-logic-id][+].valueString = "14b3570b-6634-4448-a6df-02eb8a0a43e3" 
 
 
 * action[+].definitionUri =  "Questionnaire/e358d87d-d340-43eb-ae17-fabe787cq2213"
@@ -61,8 +61,8 @@ Description: "Example : Recurring Forms List PlanDefinitionS37"
 * action[=].extension[formConfig].extension[freqency].extension[delay].valueInteger = 1
 * action[=].extension[formConfig].extension[freqency].extension[delay-unit].valueString = "d"
 
-* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditionalLogicId][+].valueString = "4297fd21-2140-4a2c-820d-ee567b2ad6c9" 
-* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditionalLogicId][+].valueString = "14b3570b-6634-4448-a6df-02eb8a0a43e3" 
+* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditional-logic-id][+].valueString = "4297fd21-2140-4a2c-820d-ee567b2ad6c9" 
+* action[=].extension[formConfig].extension[conditional-reference-list].extension[conditional-logic-id][+].valueString = "14b3570b-6634-4448-a6df-02eb8a0a43e3" 
 
 
 

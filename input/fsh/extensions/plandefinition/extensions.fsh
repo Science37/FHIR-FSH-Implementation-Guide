@@ -88,7 +88,8 @@ Description: "plan definition action extention for form configurations"
   allow-multilple-submit 0..1 and
   time-of-day-type 0..1 and 
   freqency 0..1 and
-  conditional-reference-list 0..1
+  conditional-reference-list 0..1 and
+  location-restrictions 0..1
 * extension[form-id] ^short = "Id to the form"
 * extension[form-id].value[x] only string
 * extension[form-title] ^short = "title to the form"
@@ -136,13 +137,15 @@ Description: "plan definition action extention for form configurations"
 * extension[freqency].extension[delay-unit] ^short = "delay-unit"
 * extension[freqency].extension[delay-unit].value[x] only string
 * extension[conditional-reference-list] only Extension
-* extension[conditional-reference-list].extension contains ConditionalLogicId named conditionalLogicId 0..*
-
-Extension: ConditionalLogicId
-Id: conditional-logic-id
-Title: "Extension : Conditional Logic Id"
-Description: "list of conditional logic ids"
-* value[x] only string
+* extension[conditional-reference-list].extension contains 
+  conditional-logic-id 0..*
+* extension[conditional-reference-list].extension[conditional-logic-id] ^short = "conditional-logic-id"
+* extension[conditional-reference-list].extension[conditional-logic-id].value[x] only string
+* extension[location-restrictions] only Extension
+* extension[location-restrictions].extension contains 
+  state-code 0..*
+* extension[location-restrictions].extension[state-code] ^short = "state codes"
+* extension[location-restrictions].extension[state-code].value[x] only string
 
 
 Extension: TimePeriod
