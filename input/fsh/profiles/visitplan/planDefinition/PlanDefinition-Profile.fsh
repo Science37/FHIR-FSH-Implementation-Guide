@@ -11,5 +11,5 @@ Description: "plan definition specific to science 37 implementation."
 * action.extension contains FormConfig named formConfig 0..1
 * action.action.extension contains FormConfig named formConfig 0..1
 
-* action.extension contains OngoingForm named ongoingForm 0..1
-* action.action.extension contains OngoingForm named ongoingForm 0..1
+* action.extension contains FormCollection named formCollection 0..1
+* action.action.extension contains FormCollection named formCollection 0..1

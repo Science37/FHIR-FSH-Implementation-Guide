@@ -6,20 +6,19 @@ Description: "Example : Forms List PlanDefinitionS37"
 * status = #active
 * name = "ONGOING_FORMS_LIST"
 
-/* action[=].extension[ongoingForm].extension[forms].extension[formConfig][+].extension[display-order].valueInteger = 1
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][+].extension[display-order].valueInteger = 2*/
+/* Single Actions with 1..* forms */
+* action[+].extension[formCollection].extension[formType].valueString = "ONGOING_FORMS"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][+].extension[display-order].valueInteger = 1
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-id].valueString =  "e358d87d-d340-43eb-ae17-fabe787cq011"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-title].valueString = "Site Specific Form nested 1"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-version].valueString = "1.0"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-type].valueString = "ECRF"
 
-* action[+].extension[ongoingForm].extension[forms].extension[formConfig][+].extension[display-order].valueInteger = 1
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-id].valueString =  "e358d87d-d340-43eb-ae17-fabe787cq011"
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-title].valueString = "Site Specific Form nested 1"
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-version].valueString = "1.0"
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-type].valueString = "ECRF"
-
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][+].extension[display-order].valueInteger = 2
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-id].valueString =  "e358d87d-d340-43eb-ae17-fabe787cq012"
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-title].valueString = "Site Specific Form nested 2"
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-version].valueString = "1.0"
-* action[=].extension[ongoingForm].extension[forms].extension[formConfig][=].extension[form-type].valueString = "EPRO"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][+].extension[display-order].valueInteger = 2
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-id].valueString =  "e358d87d-d340-43eb-ae17-fabe787cq012"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-title].valueString = "Site Specific Form nested 2"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-version].valueString = "1.0"
+* action[=].extension[formCollection].extension[forms].extension[formConfig][=].extension[form-type].valueString = "EPRO"
 
 
 * extension[ParentReference].extension[MASTER_VISIT_PLAN].valueString = "449e0f70-9c78-11eb-a748-70b5e89dfcd9"

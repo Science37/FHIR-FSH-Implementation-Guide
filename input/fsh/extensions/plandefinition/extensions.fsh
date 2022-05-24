@@ -169,14 +169,17 @@ Description: ""
 * extension[site-name] ^short = "the site name"
 * extension[site-name].value[x] only string
 
-Extension: OngoingForm
-Id: ongoing-form
+Extension: FormCollection
+Id: form-collection
 Title: "Ongoing Form"
 Description: "List of ongoing Forms"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
-* extension contains 
+* extension contains
+  formType 1..1 and
   forms 0..1
+* extension[formType] ^short = "type of forms contained : ongoing, recurrring adhoc, forms-group,econsent-form-group"
+* extension[formType].value[x] only string
 * extension[forms] ^short = "list of form Configurations"
 * extension[forms] only Extension
 * extension[forms].extension contains FormConfig named formConfig 0..*
