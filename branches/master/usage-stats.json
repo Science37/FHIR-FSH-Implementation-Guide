@@ -5,13 +5,6 @@
   "jurisdiction": "US",
   "extensions": [
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id",
-      "title": "Extension : Conditional Logic Id",
-      "types": [
-        "string"
-      ]
-    },
-    {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
       "title": "Extension : Day Zero",
       "types": [
@@ -465,6 +458,58 @@
         "UsageContext",
         "Dosage",
         "Meta",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",
@@ -1219,9 +1264,6 @@
     ],
     "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-width": [
       "Questionnaire.item"
-    ],
-    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/conditional-logic-id": [
-      "Extension.extension"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0": [
       "PlanDefinition"
