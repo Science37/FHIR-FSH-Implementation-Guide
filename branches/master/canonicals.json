@@ -14,6 +14,20 @@
     "name": "Example : Questionnaire"
   },
   {
+    "id": "Questionnaire-Item-Extension-DeviceAware-MultipleDevice-Example",
+    "type": "Questionnaire",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire Multiple Device Aware"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-DeviceAware-SingleDevice-Example",
+    "type": "Questionnaire",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire DeviceAware"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-DateTime",
     "type": "Questionnaire",
     "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",

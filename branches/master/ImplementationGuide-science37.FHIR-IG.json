@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-25T18:55:20+00:00",
+  "date": "2022-05-25T19:52:35+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -764,6 +764,34 @@
         },
         "name": "Example : Questionnaire Basic Example",
         "description": "Example : Questionnaire Basic Example",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-DeviceAware-MultipleDevice-Example"
+        },
+        "name": "Example : Questionnaire.Item-DeviceAware-Multiple Device",
+        "description": "Example : Questionnaire.Item-DeviceAware-Multiple Device",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-DeviceAware-SingleDevice-Example"
+        },
+        "name": "Example : Questionnaire.Item-DeviceAware-Single Device",
+        "description": "Example : Questionnaire.Item-DeviceAware-Single Device",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
       },
       {
