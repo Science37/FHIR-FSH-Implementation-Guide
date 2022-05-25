@@ -105,9 +105,13 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
 * extension[setting].extension[version].value[x] only id
 
 
-Extension: DeviceType
-Id: device-type
-Title: "Extension : Device Type"
-Description: "identifies the specific device type that is registered with a third-party provider"
-* ^context.expression = "Questionnaire"
-* extension.value[x] only string
+Extension: Device
+Id: device
+Title: "Device Types"
+Description: ""
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
+* extension contains
+  type 0..*
+* extension[type] ^short = "type of device"
+* extension[type].value[x] only string

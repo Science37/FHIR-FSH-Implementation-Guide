@@ -11,7 +11,10 @@ Usage: #example
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * name = "Example : Questionnaire"
-* extension[deviceType].valueString = "FITBIT"
+
+* extension[device].extension[type][+].valueString = "device1"
+* extension[device].extension[type][+].valueString = "device2"
+* extension[device].extension[type][+].valueString = "device3"
 
 * extension[subStatus].valueString = "deleted"
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"

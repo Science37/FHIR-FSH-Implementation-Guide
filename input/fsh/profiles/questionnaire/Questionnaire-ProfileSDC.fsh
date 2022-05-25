@@ -15,7 +15,7 @@ Description: "Profile : QuestionnaireS37SDC"
 /* Form Level*/
 
 /* */
-*  extension contains DeviceType named deviceType 0..1
+*  extension contains Device named device 0..1
 
 /* Form Builder and Rendering utilizes these attributes and cluters of information*/
 *  extension contains Rendering named formSettings 0..*
