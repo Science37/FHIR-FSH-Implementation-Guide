@@ -143,7 +143,7 @@ Description: ""
 
 Extension: FormCollection
 Id: form-collection
-Title: "Ongoing Form"
+Title: "Extension : Ongoing Form"
 Description: "List of ongoing Forms"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"

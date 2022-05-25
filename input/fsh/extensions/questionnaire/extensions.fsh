@@ -107,7 +107,7 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
 
 Extension: Device
 Id: device
-Title: "Device"
+Title: "Extension : Device"
 Description: "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"

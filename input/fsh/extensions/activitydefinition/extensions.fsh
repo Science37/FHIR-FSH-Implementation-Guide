@@ -3,7 +3,7 @@
 
 Extension: VisitType
 Id: visit-type
-Title: "Visit Type"
+Title: "Extension : Visit Type"
 Description: "type of visit"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -11,7 +11,7 @@ Description: "type of visit"
 
 Extension: OID
 Id: oid
-Title: "oid"
+Title: "Extension : OID"
 Description: "Object ID"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -19,7 +19,7 @@ Description: "Object ID"
 
 Extension: DisplayOrder
 Id: display-order
-Title: "Display Order"
+Title: "Extension : Display Order"
 Description: "Order of display"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -50,7 +50,7 @@ Description: "Forced Form Ordering containing Form Ids."
 
 Extension: FormTypes
 Id: form-types
-Title: "Form Types"
+Title: "Extension : Form Types"
 Description: "the form types"
 * extension contains
   form-type 0..*
