@@ -18,9 +18,6 @@
       <extension url="type">
         <valueString value="device0"/>
       </extension>
-      <extension url="reportField">
-        <valueString value="r-field1"/>
-      </extension>
     </extension>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime">
@@ -48,7 +45,7 @@
   <title value="Example : Questionnaire.Item Derived-V1"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-25T17:10:47+00:00"/>
+  <date value="2022-05-25T17:52:37+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -60,6 +57,13 @@
   <item>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version">
       <valueId value="1.0.1-item"/>
+    </extension>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
+      <extension url="detail">
+        <extension url="reportField">
+          <valueString value="r-field1"/>
+        </extension>
+      </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
