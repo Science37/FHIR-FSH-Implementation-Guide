@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-24T18:58:53+00:00"/>
+  <date value="2022-05-25T15:25:26+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -235,6 +235,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/activity-definition-s37"/>
+      </reference>
+      <name value="Activity Definition S37"/>
+      <description value="SC37 Activity Definition used within Visit Plan and Care Plan"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -242,6 +253,16 @@
       </reference>
       <name value="Extension : Day Zero"/>
       <description value="collection which diferenciates specific date start of a patients start date."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/device"/>
+      </reference>
+      <name value="Device Types"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -260,10 +281,32 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/device-type"/>
+        <reference value="StructureDefinition/display-order"/>
       </reference>
-      <name value="Extension : Device Type"/>
-      <description value="identifies the specific device type that is registered with a third-party provider"/>
+      <name value="Display Order"/>
+      <description value="Order of display"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/econsent-from-group-id"/>
+      </reference>
+      <name value="Econsent From Group Id"/>
+      <description value="Id for the consent form group"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/force-form-order"/>
+      </reference>
+      <name value="Force Form Order"/>
+      <description value="Forced Form Ordering containing Form Ids."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -286,6 +329,28 @@
       </reference>
       <name value="Extension : Form Config"/>
       <description value="plan definition action extention for form configurations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/form-types"/>
+      </reference>
+      <name value="Form Types"/>
+      <description value="the form types"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/oid"/>
+      </reference>
+      <name value="oid"/>
+      <description value="Object ID"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -395,6 +460,17 @@
       </reference>
       <name value="Extension : Version Number"/>
       <description value="version number"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/visit-type"/>
+      </reference>
+      <name value="Visit Type"/>
+      <description value="type of visit"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
