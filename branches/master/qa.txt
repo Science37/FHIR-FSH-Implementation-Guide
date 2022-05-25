@@ -1,9 +1,9 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 192, warn = 39, info = 135
+err = 194, warn = 39, info = 135
 IG Publisher Version: 1.1.120
-Generated Wed May 25 17:14:18 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Wed May 25 17:56:20 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 2 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-AdhocFormsListPlanDefinitionS37Example : 1 / 0 / 1
@@ -15,7 +15,7 @@ Generated Wed May 25 17:14:18 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/PlanDefinition-VisitPlanMasterVisitPlanDefinitionS37Example : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-Items : 147 / 7 / 94
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 1 / 1 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 6 / 1 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 7 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 3 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Footer : 5 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Header : 2 / 1 / 3
@@ -29,7 +29,7 @@ Generated Wed May 25 17:14:18 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 2 / 4 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 1 / 3 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 2 / 1 / 4
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derived : 3 / 1 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derived : 4 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-activity-definition-s37 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-day-0 : 0 / 0 / 1
@@ -326,13 +326,14 @@ ERROR: Questionnaire/Questionnaire-Extension-Example: Questionnaire: The modifie
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device is not allowed to be used at this point (allowed = e:ActivityDefinition; this element is [[Questionnaire])
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[2]: Profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc, Element matches more than one slice - itemHidden, hidden
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[4]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#dateTime in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#dateTime'
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[3].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[14].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[15].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[6].extension[16].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[3]: Profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc, Element matches more than one slice - itemHidden, hidden
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[5]: This element does not match any known slice defined in the profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device is not allowed to be used at this point (allowed = e:ActivityDefinition; this element is [[Questionnaire.item, BackboneElement])
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#dateTime in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#dateTime'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[7].extension[3].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[7].extension[14].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[7].extension[15].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[7].extension[16].extension[3]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -437,9 +438,10 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questi
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derived.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device is not allowed to be used at this point (allowed = e:ActivityDefinition; this element is [[Questionnaire])
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].extension[2]: Profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc, Element matches more than one slice - itemHidden, hidden
-ERROR: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#derived in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#derived'
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].extension[4].extension[3].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].extension[3]: Profile https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc, Element matches more than one slice - itemHidden, hidden
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device is not allowed to be used at this point (allowed = e:ActivityDefinition; this element is [[Questionnaire.item, BackboneElement])
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#derived in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#derived'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].extension[5].extension[3].extension[2].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
