@@ -9,7 +9,8 @@ Usage: #example
 * name = "Example : Questionnaire DateTimeV1"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
-* extension[device].extension[type][+].valueString = "device1"
+* extension[device].extension[detail][+].extension[type].valueString = "device0"
+
 
 * extension[subStatus].valueString = "deleted"
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
@@ -23,7 +24,8 @@ Usage: #example
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].required = true
 
-* item[=].extension[deviceReportField].valueString = "BP"
+* extension[device].extension[detail][+].extension[type].valueString = "device0"
+* extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#dateTime "dateTime"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#dateTime

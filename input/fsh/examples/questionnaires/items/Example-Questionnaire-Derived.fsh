@@ -11,6 +11,9 @@ Usage: #example
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"
+
+* extension[device].extension[detail][+].extension[type].valueString = "device0"
+
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 * extension[supportedLanguages].extension[language][+].valueCode = #en-US
@@ -23,7 +26,7 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/derived/version/2.3"
 * item[=].extension[version].valueId = "1.0.1-item"
 
-* item[=].extension[deviceReportField].valueString = "BP"
+* extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#derived "derived"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#derived

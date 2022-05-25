@@ -42,5 +42,5 @@ Description: "Profile : QuestionnaireS37SDC"
 *  item.extension contains minValue named minValue 0..1
 *  item.item.extension contains minValue named minValue 0..1  
 
-*  item.extension contains DeviceReportField named deviceReportField 0..1
-*  item.item.extension contains DeviceReportField named deviceReportField 0..1
+*  item.extension contains Device named deviceReportField 0..1
+*  item.item.extension contains Device named deviceReportField 0..1

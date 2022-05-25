@@ -108,10 +108,17 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
 Extension: Device
 Id: device
 Title: "Device Types"
-Description: ""
+Description: "device types"
 * ^context[+].type = #element
-* ^context[=].expression = "Questionnaire"
+* ^context[=].expression = "ActivityDefinition"
 * extension contains
-  type 0..*
-* extension[type] ^short = "type of device"
-* extension[type].value[x] only string
+  detail 0..*
+* extension[detail] ^short = "type of device"
+* extension[detail] only Extension
+* extension[detail].extension contains
+  reportField 0..1 and
+  type 0..1
+* extension[detail].extension[reportField] ^short = "type of device"
+* extension[detail].extension[reportField].value[x] only string
+* extension[detail].extension[type] ^short = "type of device"
+* extension[detail].extension[type].value[x] only string
