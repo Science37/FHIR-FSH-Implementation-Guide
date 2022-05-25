@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "VersionNumber"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Version Number"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-25T18:55:20+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-25T19:52:35+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "version number"];
   fhir:StructureDefinition.jurisdiction [
