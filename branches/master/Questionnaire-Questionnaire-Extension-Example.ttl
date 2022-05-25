@@ -23,16 +23,20 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Extension.url [ fhir:value "type" ];
-       fhir:Extension.valueString [ fhir:value "device1" ]
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "device0" ]
+       ];
+       fhir:Extension.url [ fhir:value "detail" ]
      ], [
        fhir:index 1;
-       fhir:Extension.url [ fhir:value "type" ];
-       fhir:Extension.valueString [ fhir:value "device2" ]
-     ], [
-       fhir:index 2;
-       fhir:Extension.url [ fhir:value "type" ];
-       fhir:Extension.valueString [ fhir:value "device3" ]
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "type" ];
+         fhir:Extension.valueString [ fhir:value "devicex" ]
+       ];
+       fhir:Extension.url [ fhir:value "detail" ]
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device" ]
   ], [
@@ -221,7 +225,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-25T15:25:26+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-25T17:10:47+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

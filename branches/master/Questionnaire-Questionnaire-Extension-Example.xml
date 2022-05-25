@@ -10,14 +10,15 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
-    <extension url="type">
-      <valueString value="device1"/>
+    <extension url="detail">
+      <extension url="type">
+        <valueString value="device0"/>
+      </extension>
     </extension>
-    <extension url="type">
-      <valueString value="device2"/>
-    </extension>
-    <extension url="type">
-      <valueString value="device3"/>
+    <extension url="detail">
+      <extension url="type">
+        <valueString value="devicex"/>
+      </extension>
     </extension>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status">
@@ -152,7 +153,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-05-25T15:25:26+00:00"/>
+  <date value="2022-05-25T17:10:47+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

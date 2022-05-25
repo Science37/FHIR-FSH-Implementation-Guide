@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-25T15:25:26+00:00",
+  "date": "2022-05-25T17:10:47+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -400,6 +400,7 @@
           "reference": "StructureDefinition/device"
         },
         "name": "Device Types",
+        "description": "device types",
         "exampleBoolean": false
       },
       {
