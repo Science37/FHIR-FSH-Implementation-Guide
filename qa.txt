@@ -1,11 +1,11 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 194, warn = 39, info = 135
+err = 194, warn = 39, info = 142
 IG Publisher Version: 1.1.120
-Generated Wed May 25 17:56:20 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
+Generated Wed May 25 18:59:14 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide)
  Build Errors : 2 / 1 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-science37.FHIR-IG : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/PlanDefinition-AdhocFormsListPlanDefinitionS37Example : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-EConsentFormGroupPlanDefinitionS37Example : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/PlanDefinition-EXPECTEDVISITPLANPlanDefinitionS37Example : 0 / 0 / 1
@@ -33,7 +33,7 @@ Generated Wed May 25 17:56:20 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break : 2 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-activity-definition-s37 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-day-0 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-device : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-device : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/StructureDefinition-device-report-field : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-display-order : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-econsent-from-group-id : 0 / 1 / 1
@@ -45,7 +45,7 @@ Generated Wed May 25 17:56:20 UTC 2022. FHIR version 4.0.1 for science37.FHIR-IG
  /github/workspace/fsh-generated/resources/StructureDefinition-parent-reference : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-plandefinition-s37 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-protocal-version : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37-sdc : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37-sdc : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/StructureDefinition-rendering : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-resource-create-update-at-datetime : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-site-config : 0 / 0 / 1
@@ -61,6 +61,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-sdc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 316, column 238: The link 'OperationDefinition-Questionnaire-assemble.html' for "$assemble" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-questionnaire-s37-sdc-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 316, column 580: The link 'StructureDefinition-sdc-questionnaire-subQuestionnaire.html' for "sub-questionnaire" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-science37.FHIR-IG.json ==
+INFORMATION: ImplementationGuide/science37.FHIR-IG: ImplementationGuide.definition.resource[4].description: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/PlanDefinition-AdhocFormsListPlanDefinitionS37Example.json ==
 ERROR: PlanDefinition/AdhocFormsListPlanDefinitionS37Example: PlanDefinition.action[0].extension[0].extension[1]: The modifier extension https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config is not allowed to be used at this point (allowed = e:PlanDefinition.action; this element is [[PlanDefinition.action.extension.extension, BackboneElement.extension.extension, Extension.extension, Extension])
 == fsh-generated/resources/PlanDefinition-EConsentFormGroupPlanDefinitionS37Example.json ==
@@ -451,6 +452,9 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionna
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-day-0.json ==
 == fsh-generated/resources/StructureDefinition-device.json ==
+INFORMATION: StructureDefinition/device: StructureDefinition.description: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/device: StructureDefinition.snapshot.element[0].definition: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/device: StructureDefinition.differential.element[0].definition: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-device-report-field.json ==
 WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-display-order.json ==
@@ -469,6 +473,9 @@ WARNING: StructureDefinition.where(url = 'https://science37.github.io/FHIR-FSH-I
 == fsh-generated/resources/StructureDefinition-plandefinition-s37.json ==
 == fsh-generated/resources/StructureDefinition-protocal-version.json ==
 == fsh-generated/resources/StructureDefinition-questionnaire-s37-sdc.json ==
+INFORMATION: StructureDefinition/questionnaire-s37-sdc: StructureDefinition.snapshot.element[13].definition: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/questionnaire-s37-sdc: StructureDefinition.snapshot.element[69].definition: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/questionnaire-s37-sdc: StructureDefinition.snapshot.element[140].definition: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-rendering.json ==
 == fsh-generated/resources/StructureDefinition-resource-create-update-at-datetime.json ==
 == fsh-generated/resources/StructureDefinition-site-config.json ==

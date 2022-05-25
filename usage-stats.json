@@ -119,7 +119,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device",
-      "title": "Device Types",
+      "title": "Device",
       "types": [
         "string",
         "string",
