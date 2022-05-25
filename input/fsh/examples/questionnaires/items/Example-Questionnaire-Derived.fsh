@@ -26,7 +26,7 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/derived/version/2.3"
 * item[=].extension[version].valueId = "1.0.1-item"
 
-* extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
+* item[=].extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#derived "derived"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#derived

@@ -24,8 +24,8 @@ Usage: #example
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].required = true
 
-* extension[device].extension[detail][+].extension[type].valueString = "device0"
-* extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
+* item[=].extension[device].extension[detail][+].extension[type].valueString = "device0"
+* item[=].extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#dateTime "dateTime"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#dateTime
