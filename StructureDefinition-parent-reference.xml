@@ -25,7 +25,7 @@
   <name value="ParentReference"/>
   <title value="Extension : Parent Reference"/>
   <status value="active"/>
-  <date value="2022-05-24T18:58:53+00:00"/>
+  <date value="2022-05-25T15:25:26+00:00"/>
   <publisher value="Science37"/>
   <description value="extension to show reference back to a parent instance"/>
   <jurisdiction>
@@ -46,6 +46,10 @@
   <context>
     <type value="element"/>
     <expression value="PlanDefinition"/>
+  </context>
+  <context>
+    <type value="element"/>
+    <expression value="ActivityDefinition"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>

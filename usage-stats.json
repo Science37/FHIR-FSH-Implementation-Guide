@@ -118,6 +118,63 @@
       ]
     },
     {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device",
+      "title": "Device Types",
+      "types": [
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field",
       "title": "Extension : Device Report Field",
       "types": [
@@ -125,10 +182,74 @@
       ]
     },
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
-      "title": "Extension : Device Type",
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order",
+      "title": "Display Order",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/econsent-from-group-id",
+      "title": "Econsent From Group Id",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/force-form-order",
+      "title": "Force Form Order",
       "types": [
         "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
         "base64Binary",
         "boolean",
         "canonical",
@@ -610,6 +731,70 @@
         "UsageContext",
         "Dosage",
         "Meta"
+      ]
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-types",
+      "title": "Form Types",
+      "types": [
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid",
+      "title": "oid",
+      "types": [
+        "string"
       ]
     },
     {
@@ -1121,9 +1306,22 @@
         "Dosage",
         "Meta"
       ]
+    },
+    {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type",
+      "title": "Visit Type",
+      "types": [
+        "string"
+      ]
     }
   ],
   "profiles": {
+    "ActivityDefinition": [
+      {
+        "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37",
+        "title": "Activity Definition S37"
+      }
+    ],
     "PlanDefinition": [
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
@@ -1268,12 +1466,18 @@
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0": [
       "PlanDefinition"
     ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device": [
+      "Questionnaire"
+    ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field": [
       "Questionnaire.item",
       "Questionnaire.item.item"
     ],
-    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type": [
-      "Questionnaire"
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order": [
+      "ActivityDefinition"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/econsent-from-group-id": [
+      "ActivityDefinition"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection": [
       "PlanDefinition.action",
@@ -1284,7 +1488,11 @@
       "PlanDefinition.action",
       "PlanDefinition.action.action"
     ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid": [
+      "ActivityDefinition"
+    ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference": [
+      "ActivityDefinition",
       "PlanDefinition"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version": [
@@ -1296,6 +1504,7 @@
       "Questionnaire.item.item"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime": [
+      "ActivityDefinition",
       "PlanDefinition",
       "Questionnaire"
     ],
@@ -1316,7 +1525,11 @@
       "Questionnaire.item.item"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number": [
+      "ActivityDefinition",
       "PlanDefinition"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type": [
+      "ActivityDefinition"
     ]
   }
 }

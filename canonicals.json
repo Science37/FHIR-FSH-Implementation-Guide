@@ -182,11 +182,25 @@
     "name": "MASTER_VISIT_PLAN"
   },
   {
+    "id": "activity-definition-s37",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37",
+    "version": "1.0.0-S37",
+    "name": "VisitPlanActivityDefinitionS37"
+  },
+  {
     "id": "day-0",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
     "version": "1.0.0-S37",
     "name": "DayZero"
+  },
+  {
+    "id": "device",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device",
+    "version": "1.0.0-S37",
+    "name": "Device"
   },
   {
     "id": "device-report-field",
@@ -196,11 +210,25 @@
     "name": "DeviceReportField"
   },
   {
-    "id": "device-type",
+    "id": "display-order",
     "type": "StructureDefinition",
-    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order",
     "version": "1.0.0-S37",
-    "name": "DeviceType"
+    "name": "DisplayOrder"
+  },
+  {
+    "id": "econsent-from-group-id",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/econsent-from-group-id",
+    "version": "1.0.0-S37",
+    "name": "EconsentFromGroupId"
+  },
+  {
+    "id": "force-form-order",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/force-form-order",
+    "version": "1.0.0-S37",
+    "name": "ForceFormOrder"
   },
   {
     "id": "form-collection",
@@ -215,6 +243,20 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
     "version": "1.0.0-S37",
     "name": "FormConfig"
+  },
+  {
+    "id": "form-types",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-types",
+    "version": "1.0.0-S37",
+    "name": "FormTypes"
+  },
+  {
+    "id": "oid",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid",
+    "version": "1.0.0-S37",
+    "name": "OID"
   },
   {
     "id": "parent-reference",
@@ -299,5 +341,12 @@
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number",
     "version": "1.0.0-S37",
     "name": "VersionNumber"
+  },
+  {
+    "id": "visit-type",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type",
+    "version": "1.0.0-S37",
+    "name": "VisitType"
   }
 ]

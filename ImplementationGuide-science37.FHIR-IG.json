@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-24T18:58:53+00:00",
+  "date": "2022-05-25T15:25:26+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -365,6 +365,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/activity-definition-s37"
+        },
+        "name": "Activity Definition S37",
+        "description": "SC37 Activity Definition used within Visit Plan and Care Plan",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:extension"
           }
         ],
@@ -373,6 +387,19 @@
         },
         "name": "Extension : Day Zero",
         "description": "collection which diferenciates specific date start of a patients start date.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/device"
+        },
+        "name": "Device Types",
         "exampleBoolean": false
       },
       {
@@ -397,10 +424,38 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/device-type"
+          "reference": "StructureDefinition/display-order"
         },
-        "name": "Extension : Device Type",
-        "description": "identifies the specific device type that is registered with a third-party provider",
+        "name": "Display Order",
+        "description": "Order of display",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/econsent-from-group-id"
+        },
+        "name": "Econsent From Group Id",
+        "description": "Id for the consent form group",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/force-form-order"
+        },
+        "name": "Force Form Order",
+        "description": "Forced Form Ordering containing Form Ids.",
         "exampleBoolean": false
       },
       {
@@ -429,6 +484,34 @@
         },
         "name": "Extension : Form Config",
         "description": "plan definition action extention for form configurations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/form-types"
+        },
+        "name": "Form Types",
+        "description": "the form types",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/oid"
+        },
+        "name": "oid",
+        "description": "Object ID",
         "exampleBoolean": false
       },
       {
@@ -568,6 +651,20 @@
         },
         "name": "Extension : Version Number",
         "description": "version number",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/visit-type"
+        },
+        "name": "Visit Type",
+        "description": "type of visit",
         "exampleBoolean": false
       },
       {

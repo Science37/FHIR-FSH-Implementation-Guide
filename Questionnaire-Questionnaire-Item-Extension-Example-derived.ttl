@@ -47,10 +47,6 @@
        fhir:Extension.valueCode [ fhir:value "en-SG" ]
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages" ]
-  ], [
-     fhir:index 3;
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type" ];
-     fhir:Extension.valueString [ fhir:value "FITBIT" ]
   ];
   fhir:Questionnaire.url [ fhir:value "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06"];
   fhir:Questionnaire.identifier [
@@ -65,7 +61,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-05-24T18:58:53+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-05-25T15:25:26+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

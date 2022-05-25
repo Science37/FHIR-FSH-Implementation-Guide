@@ -12,8 +12,13 @@
   },
   "extension": [
     {
-      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-type",
-      "valueString": "FITBIT"
+      "extension": [
+        {
+          "url": "type",
+          "valueString": "device1"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device"
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
@@ -59,7 +64,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-05-24T18:58:53+00:00",
+  "date": "2022-05-25T15:25:26+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
