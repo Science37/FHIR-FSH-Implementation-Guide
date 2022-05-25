@@ -119,7 +119,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device",
-      "title": "Device",
+      "title": "Extension : Device",
       "types": [
         "string",
         "string",
@@ -234,7 +234,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order",
-      "title": "Display Order",
+      "title": "Extension : Display Order",
       "types": [
         "string"
       ]
@@ -355,7 +355,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection",
-      "title": "Ongoing Form",
+      "title": "Extension : Ongoing Form",
       "types": [
         "string",
         "base64Binary",
@@ -786,7 +786,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-types",
-      "title": "Form Types",
+      "title": "Extension : Form Types",
       "types": [
         "string",
         "base64Binary",
@@ -843,7 +843,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid",
-      "title": "oid",
+      "title": "Extension : OID",
       "types": [
         "string"
       ]
@@ -1360,7 +1360,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type",
-      "title": "Visit Type",
+      "title": "Extension : Visit Type",
       "types": [
         "string"
       ]
