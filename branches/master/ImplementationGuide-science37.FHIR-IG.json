@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-25T19:52:35+00:00",
+  "date": "2022-05-25T20:34:56+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -399,7 +399,7 @@
         "reference": {
           "reference": "StructureDefinition/device"
         },
-        "name": "Device",
+        "name": "Extension : Device",
         "description": "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type",
         "exampleBoolean": false
       },
@@ -427,7 +427,7 @@
         "reference": {
           "reference": "StructureDefinition/display-order"
         },
-        "name": "Display Order",
+        "name": "Extension : Display Order",
         "description": "Order of display",
         "exampleBoolean": false
       },
@@ -469,7 +469,7 @@
         "reference": {
           "reference": "StructureDefinition/form-collection"
         },
-        "name": "Ongoing Form",
+        "name": "Extension : Ongoing Form",
         "description": "List of ongoing Forms",
         "exampleBoolean": false
       },
@@ -497,7 +497,7 @@
         "reference": {
           "reference": "StructureDefinition/form-types"
         },
-        "name": "Form Types",
+        "name": "Extension : Form Types",
         "description": "the form types",
         "exampleBoolean": false
       },
@@ -511,7 +511,7 @@
         "reference": {
           "reference": "StructureDefinition/oid"
         },
-        "name": "oid",
+        "name": "Extension : OID",
         "description": "Object ID",
         "exampleBoolean": false
       },
@@ -664,7 +664,7 @@
         "reference": {
           "reference": "StructureDefinition/visit-type"
         },
-        "name": "Visit Type",
+        "name": "Extension : Visit Type",
         "description": "type of visit",
         "exampleBoolean": false
       },
