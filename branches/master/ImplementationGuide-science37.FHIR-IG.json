@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-05-25T17:52:37+00:00",
+  "date": "2022-05-25T18:55:20+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -399,8 +399,8 @@
         "reference": {
           "reference": "StructureDefinition/device"
         },
-        "name": "Device Types",
-        "description": "device types",
+        "name": "Device",
+        "description": "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type",
         "exampleBoolean": false
       },
       {
