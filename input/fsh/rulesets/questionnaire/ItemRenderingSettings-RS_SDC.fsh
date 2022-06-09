@@ -11,8 +11,6 @@ RuleSet: SponsorVariableRS_SDC(OID)
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[unique].valueBoolean = true
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[disabled].valueBoolean = false
 
-
-
 RuleSet: LinkIdRS_SDC(linkId)
 * item[=].extension[itemRenderingSettings].extension[setting][+].extension[id].valueString = "linkId"
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[label].valueString = "LinkId"
@@ -36,8 +34,6 @@ RuleSet: TitleRS_SDC(title)
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[disabled].valueBoolean = false
 
 
-
-
 RuleSet: LableRS_SDC(lable)
 * item[=].extension[itemRenderingSettings].extension[setting][+].extension[id].valueString = "lable"
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[label].valueString = "Field label"
@@ -51,7 +47,6 @@ RuleSet: LableRS_SDC(lable)
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[disabled].valueBoolean = false 
 
 
-
 RuleSet: StandardVariableRS_SDC(stdVar)
 * item[=].extension[itemRenderingSettings].extension[setting][+].extension[id].valueString = "standardVariable"
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[label].valueString = "Standard Variable"
@@ -63,9 +58,6 @@ RuleSet: StandardVariableRS_SDC(stdVar)
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[maxLength].valueInteger = 256
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[unique].valueBoolean = true
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[disabled].valueBoolean = false
-
-
-
 
 RuleSet: DescriptionRS_SDC(Desc)
 * item[=].extension[itemRenderingSettings].extension[setting][+].extension[id].valueString = "description"
@@ -96,4 +88,3 @@ RuleSet: VersionRS_SDC(version)
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[type].valueString = "text"
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[hidden].valueBoolean = true
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[required].valueBoolean = true
-
