@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "SiteConfig"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Site Config"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-25T20:34:56+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-06-09T20:33:24+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
