@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-05-25T20:34:56+00:00"/>
+  <date value="2022-06-09T20:33:24+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -524,6 +524,17 @@
       </extension>
       <reference>
         <reference value="Questionnaire/Item-Extension-Example-All-Items"/>
+      </reference>
+      <name value="Example : Questionnaire.Item All S37 Widgets"/>
+      <description value="Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Item-Extension-Example-All-Items-Reduced"/>
       </reference>
       <name value="Example : Questionnaire.Item All S37 Widgets"/>
       <description value="Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak"/>

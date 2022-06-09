@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-05-25T20:34:56+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-06-09T20:33:24+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -745,6 +745,23 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/Questionnaire/Item-Extension-Example-All-Items-Reduced>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/Item-Extension-Example-All-Items-Reduced" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example : Questionnaire.Item All S37 Widgets" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc";
+         fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
+       ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -758,7 +775,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37>
        ]
      ], [
-       fhir:index 30;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -775,7 +792,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 31;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -792,7 +809,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 32;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -809,7 +826,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 33;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -826,7 +843,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 34;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -843,7 +860,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 35;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -860,7 +877,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 36;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -877,7 +894,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 37;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -894,7 +911,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 38;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -911,7 +928,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 39;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -928,7 +945,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 40;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -945,7 +962,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 41;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -962,7 +979,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 42;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -979,7 +996,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 43;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -996,7 +1013,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 44;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1013,7 +1030,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 45;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1030,7 +1047,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 46;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1047,7 +1064,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 47;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1064,7 +1081,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 48;
+       fhir:index 49;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1081,7 +1098,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc>
        ]
      ], [
-       fhir:index 49;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1098,7 +1115,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37>
        ]
      ], [
-       fhir:index 50;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
