@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "Device"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Device"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-06-10T16:46:34+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-06-10T18:20:06+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type"];
   fhir:StructureDefinition.jurisdiction [
