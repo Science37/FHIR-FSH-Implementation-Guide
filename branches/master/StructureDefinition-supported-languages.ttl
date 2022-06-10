@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "SupportedLanguages"];
   fhir:StructureDefinition.title [ fhir:value "Extension : Supported Languages"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-06-10T20:09:36+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-06-10T20:31:51+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "Supported Languages : Contains a list of languages that is supported by the questionnaire"];
   fhir:StructureDefinition.jurisdiction [
