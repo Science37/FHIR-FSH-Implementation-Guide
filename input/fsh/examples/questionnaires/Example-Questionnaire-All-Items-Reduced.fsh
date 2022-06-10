@@ -1,7 +1,7 @@
 
 Instance: Item-Extension-Example-All-Items-Reduced
 InstanceOf: QuestionnaireS37SDC
-Title: "Example : Questionnaire.Item All S37 Widgets"
+Title: "Example : Questionnaire.Item All S37 Widgets Reduced"
 Description: "Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak"
 Usage: #example
 
