@@ -38,7 +38,7 @@
   <title value="Example : Questionnaire.Item Header"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-06-10T20:31:51+00:00"/>
+  <date value="2022-06-28T15:12:49+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -115,6 +115,19 @@
         </extension>
         <extension url="disabled">
           <valueBoolean value="false"/>
+        </extension>
+        <extension url="displayOptions">
+          <extension url="unit">
+            <valueString value="firstpage"/>
+          </extension>
+        </extension>
+        <extension url="displayOptions">
+          <extension url="unit">
+            <valueString value="pageRange"/>
+          </extension>
+          <extension url="unitValue">
+            <valueString value="6-10"/>
+          </extension>
         </extension>
       </extension>
     </extension>

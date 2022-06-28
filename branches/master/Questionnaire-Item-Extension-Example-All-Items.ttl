@@ -23,28 +23,72 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "type" ];
-         fhir:Extension.valueString [ fhir:value "device0" ]
-       ];
-       fhir:Extension.url [ fhir:value "detail" ]
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueString [ fhir:value "device0" ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "type" ];
-         fhir:Extension.valueString [ fhir:value "devicex" ]
+         fhir:Extension.url [ fhir:value "source" ];
+         fhir:Extension.valueString [ fhir:value "source01" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "target" ];
+         fhir:Extension.valueString [ fhir:value "target01" ]
        ];
-       fhir:Extension.url [ fhir:value "detail" ]
+       fhir:Extension.url [ fhir:value "map" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "source" ];
+         fhir:Extension.valueString [ fhir:value "source01" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "target" ];
+         fhir:Extension.valueString [ fhir:value "target01" ]
+       ];
+       fhir:Extension.url [ fhir:value "map" ]
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device" ]
   ], [
      fhir:index 1;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueString [ fhir:value "device1" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "source" ];
+         fhir:Extension.valueString [ fhir:value "source01" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "target" ];
+         fhir:Extension.valueString [ fhir:value "target01" ]
+       ];
+       fhir:Extension.url [ fhir:value "map" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "source" ];
+         fhir:Extension.valueString [ fhir:value "source01" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "target" ];
+         fhir:Extension.valueString [ fhir:value "target01" ]
+       ];
+       fhir:Extension.url [ fhir:value "map" ]
+     ];
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device" ]
+  ], [
+     fhir:index 2;
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status" ];
      fhir:Extension.valueString [ fhir:value "deleted" ]
   ], [
-     fhir:index 2;
+     fhir:index 3;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "createdAt" ];
@@ -56,7 +100,7 @@
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime" ]
   ], [
-     fhir:index 3;
+     fhir:index 4;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "language" ];
@@ -68,7 +112,7 @@
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages" ]
   ], [
-     fhir:index 4;
+     fhir:index 5;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Element.extension [
@@ -225,7 +269,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-06-10T20:31:51+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-06-28T15:12:49+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;

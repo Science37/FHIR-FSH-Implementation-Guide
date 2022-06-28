@@ -61,7 +61,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-06-10T20:31:51+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-06-28T15:12:49+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -166,6 +166,26 @@
            fhir:index 7;
            fhir:Extension.url [ fhir:value "disabled" ];
            fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+         ], [
+           fhir:index 8;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "unit" ];
+             fhir:Extension.valueString [ fhir:value "firstpage" ]
+           ];
+           fhir:Extension.url [ fhir:value "displayOptions" ]
+         ], [
+           fhir:index 9;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "unit" ];
+             fhir:Extension.valueString [ fhir:value "pageRange" ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "unitValue" ];
+             fhir:Extension.valueString [ fhir:value "6-10" ]
+           ];
+           fhir:Extension.url [ fhir:value "displayOptions" ]
          ];
          fhir:Extension.url [ fhir:value "setting" ]
        ];

@@ -11,9 +11,23 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
-    <extension url="detail">
-      <extension url="type">
-        <valueString value="device0"/>
+    <extension url="type">
+      <valueString value="device0"/>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
+      </extension>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
       </extension>
     </extension>
   </extension>
@@ -45,7 +59,7 @@
   <title value="Example : Questionnaire DateTime"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-06-10T20:31:51+00:00"/>
+  <date value="2022-06-28T15:12:49+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -55,16 +69,6 @@
     </coding>
   </jurisdiction>
   <item>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
-      <extension url="detail">
-        <extension url="type">
-          <valueString value="device0"/>
-        </extension>
-        <extension url="reportField">
-          <valueString value="r-field1"/>
-        </extension>
-      </extension>
-    </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>
