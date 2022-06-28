@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "questionnaire-s37-sdc"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire\">Questionnaire</a><a name=\"Questionnaire\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire-render.html\">SDCQuestionnaireRender</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Advanced Rendering Questionnaire</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:device\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device\">device</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Device</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-device.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:formSettings\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering\">rendering</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Object Rendering Settings</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-rendering.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:subStatus\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status\">sub-status</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Questionniare SubStatus</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-sub-status.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:createUpdateAtDateTime\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime\">resource-create-update-at-datetime</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : ResourceCreateUpdateAtDateTime</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-resource-create-update-at-datetime.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:supportedLanguages\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages\">supported-languages</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Supported Languages</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-supported-languages.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.identifier\">identifier</a><a name=\"Questionnaire.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Additional identifier for the questionnaire</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.version\">version</a><a name=\"Questionnaire.version\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Business version of the questionnaire</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">1.0.0-S37</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item\">item</a><a name=\"Questionnaire.item\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:itemRenderingSettings\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering\">rendering</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Object Rendering Settings</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-rendering.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:version\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version\">version</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#id\">id</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Item Version</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-version.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:hidden\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden\">questionnaire-hidden</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Don't display to user</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-questionnaire-hidden.html\">http://hl7.org/fhir/StructureDefinition/questionnaire-hidden</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:observationExtract\" title=\"Extension URL = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract\">sdc-questionnaire-observationExtract</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Marks an item (or all items in a questionnaire) to be extracted using the observation-based approach</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire-observationExtract.html\">http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:minValue\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/minValue\">minValue</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#time\">time</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Must be &gt;= this value</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-minvalue.html\">http://hl7.org/fhir/StructureDefinition/minValue</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:deviceReportField\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device\">device</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Device</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-device.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item\">item</a><a name=\"Questionnaire.item.item\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Nested questionnaire items</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0012.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension\">Slices for extension</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span><br/><span style=\"font-weight:bold\">Slice: </span>Unordered, Open by value:url</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:itemRenderingSettings\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering\">rendering</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Object Rendering Settings</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-rendering.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:version\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version\">version</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#id\">id</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Item Version</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-version.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:hidden\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden\">questionnaire-hidden</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Don't display to user</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-questionnaire-hidden.html\">http://hl7.org/fhir/StructureDefinition/questionnaire-hidden</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:observationExtract\" title=\"Extension URL = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract\">sdc-questionnaire-observationExtract</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Marks an item (or all items in a questionnaire) to be extracted using the observation-based approach</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire-observationExtract.html\">http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:minValue\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/minValue\">minValue</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#time\">time</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Must be &gt;= this value</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-minvalue.html\">http://hl7.org/fhir/StructureDefinition/minValue</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0004.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:deviceReportField\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device\">device</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Device</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-device.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device</a></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire\">Questionnaire</a><a name=\"Questionnaire\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire-render.html\">SDCQuestionnaireRender</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Advanced Rendering Questionnaire</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:device\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device\">device</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Device</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-device.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:formSettings\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering\">rendering</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Object Rendering Settings</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-rendering.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:subStatus\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status\">sub-status</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Questionniare SubStatus</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-sub-status.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:createUpdateAtDateTime\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime\">resource-create-update-at-datetime</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : ResourceCreateUpdateAtDateTime</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-resource-create-update-at-datetime.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.extension:supportedLanguages\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages\">supported-languages</a><a name=\"Questionnaire.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Supported Languages</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-supported-languages.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages</a><br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.identifier\">identifier</a><a name=\"Questionnaire.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Additional identifier for the questionnaire</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.version\">version</a><a name=\"Questionnaire.version\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Business version of the questionnaire</span><br/><span style=\"font-weight:bold\">Required Pattern: </span><span style=\"color: darkgreen\">1.0.0-S37</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item\">item</a><a name=\"Questionnaire.item\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:itemRenderingSettings\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering\">rendering</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Object Rendering Settings</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-rendering.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:version\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version\">version</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#id\">id</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Item Version</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-version.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:hidden\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden\">questionnaire-hidden</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Don't display to user</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-questionnaire-hidden.html\">http://hl7.org/fhir/StructureDefinition/questionnaire-hidden</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:observationExtract\" title=\"Extension URL = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract\">sdc-questionnaire-observationExtract</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Marks an item (or all items in a questionnaire) to be extracted using the observation-based approach</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire-observationExtract.html\">http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.extension:minValue\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/minValue\">minValue</a><a name=\"Questionnaire.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#time\">time</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Must be &gt;= this value</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-minvalue.html\">http://hl7.org/fhir/StructureDefinition/minValue</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item\">item</a><a name=\"Questionnaire.item.item\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Nested questionnaire items</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0012.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension\">Slices for extension</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span><br/><span style=\"font-weight:bold\">Slice: </span>Unordered, Open by value:url</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:itemRenderingSettings\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering\">rendering</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">(Complex)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Object Rendering Settings</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-rendering.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:version\" title=\"Extension URL = https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version\">version</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#id\">id</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension : Item Version</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/StructureDefinition-version.html\">https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:hidden\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden\">questionnaire-hidden</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Don't display to user</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-questionnaire-hidden.html\">http://hl7.org/fhir/StructureDefinition/questionnaire-hidden</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0014.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:observationExtract\" title=\"Extension URL = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract\">sdc-questionnaire-observationExtract</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Marks an item (or all items in a questionnaire) to be extracted using the observation-based approach</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/uv/sdc/STU3/StructureDefinition-sdc-questionnaire-observationExtract.html\">http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0004.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-questionnaire-s37-sdc-definitions.html#Questionnaire.item.item.extension:minValue\" title=\"Extension URL = http://hl7.org/fhir/StructureDefinition/minValue\">minValue</a><a name=\"Questionnaire.item.item.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#time\">time</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a>, <a href=\"http://hl7.org/fhir/R4/datatypes.html#integer\">integer</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Must be &gt;= this value</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"http://hl7.org/fhir/R4/extension-minvalue.html\">http://hl7.org/fhir/StructureDefinition/minValue</a></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   ];
   fhir:StructureDefinition.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"];
   fhir:StructureDefinition.version [ fhir:value "1.0.0-S37"];
@@ -750,7 +750,7 @@
        fhir:ElementDefinition.short [ fhir:value "Extension : Device" ];
        fhir:ElementDefinition.definition [ fhir:value "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "DomainResource.extension" ];
          fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
@@ -3652,54 +3652,6 @@
        ]
      ], [
        fhir:index 69;
-       fhir:Element.id [ fhir:value "Questionnaire.item.extension:deviceReportField" ];
-       fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "deviceReportField" ];
-       fhir:ElementDefinition.short [ fhir:value "Extension : Device" ];
-       fhir:ElementDefinition.definition [ fhir:value "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
-         fhir:ElementDefinition.type.profile [
-           fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device";
-           fhir:index 0;
-           fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device>
-         ]
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 70;
        fhir:Element.id [ fhir:value "Questionnaire.item.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3759,7 +3711,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 71;
+       fhir:index 70;
        fhir:Element.id [ fhir:value "Questionnaire.item.linkId" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.linkId" ];
        fhir:ElementDefinition.short [ fhir:value "Unique id for item in questionnaire" ];
@@ -3802,7 +3754,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./section_identifier" ]
        ]
      ], [
-       fhir:index 72;
+       fhir:index 71;
        fhir:Element.id [ fhir:value "Questionnaire.item.definition" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.definition" ];
        fhir:ElementDefinition.short [ fhir:value "ElementDefinition - details for the item" ];
@@ -3840,7 +3792,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=INST].target[classCode=OBS, moodCode=DEF]" ]
        ]
      ], [
-       fhir:index 73;
+       fhir:index 72;
        fhir:Element.id [ fhir:value "Questionnaire.item.code" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.code" ];
        fhir:ElementDefinition.short [ fhir:value "Corresponding concept for this item in a terminology" ];
@@ -3895,7 +3847,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".code" ]
        ]
      ], [
-       fhir:index 74;
+       fhir:index 73;
        fhir:Element.id [ fhir:value "Questionnaire.item.prefix" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.prefix" ];
        fhir:ElementDefinition.short [ fhir:value "E.g. \"1(a)\", \"2.5.3\"" ];
@@ -3942,7 +3894,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./section_number/label" ]
        ]
      ], [
-       fhir:index 75;
+       fhir:index 74;
        fhir:Element.id [ fhir:value "Questionnaire.item.prefix.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.prefix.id" ];
        fhir:ElementDefinition.representation [
@@ -3970,7 +3922,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 76;
+       fhir:index 75;
        fhir:Element.id [ fhir:value "Questionnaire.item.prefix.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.prefix.extension" ];
        fhir:ElementDefinition.slicing [
@@ -4021,7 +3973,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 77;
+       fhir:index 76;
        fhir:Element.id [ fhir:value "Questionnaire.item.prefix.extension:itemLabel-renderingStyle" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.prefix.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "itemLabel-renderingStyle" ];
@@ -4083,7 +4035,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "../style" ]
        ]
      ], [
-       fhir:index 78;
+       fhir:index 77;
        fhir:Element.id [ fhir:value "Questionnaire.item.prefix.extension:itemLabel-xhtml" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.prefix.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "itemLabel-xhtml" ];
@@ -4144,7 +4096,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "(strings can contain xhtml)" ]
        ]
      ], [
-       fhir:index 79;
+       fhir:index 78;
        fhir:Element.id [ fhir:value "Questionnaire.item.prefix.value" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.prefix.value" ];
        fhir:ElementDefinition.representation [
@@ -4177,7 +4129,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 80;
+       fhir:index 79;
        fhir:Element.id [ fhir:value "Questionnaire.item.text" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text" ];
        fhir:ElementDefinition.short [ fhir:value "Primary text for the item" ];
@@ -4219,7 +4171,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Form Design/designation[context=\"primary?\"/definition/  ./section_instruction/label" ]
        ]
      ], [
-       fhir:index 81;
+       fhir:index 80;
        fhir:Element.id [ fhir:value "Questionnaire.item.text.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text.id" ];
        fhir:ElementDefinition.representation [
@@ -4247,7 +4199,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 82;
+       fhir:index 81;
        fhir:Element.id [ fhir:value "Questionnaire.item.text.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text.extension" ];
        fhir:ElementDefinition.slicing [
@@ -4298,7 +4250,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 83;
+       fhir:index 82;
        fhir:Element.id [ fhir:value "Questionnaire.item.text.extension:groupText-renderingStyle" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "groupText-renderingStyle" ];
@@ -4360,7 +4312,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "../style" ]
        ]
      ], [
-       fhir:index 84;
+       fhir:index 83;
        fhir:Element.id [ fhir:value "Questionnaire.item.text.extension:groupText-xhtml" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "groupText-xhtml" ];
@@ -4421,7 +4373,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "(strings can contain xhtml)" ]
        ]
      ], [
-       fhir:index 85;
+       fhir:index 84;
        fhir:Element.id [ fhir:value "Questionnaire.item.text.extension:expression" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "expression" ];
@@ -4474,7 +4426,7 @@
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 86;
+       fhir:index 85;
        fhir:Element.id [ fhir:value "Questionnaire.item.text.value" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.text.value" ];
        fhir:ElementDefinition.representation [
@@ -4507,7 +4459,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 87;
+       fhir:index 86;
        fhir:Element.id [ fhir:value "Questionnaire.item.type" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.type" ];
        fhir:ElementDefinition.short [ fhir:value "group | display | boolean | decimal | integer | date | dateTime +" ];
@@ -4563,7 +4515,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./*/datatype" ]
        ]
      ], [
-       fhir:index 88;
+       fhir:index 87;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen" ];
        fhir:ElementDefinition.short [ fhir:value "Only allow data when" ];
@@ -4613,7 +4565,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 89;
+       fhir:index 88;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen.id" ];
        fhir:ElementDefinition.representation [
@@ -4646,7 +4598,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 90;
+       fhir:index 89;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -4701,7 +4653,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 91;
+       fhir:index 90;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -4761,7 +4713,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 92;
+       fhir:index 91;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen.question" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen.question" ];
        fhir:ElementDefinition.short [ fhir:value "Question that determines whether item is enabled" ];
@@ -4798,7 +4750,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 93;
+       fhir:index 92;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen.operator" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen.operator" ];
        fhir:ElementDefinition.short [ fhir:value "exists | = | != | > | < | >= | <=" ];
@@ -4847,7 +4799,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 94;
+       fhir:index 93;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableWhen.answer[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableWhen.answer[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Value for question comparison based on operator" ];
@@ -4932,7 +4884,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 95;
+       fhir:index 94;
        fhir:Element.id [ fhir:value "Questionnaire.item.enableBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.enableBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "all | any" ];
@@ -4986,7 +4938,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 96;
+       fhir:index 95;
        fhir:Element.id [ fhir:value "Questionnaire.item.required" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.required" ];
        fhir:ElementDefinition.short [ fhir:value "Whether the item must be included in data results" ];
@@ -5033,7 +4985,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./cardinality/minimum!=0" ]
        ]
      ], [
-       fhir:index 97;
+       fhir:index 96;
        fhir:Element.id [ fhir:value "Questionnaire.item.repeats" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.repeats" ];
        fhir:ElementDefinition.short [ fhir:value "Whether the item may repeat" ];
@@ -5081,7 +5033,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./cardinality/maximum!=1" ]
        ]
      ], [
-       fhir:index 98;
+       fhir:index 97;
        fhir:Element.id [ fhir:value "Questionnaire.item.readOnly" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.readOnly" ];
        fhir:ElementDefinition.short [ fhir:value "Don't allow human editing" ];
@@ -5128,7 +5080,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./*_Field/default_value_read_only  ./default_element/read_only" ]
        ]
      ], [
-       fhir:index 99;
+       fhir:index 98;
        fhir:Element.id [ fhir:value "Questionnaire.item.maxLength" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.maxLength" ];
        fhir:ElementDefinition.short [ fhir:value "No more than this many characters" ];
@@ -5178,7 +5130,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./*_Field/maximum_character_quantity | ./*_Field/datatype/string/maximum_characters" ]
        ]
      ], [
-       fhir:index 100;
+       fhir:index 99;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerValueSet" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerValueSet" ];
        fhir:ElementDefinition.short [ fhir:value "Valueset containing permitted answers" ];
@@ -5232,7 +5184,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./list_field | ./lookup_field/endpoint" ]
        ]
      ], [
-       fhir:index 101;
+       fhir:index 100;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption" ];
        fhir:ElementDefinition.short [ fhir:value "Permitted answer" ];
@@ -5277,7 +5229,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 102;
+       fhir:index 101;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.id" ];
        fhir:ElementDefinition.representation [
@@ -5310,7 +5262,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 103;
+       fhir:index 102;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.extension" ];
        fhir:ElementDefinition.slicing [
@@ -5361,7 +5313,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 104;
+       fhir:index 103;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.extension:itemAnswerMedia" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "itemAnswerMedia" ];
@@ -5413,7 +5365,7 @@
        fhir:ElementDefinition.mustSupport [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 105;
+       fhir:index 104;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -5473,7 +5425,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 106;
+       fhir:index 105;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x]" ];
        fhir:ElementDefinition.slicing [
@@ -5535,7 +5487,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 107;
+       fhir:index 106;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueString" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x]" ];
        fhir:ElementDefinition.sliceName [ fhir:value "valueString" ];
@@ -5587,7 +5539,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 108;
+       fhir:index 107;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueString.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].id" ];
        fhir:ElementDefinition.representation [
@@ -5615,7 +5567,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 109;
+       fhir:index 108;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueString.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].extension" ];
        fhir:ElementDefinition.slicing [
@@ -5666,7 +5618,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 110;
+       fhir:index 109;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueString.extension:optionString-renderingStyle" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "optionString-renderingStyle" ];
@@ -5728,7 +5680,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "../style" ]
        ]
      ], [
-       fhir:index 111;
+       fhir:index 110;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueString.extension:optionString-xhtml" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "optionString-xhtml" ];
@@ -5789,7 +5741,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "(strings can contain xhtml)" ]
        ]
      ], [
-       fhir:index 112;
+       fhir:index 111;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueString.value" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].value" ];
        fhir:ElementDefinition.representation [
@@ -5822,7 +5774,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 113;
+       fhir:index 112;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x]" ];
        fhir:ElementDefinition.sliceName [ fhir:value "valueCoding" ];
@@ -5874,7 +5826,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 114;
+       fhir:index 113;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].id" ];
        fhir:ElementDefinition.representation [
@@ -5907,7 +5859,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 115;
+       fhir:index 114;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].extension" ];
        fhir:ElementDefinition.slicing [
@@ -5971,7 +5923,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 116;
+       fhir:index 115;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.system" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].system" ];
        fhir:ElementDefinition.short [ fhir:value "Identity of the terminology system" ];
@@ -6017,7 +5969,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem" ]
        ]
      ], [
-       fhir:index 117;
+       fhir:index 116;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.version" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].version" ];
        fhir:ElementDefinition.short [ fhir:value "Version of the system - if relevant" ];
@@ -6062,7 +6014,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion" ]
        ]
      ], [
-       fhir:index 118;
+       fhir:index 117;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.code" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].code" ];
        fhir:ElementDefinition.short [ fhir:value "Symbol in syntax defined by the system" ];
@@ -6107,7 +6059,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code" ]
        ]
      ], [
-       fhir:index 119;
+       fhir:index 118;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.display" ];
        fhir:Element.extension [
          fhir:index 0;
@@ -6158,7 +6110,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName" ]
        ]
      ], [
-       fhir:index 120;
+       fhir:index 119;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.display.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].display.id" ];
        fhir:ElementDefinition.representation [
@@ -6186,7 +6138,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 121;
+       fhir:index 120;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.display.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].display.extension" ];
        fhir:ElementDefinition.slicing [
@@ -6237,7 +6189,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 122;
+       fhir:index 121;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.display.extension:optionDisplay-renderingStyle" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].display.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "optionDisplay-renderingStyle" ];
@@ -6299,7 +6251,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "../style" ]
        ]
      ], [
-       fhir:index 123;
+       fhir:index 122;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.display.extension:optionDisplay-xhtml" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].display.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "optionDisplay-xhtml" ];
@@ -6360,7 +6312,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "(strings can contain xhtml)" ]
        ]
      ], [
-       fhir:index 124;
+       fhir:index 123;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.display.value" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].display.value" ];
        fhir:ElementDefinition.representation [
@@ -6393,7 +6345,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 125;
+       fhir:index 124;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.value[x]:valueCoding.userSelected" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.value[x].userSelected" ];
        fhir:ElementDefinition.short [ fhir:value "If this coding was chosen directly by the user" ];
@@ -6439,7 +6391,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]" ]
        ]
      ], [
-       fhir:index 126;
+       fhir:index 125;
        fhir:Element.id [ fhir:value "Questionnaire.item.answerOption.initialSelected" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.answerOption.initialSelected" ];
        fhir:ElementDefinition.short [ fhir:value "Whether option is selected by default" ];
@@ -6477,7 +6429,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 127;
+       fhir:index 126;
        fhir:Element.id [ fhir:value "Questionnaire.item.initial" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.initial" ];
        fhir:ElementDefinition.short [ fhir:value "Initial value(s) when item is first rendered" ];
@@ -6523,7 +6475,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 128;
+       fhir:index 127;
        fhir:Element.id [ fhir:value "Questionnaire.item.initial.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.initial.id" ];
        fhir:ElementDefinition.representation [
@@ -6556,7 +6508,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 129;
+       fhir:index 128;
        fhir:Element.id [ fhir:value "Questionnaire.item.initial.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.initial.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -6611,7 +6563,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 130;
+       fhir:index 129;
        fhir:Element.id [ fhir:value "Questionnaire.item.initial.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.initial.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -6671,7 +6623,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 131;
+       fhir:index 130;
        fhir:Element.id [ fhir:value "Questionnaire.item.initial.value[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.initial.value[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Actual value for initializing the question" ];
@@ -6764,7 +6716,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./default_value  ./default_element/default/value  ./default_element/list_item_identifier (resolve)" ]
        ]
      ], [
-       fhir:index 132;
+       fhir:index 131;
        fhir:Element.id [ fhir:value "Questionnaire.item.item" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item" ];
        fhir:ElementDefinition.short [ fhir:value "Nested questionnaire items" ];
@@ -6811,7 +6763,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./contained_section" ]
        ]
      ], [
-       fhir:index 133;
+       fhir:index 132;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.id" ];
        fhir:ElementDefinition.representation [
@@ -6844,7 +6796,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 134;
+       fhir:index 133;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.slicing [
@@ -6895,7 +6847,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 135;
+       fhir:index 134;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:itemRenderingSettings" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "itemRenderingSettings" ];
@@ -6946,7 +6898,7 @@
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 136;
+       fhir:index 135;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:version" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "version" ];
@@ -6997,7 +6949,7 @@
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 137;
+       fhir:index 136;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:hidden" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "hidden" ];
@@ -7049,7 +7001,7 @@
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 138;
+       fhir:index 137;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:observationExtract" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "observationExtract" ];
@@ -7101,7 +7053,7 @@
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 139;
+       fhir:index 138;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:minValue" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "minValue" ];
@@ -7162,58 +7114,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A (MIF-level)" ]
        ]
      ], [
-       fhir:index 140;
-       fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:deviceReportField" ];
-       fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "deviceReportField" ];
-       fhir:ElementDefinition.short [ fhir:value "Extension : Device" ];
-       fhir:ElementDefinition.definition [ fhir:value "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
-         fhir:ElementDefinition.type.profile [
-           fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device";
-           fhir:index 0;
-           fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device>
-         ]
-       ];
-       fhir:ElementDefinition.condition [
-         fhir:value "ele-1";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 141;
+       fhir:index 139;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -7273,7 +7174,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 142;
+       fhir:index 140;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.linkId" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.linkId" ];
        fhir:ElementDefinition.short [ fhir:value "Unique id for item in questionnaire" ];
@@ -7311,7 +7212,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".id" ]
        ]
      ], [
-       fhir:index 143;
+       fhir:index 141;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.definition" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.definition" ];
        fhir:ElementDefinition.short [ fhir:value "ElementDefinition - details for the item" ];
@@ -7349,7 +7250,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=INST].target[classCode=OBS, moodCode=DEF]" ]
        ]
      ], [
-       fhir:index 144;
+       fhir:index 142;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.code" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.code" ];
        fhir:ElementDefinition.short [ fhir:value "Corresponding concept for this item in a terminology" ];
@@ -7404,7 +7305,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".code" ]
        ]
      ], [
-       fhir:index 145;
+       fhir:index 143;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.prefix" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.prefix" ];
        fhir:ElementDefinition.short [ fhir:value "E.g. \"1(a)\", \"2.5.3\"" ];
@@ -7446,7 +7347,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Not supported" ]
        ]
      ], [
-       fhir:index 146;
+       fhir:index 144;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.text" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.text" ];
        fhir:ElementDefinition.short [ fhir:value "Primary text for the item" ];
@@ -7483,7 +7384,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".text" ]
        ]
      ], [
-       fhir:index 147;
+       fhir:index 145;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.type" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.type" ];
        fhir:ElementDefinition.short [ fhir:value "group | display | boolean | decimal | integer | date | dateTime +" ];
@@ -7534,7 +7435,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 148;
+       fhir:index 146;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen" ];
        fhir:ElementDefinition.short [ fhir:value "Only allow data when" ];
@@ -7584,7 +7485,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 149;
+       fhir:index 147;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen.id" ];
        fhir:ElementDefinition.representation [
@@ -7617,7 +7518,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 150;
+       fhir:index 148;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -7672,7 +7573,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 151;
+       fhir:index 149;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -7732,7 +7633,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 152;
+       fhir:index 150;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen.question" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen.question" ];
        fhir:ElementDefinition.short [ fhir:value "Question that determines whether item is enabled" ];
@@ -7769,7 +7670,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 153;
+       fhir:index 151;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen.operator" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen.operator" ];
        fhir:ElementDefinition.short [ fhir:value "exists | = | != | > | < | >= | <=" ];
@@ -7818,7 +7719,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 154;
+       fhir:index 152;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableWhen.answer[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableWhen.answer[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Value for question comparison based on operator" ];
@@ -7903,7 +7804,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 155;
+       fhir:index 153;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.enableBehavior" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.enableBehavior" ];
        fhir:ElementDefinition.short [ fhir:value "all | any" ];
@@ -7957,7 +7858,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 156;
+       fhir:index 154;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.required" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.required" ];
        fhir:ElementDefinition.short [ fhir:value "Whether the item must be included in data results" ];
@@ -7999,7 +7900,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 157;
+       fhir:index 155;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.repeats" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.repeats" ];
        fhir:ElementDefinition.short [ fhir:value "Whether the item may repeat" ];
@@ -8042,7 +7943,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 158;
+       fhir:index 156;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.readOnly" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.readOnly" ];
        fhir:ElementDefinition.short [ fhir:value "Don't allow human editing" ];
@@ -8084,7 +7985,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 159;
+       fhir:index 157;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.maxLength" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.maxLength" ];
        fhir:ElementDefinition.short [ fhir:value "No more than this many characters" ];
@@ -8129,7 +8030,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 160;
+       fhir:index 158;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerValueSet" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerValueSet" ];
        fhir:ElementDefinition.short [ fhir:value "Valueset containing permitted answers" ];
@@ -8178,7 +8079,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 161;
+       fhir:index 159;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerOption" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerOption" ];
        fhir:ElementDefinition.short [ fhir:value "Permitted answer" ];
@@ -8222,7 +8123,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 162;
+       fhir:index 160;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerOption.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerOption.id" ];
        fhir:ElementDefinition.representation [
@@ -8255,7 +8156,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 163;
+       fhir:index 161;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerOption.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerOption.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -8310,7 +8211,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 164;
+       fhir:index 162;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerOption.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerOption.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -8370,7 +8271,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 165;
+       fhir:index 163;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerOption.value[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerOption.value[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Answer value" ];
@@ -8440,7 +8341,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 166;
+       fhir:index 164;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.answerOption.initialSelected" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.answerOption.initialSelected" ];
        fhir:ElementDefinition.short [ fhir:value "Whether option is selected by default" ];
@@ -8478,7 +8379,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 167;
+       fhir:index 165;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.initial" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.initial" ];
        fhir:ElementDefinition.short [ fhir:value "Initial value(s) when item is first rendered" ];
@@ -8523,7 +8424,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 168;
+       fhir:index 166;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.initial.id" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.initial.id" ];
        fhir:ElementDefinition.representation [
@@ -8556,7 +8457,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 169;
+       fhir:index 167;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.initial.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.initial.extension" ];
        fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
@@ -8611,7 +8512,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 170;
+       fhir:index 168;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.initial.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.initial.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -8671,7 +8572,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 171;
+       fhir:index 169;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.initial.value[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.initial.value[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Actual value for initializing the question" ];
@@ -8759,7 +8660,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A - MIF rather than RIM level" ]
        ]
      ], [
-       fhir:index 172;
+       fhir:index 170;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.item" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.item" ];
        fhir:ElementDefinition.short [ fhir:value "Nested questionnaire items" ];
@@ -8810,7 +8711,7 @@
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "device" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
@@ -8978,22 +8879,6 @@
        ]
      ], [
        fhir:index 13;
-       fhir:Element.id [ fhir:value "Questionnaire.item.extension:deviceReportField" ];
-       fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "deviceReportField" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
-         fhir:ElementDefinition.type.profile [
-           fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device";
-           fhir:index 0;
-           fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device>
-         ]
-       ]
-     ], [
-       fhir:index 14;
        fhir:Element.id [ fhir:value "Questionnaire.item.item" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item" ];
        fhir:ElementDefinition.type [
@@ -9001,7 +8886,7 @@
          fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
        ]
      ], [
-       fhir:index 15;
+       fhir:index 14;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.slicing [
@@ -9014,7 +8899,7 @@
          fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
        ]
      ], [
-       fhir:index 16;
+       fhir:index 15;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:itemRenderingSettings" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "itemRenderingSettings" ];
@@ -9030,7 +8915,7 @@
          ]
        ]
      ], [
-       fhir:index 17;
+       fhir:index 16;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:version" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "version" ];
@@ -9046,7 +8931,7 @@
          ]
        ]
      ], [
-       fhir:index 18;
+       fhir:index 17;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:hidden" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "hidden" ];
@@ -9062,7 +8947,7 @@
          ]
        ]
      ], [
-       fhir:index 19;
+       fhir:index 18;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:observationExtract" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "observationExtract" ];
@@ -9078,7 +8963,7 @@
          ]
        ]
      ], [
-       fhir:index 20;
+       fhir:index 19;
        fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:minValue" ];
        fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "minValue" ];
@@ -9091,22 +8976,6 @@
            fhir:value "http://hl7.org/fhir/StructureDefinition/minValue";
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/minValue>
-         ]
-       ]
-     ], [
-       fhir:index 21;
-       fhir:Element.id [ fhir:value "Questionnaire.item.item.extension:deviceReportField" ];
-       fhir:ElementDefinition.path [ fhir:value "Questionnaire.item.item.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "deviceReportField" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
-         fhir:ElementDefinition.type.profile [
-           fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device";
-           fhir:index 0;
-           fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device>
          ]
        ]
      ]

@@ -66,14 +66,44 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table><hr/><p><b>Option Sets</b></p><a name="opt-item.__S37-form-fields-p8wrfhsd01p1"> </a><p><b>Answer options for __S37-form-fields-p8wrfhsd01p1</b></p><ul><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#1 (&quot;1&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#2 (&quot;2&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#3 (&quot;3&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#554 (&quot;554&quot;)</li></ul><a name="opt-item.__S37-form-fields-p8wrfhsd01p2"> </a><p><b>Answer options for __S37-form-fields-p8wrfhsd01p2</b></p><ul><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#1 (&quot;1&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#2 (&quot;2&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#3 (&quot;3&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#554 (&quot;554&quot;)</li></ul></div>
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
-    <extension url="detail">
-      <extension url="type">
-        <valueString value="device0"/>
+    <extension url="type">
+      <valueString value="device0"/>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
       </extension>
     </extension>
-    <extension url="detail">
-      <extension url="type">
-        <valueString value="devicex"/>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
+      </extension>
+    </extension>
+  </extension>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
+    <extension url="type">
+      <valueString value="device1"/>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
+      </extension>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
       </extension>
     </extension>
   </extension>
@@ -209,7 +239,7 @@
   <title value="Example : Questionnaire"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-06-10T20:31:51+00:00"/>
+  <date value="2022-06-28T15:12:49+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

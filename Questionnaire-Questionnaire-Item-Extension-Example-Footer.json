@@ -55,7 +55,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-06-10T20:31:51+00:00",
+  "date": "2022-06-28T15:12:49+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -502,6 +502,28 @@
                 {
                   "url": "disabled",
                   "valueBoolean": false
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "unit",
+                      "valueString": "firstpage"
+                    }
+                  ],
+                  "url": "displayOptions"
+                },
+                {
+                  "extension": [
+                    {
+                      "url": "unit",
+                      "valueString": "pageRange"
+                    },
+                    {
+                      "url": "unitValue",
+                      "valueString": "6-10"
+                    }
+                  ],
+                  "url": "displayOptions"
                 }
               ],
               "url": "setting"

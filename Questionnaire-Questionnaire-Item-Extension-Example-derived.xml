@@ -14,9 +14,23 @@
     <valueString value="deleted"/>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
-    <extension url="detail">
-      <extension url="type">
-        <valueString value="device0"/>
+    <extension url="type">
+      <valueString value="device0"/>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
+      </extension>
+    </extension>
+    <extension url="map">
+      <extension url="source">
+        <valueString value="source01"/>
+      </extension>
+      <extension url="target">
+        <valueString value="target01"/>
       </extension>
     </extension>
   </extension>
@@ -45,7 +59,7 @@
   <title value="Example : Questionnaire.Item Derived-V1"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-06-10T20:31:51+00:00"/>
+  <date value="2022-06-28T15:12:49+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -57,13 +71,6 @@
   <item>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version">
       <valueId value="1.0.1-item"/>
-    </extension>
-    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
-      <extension url="detail">
-        <extension url="reportField">
-          <valueString value="r-field1"/>
-        </extension>
-      </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>

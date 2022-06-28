@@ -23,12 +23,32 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
+       fhir:Extension.url [ fhir:value "type" ];
+       fhir:Extension.valueString [ fhir:value "device0" ]
+     ], [
+       fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "type" ];
-         fhir:Extension.valueString [ fhir:value "device0" ]
+         fhir:Extension.url [ fhir:value "source" ];
+         fhir:Extension.valueString [ fhir:value "source01" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "target" ];
+         fhir:Extension.valueString [ fhir:value "target01" ]
        ];
-       fhir:Extension.url [ fhir:value "detail" ]
+       fhir:Extension.url [ fhir:value "map" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "source" ];
+         fhir:Extension.valueString [ fhir:value "source01" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "target" ];
+         fhir:Extension.valueString [ fhir:value "target01" ]
+       ];
+       fhir:Extension.url [ fhir:value "map" ]
      ];
      fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device" ]
   ], [
@@ -73,7 +93,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-06-10T20:31:51+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-06-28T15:12:49+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -88,22 +108,6 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "type" ];
-           fhir:Extension.valueString [ fhir:value "device0" ]
-         ], [
-           fhir:index 1;
-           fhir:Extension.url [ fhir:value "reportField" ];
-           fhir:Extension.valueString [ fhir:value "r-field1" ]
-         ];
-         fhir:Extension.url [ fhir:value "detail" ]
-       ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device" ]
-     ], [
-       fhir:index 1;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
@@ -115,27 +119,27 @@
          fhir:CodeableConcept.text [ fhir:value "dateTime" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version" ];
        fhir:Extension.valueId [ fhir:value "1.0.1-item" ]
      ], [
-       fhir:index 3;
+       fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden" ];
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 3;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract" ];
        fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 4;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/maxValue" ];
        fhir:Extension.valueDateTime [ fhir:value "2022-01-01T10:08:10Z"^^xsd:dateTime ]
      ], [
-       fhir:index 6;
+       fhir:index 5;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/minValue" ];
        fhir:Extension.valueDateTime [ fhir:value "2015-02-07T13:28:17Z"^^xsd:dateTime ]
      ], [
-       fhir:index 7;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Element.extension [
