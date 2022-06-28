@@ -13,8 +13,18 @@ Usage: #example
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 
-* extension[device].extension[detail][+].extension[type].valueString = "device0"
-* extension[device].extension[detail][+].extension[type].valueString = "devicex"
+* extension[device].extension[type].valueString = "device0"
+* extension[device].extension[map].extension[source].valueString = "source01"
+* extension[device].extension[map].extension[target].valueString = "target01"
+* extension[device].extension[map][+].extension[source].valueString = "source01"
+* extension[device].extension[map][=].extension[target].valueString = "target01"
+
+
+* extension[device][+].extension[type].valueString = "device1"
+* extension[device][=].extension[map].extension[source].valueString = "source01"
+* extension[device][=].extension[map].extension[target].valueString = "target01"
+* extension[device][=].extension[map][+].extension[source].valueString = "source01"
+* extension[device][=].extension[map][=].extension[target].valueString = "target01"
 
 
 * extension[subStatus].valueString = "deleted"

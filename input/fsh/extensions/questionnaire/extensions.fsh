@@ -45,7 +45,8 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
     minLength 0..1 and 
     maxValue 0..1 and 
     minValue 0..1 and 
-    version 0..1
+    version 0..1 and 
+    displayOptions 0..*
 
 * extension[setting].extension[id] ^short = "id : Uniquely identifies the specific redering settings instance. Must be Unique."
 * extension[setting].extension[id].value[x] only string
@@ -104,21 +105,37 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
 * extension[setting].extension[version] ^short = "version : Indicates the version number of the widget used to display the rendering settings and votes"
 * extension[setting].extension[version].value[x] only id
 
+* extension[setting].extension[displayOptions] only Extension
+* extension[setting].extension[displayOptions].extension contains
+  unit 1..1 and 
+  unitValue 0..1
+* extension[setting].extension[displayOptions].extension[unit] ^short = "unit : Contains the value entered by the end user for this specific setting"
+* extension[setting].extension[displayOptions].extension[unit].value[x] only  string
+* extension[setting].extension[displayOptions].extension[unitValue] ^short = "value : Contains the value entered by the end user for this specific setting"
+* extension[setting].extension[displayOptions].extension[unitValue].value[x] only  string
+
 
 Extension: Device
 Id: device
 Title: "Extension : Device"
 Description: "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type"
 * ^context[+].type = #element
-* ^context[=].expression = "ActivityDefinition"
+* ^context[=].expression = "Questionnaire"
 * extension contains
-  detail 0..*
-* extension[detail] ^short = "type of device"
-* extension[detail] only Extension
-* extension[detail].extension contains
-  reportField 0..1 and
-  type 0..1
-* extension[detail].extension[reportField] ^short = "type of device"
-* extension[detail].extension[reportField].value[x] only string
-* extension[detail].extension[type] ^short = "type of device"
-* extension[detail].extension[type].value[x] only string
+  type 1..1 and
+  map 0..*
+* extension[type] ^short = "device type"
+* extension[type].value[x] only string
+* extension[map] ^short = "field mappings list"
+* extension[map] only Extension
+* extension[map].extension contains
+  source 0..1 and
+  target 0..1
+* extension[map].extension[source] ^short = "source field mapping"
+* extension[map].extension[source].value[x] only string
+* extension[map].extension[target] ^short = "target field mapping"
+* extension[map].extension[target].value[x] only string
+
+
+
+

@@ -47,3 +47,6 @@ Usage: #example
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[unique].valueBoolean = false
 * item[=].extension[itemRenderingSettings].extension[setting][=].extension[disabled].valueBoolean = false
 
+* item[=].extension[itemRenderingSettings].extension[setting][=].extension[displayOptions].extension[unit].valueString = "firstpage"
+* item[=].extension[itemRenderingSettings].extension[setting][=].extension[displayOptions][+].extension[unit].valueString = "pageRange"
+* item[=].extension[itemRenderingSettings].extension[setting][=].extension[displayOptions][=].extension[unitValue].valueString = "6-10"

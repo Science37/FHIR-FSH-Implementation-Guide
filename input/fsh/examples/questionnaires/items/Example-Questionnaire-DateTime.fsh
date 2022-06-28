@@ -9,7 +9,12 @@ Usage: #example
 * name = "Example : Questionnaire DateTimeV1"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
-* extension[device].extension[detail][+].extension[type].valueString = "device0"
+* extension[device].extension[type].valueString = "device0"
+* extension[device].extension[map].extension[source].valueString = "source01"
+* extension[device].extension[map].extension[target].valueString = "target01"
+* extension[device].extension[map][+].extension[source].valueString = "source01"
+* extension[device].extension[map][=].extension[target].valueString = "target01"
+
 
 
 * extension[subStatus].valueString = "deleted"
@@ -23,9 +28,6 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].required = true
-
-* item[=].extension[device].extension[detail][+].extension[type].valueString = "device0"
-* item[=].extension[device].extension[detail][=].extension[reportField].valueString = "r-field1"
 
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#dateTime "dateTime"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#dateTime
