@@ -1,7 +1,7 @@
 
 Extension: ProtocalVersion
 Id: protocal-version
-Title: "Extension : PlanDefinition - Protocal Version"
+Title: "Profile PlanDefinitionS37 - Extension : Protocal Version"
 Description: "identifies the specific protocal version"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -10,7 +10,7 @@ Description: "identifies the specific protocal version"
 
 Extension: DayZero
 Id: day-0
-Title: "Extension : PlanDefinition - Day Zero"
+Title: "Profile PlanDefinitionS37 - Extension : Day Zero"
 Description: "collection which diferenciates specific date start of a patients start date."
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -41,7 +41,7 @@ Description: "collection which diferenciates specific date start of a patients s
 
 Extension: FormConfig
 Id: form-config
-Title: "Extension : PlanDefinition.action - Form Config"
+Title: "Profile PlanDefinitionS37.action - Extension : - Form Config"
 Description: "plan definition action extention for form configurations"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
@@ -119,7 +119,7 @@ Description: "plan definition action extention for form configurations"
 
 Extension: TimePeriod
 Id: time-period
-Title: "Extension : Time Period"
+Title: "Profile PlanDefinitionS37 - Extension : Time Period"
 Description: "Description of time period"
 * extension contains
   military-start-time 0..1 and 
@@ -131,7 +131,7 @@ Description: "Description of time period"
 
 Extension: SiteConfig
 Id: site-config
-Title: "Extension : Site Config"
+Title: "Profile PlanDefinitionS37 - Extension : Site Config"
 Description: ""
 * extension contains
   site-id 0..1 and 
@@ -143,7 +143,7 @@ Description: ""
 
 Extension: FormCollection
 Id: form-collection
-Title: "Extension : PlanDefinition.action - Ongoing Form"
+Title: "Profile PlanDefinitionS37.action : Extension  - Ongoing Form"
 Description: "List of ongoing Forms"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
