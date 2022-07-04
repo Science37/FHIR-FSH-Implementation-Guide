@@ -6,7 +6,7 @@
   "extensions": [
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
-      "title": "Extension : PlanDefinition - Day Zero",
+      "title": "Profile PlanDefinitionS37 - Extension : Day Zero",
       "types": [
         "string",
         "string",
@@ -356,7 +356,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection",
-      "title": "Extension : PlanDefinition.action - Ongoing Form",
+      "title": "Profile PlanDefinitionS37.action : Extension  - Ongoing Form",
       "types": [
         "string",
         "base64Binary",
@@ -463,7 +463,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
-      "title": "Extension : PlanDefinition.action - Form Config",
+      "title": "Profile PlanDefinitionS37.action - Extension : - Form Config",
       "types": [
         "string",
         "string",
@@ -910,7 +910,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version",
-      "title": "Extension : PlanDefinition - Protocal Version",
+      "title": "Profile PlanDefinitionS37 - Extension : Protocal Version",
       "types": [
         "id"
       ]
@@ -1167,7 +1167,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config",
-      "title": "Extension : Site Config",
+      "title": "Profile PlanDefinitionS37 - Extension : Site Config",
       "types": [
         "string",
         "string",
@@ -1290,7 +1290,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/time-period",
-      "title": "Extension : Time Period",
+      "title": "Profile PlanDefinitionS37 - Extension : Time Period",
       "types": [
         "string",
         "string",
@@ -1429,7 +1429,7 @@
     "PlanDefinition": [
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
-        "title": "Profile : PlanDefinitionS37"
+        "title": "Profile PlanDefinitionS37"
       }
     ],
     "Questionnaire": [

@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-07-04T18:23:06+00:00"/>
+  <date value="2022-07-04T18:28:37+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -218,7 +218,7 @@
       <reference>
         <reference value="StructureDefinition/plandefinition-s37"/>
       </reference>
-      <name value="Profile : PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37"/>
       <description value="plan definition specific to science 37 implementation."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -251,7 +251,7 @@
       <reference>
         <reference value="StructureDefinition/day-0"/>
       </reference>
-      <name value="Extension : PlanDefinition - Day Zero"/>
+      <name value="Profile PlanDefinitionS37 - Extension : Day Zero"/>
       <description value="collection which diferenciates specific date start of a patients start date."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -317,7 +317,7 @@
       <reference>
         <reference value="StructureDefinition/form-collection"/>
       </reference>
-      <name value="Extension : PlanDefinition.action - Ongoing Form"/>
+      <name value="Profile PlanDefinitionS37.action : Extension  - Ongoing Form"/>
       <description value="List of ongoing Forms"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -328,7 +328,7 @@
       <reference>
         <reference value="StructureDefinition/form-config"/>
       </reference>
-      <name value="Extension : PlanDefinition.action - Form Config"/>
+      <name value="Profile PlanDefinitionS37.action - Extension : - Form Config"/>
       <description value="plan definition action extention for form configurations"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -372,7 +372,7 @@
       <reference>
         <reference value="StructureDefinition/protocal-version"/>
       </reference>
-      <name value="Extension : PlanDefinition - Protocal Version"/>
+      <name value="Profile PlanDefinitionS37 - Extension : Protocal Version"/>
       <description value="identifies the specific protocal version"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -405,7 +405,7 @@
       <reference>
         <reference value="StructureDefinition/site-config"/>
       </reference>
-      <name value="Extension : Site Config"/>
+      <name value="Profile PlanDefinitionS37 - Extension : Site Config"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -437,7 +437,7 @@
       <reference>
         <reference value="StructureDefinition/time-period"/>
       </reference>
-      <name value="Extension : Time Period"/>
+      <name value="Profile PlanDefinitionS37 - Extension : Time Period"/>
       <description value="Description of time period"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -481,7 +481,7 @@
       <reference>
         <reference value="PlanDefinition/AdhocFormsListPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -492,7 +492,7 @@
       <reference>
         <reference value="PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -503,7 +503,7 @@
       <reference>
         <reference value="PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37"/>
       <description value="Example : Expected Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -514,7 +514,7 @@
       <reference>
         <reference value="PlanDefinition/FormListPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -547,7 +547,7 @@
       <reference>
         <reference value="PlanDefinition/OnGoingFormsListPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -767,7 +767,7 @@
       <reference>
         <reference value="PlanDefinition/RecurringFormListPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37"/>
       <description value="Example : Recurring Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -778,7 +778,7 @@
       <reference>
         <reference value="PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"/>
       </reference>
-      <name value="PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37"/>
+      <name value="Profile PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37"/>
       <description value="Example : Master Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>

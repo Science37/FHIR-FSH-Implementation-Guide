@@ -14,7 +14,7 @@
   <name value="EconsentFromGroupId"/>
   <title value="ActivityDefinition - Extension:  Econsent From Group Id"/>
   <status value="active"/>
-  <date value="2022-07-04T18:23:06+00:00"/>
+  <date value="2022-07-04T18:28:37+00:00"/>
   <publisher value="Science37"/>
   <description value="Id for the consent form group"/>
   <jurisdiction>

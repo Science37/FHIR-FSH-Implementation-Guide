@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-07-04T18:23:06+00:00",
+  "date": "2022-07-04T18:28:37+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -343,7 +343,7 @@
         "reference": {
           "reference": "StructureDefinition/plandefinition-s37"
         },
-        "name": "Profile : PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37",
         "description": "plan definition specific to science 37 implementation.",
         "exampleBoolean": false
       },
@@ -385,7 +385,7 @@
         "reference": {
           "reference": "StructureDefinition/day-0"
         },
-        "name": "Extension : PlanDefinition - Day Zero",
+        "name": "Profile PlanDefinitionS37 - Extension : Day Zero",
         "description": "collection which diferenciates specific date start of a patients start date.",
         "exampleBoolean": false
       },
@@ -469,7 +469,7 @@
         "reference": {
           "reference": "StructureDefinition/form-collection"
         },
-        "name": "Extension : PlanDefinition.action - Ongoing Form",
+        "name": "Profile PlanDefinitionS37.action : Extension  - Ongoing Form",
         "description": "List of ongoing Forms",
         "exampleBoolean": false
       },
@@ -483,7 +483,7 @@
         "reference": {
           "reference": "StructureDefinition/form-config"
         },
-        "name": "Extension : PlanDefinition.action - Form Config",
+        "name": "Profile PlanDefinitionS37.action - Extension : - Form Config",
         "description": "plan definition action extention for form configurations",
         "exampleBoolean": false
       },
@@ -539,7 +539,7 @@
         "reference": {
           "reference": "StructureDefinition/protocal-version"
         },
-        "name": "Extension : PlanDefinition - Protocal Version",
+        "name": "Profile PlanDefinitionS37 - Extension : Protocal Version",
         "description": "identifies the specific protocal version",
         "exampleBoolean": false
       },
@@ -581,7 +581,7 @@
         "reference": {
           "reference": "StructureDefinition/site-config"
         },
-        "name": "Extension : Site Config",
+        "name": "Profile PlanDefinitionS37 - Extension : Site Config",
         "exampleBoolean": false
       },
       {
@@ -622,7 +622,7 @@
         "reference": {
           "reference": "StructureDefinition/time-period"
         },
-        "name": "Extension : Time Period",
+        "name": "Profile PlanDefinitionS37 - Extension : Time Period",
         "description": "Description of time period",
         "exampleBoolean": false
       },
@@ -678,7 +678,7 @@
         "reference": {
           "reference": "PlanDefinition/AdhocFormsListPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -692,7 +692,7 @@
         "reference": {
           "reference": "PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -706,7 +706,7 @@
         "reference": {
           "reference": "PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37",
         "description": "Example : Expected Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -720,7 +720,7 @@
         "reference": {
           "reference": "PlanDefinition/FormListPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -762,7 +762,7 @@
         "reference": {
           "reference": "PlanDefinition/OnGoingFormsListPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -1042,7 +1042,7 @@
         "reference": {
           "reference": "PlanDefinition/RecurringFormListPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37",
         "description": "Example : Recurring Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -1056,7 +1056,7 @@
         "reference": {
           "reference": "PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"
         },
-        "name": "PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37",
+        "name": "Profile PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37",
         "description": "Example : Master Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       }
