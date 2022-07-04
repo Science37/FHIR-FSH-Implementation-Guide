@@ -1,7 +1,7 @@
 Instance: RecurringFormListPlanDefinitionS37Example
 InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Profile PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37"
+Title: "Example - PlanDefinitionS37 : Recurring Forms List Recurring"
 Description: "Example : Recurring Forms List PlanDefinitionS37"
 * status = #active
 * name = "RECURRING_FORMS_LIST"

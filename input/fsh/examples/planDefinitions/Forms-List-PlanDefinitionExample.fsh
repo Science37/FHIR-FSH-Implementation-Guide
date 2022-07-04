@@ -1,7 +1,7 @@
 Instance: FormListPlanDefinitionS37Example
 InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"
+Title: "Example - PlanDefinitionS37 - Example : Forms List"
 Description: "Example : Forms List PlanDefinitionS37"
 * status = #active
 * name = "FORMS_LIST"

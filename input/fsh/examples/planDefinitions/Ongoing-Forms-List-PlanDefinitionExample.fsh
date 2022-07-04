@@ -1,7 +1,7 @@
 Instance: OnGoingFormsListPlanDefinitionS37Example
 InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"
+Title: "Example - PlanDefinitionS37 : Forms List OnGoing Forms"
 Description: "Example : Forms List PlanDefinitionS37"
 * status = #active
 * name = "ONGOING_FORMS_LIST"

@@ -1,7 +1,7 @@
 
 Extension: ProtocalVersion
 Id: protocal-version
-Title: "Profile PlanDefinitionS37 - Extension : Protocal Version"
+Title: "Extension : PlanDefinitionS37 - Protocal Version"
 Description: "identifies the specific protocal version"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -10,7 +10,7 @@ Description: "identifies the specific protocal version"
 
 Extension: DayZero
 Id: day-0
-Title: "Profile PlanDefinitionS37 - Extension : Day Zero"
+Title: "Extension : PlanDefinitionS37 - Day Zero"
 Description: "collection which diferenciates specific date start of a patients start date."
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -41,7 +41,7 @@ Description: "collection which diferenciates specific date start of a patients s
 
 Extension: FormConfig
 Id: form-config
-Title: "Profile PlanDefinitionS37.action - Extension : - Form Config"
+Title: "Extension : PlanDefinitionS37.action - Form Config"
 Description: "plan definition action extention for form configurations"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
@@ -119,7 +119,7 @@ Description: "plan definition action extention for form configurations"
 
 Extension: TimePeriod
 Id: time-period
-Title: "Profile PlanDefinitionS37 - Extension : Time Period"
+Title: "Extension : PlanDefinitionS37 - Time Period"
 Description: "Description of time period"
 * extension contains
   military-start-time 0..1 and 
@@ -131,7 +131,7 @@ Description: "Description of time period"
 
 Extension: SiteConfig
 Id: site-config
-Title: "Profile PlanDefinitionS37 - Extension : Site Config"
+Title: "Extension : PlanDefinitionS37 - Site Config"
 Description: ""
 * extension contains
   site-id 0..1 and 
@@ -143,7 +143,7 @@ Description: ""
 
 Extension: FormCollection
 Id: form-collection
-Title: "Profile PlanDefinitionS37.action : Extension  - Ongoing Form"
+Title: "Extension : PlanDefinitionS37 - Ongoing Form"
 Description: "List of ongoing Forms"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
