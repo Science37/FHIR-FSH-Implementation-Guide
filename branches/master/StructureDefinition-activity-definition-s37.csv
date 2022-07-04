@@ -36,19 +36,19 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ActivityDefinition.extension:visitType","ActivityDefinition.extension","visitType","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type]]} {[]}
-","ActivityDefinition - Extension : Visit Type","type of visit","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Extension : ActivityDefinition - Visit Type","type of visit","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ActivityDefinition.extension:oid","ActivityDefinition.extension","oid","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid]]} {[]}
-","ActivityDefinition - Extension :  OID","Object ID","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Extension : ActivityDefinition - OID","Object ID","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ActivityDefinition.extension:displayOrder","ActivityDefinition.extension","displayOrder","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order]]} {[]}
-","ActivityDefinition - Extension :  Display Order","Order of display","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Extension : ActivityDefinition - Display Order","Order of display","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ActivityDefinition.extension:econsentFromGroupId","ActivityDefinition.extension","econsentFromGroupId","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/econsent-from-group-id]]} {[]}
-","ActivityDefinition - Extension:  Econsent From Group Id","Id for the consent form group","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Extension : ActivityDefinition - Econsent From Group Id","Id for the consent form group","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ActivityDefinition.modifierExtension","ActivityDefinition.modifierExtension","","extensions

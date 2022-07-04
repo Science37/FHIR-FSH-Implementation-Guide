@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-07-04T18:28:37+00:00",
+  "date": "2022-07-04T20:25:49+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -343,7 +343,7 @@
         "reference": {
           "reference": "StructureDefinition/plandefinition-s37"
         },
-        "name": "Profile PlanDefinitionS37",
+        "name": "Profile : PlanDefinitionS37",
         "description": "plan definition specific to science 37 implementation.",
         "exampleBoolean": false
       },
@@ -371,7 +371,7 @@
         "reference": {
           "reference": "StructureDefinition/activity-definition-s37"
         },
-        "name": "Profile: ActivityDefinitionS37",
+        "name": "Profile : ActivityDefinitionS37",
         "description": "SC37 Activity Definition used within Visit Plan and Care Plan",
         "exampleBoolean": false
       },
@@ -385,7 +385,7 @@
         "reference": {
           "reference": "StructureDefinition/day-0"
         },
-        "name": "Profile PlanDefinitionS37 - Extension : Day Zero",
+        "name": "Extension : PlanDefinitionS37 - Day Zero",
         "description": "collection which diferenciates specific date start of a patients start date.",
         "exampleBoolean": false
       },
@@ -399,7 +399,7 @@
         "reference": {
           "reference": "StructureDefinition/device"
         },
-        "name": "Questionnaire - Extension : Device",
+        "name": "Extension : Questionnaire - Device",
         "description": "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type",
         "exampleBoolean": false
       },
@@ -413,7 +413,7 @@
         "reference": {
           "reference": "StructureDefinition/device-report-field"
         },
-        "name": "Questionnaire.item - Extension : Device Report Field",
+        "name": "Extension : Questionnaire.item -  Device Report Field",
         "description": "the third party report field used to obtain the value of the item",
         "exampleBoolean": false
       },
@@ -427,7 +427,7 @@
         "reference": {
           "reference": "StructureDefinition/display-order"
         },
-        "name": "ActivityDefinition - Extension :  Display Order",
+        "name": "Extension : ActivityDefinition - Display Order",
         "description": "Order of display",
         "exampleBoolean": false
       },
@@ -441,7 +441,7 @@
         "reference": {
           "reference": "StructureDefinition/econsent-from-group-id"
         },
-        "name": "ActivityDefinition - Extension:  Econsent From Group Id",
+        "name": "Extension : ActivityDefinition - Econsent From Group Id",
         "description": "Id for the consent form group",
         "exampleBoolean": false
       },
@@ -455,7 +455,7 @@
         "reference": {
           "reference": "StructureDefinition/force-form-order"
         },
-        "name": "ActivityDefinition - Extension : Force Form Order",
+        "name": "Extension : ActivityDefinition - Force Form Order",
         "description": "Forced Form Ordering containing Form Ids.",
         "exampleBoolean": false
       },
@@ -469,7 +469,7 @@
         "reference": {
           "reference": "StructureDefinition/form-collection"
         },
-        "name": "Profile PlanDefinitionS37.action : Extension  - Ongoing Form",
+        "name": "Extension : PlanDefinitionS37 - Ongoing Form",
         "description": "List of ongoing Forms",
         "exampleBoolean": false
       },
@@ -483,7 +483,7 @@
         "reference": {
           "reference": "StructureDefinition/form-config"
         },
-        "name": "Profile PlanDefinitionS37.action - Extension : - Form Config",
+        "name": "Extension : PlanDefinitionS37.action - Form Config",
         "description": "plan definition action extention for form configurations",
         "exampleBoolean": false
       },
@@ -497,7 +497,7 @@
         "reference": {
           "reference": "StructureDefinition/form-types"
         },
-        "name": "ActivityDefinition - Extension : Form Types",
+        "name": "Extension : ActivityDefinition - Form Types",
         "description": "the form types",
         "exampleBoolean": false
       },
@@ -511,7 +511,7 @@
         "reference": {
           "reference": "StructureDefinition/oid"
         },
-        "name": "ActivityDefinition - Extension :  OID",
+        "name": "Extension : ActivityDefinition - OID",
         "description": "Object ID",
         "exampleBoolean": false
       },
@@ -539,7 +539,7 @@
         "reference": {
           "reference": "StructureDefinition/protocal-version"
         },
-        "name": "Profile PlanDefinitionS37 - Extension : Protocal Version",
+        "name": "Extension : PlanDefinitionS37 - Protocal Version",
         "description": "identifies the specific protocal version",
         "exampleBoolean": false
       },
@@ -553,7 +553,7 @@
         "reference": {
           "reference": "StructureDefinition/rendering"
         },
-        "name": "Questionnaire|Questionnaire.item - Extension : Object Rendering Settings",
+        "name": "Extension : Questionnaire|Questionnaire.item - Object Rendering Settings",
         "description": "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level.",
         "exampleBoolean": false
       },
@@ -581,7 +581,7 @@
         "reference": {
           "reference": "StructureDefinition/site-config"
         },
-        "name": "Profile PlanDefinitionS37 - Extension : Site Config",
+        "name": "Extension : PlanDefinitionS37 - Site Config",
         "exampleBoolean": false
       },
       {
@@ -594,7 +594,7 @@
         "reference": {
           "reference": "StructureDefinition/sub-status"
         },
-        "name": "Questionnaire - Extension : Questionniare SubStatus",
+        "name": "Extension : Questionnaire - Questionniare SubStatus",
         "description": "used to capture other statuses when questionnaire status is set to unknown",
         "exampleBoolean": false
       },
@@ -608,7 +608,7 @@
         "reference": {
           "reference": "StructureDefinition/supported-languages"
         },
-        "name": "Questionnaire - Extension : Supported Languages",
+        "name": "Extension : Questionnaire - Supported Languages",
         "description": "Supported Languages : Contains a list of languages that is supported by the questionnaire",
         "exampleBoolean": false
       },
@@ -622,7 +622,7 @@
         "reference": {
           "reference": "StructureDefinition/time-period"
         },
-        "name": "Profile PlanDefinitionS37 - Extension : Time Period",
+        "name": "Extension : PlanDefinitionS37 - Time Period",
         "description": "Description of time period",
         "exampleBoolean": false
       },
@@ -636,7 +636,7 @@
         "reference": {
           "reference": "StructureDefinition/version"
         },
-        "name": "Questionnaire.item - Extension : Item Version",
+        "name": "Extension : Questionnaire.item -  Item Version",
         "description": "Item Version",
         "exampleBoolean": false
       },
@@ -664,7 +664,7 @@
         "reference": {
           "reference": "StructureDefinition/visit-type"
         },
-        "name": "ActivityDefinition - Extension : Visit Type",
+        "name": "Extension : ActivityDefinition - Visit Type",
         "description": "type of visit",
         "exampleBoolean": false
       },
@@ -678,7 +678,7 @@
         "reference": {
           "reference": "PlanDefinition/AdhocFormsListPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 : Forms List - Adhoc",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -692,7 +692,7 @@
         "reference": {
           "reference": "PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 - Example : Forms List EConsent",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -706,7 +706,7 @@
         "reference": {
           "reference": "PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 : Expected Visit Plan",
         "description": "Example : Expected Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -720,7 +720,7 @@
         "reference": {
           "reference": "PlanDefinition/FormListPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 - Example : Forms List",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -762,7 +762,7 @@
         "reference": {
           "reference": "PlanDefinition/OnGoingFormsListPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 : Forms List OnGoing Forms",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -1042,7 +1042,7 @@
         "reference": {
           "reference": "PlanDefinition/RecurringFormListPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 : Recurring Forms List Recurring",
         "description": "Example : Recurring Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       },
@@ -1056,7 +1056,7 @@
         "reference": {
           "reference": "PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"
         },
-        "name": "Profile PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37",
+        "name": "Example - PlanDefinitionS37 - Example : Master Visit Plan",
         "description": "Example : Master Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
       }

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.title [ fhir:value "Science 37 FHIR Implementation-Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-04T18:28:37+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-04T20:25:49+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.description [ fhir:value "Implementation Guide for all Science 37 FHIR augmentations."];
   fhir:ImplementationGuide.jurisdiction [
@@ -331,7 +331,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/plandefinition-s37" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "plan definition specific to science 37 implementation." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -359,7 +359,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/activity-definition-s37" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile: ActivityDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile : ActivityDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "SC37 Activity Definition used within Visit Plan and Care Plan" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -373,7 +373,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/day-0" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Extension : Day Zero" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : PlanDefinitionS37 - Day Zero" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "collection which diferenciates specific date start of a patients start date." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -387,7 +387,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/device" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire - Extension : Device" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire - Device" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -401,7 +401,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/device-report-field" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire.item - Extension : Device Report Field" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire.item -  Device Report Field" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "the third party report field used to obtain the value of the item" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -415,7 +415,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/display-order" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ActivityDefinition - Extension :  Display Order" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ActivityDefinition - Display Order" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Order of display" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -429,7 +429,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/econsent-from-group-id>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/econsent-from-group-id" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ActivityDefinition - Extension:  Econsent From Group Id" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ActivityDefinition - Econsent From Group Id" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Id for the consent form group" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -443,7 +443,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/force-form-order>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/force-form-order" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ActivityDefinition - Extension : Force Form Order" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ActivityDefinition - Force Form Order" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Forced Form Ordering containing Form Ids." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -457,7 +457,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/form-collection" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37.action : Extension  - Ongoing Form" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : PlanDefinitionS37 - Ongoing Form" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of ongoing Forms" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -471,7 +471,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/form-config" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37.action - Extension : - Form Config" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : PlanDefinitionS37.action - Form Config" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "plan definition action extention for form configurations" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -485,7 +485,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-types>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/form-types" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ActivityDefinition - Extension : Form Types" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ActivityDefinition - Form Types" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "the form types" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -499,7 +499,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/oid" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ActivityDefinition - Extension :  OID" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ActivityDefinition - OID" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Object ID" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -527,7 +527,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/protocal-version" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Extension : Protocal Version" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : PlanDefinitionS37 - Protocal Version" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "identifies the specific protocal version" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -541,7 +541,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/rendering" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire|Questionnaire.item - Extension : Object Rendering Settings" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire|Questionnaire.item - Object Rendering Settings" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -569,7 +569,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/site-config" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Extension : Site Config" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : PlanDefinitionS37 - Site Config" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 18;
@@ -582,7 +582,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/sub-status" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire - Extension : Questionniare SubStatus" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire - Questionniare SubStatus" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "used to capture other statuses when questionnaire status is set to unknown" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -596,7 +596,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/supported-languages" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire - Extension : Supported Languages" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire - Supported Languages" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Supported Languages : Contains a list of languages that is supported by the questionnaire" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -610,7 +610,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/time-period>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/time-period" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Extension : Time Period" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : PlanDefinitionS37 - Time Period" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description of time period" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -624,7 +624,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/version" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Questionnaire.item - Extension : Item Version" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Questionnaire.item -  Item Version" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Item Version" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -652,7 +652,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/visit-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ActivityDefinition - Extension : Visit Type" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : ActivityDefinition - Visit Type" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "type of visit" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -666,7 +666,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AdhocFormsListPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/AdhocFormsListPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 : Forms List - Adhoc" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Forms List PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
@@ -683,7 +683,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EConsentFormGroupPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/EConsentFormGroupPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 - Example : Forms List EConsent" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Forms List PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
@@ -700,7 +700,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 : Expected Visit Plan" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Expected Visit Plan PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
@@ -717,7 +717,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/FormListPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/FormListPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 - Example : Forms List" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Forms List PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
@@ -768,7 +768,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/OnGoingFormsListPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/OnGoingFormsListPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Forms List PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 : Forms List OnGoing Forms" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Forms List PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
@@ -1108,7 +1108,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/RecurringFormListPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/RecurringFormListPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 : Recurring Forms List Recurring" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Recurring Forms List PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";
@@ -1125,7 +1125,7 @@
          fhir:link <https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Profile PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example - PlanDefinitionS37 - Example : Master Visit Plan" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example : Master Visit Plan PlanDefinitionS37" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37";

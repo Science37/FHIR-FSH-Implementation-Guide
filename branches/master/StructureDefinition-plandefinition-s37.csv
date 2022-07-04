@@ -32,7 +32,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.extension:protocalVersion","PlanDefinition.extension","protocalVersion","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version]]} {[]}
-","Profile PlanDefinitionS37 - Extension : Protocal Version","identifies the specific protocal version","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Extension : PlanDefinitionS37 - Protocal Version","identifies the specific protocal version","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.extension:versionNumber","PlanDefinition.extension","versionNumber","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number]]} {[]}
@@ -40,7 +40,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.extension:dayZero","PlanDefinition.extension","dayZero","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0]]} {[]}
-","Profile PlanDefinitionS37 - Extension : Day Zero","collection which diferenciates specific date start of a patients start date.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Extension : PlanDefinitionS37 - Day Zero","collection which diferenciates specific date start of a patients start date.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.modifierExtension","PlanDefinition.modifierExtension","","extensions
@@ -210,11 +210,11 @@ Range {[]} {[]}CodeableConcept {[]} {[]}","The target value to be achieved","The
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.extension:formConfig","PlanDefinition.action.extension","formConfig","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config]]} {[]}
-","Profile PlanDefinitionS37.action - Extension : - Form Config","plan definition action extention for form configurations","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Extension : PlanDefinitionS37.action - Form Config","plan definition action extention for form configurations","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.extension:formCollection","PlanDefinition.action.extension","formCollection","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection]]} {[]}
-","Profile PlanDefinitionS37.action : Extension  - Ongoing Form","List of ongoing Forms","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Extension : PlanDefinitionS37 - Ongoing Form","List of ongoing Forms","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.modifierExtension","PlanDefinition.action.modifierExtension","","extensions
@@ -388,11 +388,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.action.extension:formConfig","PlanDefinition.action.action.extension","formConfig","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config]]} {[]}
-","Profile PlanDefinitionS37.action - Extension : - Form Config","plan definition action extention for form configurations","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Extension : PlanDefinitionS37.action - Form Config","plan definition action extention for form configurations","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.action.extension:formCollection","PlanDefinition.action.action.extension","formCollection","","",0,1,"","","","Extension {[CanonicalType[https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection]]} {[]}
-","Profile PlanDefinitionS37.action : Extension  - Ongoing Form","List of ongoing Forms","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Extension : PlanDefinitionS37 - Ongoing Form","List of ongoing Forms","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "PlanDefinition.action.action.modifierExtension","PlanDefinition.action.action.modifierExtension","","extensions
