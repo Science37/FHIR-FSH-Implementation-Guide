@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-06-28T15:12:49+00:00"/>
+  <date value="2022-07-04T18:23:06+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -240,7 +240,7 @@
       <reference>
         <reference value="StructureDefinition/activity-definition-s37"/>
       </reference>
-      <name value="Activity Definition S37"/>
+      <name value="Profile: ActivityDefinitionS37"/>
       <description value="SC37 Activity Definition used within Visit Plan and Care Plan"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -251,7 +251,7 @@
       <reference>
         <reference value="StructureDefinition/day-0"/>
       </reference>
-      <name value="Extension : Day Zero"/>
+      <name value="Extension : PlanDefinition - Day Zero"/>
       <description value="collection which diferenciates specific date start of a patients start date."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -262,7 +262,7 @@
       <reference>
         <reference value="StructureDefinition/device"/>
       </reference>
-      <name value="Extension : Device"/>
+      <name value="Questionnaire - Extension : Device"/>
       <description value="The intent of device is to be reused between both Questionniare and Questionnaire.item. &lt;br&gt;A device has details that consist of: &lt;br&gt;type : The device type (string)&lt;br&gt;reportField: field used for mapping data from the device report.&lt;br&gt;Questionnaire utilizes the &lt;i&gt;type&lt;/i&gt; field to idenfity the type of device used within the Questionniare.&lt;br&gt;Questionniare.item utilizes &lt;i&gt;reportField&lt;/i&gt; unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -273,7 +273,7 @@
       <reference>
         <reference value="StructureDefinition/device-report-field"/>
       </reference>
-      <name value="Extension : Device Report Field"/>
+      <name value="Questionnaire.item - Extension : Device Report Field"/>
       <description value="the third party report field used to obtain the value of the item"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -284,7 +284,7 @@
       <reference>
         <reference value="StructureDefinition/display-order"/>
       </reference>
-      <name value="Extension : Display Order"/>
+      <name value="ActivityDefinition - Extension :  Display Order"/>
       <description value="Order of display"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -295,7 +295,7 @@
       <reference>
         <reference value="StructureDefinition/econsent-from-group-id"/>
       </reference>
-      <name value="Econsent From Group Id"/>
+      <name value="ActivityDefinition - Extension:  Econsent From Group Id"/>
       <description value="Id for the consent form group"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -306,7 +306,7 @@
       <reference>
         <reference value="StructureDefinition/force-form-order"/>
       </reference>
-      <name value="Force Form Order"/>
+      <name value="ActivityDefinition - Extension : Force Form Order"/>
       <description value="Forced Form Ordering containing Form Ids."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -317,7 +317,7 @@
       <reference>
         <reference value="StructureDefinition/form-collection"/>
       </reference>
-      <name value="Extension : Ongoing Form"/>
+      <name value="Extension : PlanDefinition.action - Ongoing Form"/>
       <description value="List of ongoing Forms"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -328,7 +328,7 @@
       <reference>
         <reference value="StructureDefinition/form-config"/>
       </reference>
-      <name value="Extension : Form Config"/>
+      <name value="Extension : PlanDefinition.action - Form Config"/>
       <description value="plan definition action extention for form configurations"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -339,7 +339,7 @@
       <reference>
         <reference value="StructureDefinition/form-types"/>
       </reference>
-      <name value="Extension : Form Types"/>
+      <name value="ActivityDefinition - Extension : Form Types"/>
       <description value="the form types"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -350,7 +350,7 @@
       <reference>
         <reference value="StructureDefinition/oid"/>
       </reference>
-      <name value="Extension : OID"/>
+      <name value="ActivityDefinition - Extension :  OID"/>
       <description value="Object ID"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -361,7 +361,7 @@
       <reference>
         <reference value="StructureDefinition/parent-reference"/>
       </reference>
-      <name value="Extension : Parent Reference"/>
+      <name value="Extension : ActivityDefinition|PlanDefinition - Parent Reference"/>
       <description value="extension to show reference back to a parent instance"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -372,7 +372,7 @@
       <reference>
         <reference value="StructureDefinition/protocal-version"/>
       </reference>
-      <name value="Extension : Protocal Version"/>
+      <name value="Extension : PlanDefinition - Protocal Version"/>
       <description value="identifies the specific protocal version"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -383,7 +383,7 @@
       <reference>
         <reference value="StructureDefinition/rendering"/>
       </reference>
-      <name value="Extension : Object Rendering Settings"/>
+      <name value="Questionnaire|Questionnaire.item - Extension : Object Rendering Settings"/>
       <description value="Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -394,7 +394,7 @@
       <reference>
         <reference value="StructureDefinition/resource-create-update-at-datetime"/>
       </reference>
-      <name value="Extension : ResourceCreateUpdateAtDateTime"/>
+      <name value="Extension : ActivityDefinition|PlanDefinition|Questionnaire - ResourceCreateUpdateAtDateTime"/>
       <description value="Captures the created at an updated at attributes of date timestamps for a questionnaire"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -415,7 +415,7 @@
       <reference>
         <reference value="StructureDefinition/sub-status"/>
       </reference>
-      <name value="Extension : Questionniare SubStatus"/>
+      <name value="Questionnaire - Extension : Questionniare SubStatus"/>
       <description value="used to capture other statuses when questionnaire status is set to unknown"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -426,7 +426,7 @@
       <reference>
         <reference value="StructureDefinition/supported-languages"/>
       </reference>
-      <name value="Extension : Supported Languages"/>
+      <name value="Questionnaire - Extension : Supported Languages"/>
       <description value="Supported Languages : Contains a list of languages that is supported by the questionnaire"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -448,7 +448,7 @@
       <reference>
         <reference value="StructureDefinition/version"/>
       </reference>
-      <name value="Extension : Item Version"/>
+      <name value="Questionnaire.item - Extension : Item Version"/>
       <description value="Item Version"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -459,7 +459,7 @@
       <reference>
         <reference value="StructureDefinition/version-number"/>
       </reference>
-      <name value="Extension : Version Number"/>
+      <name value="Extension : ActivityDefinition|PlanDefinition - Version Number"/>
       <description value="version number"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -470,7 +470,7 @@
       <reference>
         <reference value="StructureDefinition/visit-type"/>
       </reference>
-      <name value="Extension : Visit Type"/>
+      <name value="ActivityDefinition - Extension : Visit Type"/>
       <description value="type of visit"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -481,7 +481,7 @@
       <reference>
         <reference value="PlanDefinition/AdhocFormsListPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Forms List PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -492,7 +492,7 @@
       <reference>
         <reference value="PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Forms List PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -503,7 +503,7 @@
       <reference>
         <reference value="PlanDefinition/EXPECTEDVISITPLANPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Expected Visit Plan PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37"/>
       <description value="Example : Expected Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -514,7 +514,7 @@
       <reference>
         <reference value="PlanDefinition/FormListPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Forms List PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -547,7 +547,7 @@
       <reference>
         <reference value="PlanDefinition/OnGoingFormsListPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Forms List PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -767,7 +767,7 @@
       <reference>
         <reference value="PlanDefinition/RecurringFormListPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Recurring Forms List PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Recurring Forms List PlanDefinitionS37"/>
       <description value="Example : Recurring Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>
@@ -778,7 +778,7 @@
       <reference>
         <reference value="PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"/>
       </reference>
-      <name value="Example : Master Visit Plan PlanDefinitionS37"/>
+      <name value="PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37"/>
       <description value="Example : Master Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
     </resource>

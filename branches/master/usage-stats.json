@@ -6,7 +6,7 @@
   "extensions": [
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/day-0",
-      "title": "Extension : Day Zero",
+      "title": "Extension : PlanDefinition - Day Zero",
       "types": [
         "string",
         "string",
@@ -119,7 +119,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device",
-      "title": "Extension : Device",
+      "title": "Questionnaire - Extension : Device",
       "types": [
         "string",
         "string",
@@ -228,28 +228,28 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device-report-field",
-      "title": "Extension : Device Report Field",
+      "title": "Questionnaire.item - Extension : Device Report Field",
       "types": [
         "string"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/display-order",
-      "title": "Extension : Display Order",
+      "title": "ActivityDefinition - Extension :  Display Order",
       "types": [
         "string"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/econsent-from-group-id",
-      "title": "Econsent From Group Id",
+      "title": "ActivityDefinition - Extension:  Econsent From Group Id",
       "types": [
         "string"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/force-form-order",
-      "title": "Force Form Order",
+      "title": "ActivityDefinition - Extension : Force Form Order",
       "types": [
         "string",
         "base64Binary",
@@ -356,7 +356,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-collection",
-      "title": "Extension : Ongoing Form",
+      "title": "Extension : PlanDefinition.action - Ongoing Form",
       "types": [
         "string",
         "base64Binary",
@@ -463,7 +463,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-config",
-      "title": "Extension : Form Config",
+      "title": "Extension : PlanDefinition.action - Form Config",
       "types": [
         "string",
         "string",
@@ -787,7 +787,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/form-types",
-      "title": "Extension : Form Types",
+      "title": "ActivityDefinition - Extension : Form Types",
       "types": [
         "string",
         "base64Binary",
@@ -844,14 +844,14 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/oid",
-      "title": "Extension : OID",
+      "title": "ActivityDefinition - Extension :  OID",
       "types": [
         "string"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/parent-reference",
-      "title": "Extension : Parent Reference",
+      "title": "Extension : ActivityDefinition|PlanDefinition - Parent Reference",
       "types": [
         "string",
         "string",
@@ -910,14 +910,14 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/protocal-version",
-      "title": "Extension : Protocal Version",
+      "title": "Extension : PlanDefinition - Protocal Version",
       "types": [
         "id"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/rendering",
-      "title": "Extension : Object Rendering Settings",
+      "title": "Questionnaire|Questionnaire.item - Extension : Object Rendering Settings",
       "types": [
         "string",
         "string",
@@ -1109,7 +1109,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime",
-      "title": "Extension : ResourceCreateUpdateAtDateTime",
+      "title": "Extension : ActivityDefinition|PlanDefinition|Questionnaire - ResourceCreateUpdateAtDateTime",
       "types": [
         "dateTime",
         "dateTime",
@@ -1225,14 +1225,14 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
-      "title": "Extension : Questionniare SubStatus",
+      "title": "Questionnaire - Extension : Questionniare SubStatus",
       "types": [
         "string"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/supported-languages",
-      "title": "Extension : Supported Languages",
+      "title": "Questionnaire - Extension : Supported Languages",
       "types": [
         "code",
         "code",
@@ -1348,14 +1348,14 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version",
-      "title": "Extension : Item Version",
+      "title": "Questionnaire.item - Extension : Item Version",
       "types": [
         "id"
       ]
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version-number",
-      "title": "Extension : Version Number",
+      "title": "Extension : ActivityDefinition|PlanDefinition - Version Number",
       "types": [
         "id",
         "id",
@@ -1413,7 +1413,7 @@
     },
     {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/visit-type",
-      "title": "Extension : Visit Type",
+      "title": "ActivityDefinition - Extension : Visit Type",
       "types": [
         "string"
       ]
@@ -1423,7 +1423,7 @@
     "ActivityDefinition": [
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37",
-        "title": "Activity Definition S37"
+        "title": "Profile: ActivityDefinitionS37"
       }
     ],
     "PlanDefinition": [
