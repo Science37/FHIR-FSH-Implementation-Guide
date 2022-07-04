@@ -1,6 +1,6 @@
 Extension: Version
 Id: version
-Title: "Extension : Item Version"
+Title: "Questionnaire.item - Extension : Item Version"
 Description: "Item Version"
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire.item"
@@ -9,7 +9,7 @@ Description: "Item Version"
 
 Extension: DeviceReportField
 Id: device-report-field
-Title: "Extension : Device Report Field"
+Title: "Questionnaire.item - Extension : Device Report Field"
 Description: "the third party report field used to obtain the value of the item"
 * ^context[0].expression = "Questionnaire.item"
 * value[x] only string 

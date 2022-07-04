@@ -1,7 +1,7 @@
 Instance: EConsentFormGroupPlanDefinitionS37Example
 InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Example : Forms List PlanDefinitionS37"
+Title: "PlanDefinitionS37 - Example : Forms List PlanDefinitionS37"
 Description: "Example : Forms List PlanDefinitionS37"
 * status = #active
 * name = "ECONSENT_FORM_GROUP"

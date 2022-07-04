@@ -1,7 +1,7 @@
 Instance: VisitPlanMasterVisitPlanDefinitionS37Example
 InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Example : Master Visit Plan PlanDefinitionS37"
+Title: "PlanDefinitionS37 - Example : Master Visit Plan PlanDefinitionS37"
 Description: "Example : Master Visit Plan PlanDefinitionS37"
 * status = #active
 * name = "MASTER_VISIT_PLAN"

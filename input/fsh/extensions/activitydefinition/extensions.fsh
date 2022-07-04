@@ -3,7 +3,7 @@
 
 Extension: VisitType
 Id: visit-type
-Title: "Extension : Visit Type"
+Title: "ActivityDefinition - Extension : Visit Type"
 Description: "type of visit"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -11,7 +11,7 @@ Description: "type of visit"
 
 Extension: OID
 Id: oid
-Title: "Extension : OID"
+Title: "ActivityDefinition - Extension :  OID"
 Description: "Object ID"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -19,7 +19,7 @@ Description: "Object ID"
 
 Extension: DisplayOrder
 Id: display-order
-Title: "Extension : Display Order"
+Title: "ActivityDefinition - Extension :  Display Order"
 Description: "Order of display"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -27,7 +27,7 @@ Description: "Order of display"
 
 Extension: EconsentFromGroupId
 Id: econsent-from-group-id
-Title: "Econsent From Group Id"
+Title: "ActivityDefinition - Extension:  Econsent From Group Id"
 Description: "Id for the consent form group"
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -35,7 +35,7 @@ Description: "Id for the consent form group"
 
 Extension: ForceFormOrder
 Id: force-form-order
-Title: "Force Form Order"
+Title: "ActivityDefinition - Extension : Force Form Order"
 Description: "Forced Form Ordering containing Form Ids."
 * ^context[+].type = #element
 * ^context[=].expression = "ActivityDefinition"
@@ -50,7 +50,7 @@ Description: "Forced Form Ordering containing Form Ids."
 
 Extension: FormTypes
 Id: form-types
-Title: "Extension : Form Types"
+Title: "ActivityDefinition - Extension : Form Types"
 Description: "the form types"
 * extension contains
   form-type 0..*

@@ -1,7 +1,7 @@
 Instance: EXPECTEDVISITPLANPlanDefinitionS37Example
 InstanceOf: PlanDefinitionS37
 Usage: #example
-Title: "Example : Expected Visit Plan PlanDefinitionS37"
+Title: "PlanDefinitionS37 - Example : Expected Visit Plan PlanDefinitionS37"
 Description: "Example : Expected Visit Plan PlanDefinitionS37"
 * status = #active
 * name = "EXPECTED_VISIT_PLAN"

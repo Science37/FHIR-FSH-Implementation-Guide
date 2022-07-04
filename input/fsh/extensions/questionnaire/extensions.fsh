@@ -1,7 +1,7 @@
 
 Extension: SupportedLanguages
 Id: supported-languages
-Title: "Extension : Supported Languages"
+Title: "Questionnaire - Extension : Supported Languages"
 Description: "Supported Languages : Contains a list of languages that is supported by the questionnaire"
 * ^context[0].expression = "Questionnaire"
 * extension contains
@@ -12,7 +12,7 @@ Description: "Supported Languages : Contains a list of languages that is support
 
 Extension: SubStatus
 Id: sub-status
-Title: "Extension : Questionniare SubStatus"
+Title: "Questionnaire - Extension : Questionniare SubStatus"
 Description: "used to capture other statuses when questionnaire status is set to unknown"
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire"
@@ -21,7 +21,7 @@ Description: "used to capture other statuses when questionnaire status is set to
 
 Extension: Rendering
 Id: rendering
-Title: "Extension : Object Rendering Settings"
+Title: "Questionnaire|Questionnaire.item - Extension : Object Rendering Settings"
 Description: "Extension : Object Rendering Settings. The data structure the complex data structure depicted here can be used to depict Science 37 specific rendering configurations at the questionnaire level or the questionnaire item level."
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire"
@@ -117,7 +117,7 @@ Description: "Extension : Object Rendering Settings. The data structure the comp
 
 Extension: Device
 Id: device
-Title: "Extension : Device"
+Title: "Questionnaire - Extension : Device"
 Description: "The intent of device is to be reused between both Questionniare and Questionnaire.item. <br>A device has details that consist of: <br>type : The device type (string)<br>reportField: field used for mapping data from the device report.<br>Questionnaire utilizes the <i>type</i> field to idenfity the type of device used within the Questionniare.<br>Questionniare.item utilizes <i>reportField</i> unless Questionnaire contains more then one device then Questionniare.item.device.detail must contain the device type"
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire"

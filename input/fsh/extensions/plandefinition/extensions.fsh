@@ -1,7 +1,7 @@
 
 Extension: ProtocalVersion
 Id: protocal-version
-Title: "Extension : Protocal Version"
+Title: "Extension : PlanDefinition - Protocal Version"
 Description: "identifies the specific protocal version"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -10,7 +10,7 @@ Description: "identifies the specific protocal version"
 
 Extension: DayZero
 Id: day-0
-Title: "Extension : Day Zero"
+Title: "Extension : PlanDefinition - Day Zero"
 Description: "collection which diferenciates specific date start of a patients start date."
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -41,7 +41,7 @@ Description: "collection which diferenciates specific date start of a patients s
 
 Extension: FormConfig
 Id: form-config
-Title: "Extension : Form Config"
+Title: "Extension : PlanDefinition.action - Form Config"
 Description: "plan definition action extention for form configurations"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"
@@ -143,7 +143,7 @@ Description: ""
 
 Extension: FormCollection
 Id: form-collection
-Title: "Extension : Ongoing Form"
+Title: "Extension : PlanDefinition.action - Ongoing Form"
 Description: "List of ongoing Forms"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition.action"

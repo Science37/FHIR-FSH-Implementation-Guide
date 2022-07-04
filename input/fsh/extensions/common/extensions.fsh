@@ -1,6 +1,6 @@
 Extension: ResourceCreateUpdateAtDateTime
 Id: resource-create-update-at-datetime
-Title: "Extension : ResourceCreateUpdateAtDateTime"
+Title: "Extension : ActivityDefinition|PlanDefinition|Questionnaire - ResourceCreateUpdateAtDateTime"
 Description: "Captures the created at an updated at attributes of date timestamps for a questionnaire"
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire"
@@ -19,7 +19,7 @@ Description: "Captures the created at an updated at attributes of date timestamp
 
 Extension: ParentReference
 Id: parent-reference
-Title: "Extension : Parent Reference"
+Title: "Extension : ActivityDefinition|PlanDefinition - Parent Reference"
 Description: "extension to show reference back to a parent instance"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"
@@ -39,7 +39,7 @@ Description: "extension to show reference back to a parent instance"
 
 Extension: VersionNumber
 Id: version-number
-Title: "Extension : Version Number"
+Title: "Extension : ActivityDefinition|PlanDefinition - Version Number"
 Description: "version number"
 * ^context[+].type = #element
 * ^context[=].expression = "PlanDefinition"

@@ -1,7 +1,7 @@
 Profile: VisitPlanActivityDefinitionS37
 Parent: ActivityDefinition
 Id: activity-definition-s37
-Title: "Activity Definition S37"
+Title: "Profile: ActivityDefinitionS37"
 Description: "SC37 Activity Definition used within Visit Plan and Care Plan"
 * extension contains ParentReference named parentReference 0..1
 * extension contains ResourceCreateUpdateAtDateTime named createUpdateAtDateTime 1..1
