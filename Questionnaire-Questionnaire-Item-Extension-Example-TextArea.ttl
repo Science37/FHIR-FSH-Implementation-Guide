@@ -25,12 +25,8 @@
      fhir:Extension.valueString [ fhir:value "deleted" ]
   ], [
      fhir:index 1;
-     fhir:Element.extension [
-       fhir:index 0;
-       fhir:Extension.url [ fhir:value "variableName" ];
-       fhir:Extension.valueString [ fhir:value "FormLevel-StandardVariable" ]
-     ];
-     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable" ]
+     fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable" ];
+     fhir:Extension.valueString [ fhir:value "FormLevel-StandardVariable" ]
   ], [
      fhir:index 2;
      fhir:Element.extension [
@@ -69,7 +65,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-07-27T16:10:03+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-07-27T16:26:41+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.jurisdiction [
      fhir:index 0;
@@ -84,12 +80,8 @@
      fhir:index 0;
      fhir:Element.extension [
        fhir:index 0;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "variableName" ];
-         fhir:Extension.valueString [ fhir:value "ItemLevel-StandardVariable" ]
-       ];
-       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable" ]
+       fhir:Extension.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable" ];
+       fhir:Extension.valueString [ fhir:value "ItemLevel-StandardVariable" ]
      ], [
        fhir:index 1;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
