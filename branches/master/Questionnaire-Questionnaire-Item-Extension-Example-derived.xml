@@ -13,6 +13,11 @@
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status">
     <valueString value="deleted"/>
   </extension>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
+    <extension url="variableName">
+      <valueString value="FormLevel-StandardViariable"/>
+    </extension>
+  </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
     <extension url="type">
       <valueString value="device0"/>
@@ -59,7 +64,7 @@
   <title value="Example : Questionnaire.Item Derived-V1"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-07-04T20:25:49+00:00"/>
+  <date value="2022-07-27T15:29:27+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -69,6 +74,11 @@
     </coding>
   </jurisdiction>
   <item>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
+      <extension url="variableName">
+        <valueString value="ItemLevel-StandardViariable"/>
+      </extension>
+    </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version">
       <valueId value="1.0.1-item"/>
     </extension>

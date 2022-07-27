@@ -329,6 +329,13 @@
     "name": "SiteConfig"
   },
   {
+    "id": "standard-variable",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable",
+    "version": "1.0.0-S37",
+    "name": "StandardVariable"
+  },
+  {
     "id": "sub-status",
     "type": "StructureDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
