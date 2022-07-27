@@ -15,7 +15,7 @@
       "extension": [
         {
           "url": "variableName",
-          "valueString": "FormLevel-StandardViariable"
+          "valueString": "FormLevel-StandardVariable"
         }
       ],
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable"
@@ -134,7 +134,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-07-27T15:29:27+00:00",
+  "date": "2022-07-27T16:10:03+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -154,7 +154,7 @@
           "extension": [
             {
               "url": "variableName",
-              "valueString": "ItemLevel-StandardViariable"
+              "valueString": "ItemLevel-StandardVariable"
             }
           ],
           "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable"
