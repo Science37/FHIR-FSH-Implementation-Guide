@@ -12,7 +12,7 @@
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
     <extension url="variableName">
-      <valueString value="FormLevel-StandardViariable"/>
+      <valueString value="FormLevel-StandardVariable"/>
     </extension>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status">
@@ -43,7 +43,7 @@
   <title value="Example : Questionnaire.Item Footer"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-07-27T15:29:27+00:00"/>
+  <date value="2022-07-27T16:10:03+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

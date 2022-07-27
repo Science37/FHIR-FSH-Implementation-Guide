@@ -15,7 +15,7 @@
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
     <extension url="variableName">
-      <valueString value="FormLevel-StandardViariable"/>
+      <valueString value="FormLevel-StandardVariable"/>
     </extension>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/resource-create-update-at-datetime">
@@ -43,7 +43,7 @@
   <title value="Example : Questionnaire.Item Number-Decimal"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-07-27T15:29:27+00:00"/>
+  <date value="2022-07-27T16:10:03+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -55,7 +55,7 @@
   <item>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
       <extension url="variableName">
-        <valueString value="ItemLevel-StandardViariable"/>
+        <valueString value="ItemLevel-StandardVariable"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
