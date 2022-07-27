@@ -10,6 +10,9 @@ Usage: #example
 * name = "Example : Questionnaire.Item MultiSelect"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
+
+* insert Questionnaire-StandardVairable
+
 * extension[subStatus].valueString = "deleted"
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
@@ -18,6 +21,7 @@ Usage: #example
 
 /* Item  Level Information */
 * item[0].type = #choice
+* insert Questionnaire-Item-StandardVairable
 * item[=].repeats = true
 
 * item[=].linkId = "__S37-form-fields-p8wrfhsd01p"

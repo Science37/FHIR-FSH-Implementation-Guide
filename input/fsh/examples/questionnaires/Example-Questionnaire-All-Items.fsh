@@ -12,6 +12,8 @@ Usage: #example
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 
+* insert Questionnaire-StandardVairable
+
 * extension[device].extension[type].valueString = "device0"
 * extension[device].extension[map].extension[source].valueString = "source01"
 * extension[device].extension[map].extension[target].valueString = "target01"

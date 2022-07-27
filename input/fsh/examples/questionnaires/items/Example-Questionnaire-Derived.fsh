@@ -12,6 +12,8 @@ Usage: #example
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"
 
+* insert Questionnaire-StandardVairable
+
 * extension[device].extension[type].valueString = "device0"
 * extension[device].extension[map].extension[source].valueString = "source01"
 * extension[device].extension[map].extension[target].valueString = "target01"
@@ -26,6 +28,7 @@ Usage: #example
 
 
 * item[+].type = #question
+* insert Questionnaire-Item-StandardVairable
 * item[=].linkId = "__S37-form-fields-2zpvlwq3a1c"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DERIVED_FIELD_LABLE</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/derived/version/2.3"

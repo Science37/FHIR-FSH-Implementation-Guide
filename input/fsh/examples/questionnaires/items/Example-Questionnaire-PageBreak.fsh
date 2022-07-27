@@ -11,6 +11,9 @@ Usage: #example
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"
+
+* insert Questionnaire-StandardVairable
+
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 * extension[supportedLanguages].extension[language][+].valueCode = #en-US

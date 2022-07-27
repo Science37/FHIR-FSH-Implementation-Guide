@@ -9,6 +9,9 @@ Usage: #example
 * name = "Example : Questionnaire DateTimeV1"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
+
+* insert Questionnaire-StandardVairable
+
 * extension[device].extension[type].valueString = "device0"
 * extension[device].extension[map].extension[source].valueString = "source01"
 * extension[device].extension[map].extension[target].valueString = "target01"
@@ -24,6 +27,7 @@ Usage: #example
 * extension[supportedLanguages].extension[language][+].valueCode = #en-SG
 
 * item[+].type = #question
+* insert Questionnaire-Item-StandardVairable
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"

@@ -10,6 +10,9 @@ Usage: #example
 * name = "Example : Questionnaire.Item Image"
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
+
+* insert Questionnaire-StandardVairable
+
 * extension[subStatus].valueString = "deleted"
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
@@ -17,6 +20,7 @@ Usage: #example
 * extension[supportedLanguages].extension[language][+].valueCode = #en-SG
 
 * item[0].type = #attachment
+* insert Questionnaire-Item-StandardVairable
 * item[=].linkId = "__S37-form-fields-isdfu9s0df8us8dfy"
 * item[=].text = "<p style=\"text-align:left;\"><strong>IMAGE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/image/version/2.3"

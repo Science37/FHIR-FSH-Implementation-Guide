@@ -52,3 +52,17 @@ Description: "version number"
 * extension[version-number].value[x] only id
 * extension[audit-trail-version] ^short = "Id to the master visit plan"
 * extension[audit-trail-version].value[x] only id
+
+
+Extension: StandardVariable
+Id: standard-variable
+Title: "Extension : Questionnaire|Questionnaire.item|Questionnaire.item.item - StandardVairable"
+Description: "standard Variables are used to map to a set of standard vocabulary selected to enable standard reporting downstream."
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire"
+* ^context[+].type = #element
+* ^context[=].expression = "Questionnaire.item"
+* extension contains    
+    variableName 0..1
+* extension[variableName] ^short = "variableName :  Mapped Standard Variable Name "
+* extension[variableName].value[x] only string

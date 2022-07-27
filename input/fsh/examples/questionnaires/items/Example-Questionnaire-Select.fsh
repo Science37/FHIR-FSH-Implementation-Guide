@@ -11,6 +11,9 @@ Usage: #example
 * subjectType = #Patient
 * identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[subStatus].valueString = "deleted"
+
+* insert Questionnaire-StandardVairable
+
 * extension[createUpdateAtDateTime].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[createUpdateAtDateTime].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 * extension[supportedLanguages].extension[language][+].valueCode = #en-US
@@ -19,6 +22,7 @@ Usage: #example
 
 /* Item  Level Information */
 * item[0].type = #choice
+* insert Questionnaire-Item-StandardVairable
 * item[=].linkId = "__S37-form-fields-p8wrfhsd01p"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/Select/version/2.3"

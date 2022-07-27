@@ -41,3 +41,7 @@ Description: "Profile : QuestionnaireS37SDC"
 
 *  item.extension contains minValue named minValue 0..1
 *  item.item.extension contains minValue named minValue 0..1
+
+* extension contains StandardVariable named standardVariable 0..1
+* item.extension contains StandardVariable named standardVariable 0..1
+* item.item.extension contains StandardVariable named standardVariable 0..1
