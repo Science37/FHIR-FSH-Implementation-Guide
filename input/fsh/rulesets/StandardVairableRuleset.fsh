@@ -1,5 +1,5 @@
 RuleSet: Questionnaire-StandardVairable
-* extension[standardVariable].extension[variableName].valueString = "FormLevel-StandardVariable"
+* extension[standardVariable].valueString = "FormLevel-StandardVariable"
 
 RuleSet: Questionnaire-Item-StandardVairable
-* item[=].extension[standardVariable].extension[variableName].valueString = "ItemLevel-StandardVariable"
+* item[=].extension[standardVariable].valueString = "ItemLevel-StandardVariable"

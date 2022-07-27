@@ -62,7 +62,4 @@ Description: "standard Variables are used to map to a set of standard vocabulary
 * ^context[=].expression = "Questionnaire"
 * ^context[+].type = #element
 * ^context[=].expression = "Questionnaire.item"
-* extension contains    
-    variableName 0..1
-* extension[variableName] ^short = "variableName :  Mapped Standard Variable Name "
-* extension[variableName].value[x] only string
+* value[x] only string
