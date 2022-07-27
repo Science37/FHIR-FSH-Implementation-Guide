@@ -11,9 +11,7 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
-    <extension url="variableName">
-      <valueString value="FormLevel-StandardVariable"/>
-    </extension>
+    <valueString value="FormLevel-StandardVariable"/>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status">
     <valueString value="deleted"/>
@@ -43,7 +41,7 @@
   <title value="Example : Questionnaire.Item Header"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-07-27T16:10:03+00:00"/>
+  <date value="2022-07-27T16:26:41+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>

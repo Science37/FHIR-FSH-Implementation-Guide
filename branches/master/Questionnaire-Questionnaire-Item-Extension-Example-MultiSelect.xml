@@ -11,9 +11,7 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table><hr/><p><b>Option Sets</b></p><a name="opt-item.__S37-form-fields-p8wrfhsd01p"> </a><p><b>Answer options for __S37-form-fields-p8wrfhsd01p</b></p><ul><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#1 (&quot;1&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#2 (&quot;2&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#3 (&quot;3&quot;)</li><li style="font-size: 11px">urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7#554 (&quot;554&quot;)</li></ul></div>
   </text>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
-    <extension url="variableName">
-      <valueString value="FormLevel-StandardVariable"/>
-    </extension>
+    <valueString value="FormLevel-StandardVariable"/>
   </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status">
     <valueString value="deleted"/>
@@ -43,7 +41,7 @@
   <title value="Example : Questionnaire.Item MultiSelect"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-07-27T16:10:03+00:00"/>
+  <date value="2022-07-27T16:26:41+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -54,9 +52,7 @@
   </jurisdiction>
   <item>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
-      <extension url="variableName">
-        <valueString value="ItemLevel-StandardVariable"/>
-      </extension>
+      <valueString value="ItemLevel-StandardVariable"/>
     </extension>
     <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/version">
       <valueId value="1.0.1-item"/>

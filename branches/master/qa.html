@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 346, warn = 50, info = 241, 2 -->
+<!-- broken links = errors = 346, warn = 48, info = 241, 2 -->
 <head>
   <title>S37FHIRIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for S37FHIRIG</h1>
- <p>Generated Wed Jul 27 16:13:37 UTC 2022, FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = <a href="https://science37.github.io/FHIR-FSH-Implementation-Guide">https://science37.github.io/FHIR-FSH-Implementation-Guide</a> (<a href="https://science37.github.io/FHIR-FSH-Implementation-Guide/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Wed Jul 27 16:30:26 UTC 2022, FHIR version 4.0.1 for science37.FHIR-IG#1.0.0-S37 (canonical = <a href="https://science37.github.io/FHIR-FSH-Implementation-Guide">https://science37.github.io/FHIR-FSH-Implementation-Guide</a> (<a href="https://science37.github.io/FHIR-FSH-Implementation-Guide/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.127</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = science37.FHIR-IG, Canonical = https://science37.github.io/FHIR-FSH-Implementation-Guide</td></tr>
@@ -55,9 +55,9 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://science37.github.io/FHIR-FSH-Implementation-Guide (Problem #1 with package-list.json at https://science37.github.io/FHIR-FSH-Implementation-Guide: Invalid HTTP response 404 from https://science37.github.io/FHIR-FSH-Implementation-Guide/package-list.json?nocache=1658938202943 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://science37.github.io/FHIR-FSH-Implementation-Guide (Problem #1 with package-list.json at https://science37.github.io/FHIR-FSH-Implementation-Guide: Invalid HTTP response 404 from https://science37.github.io/FHIR-FSH-Implementation-Guide/package-list.json?nocache=1658939200833 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 346, warn = 50, info = 241, broken links = 2</td></tr>
+ <tr><td>Summary:</td><td> errors = 346, warn = 48, info = 241, broken links = 2</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -208,7 +208,7 @@
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-site-config"><b>/github/workspace/fsh-generated/resources/StructureDefinition-site-config</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-standard-variable"><b>/github/workspace/fsh-generated/resources/StructureDefinition-standard-variable</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-standard-variable"><b>/github/workspace/fsh-generated/resources/StructureDefinition-standard-variable</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-sub-status"><b>/github/workspace/fsh-generated/resources/StructureDefinition-sub-status</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -2622,13 +2622,7 @@
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.snapshot.element[3].short</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'variableName...Name '</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.differential.element[1].short</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'variableName...Name '</b></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -3632,12 +3626,6 @@
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="Questionnaire-Questionnaire-Item-Extension-Example-Text.html">fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text.json</a></td><td><b>value should not start or finish with whitespace ' Replacement...defaultPlaceholder'</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-standard-variable.html">fsh-generated/resources/StructureDefinition-standard-variable.json</a></td><td><b>value should not start or finish with whitespace 'variableName...Name '</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-standard-variable.html">fsh-generated/resources/StructureDefinition-standard-variable.json</a></td><td><b>value should not start or finish with whitespace 'variableName...Name '</b></td>
    </tr>
 </table>
 <hr/>
