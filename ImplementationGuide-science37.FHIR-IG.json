@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-07-04T20:25:49+00:00",
+  "date": "2022-07-27T15:29:27+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -582,6 +582,20 @@
           "reference": "StructureDefinition/site-config"
         },
         "name": "Extension : PlanDefinitionS37 - Site Config",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/standard-variable"
+        },
+        "name": "Extension : Questionnaire|Questionnaire.item|Questionnaire.item.item - StandardVairable",
+        "description": "standard Variables are used to map to a set of standard vocabulary selected to enable standard reporting downstream.",
         "exampleBoolean": false
       },
       {

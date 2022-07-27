@@ -1224,6 +1224,63 @@
       ]
     },
     {
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable",
+      "title": "Extension : Questionnaire|Questionnaire.item|Questionnaire.item.item - StandardVairable",
+      "types": [
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status",
       "title": "Extension : Questionnaire - Questionniare SubStatus",
       "types": [
@@ -1610,6 +1667,11 @@
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/site-config": [
       "Extension.extension"
+    ],
+    "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable": [
+      "Questionnaire",
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ],
     "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/sub-status": [
       "Questionnaire"

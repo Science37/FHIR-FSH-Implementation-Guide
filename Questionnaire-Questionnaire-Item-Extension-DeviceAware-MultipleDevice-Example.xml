@@ -11,6 +11,11 @@
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.__S37-form-fields-2zpvlwq3a1c" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-2zpvlwq3a1c</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DERIVED_FIELD_LABLE&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/derived/version/2.3</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
+  <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
+    <extension url="variableName">
+      <valueString value="FormLevel-StandardViariable"/>
+    </extension>
+  </extension>
   <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/device">
     <extension url="type">
       <valueString value="device0"/>
@@ -81,7 +86,7 @@
   <title value="Example : Questionnaire Multiple DeviceAware"/>
   <status value="unknown"/>
   <subjectType value="Patient"/>
-  <date value="2022-07-04T20:25:49+00:00"/>
+  <date value="2022-07-27T15:29:27+00:00"/>
   <publisher value="Science37"/>
   <jurisdiction>
     <coding>
@@ -91,6 +96,11 @@
     </coding>
   </jurisdiction>
   <item>
+    <extension url="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable">
+      <extension url="variableName">
+        <valueString value="ItemLevel-StandardViariable"/>
+      </extension>
+    </extension>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>

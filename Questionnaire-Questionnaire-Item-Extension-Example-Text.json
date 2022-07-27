@@ -18,6 +18,15 @@
     {
       "extension": [
         {
+          "url": "variableName",
+          "valueString": "FormLevel-StandardViariable"
+        }
+      ],
+      "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable"
+    },
+    {
+      "extension": [
+        {
           "url": "createdAt",
           "valueDateTime": "2015-02-07T13:28:17Z"
         },
@@ -55,7 +64,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-07-04T20:25:49+00:00",
+  "date": "2022-07-27T15:29:27+00:00",
   "publisher": "Science37",
   "jurisdiction": [
     {
@@ -71,6 +80,15 @@
   "item": [
     {
       "extension": [
+        {
+          "extension": [
+            {
+              "url": "variableName",
+              "valueString": "ItemLevel-StandardViariable"
+            }
+          ],
+          "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/standard-variable"
+        },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
           "valueBoolean": false
