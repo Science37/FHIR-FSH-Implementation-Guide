@@ -11,7 +11,7 @@
   <name value="S37FHIRIG"/>
   <title value="Science 37 FHIR Implementation-Guide"/>
   <status value="active"/>
-  <date value="2022-07-27T16:26:41+00:00"/>
+  <date value="2022-08-01T20:41:40+00:00"/>
   <publisher value="Science37"/>
   <description value="Implementation Guide for all Science 37 FHIR augmentations."/>
   <jurisdiction>
@@ -231,6 +231,16 @@
       </reference>
       <name value="Profile : QuestionnaireS37SDC"/>
       <description value="Profile : QuestionnaireS37SDC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Segment"/>
+      </reference>
+      <name value="Segment"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -490,6 +500,17 @@
         <valueString value="PlanDefinition"/>
       </extension>
       <reference>
+        <reference value="PlanDefinition/ALTERNATE-VISIT-PATH"/>
+      </reference>
+      <name value="Example : SoA AlernateVisitPath"/>
+      <description value="Example : AlernateVisitPath Plan PlanDefinitionS37"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
         <reference value="PlanDefinition/AdhocFormsListPlanDefinitionS37Example"/>
       </reference>
       <name value="Example - PlanDefinitionS37 : Forms List - Adhoc"/>
@@ -501,11 +522,44 @@
         <valueString value="PlanDefinition"/>
       </extension>
       <reference>
+        <reference value="PlanDefinition/AlernateVisitPath-001"/>
+      </reference>
+      <name value="Example : SoA AlernateVisitPath01"/>
+      <description value="Example : AlernateVisitPath PlanDefinitionS37"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/AlernateVisitPath-002"/>
+      </reference>
+      <name value="Example : SoA AlernateVisitPath02"/>
+      <description value="Example : AlernateVisitPath PlanDefinitionS37"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
         <reference value="PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"/>
       </reference>
       <name value="Example - PlanDefinitionS37 - Example : Forms List EConsent"/>
       <description value="Example : Forms List PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/EXPECTED-VISIT-PATH"/>
+      </reference>
+      <name value="Example : SoA ExpectedVisitPath"/>
+      <description value="Example : ExpectedVisitPath PlanDefinitionS37"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -550,6 +604,17 @@
       <name value="Example : Questionnaire.Item All S37 Widgets Reduced"/>
       <description value="Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/MasterVisitPlan"/>
+      </reference>
+      <name value="Example : SoA Master Visit Plan"/>
+      <description value="Example : Master Visit Plan PlanDefinitionS37"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -787,11 +852,99 @@
         <valueString value="PlanDefinition"/>
       </extension>
       <reference>
+        <reference value="PlanDefinition/SEGMENT"/>
+      </reference>
+      <name value="Example : SoA Segment"/>
+      <description value="Example : SegmentPlanDefinitionS37"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/Segment-A"/>
+      </reference>
+      <name value="Example : SoA SegmentA"/>
+      <description value="Example : SegmentPlanDefinitionS37"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/Segment-B"/>
+      </reference>
+      <name value="Example : SoA SegmentB"/>
+      <description value="Example : Segment PlanDefinitionS37"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/Segment-C"/>
+      </reference>
+      <name value="Example : SoA SegmentC"/>
+      <description value="Example : Segment PlanDefinitionS37"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/Segment-D"/>
+      </reference>
+      <name value="Example : SoA SegmentD"/>
+      <description value="Example : Segment PlanDefinitionS37"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/Segment-E"/>
+      </reference>
+      <name value="Example : SoA SegmentE"/>
+      <description value="Example : SegmentE PlanDefinitionS37"/>
+      <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
         <reference value="PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"/>
       </reference>
       <name value="Example - PlanDefinitionS37 - Example : Master Visit Plan"/>
       <description value="Example : Master Visit Plan PlanDefinitionS37"/>
       <exampleCanonical value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/eConsent-001"/>
+      </reference>
+      <name value="Example : SoA Questionnaire eConsent1 Example"/>
+      <description value="Example : Questionnaire eConsent1 Example"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/eConsent-002"/>
+      </reference>
+      <name value="Example : SoA Questionnaire eConsent2 Example"/>
+      <description value="Example : Questionnaire eConsent2 Example"/>
+      <exampleBoolean value="true"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

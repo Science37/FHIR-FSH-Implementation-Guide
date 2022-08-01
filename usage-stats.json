@@ -1427,16 +1427,16 @@
     }
   ],
   "profiles": {
-    "ActivityDefinition": [
-      {
-        "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37",
-        "title": "Profile : ActivityDefinitionS37"
-      }
-    ],
     "PlanDefinition": [
       {
         "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37",
         "title": "Profile : PlanDefinitionS37"
+      }
+    ],
+    "ActivityDefinition": [
+      {
+        "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/activity-definition-s37",
+        "title": "Profile : ActivityDefinitionS37"
       }
     ],
     "Questionnaire": [

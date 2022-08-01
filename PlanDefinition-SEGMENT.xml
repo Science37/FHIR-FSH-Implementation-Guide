@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="SEGMENT"/>
+  <meta>
+    <profile value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "SEGMENT" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Segment.html">Segment</a></p></div><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/SEGMENT</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: SEGMENT</p><p><b>status</b>: active</p><p><b>date</b>: 2022-08-01 08:41:40+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#US)</span></p><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-A</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-B</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-C</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-D</code></p></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-E</code></p></blockquote></div>
+  </text>
+  <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/SEGMENT"/>
+  <version value="1.0.0-S37"/>
+  <name value="SEGMENT"/>
+  <status value="active"/>
+  <date value="2022-08-01T20:41:40+00:00"/>
+  <publisher value="Science37"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <action id="Segment-A">
+    <definitionUri value="PlanDefinition/segment/Segment-A"/>
+  </action>
+  <action id="Segment-B">
+    <definitionUri value="PlanDefinition/segment/Segment-B"/>
+  </action>
+  <action id="Segment-C">
+    <definitionUri value="PlanDefinition/segment/Segment-C"/>
+  </action>
+  <action id="Segment-D">
+    <definitionUri value="PlanDefinition/segment/Segment-D"/>
+  </action>
+  <action id="Segment-E">
+    <definitionUri value="PlanDefinition/segment/Segment-E"/>
+  </action>
+</PlanDefinition>

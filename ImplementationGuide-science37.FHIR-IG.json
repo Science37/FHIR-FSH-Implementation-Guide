@@ -10,7 +10,7 @@
   "name": "S37FHIRIG",
   "title": "Science 37 FHIR Implementation-Guide",
   "status": "active",
-  "date": "2022-07-27T16:26:41+00:00",
+  "date": "2022-08-01T20:41:40+00:00",
   "publisher": "Science37",
   "description": "Implementation Guide for all Science 37 FHIR augmentations.",
   "jurisdiction": [
@@ -369,6 +369,19 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/Segment"
+        },
+        "name": "Segment",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/activity-definition-s37"
         },
         "name": "Profile : ActivityDefinitionS37",
@@ -690,6 +703,20 @@
           }
         ],
         "reference": {
+          "reference": "PlanDefinition/ALTERNATE-VISIT-PATH"
+        },
+        "name": "Example : SoA AlernateVisitPath",
+        "description": "Example : AlernateVisitPath Plan PlanDefinitionS37",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
           "reference": "PlanDefinition/AdhocFormsListPlanDefinitionS37Example"
         },
         "name": "Example - PlanDefinitionS37 : Forms List - Adhoc",
@@ -704,11 +731,53 @@
           }
         ],
         "reference": {
+          "reference": "PlanDefinition/AlernateVisitPath-001"
+        },
+        "name": "Example : SoA AlernateVisitPath01",
+        "description": "Example : AlernateVisitPath PlanDefinitionS37",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/AlernateVisitPath-002"
+        },
+        "name": "Example : SoA AlernateVisitPath02",
+        "description": "Example : AlernateVisitPath PlanDefinitionS37",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
           "reference": "PlanDefinition/EConsentFormGroupPlanDefinitionS37Example"
         },
         "name": "Example - PlanDefinitionS37 - Example : Forms List EConsent",
         "description": "Example : Forms List PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/EXPECTED-VISIT-PATH"
+        },
+        "name": "Example : SoA ExpectedVisitPath",
+        "description": "Example : ExpectedVisitPath PlanDefinitionS37",
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -765,6 +834,20 @@
         "name": "Example : Questionnaire.Item All S37 Widgets Reduced",
         "description": "Example : Questionnaire.Item S37 Widgets. Contains Header, Widget, Footer and PageBreak",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/questionnaire-s37-sdc"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/MasterVisitPlan"
+        },
+        "name": "Example : SoA Master Visit Plan",
+        "description": "Example : Master Visit Plan PlanDefinitionS37",
+        "exampleBoolean": true
       },
       {
         "extension": [
@@ -1068,11 +1151,123 @@
           }
         ],
         "reference": {
+          "reference": "PlanDefinition/SEGMENT"
+        },
+        "name": "Example : SoA Segment",
+        "description": "Example : SegmentPlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/Segment-A"
+        },
+        "name": "Example : SoA SegmentA",
+        "description": "Example : SegmentPlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/Segment-B"
+        },
+        "name": "Example : SoA SegmentB",
+        "description": "Example : Segment PlanDefinitionS37",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/Segment-C"
+        },
+        "name": "Example : SoA SegmentC",
+        "description": "Example : Segment PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/Segment-D"
+        },
+        "name": "Example : SoA SegmentD",
+        "description": "Example : Segment PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PlanDefinition/Segment-E"
+        },
+        "name": "Example : SoA SegmentE",
+        "description": "Example : SegmentE PlanDefinitionS37",
+        "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PlanDefinition"
+          }
+        ],
+        "reference": {
           "reference": "PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example"
         },
         "name": "Example - PlanDefinitionS37 - Example : Master Visit Plan",
         "description": "Example : Master Visit Plan PlanDefinitionS37",
         "exampleCanonical": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/plandefinition-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/eConsent-001"
+        },
+        "name": "Example : SoA Questionnaire eConsent1 Example",
+        "description": "Example : Questionnaire eConsent1 Example",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/eConsent-002"
+        },
+        "name": "Example : SoA Questionnaire eConsent2 Example",
+        "description": "Example : Questionnaire eConsent2 Example",
+        "exampleBoolean": true
       }
     ],
     "page": {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="Segment-C"/>
+  <meta>
+    <profile value="https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Segment-C" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Segment.html">Segment</a></p></div><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-C</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: SegmentC</p><p><b>status</b>: active</p><p><b>date</b>: 2022-08-01 08:41:40+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#US)</span></p><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/visit/visit-787cf1</code></p></blockquote><blockquote><p><b>action</b></p><h3>RelatedActions</h3><table class="grid"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>visit-787cf1</td><td>after</td></tr></table><p><b>definition</b>: <code>PlanDefinition/visit/visit-787cf2</code></p></blockquote><blockquote><p><b>action</b></p><h3>RelatedActions</h3><table class="grid"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>visit-787cf2</td><td>after</td></tr></table><p><b>definition</b>: <code>PlanDefinition/visit/visit-787cf3</code></p></blockquote></div>
+  </text>
+  <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-C"/>
+  <version value="1.0.0-S37"/>
+  <name value="SegmentC"/>
+  <status value="active"/>
+  <date value="2022-08-01T20:41:40+00:00"/>
+  <publisher value="Science37"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <action id="visit-787cf1">
+    <definitionUri value="PlanDefinition/visit/visit-787cf1"/>
+  </action>
+  <action id="visit-787cf2">
+    <relatedAction>
+      <actionId value="visit-787cf1"/>
+      <relationship value="after"/>
+    </relatedAction>
+    <definitionUri value="PlanDefinition/visit/visit-787cf2"/>
+  </action>
+  <action>
+    <relatedAction>
+      <actionId value="visit-787cf2"/>
+      <relationship value="after"/>
+    </relatedAction>
+    <definitionUri value="PlanDefinition/visit/visit-787cf3"/>
+  </action>
+</PlanDefinition>
