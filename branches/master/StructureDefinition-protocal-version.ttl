@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ProtocalVersion"];
   fhir:StructureDefinition.title [ fhir:value "Extension : PlanDefinitionS37 - Protocal Version"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-07-27T16:26:41+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-08-01T20:41:40+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Science37"];
   fhir:StructureDefinition.description [ fhir:value "identifies the specific protocal version"];
   fhir:StructureDefinition.jurisdiction [

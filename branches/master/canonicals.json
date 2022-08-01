@@ -147,11 +147,32 @@
     "name": "Example : Questionnaire.Item Page-Break"
   },
   {
+    "id": "eConsent-001",
+    "type": "Questionnaire",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
+    "version": "1.0.0-S37",
+    "name": "Example : eConsent-001"
+  },
+  {
+    "id": "eConsent-002",
+    "type": "Questionnaire",
+    "url": "http://science37.com/trial/098fsd0af9s/site/s0d98f0a98d0/questionnaire/97af87da0f6a06",
+    "version": "1.0.0-S37",
+    "name": "Example : eConsent-002"
+  },
+  {
     "id": "science37.FHIR-IG",
     "type": "ImplementationGuide",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/ImplementationGuide/science37.FHIR-IG",
     "version": "1.0.0-S37",
     "name": "S37FHIRIG"
+  },
+  {
+    "id": "ALTERNATE-VISIT-PATH",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/ALTERNATE-VISIT-PATH",
+    "version": "1.0.0-S37",
+    "name": "ALTERNATE-VISIT-PATH"
   },
   {
     "id": "AdhocFormsListPlanDefinitionS37Example",
@@ -161,11 +182,32 @@
     "name": "ADHOC_FORMS_LIST"
   },
   {
+    "id": "AlernateVisitPath-001",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AlernateVisitPath-001",
+    "version": "1.0.0-S37",
+    "name": "AlernateVisitPath-001"
+  },
+  {
+    "id": "AlernateVisitPath-002",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AlernateVisitPath-002",
+    "version": "1.0.0-S37",
+    "name": "AlernateVisitPath-002"
+  },
+  {
     "id": "EConsentFormGroupPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EConsentFormGroupPlanDefinitionS37Example",
     "version": "1.0.0-S37",
     "name": "ECONSENT_FORM_GROUP"
+  },
+  {
+    "id": "EXPECTED-VISIT-PATH",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTED-VISIT-PATH",
+    "version": "1.0.0-S37",
+    "name": "EXPECTED-VISIT-PATH"
   },
   {
     "id": "EXPECTEDVISITPLANPlanDefinitionS37Example",
@@ -182,6 +224,13 @@
     "name": "FORMS_LIST"
   },
   {
+    "id": "MasterVisitPlan",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/MasterVisitPlan",
+    "version": "1.0.0-S37",
+    "name": "MasterVisitPlan"
+  },
+  {
     "id": "OnGoingFormsListPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/OnGoingFormsListPlanDefinitionS37Example",
@@ -196,11 +245,60 @@
     "name": "RECURRING_FORMS_LIST"
   },
   {
+    "id": "SEGMENT",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/SEGMENT",
+    "version": "1.0.0-S37",
+    "name": "SEGMENT"
+  },
+  {
+    "id": "Segment-A",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-A",
+    "version": "1.0.0-S37",
+    "name": "SegmentA"
+  },
+  {
+    "id": "Segment-B",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-B",
+    "version": "1.0.0-S37",
+    "name": "SegmentB"
+  },
+  {
+    "id": "Segment-C",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-C",
+    "version": "1.0.0-S37",
+    "name": "SegmentC"
+  },
+  {
+    "id": "Segment-D",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-D",
+    "version": "1.0.0-S37",
+    "name": "SegmentD"
+  },
+  {
+    "id": "Segment-E",
+    "type": "PlanDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-E",
+    "version": "1.0.0-S37",
+    "name": "SegmentE"
+  },
+  {
     "id": "VisitPlanMasterVisitPlanDefinitionS37Example",
     "type": "PlanDefinition",
     "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/VisitPlanMasterVisitPlanDefinitionS37Example",
     "version": "1.0.0-S37",
     "name": "MASTER_VISIT_PLAN"
+  },
+  {
+    "id": "Segment",
+    "type": "StructureDefinition",
+    "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/StructureDefinition/Segment",
+    "version": "1.0.0-S37",
+    "name": "Segment"
   },
   {
     "id": "activity-definition-s37",

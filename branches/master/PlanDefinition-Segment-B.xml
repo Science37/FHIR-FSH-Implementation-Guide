@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="Segment-B"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Segment-B" </p></div><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-B</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: SegmentB</p><p><b>status</b>: active</p><p><b>date</b>: 2022-08-01 08:41:40+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#US)</span></p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td><code>Questionnaire/eConsent-001</code></td></tr></table></div>
+  </text>
+  <url value="https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/Segment-B"/>
+  <version value="1.0.0-S37"/>
+  <name value="SegmentB"/>
+  <status value="active"/>
+  <date value="2022-08-01T20:41:40+00:00"/>
+  <publisher value="Science37"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <action>
+    <definitionUri value="Questionnaire/eConsent-001"/>
+  </action>
+</PlanDefinition>

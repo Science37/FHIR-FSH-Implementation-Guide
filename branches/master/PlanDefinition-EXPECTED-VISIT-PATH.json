@@ -1,0 +1,31 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "EXPECTED-VISIT-PATH",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"EXPECTED-VISIT-PATH\" </p></div><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTED-VISIT-PATH</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: EXPECTED-VISIT-PATH</p><p><b>status</b>: active</p><p><b>date</b>: 2022-08-01 08:41:40+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-A</code></p></blockquote></div>"
+  },
+  "url": "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/EXPECTED-VISIT-PATH",
+  "version": "1.0.0-S37",
+  "name": "EXPECTED-VISIT-PATH",
+  "status": "active",
+  "date": "2022-08-01T20:41:40+00:00",
+  "publisher": "Science37",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "action": [
+    {
+      "id": "SegmentA",
+      "definitionUri": "PlanDefinition/segment/Segment-A"
+    }
+  ]
+}

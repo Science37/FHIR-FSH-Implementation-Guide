@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AlernateVisitPath-002> a fhir:PlanDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AlernateVisitPath-002"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"AlernateVisitPath-002\" </p></div><p><b>url</b>: <code>https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AlernateVisitPath-002</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: AlernateVisitPath-002</p><p><b>status</b>: active</p><p><b>date</b>: 2022-08-01 08:41:40+0000</p><p><b>publisher</b>: Science37</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>action</b></p><p><b>definition</b>: <code>PlanDefinition/segment/Segment-E</code></p></blockquote><blockquote><p><b>action</b></p><h3>RelatedActions</h3><table class=\"grid\"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>Segment-E</td><td>after</td></tr></table><p><b>definition</b>: <code>PlanDefinition/segment/Segment-C</code></p></blockquote><blockquote><p><b>action</b></p><h3>RelatedActions</h3><table class=\"grid\"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>Segment-C</td><td>after</td></tr></table><p><b>definition</b>: <code>PlanDefinition/segment/Segment-F</code></p></blockquote></div>"
+  ];
+  fhir:PlanDefinition.url [ fhir:value "https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AlernateVisitPath-002"];
+  fhir:PlanDefinition.version [ fhir:value "1.0.0-S37"];
+  fhir:PlanDefinition.name [ fhir:value "AlernateVisitPath-002"];
+  fhir:PlanDefinition.status [ fhir:value "active"];
+  fhir:PlanDefinition.date [ fhir:value "2022-08-01T20:41:40+00:00"^^xsd:dateTime];
+  fhir:PlanDefinition.publisher [ fhir:value "Science37"];
+  fhir:PlanDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ];
+       fhir:Coding.display [ fhir:value "United States of America" ]
+     ]
+  ];
+  fhir:PlanDefinition.action [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "Segment-E" ];
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "PlanDefinition/segment/Segment-E" ]
+  ], [
+     fhir:index 1;
+     fhir:Element.id [ fhir:value "Segment-C" ];
+     fhir:PlanDefinition.action.relatedAction [
+       fhir:index 0;
+       fhir:PlanDefinition.action.relatedAction.actionId [ fhir:value "Segment-E" ];
+       fhir:PlanDefinition.action.relatedAction.relationship [ fhir:value "after" ]
+     ];
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "PlanDefinition/segment/Segment-C" ]
+  ], [
+     fhir:index 2;
+     fhir:Element.id [ fhir:value "Segment-F" ];
+     fhir:PlanDefinition.action.relatedAction [
+       fhir:index 0;
+       fhir:PlanDefinition.action.relatedAction.actionId [ fhir:value "Segment-C" ];
+       fhir:PlanDefinition.action.relatedAction.relationship [ fhir:value "after" ]
+     ];
+     fhir:PlanDefinition.action.definitionUri [ fhir:value "PlanDefinition/segment/Segment-F" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://science37.github.io/FHIR-FSH-Implementation-Guide/PlanDefinition/AlernateVisitPath-002.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
